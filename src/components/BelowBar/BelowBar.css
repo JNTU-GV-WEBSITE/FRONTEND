@@ -1,0 +1,40 @@
+/* BelowBar.css */
+
+.BelowBar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BelowBar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.location {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.datetime {
+  font-size: 18px;
+}
+
+.BelowBar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
