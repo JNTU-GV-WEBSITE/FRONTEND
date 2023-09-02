@@ -27,6 +27,7 @@
   
   .link-list li {
     margin: 10px 0;
+    margin-bottom: 8px;
   }
   
   /* Change li elements to blue */
@@ -36,8 +37,8 @@
   
   /* Highlight li elements on hover */
   .link-list li:hover {
-    
     color: #fff; /* Change text color to white when highlighted */
+    text-decoration: underline; /* Add underline on hover */
   }
   
   .link-list a {
@@ -49,6 +50,7 @@
   
   .link-list a:hover {
     color: #007bff;
+    text-decoration: underline; /* Add underline on hover */
   }
   
   /* Define the scrolling animation */
