@@ -8,8 +8,8 @@ import {Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Dropdown/><Navbar/>
-    <BelowBar/>
+      <Navbar/>
+    <BelowBar/><Dropdown/>
     <Routes>
       <Route path='/' element={<Navbar/>}/>
     <Route path='/Main' element={<BelowBar/>}/>
