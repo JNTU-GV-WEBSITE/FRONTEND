@@ -1,0 +1,192 @@
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #000e2d;
+    color: aliceblue;
+    width: 100%;
+}
+
+.container1{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2{
+    border: 10px;
+    width: 21vw;
+}
+
+.container3{
+    border: 10px;
+    width: 19vw;
+}
+
+.container4{
+    border: 10px;
+    width: 20vw;
+}
+
+.footerHr{
+    width: 80%;
+    margin-left: 110px;
+}
+
+.headlinks{
+    padding-right: 60px;
+}
+.headlinks::after{
+    content: " | ";
+    padding-left: 30px;  
+}
+
+.mobilefooter{
+    text-align: center;
+    font-size: small;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+}
+
+.subcontainer1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    margin-right: auto;
+    padding-left: -10px;
+}
+
+.subcontainer2{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subcontainer3{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+}
+
+.subcontent{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 230px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.subheading{
+    color: orange   ;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.sublinks{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.sublinks:hover{
+    color: orange;
+}
+
+.subFooter{
+    width: 250px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .main{
+    /* width: 100%; */
+    overflow: hidden;
+    padding-left: 10px;
+    }
+    .subcontainer2, .subcontainer1{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .container1 ,.container2 ,.container3 ,.container4{
+        min-width: 400px;
+    }
+    .headlinks::after{
+        content: "  ";
+        padding-left: 30px; 
+        padding-right: 15px;
+        padding-left: 20px; 
+    }
+    .subcontainer1{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        /* margin-right: auto; */
+        /* padding-left: -10px; */
+    }
+    .subcontent{
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subcontainer3{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerHr{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+    .subFooter{
+        width: 300px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        /* Your tablet-specific styles go here */
+        .subcontainer2, .subcontainer1 {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+        }
+        .container1, .container2, .container3, .container4 {
+            min-width: 400px;
+        }
+        .headlinks::after {
+            content: "  ";
+            padding-left: 30px;
+            padding-right: 15px;
+            padding-left: 20px;
+        }
+        .subcontainer1 {
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .subcontent {
+            padding-left: 0%;
+            display: flex;
+            flex-direction: column;
+        }
+        .subcontainer3 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}    
