@@ -23,7 +23,6 @@ function App() {
     {/* <ImageGallery/> */}
     <Footer/>
     </div>
-    
   );
 }
 
