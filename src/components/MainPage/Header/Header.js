@@ -11,7 +11,9 @@ const Header = () => {
         <div className="logo-container">
           <img src={myImage} alt="JNTUV_LOGO" className="logo" />
           <h1 className="logo-text">
-            Jawaharlal Nehru Technological University-Gurajada, Vizianagaram
+          JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY GURAJADA
+             VIZIANAGARAM-535 003, A.P
+(Established by Andhra Pradesh Act No.22 of 2021)
           </h1>
         </div>
 
