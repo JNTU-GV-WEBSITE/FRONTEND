@@ -5,8 +5,10 @@ import './App.css';
 import BelowBar from './components/BelowBar/BelowBar';
 import Notifications from './components/Notifications/Notifications';
 import Footer from './components/MainPage/Footer/Footer';
-import Header from './components/MainPage/Header/Mainpage';
+import Header from './components/MainPage/Header/Header';
 import ImageGallery from './components/ImageGallery/ImageGallery';
+
+// import Dropdown from './components/MainPage/Header/Dropdown';
 
 
 function App() {
@@ -15,12 +17,15 @@ function App() {
     <BelowBar/>
     {/* <TopLayer/> */}
     <Header/>
-    <ImageGallery/>
-      
     {/* <Navbar/> */}
+    <ImageGallery/>
+ 
+      
+ 
     
     <Notifications/>
     {/* <ImageGallery/> */}
+    {/* <Dropdown/> */}
     <Footer/>
     </div>
   );
