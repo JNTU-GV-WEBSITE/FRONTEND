@@ -7,6 +7,7 @@ import Policies from './components/MainPage/PoliciesSection/Policies';
 import Notifications from './components/Notifications/Notifications';
 import ReadMore from './components/MainPage/NoticeBoard/ReadMore';
 import Noticeboard from './components/MainPage/NoticeBoard/Noticeboard';
+import Map from './components/MainPage/Map/Map'
 import  { Route,Routes } from 'react-router-dom';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Noticeboard/>
       <br/>
       
+      <Map />
       <Footer />
     </div>
   );
