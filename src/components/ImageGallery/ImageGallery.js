@@ -13,8 +13,6 @@ function ImageGallery() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Image 1</h3>
-            <p>Description of image 1.</p>
           </Carousel.Caption>
         </Carousel.Item>
   
@@ -25,8 +23,6 @@ function ImageGallery() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Image 2</h3>
-            <p>Description of image 2.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -37,8 +33,6 @@ function ImageGallery() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Image 3</h3>
-            <p>Description of image 3.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -49,8 +43,6 @@ function ImageGallery() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Image 4</h3>
-            <p>Description of image 4.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
