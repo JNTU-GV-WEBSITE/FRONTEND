@@ -1,0 +1,57 @@
+
+.project{
+    width: 30%;
+}
+.links h4{
+    color:#f95c39;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 1px solid #f95c39;
+    margin:1rem 0 10px 2rem;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2    ;
+}
+.project ul li{
+    list-style: none;
+    padding: 7px 0;
+    border-bottom: 1px solid #e1e1e1;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.projects ul,li,a{
+    color: #2a5dc8;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hover{
+    text-decoration: none;
+    background-color: transparent;
+}
+.project ul li a .fa{
+    margin-right: 10px;
+    margin-bottom: 2px;
+    
+}
+.fa{
+    font-family: 'Font Awesome 5 Free';
+    transition: color 0.3s ease-in-out;
+}
+
+ ul li:hover .hover {
+    color:#f95c39;
+ }
+ @media screen and (max-width:400px) {
+    .project{
+        width: 90%;
+    }
+    .projects ul,li,a{
+        color: #2a5dc8;
+        text-transform: uppercase;
+        font-weight: 700;
+
+    } 
+   
+ }

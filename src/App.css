@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.horizontal-container {
+  display: flex; /* Use flexbox to display children side by side */
+}
+
+/* Optional: Adjust spacing between components */
+.horizontal-container > * {
+  margin-right: 20px; /* Add margin to create space between components */
+}
+
+/* Adjust as needed based on your design */

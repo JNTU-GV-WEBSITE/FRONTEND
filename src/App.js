@@ -1,32 +1,33 @@
 import './App.css';
-// import TopLayer from './components/TopLayer/TopLayer';
-// import Navbar from './components/navbar/Navbar';
-// import ImageGallery from './components/ImageGallery/ImageGallery';
 import BelowBar from './components/BelowBar/BelowBar';
-import Notifications from './components/Notifications/Notifications';
 import Footer from './components/MainPage/Footer/Footer';
 import Header from './components/MainPage/Header/Header';
 import ImageGallery from './components/ImageGallery/ImageGallery';
-
-// import Dropdown from './components/MainPage/Header/Dropdown';
-
+import Policies from './components/MainPage/PoliciesSection/Policies';
+import Notifications from './components/Notifications/Notifications';
+import ReadMore from './components/MainPage/NoticeBoard/ReadMore';
+import Noticeboard from './components/MainPage/NoticeBoard/Noticeboard';
+import  { Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-    <BelowBar/>
-    {/* <TopLayer/> */}
-    <Header/>
-    {/* <Navbar/> */}
-    <ImageGallery/>
- 
+    <Routes>
+        <Route path="/readmore" element={<ReadMore />}/>
+      </Routes>
+      <BelowBar />
+      <Header />
+      <br/>
+      <div className="horizontal-container">
+      <Notifications />
+      <ImageGallery />
+        <Policies />
+        
+      </div>
+      <Noticeboard/>
+      <br/>
       
- 
-    
-    <Notifications/>
-    {/* <ImageGallery/> */}
-    {/* <Dropdown/> */}
-    <Footer/>
+      <Footer />
     </div>
   );
 }
