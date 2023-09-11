@@ -7,10 +7,11 @@ const Map = () => {
         className="videoTabCon1">
           <p className="videoText"> JNTU-GV CAMPUS</p>
         <iframe
+ 
           width="100%"
           height="100%"
           src="https://www.youtube-nocookie.com/embed/fOEDkvZzftM?si=Zr8zXVVNRL-AarGh"
-          title="YouTube video player"
+          title="YouTube video 1"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
@@ -34,7 +35,7 @@ const Map = () => {
           width="100%"
           height="100%"
           src="https://www.youtube-nocookie.com/embed/fOEDkvZzftM?si=Zr8zXVVNRL-AarGh"
-          title="YouTube video player"
+          title="YouTube video 2"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
