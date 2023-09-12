@@ -4,10 +4,10 @@ const Dropdown = () => {
   return (
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
-        <button class="dropbtn">Home</button>
+        <button class="dropbtn">HOME</button>
       </div>
       <div class="dropdown">
-        <button class="dropbtn">ABOUTUS</button>
+        <button class="dropbtn">ABOUT US</button>
         <div class="dropdown-content">
           <button>
             {" "}
@@ -41,19 +41,19 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <button class="dropbtn">ADIMINSTARATION</button>
+        <button class="dropbtn">ADMINISTRATION</button>
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 1</Link>
+            <Link className="link-btn" to="/chancellor" target="_self">CHANCELLOR</Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 2</Link>
+            <Link className="link-btn" to="/Main">VICE CHANCELLOR</Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 3</Link>
+            <Link className="link-btn" to="/Main">REGISTRAR</Link>
           </button>
         </div>
       </div>

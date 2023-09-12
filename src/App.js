@@ -1,35 +1,25 @@
+import React from 'react';
 import './App.css';
+import Homepage from './Homepage';
 import BelowBar from './components/BelowBar/BelowBar';
-import Footer from './components/MainPage/Footer/Footer';
 import Header from './components/MainPage/Header/Header';
-import ImageGallery from './components/ImageGallery/ImageGallery';
-import Policies from './components/MainPage/PoliciesSection/Policies';
-import Notifications from './components/Notifications/Notifications';
 import ReadMore from './components/MainPage/NoticeBoard/ReadMore';
-import Noticeboard from './components/MainPage/NoticeBoard/Noticeboard';
-import Map from './components/MainPage/Map/Map'
-import  { Route,Routes } from 'react-router-dom';
+import Chancellor from './components/MainPage/Header/Administration/Chancellor'; // Import the Chancellor component
+
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-    <Routes>
-        <Route path="/readmore" element={<ReadMore />}/>
+      <Routes>
+        <Route path="/readmore" element={<ReadMore />} />
       </Routes>
       <BelowBar />
       <Header />
-      <br/>
-      <div className="horizontal-container">
-      <Notifications />
-      <ImageGallery />
-        <Policies />
-        
-      </div>
-      <Noticeboard/>
-      <br/>
-      
-      <Map />
-      <Footer />
+      <Routes>
+      <Route path="/" element={<Homepage />} /> {/* Add this route */}
+      <Route path="/chancellor" element={<Chancellor />} /> {/* Add this route */}
+      </Routes>
     </div>
   );
 }
