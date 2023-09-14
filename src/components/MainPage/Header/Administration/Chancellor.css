@@ -37,7 +37,8 @@
   }
   
   .profileImage img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 300px;
     height: auto;
   }
   

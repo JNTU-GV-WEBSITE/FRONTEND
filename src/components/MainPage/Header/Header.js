@@ -18,10 +18,9 @@ const Header = () => {
         </div>
 
         <div className="item">
-          <h11><GrMail/> | Email : support@jntugv.edu.in </h11><br></br>
-          <hr/>
-          <h11><GrMail/> | Email : enquiry@jntugv.edu.in</h11><br></br><br/>
-          <h11><CgStopwatch/> | Office Timings : Mon-Sat : 10:00 AM to 5:00 PM</h11><br></br>
+         <div className="item-mail"> <h11><GrMail/> | Email : support@jntugv.edu.in </h11></div>
+          <div><h11><GrMail/> | Email : enquiry@jntugv.edu.in</h11></div>
+          <div><h11><CgStopwatch/> | Office Timings : Mon-Sat : 10:00 AM to 5:00 PM</h11><br></br></div>
         </div>
       </div>
       <div>

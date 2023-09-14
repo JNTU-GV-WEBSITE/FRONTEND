@@ -1,52 +1,77 @@
-
 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-item {
+  flex: 1;
+  margin: 10px;
+  padding: 1px;
+  text-align-last: right;
+}
+
+/* App.css */
+.logo-container {
+  display: flex; /* Use flexbox to position the logo and text */
+  align-items: center; /* Vertically center the logo and text */
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 18px;
+}
+
+h11 {
+  text-align-last: right;
+  text-align: right;
+}
+
+hr {
+  width: 70%;
+  font-weight: 700;
+  color: black;
+  font-style: bold;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+  /* gap: -10px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+/* .item-mail{
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+} */
+
+@media (max-width: 767px) {
+  .container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
-  
-  .container-item {
-    flex: 1; 
-    margin: 10px;
-    padding: 1px;
-    text-align-last: right ;
-   
-    
+  .item-mail{
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
   }
-  
-  /* App.css */
   .logo-container {
-    display: flex; /* Use flexbox to position the logo and text */
-    align-items: center; /* Vertically center the logo and text */
-  }
-  
-  .logo {
-    width: 200px; 
-    height: auto; 
-    margin-right: 10px; 
-  }
-  
-  .logo-text {
-    font-size: 18px; 
-  }
-
-  h11{
-    text-align-last: right ;
-    text-align: right;
-  }
-  
-  hr{
-    width: 70%;
-    font-weight: 700;
-    color: black;
-    font-style: bold;
-  }
-  .item{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: -10px; */
-    align-items: center;
-    /* justify-content: center; */
-    /* text-align: center; */
-  }
+  display: flex; /* Use flexbox to position the logo and text */
+  flex-direction: column;
+  align-items: center; /* Vertically center the logo and text */
+}
+.logo-text{
+  text-align: center;
+}
+}
