@@ -26,6 +26,7 @@ function AcademicPlanning() {
           Director of Admissions
         </Link>
         <Link
+
           to="/AlumniRelations"
           className={`menuButton ${location.pathname === '/AlumniRelations' ? 'active' : ''}`}
         >
@@ -58,6 +59,12 @@ function AcademicPlanning() {
           className={`menuButton ${location.pathname === '/SportsAdministration' ? 'active' : ''}`}
         >
           Director of University Games & Sports Administration
+
+          to="/AluminiRelations"
+          className={`menuButton ${location.pathname === '/AluminiRelations' ? 'active' : ''}`}
+        >
+          Director of Alumini Relations
+
         </Link>
       </div>
       <div className="allRightContent">

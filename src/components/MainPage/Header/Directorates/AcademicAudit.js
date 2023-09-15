@@ -26,6 +26,7 @@ function AcademicAudit() {
           Director of Admissions
         </Link>
         <Link
+
           to="/AlumniRelations"
           className={`menuButton ${location.pathname === '/AlumniRelations' ? 'active' : ''}`}
         >
@@ -58,10 +59,8 @@ function AcademicAudit() {
           className={`menuButton ${location.pathname === '/SportsAdministration' ? 'active' : ''}`}
         >
           Director of University Games & Sports Administration
-        </Link>
-        
-       
-        
+       </Link>
+
       </div>
       <div className="allRightContent">
         <div className="allRightContentHeading">

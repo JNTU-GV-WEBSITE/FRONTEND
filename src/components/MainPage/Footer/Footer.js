@@ -54,7 +54,7 @@ function Footer(){
 
 {/* Sports */}
 
-                <div className="container4">
+               <div className="container4">
 
                 <p className="subheading">Sports</p>
                 <hr className="subFooter" />

@@ -7,6 +7,7 @@ import ReadMore from './components/MainPage/NoticeBoard/ReadMore';
 import Chancellor from './components/MainPage/Header/Administration/Chancellor'; 
 import ViceChancellor from './components/MainPage/Header/Administration/ViceChancellor';
 import Registrar from './components/MainPage/Header/Administration/Registrar';
+
 import AcademicAudit from './components/MainPage/Header/Directorates/AcademicAudit';
 import AcademicPlanning from './components/MainPage/Header/Directorates/AcademicPlanning';
 import Admissions from './components/MainPage/Header/Directorates/Admissions';
@@ -21,6 +22,10 @@ import Research from './components/MainPage/Header/Directorates/Research';
 import SportsAdministration from './components/MainPage/Header/Directorates/SportsAdministration';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/MainPage/Footer/Footer';
+
+
+
+
 
 function App() {
   return (
@@ -38,6 +43,7 @@ function App() {
       <Route path="AcademicAudit" element={<AcademicAudit />} /> {/* Add this route */}
       <Route path="/AcademicPlanning" element={<AcademicPlanning />} /> 
       <Route path="/Admissions" element={<Admissions />} /> 
+
       <Route path="/AlumniRelations" element={<AlumniRelations />} /> {/* Add this route */}
       <Route path="/Empowerment" element={<Empowerment />} />
       <Route path="/Evaluation" element={<Evaluation />} />  
@@ -47,6 +53,9 @@ function App() {
       <Route path="/Placements" element={<Placements /> } />
       <Route path="/Research" element={<Research/> } />
       <Route path="/SportsAdministration" element={<SportsAdministration />} />
+
+
+
       </Routes>
       <Footer />
     </div>
