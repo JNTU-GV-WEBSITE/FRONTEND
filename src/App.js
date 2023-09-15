@@ -1,35 +1,36 @@
+import React from 'react';
 import './App.css';
+import Homepage from './Homepage';
 import BelowBar from './components/BelowBar/BelowBar';
-import Footer from './components/MainPage/Footer/Footer';
 import Header from './components/MainPage/Header/Header';
-import ImageGallery from './components/ImageGallery/ImageGallery';
-import Policies from './components/MainPage/PoliciesSection/Policies';
-import Notifications from './components/Notifications/Notifications';
 import ReadMore from './components/MainPage/NoticeBoard/ReadMore';
-import Noticeboard from './components/MainPage/NoticeBoard/Noticeboard';
-import Map from './components/MainPage/Map/Map'
-import  { Route,Routes } from 'react-router-dom';
-
+import Chancellor from './components/MainPage/Header/Administration/Chancellor'; // Import the Chancellor component
+import Vicechancellor from './components/MainPage/Header/Administration/Vicechancellor';
+import Registrar from './components/MainPage/Header/Administration/Registrar';
+import SportsAdministration from './components/MainPage/Header/Directorates/SportsAdministration';
+import { Route, Routes } from 'react-router-dom';
+import Research from './components/MainPage/Header/Directorates/Research';
+import Placements from './components/MainPage/Header/Directorates/Placements';
+import IQAC from './components/MainPage/Header/Directorates/IQAC';
 function App() {
   return (
     <div>
-    <Routes>
-        <Route path="/readmore" element={<ReadMore />}/>
+      <Routes>
+        <Route path="/readmore" element={<ReadMore />} />
       </Routes>
       <BelowBar />
       <Header />
-      <br/>
-      <div className="horizontal-container">
-      <Notifications />
-      <ImageGallery />
-        <Policies />
-        
-      </div>
-      <Noticeboard/>
-      <br/>
-      
-      <Map />
-      <Footer />
+      <Routes>
+      <Route path="/" element={<Homepage />} /> {/* Add this route */}
+      <Route path="/chancellor" element={<Chancellor />} /> {/* Add this route */}
+      <Route path="/Vicechancellor" element={<Vicechancellor />} />
+      <Route path="/Registrar" element={<Registrar /> } />
+      <Route path="/IQAC" element={<IQAC /> } />
+      <Route path="/Placements" element={<Placements /> } />
+      <Route path="/Research" element={<Research/> } />
+      <Route path="/SportsAdministration" element={<SportsAdministration />} />
+      </Routes>
+    
     </div>
   );
 }
