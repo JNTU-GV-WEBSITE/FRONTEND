@@ -50,6 +50,7 @@ const Dropdown = () => {
           <button>
             {" "}
 
+
             <Link className="link-btn" to="/vicechancellor" target='_self'>VICE CHANCELLOR</Link>
           </button>
           <button>
@@ -62,14 +63,26 @@ const Dropdown = () => {
             {" "}
             <Link className="link-btn" to="/Main">REGISTRAR</Link>
 
+
+            <Link className="link-btn" to="/ViceChancellor" target="_self">VICE CHANCELLOR</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Registrar" target="_self">REGISTRAR</Link>
+
           </button>
         </div>
       </div>
       <div class="dropdown">
         <button class="dropbtn">DIRECTORATES</button>
         <div class="dropdown-content">
+        <button>
+            {" "}
+            <Link className="link-btn" to="/AcademicAudit" target="_self">Academic Audit</Link>
+          </button>
           <button>
             {" "}
+
             <Link className="link-btn" to="/SportsAdministration" target='_self'>University Games & Sports Administration</Link>
           </button>
           <button>
@@ -83,6 +96,17 @@ const Dropdown = () => {
           <button>
             {" "}
             <Link className="link-btn" to="/IQAC" target='_self'>IQAC</Link>
+
+            <Link className="link-btn" to="/AcademicPlanning" target="_self">Academic Planning</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Admissions" target="_self">Admissions</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/AluminiRelations" target="_self">Alumini Relations</Link>
+
           </button>
         </div>
       </div>
@@ -125,7 +149,7 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link style={{}} className="link-btn" to="/Main">Link 1</Link>
+            <Link className="link-btn" to="/Main">Link 1</Link>
           </button>
           <button>
             {" "}

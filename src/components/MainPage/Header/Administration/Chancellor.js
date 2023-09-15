@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import './AdminandDirectorates.css';
 import { Link, useLocation } from 'react-router-dom'; 
 function Chancellor() {
@@ -8,6 +9,13 @@ function Chancellor() {
 import './Chancellor.css'; // Import your CSS file here
 
 function Chancellor() {
+
+
+import './AdminandDirectorates.css'; // Import your CSS file here
+import { Link, useLocation } from 'react-router-dom';
+
+function Chancellor() {
+  const location = useLocation(); 
 
   return (
     <div className="mainContainer">
@@ -21,10 +29,17 @@ function Chancellor() {
           Chancellor
         </Link>
         <Link
+
           to="/Vicechancellor"
           className={`menuButton ${location.pathname === '/Vicechancellor' ? 'active' : ''}`}
         >
           ViceChancellor
+
+          to="/ViceChancellor"
+          className={`menuButton ${location.pathname === '/ViceChancellor' ? 'active' : ''}`}
+        >
+          Vice Chancellor
+
         </Link>
         <Link
           to="/Registrar"
@@ -33,22 +48,28 @@ function Chancellor() {
           Registrar
         </Link>
 
+
         <a href="https://jntugv.edu.in/chancellor" className="active">Chancellor</a>
         <a href="https://jntugv.edu.in/vice-chancellor">Vice Chancellor</a>
         <a href="https://jntugv.edu.in/registrar">Registrar</a>
-
       </div>
       <div className="allRightContent">
         <div className="allRightContentHeading">
           Chancellor
         </div>
+        <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
+
+
+         
 
           <center>
 
           <div className="profileImage">
-            <img src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/apgoverner.jpeg" alt="Profile" />
+            
+          <img src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/apgoverner.jpeg" alt="Profile" />
+        
           </div>
           <div className="profileName">
             <h3>Shri Justice(Retd.) Syed Abdul Nazeer</h3>
@@ -56,7 +77,6 @@ function Chancellor() {
           <div className="profileDesignation">
             <h4 className="regularStyleH4">Hon’ble Governor of Andhra Pradesh</h4>
           </div>
-
           </center>
 
           <hr />

@@ -1,12 +1,15 @@
 import React from 'react';
 import './AdminandDirectorates.css'; // Import your CSS file here
 import { Link, useLocation } from 'react-router-dom'; 
+
 function Registrar() {
   const location = useLocation(); 
   return (
     <div className="mainContainer">
       <div className="allLeftMenu">
-      {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
+
+        {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
+
         <Link
           to="/Chancellor"
           className={`menuButton ${location.pathname === '/Chancellor' ? 'active' : ''}`}
@@ -14,10 +17,17 @@ function Registrar() {
           Chancellor
         </Link>
         <Link
+
           to="/Vicechancellor"
           className={`menuButton ${location.pathname === '/Vicechancellor' ? 'active' : ''}`}
         >
           ViceChancellor
+
+          to="/ViceChancellor"
+          className={`menuButton ${location.pathname === '/Vice Chancellor' ? 'active' : ''}`}
+        >
+          Vice Chancellor
+
         </Link>
         <Link
           to="/Registrar"
