@@ -14,6 +14,14 @@ import ForeignUniversityRelations from './components/MainPage/Header/Directorate
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/MainPage/Footer/Footer';
 
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/MainPage/Footer/Footer';
+import AcademicAudit from './components/MainPage/Header/Directorates/AcademicAudit';
+import AcademicPlanning from './components/MainPage/Header/Directorates/AcademicPlanning';
+import Admissions from './components/MainPage/Header/Directorates/Admissions';
+import AluminiRelations from './components/MainPage/Header/Directorates/AluminiRelations';
+
+
 function App() {
   return (
     <div>
@@ -27,10 +35,16 @@ function App() {
       <Route path="/chancellor" element={<Chancellor />} /> {/* Add this route */}
       <Route path="/ViceChancellor" element={<ViceChancellor />} /> 
       <Route path="/Registrar" element={<Registrar />} /> 
+
       <Route path="/Empowerment" element={<Empowerment />} />
       <Route path="/Evaluation" element={<Evaluation />} />  
       <Route path="/FacultyDevelopmentCell" element={<FacultyDevelopmentCell />} /> 
       <Route path="/ForeignUniversityRelations" element={<ForeignUniversityRelations />} /> 
+
+      <Route path="AcademicAudit" element={<AcademicAudit />} /> {/* Add this route */}
+      <Route path="/AcademicPlanning" element={<AcademicPlanning />} /> 
+      <Route path="/Admissions" element={<Admissions />} /> 
+      <Route path="/AluminiRelations" element={<AluminiRelations />} /> {/* Add this route 
       </Routes>
       <Footer />
     </div>
