@@ -49,28 +49,32 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">VICE CHANCELLOR</Link>
+            <Link className="link-btn" to="/ViceChancellor" target="_self">VICE CHANCELLOR</Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">REGISTRAR</Link>
+            <Link className="link-btn" to="/Registrar" target="_self">REGISTRAR</Link>
           </button>
         </div>
       </div>
       <div class="dropdown">
         <button class="dropbtn">DIRECTORATES</button>
         <div class="dropdown-content">
-          <button>
+        <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 1</Link>
+            <Link className="link-btn" to="/AcademicAudit" target="_self">Academic Audit</Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 2</Link>
+            <Link className="link-btn" to="/AcademicPlanning" target="_self">Academic Planning</Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 3</Link>
+            <Link className="link-btn" to="/Admissions" target="_self">Admissions</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/AluminiRelations" target="_self">Alumini Relations</Link>
           </button>
         </div>
       </div>
@@ -113,7 +117,7 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link style={{}} className="link-btn" to="/Main">Link 1</Link>
+            <Link className="link-btn" to="/Main">Link 1</Link>
           </button>
           <button>
             {" "}
