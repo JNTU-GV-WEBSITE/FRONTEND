@@ -49,11 +49,19 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
+
             <Link className="link-btn" to="/vicechancellor" target='_self'>VICE CHANCELLOR</Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/registrar" target='_self'>REGISTRAR</Link>
+
+            <Link className="link-btn" to="/Main">VICE CHANCELLOR</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Main">REGISTRAR</Link>
+
           </button>
         </div>
       </div>
