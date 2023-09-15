@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Administration/AdminandDirectorates.css'; // Import your CSS file here
-import { Link, useLocation } from 'react-router-dom'; 
+import { Link, useLocation } from 'react-router-dom';
 
-function Research(){
+function Research() {
     const location = useLocation(); 
   return (
     <div className="mainContainer">
@@ -59,31 +59,32 @@ function Research(){
         >
           Director of University Games & Sports Administration
         </Link>
-        
       </div>
       <div className="allRightContent">
-            <div className="allRightContentHeading">
-                Director of Research & Development
-            </div>
-                <div class="allRightContentProfile">
-                    <center>
-                    <div class="allRightContentHolderContentProfileImage">
-                        <img src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/da.jpg" alt="Profile" />
-                    </div>
-                    <div class="allRightContentHolderContentProfileName">
-                        <h3>Dr. K. Babulu</h3>
-                    </div>
-                    <div class="allRightContentHolderContentProfileDesignation">
-                        <h4 class="regularStyleH4">Director of Research & Development</h4>
-                    </div>
-                    <div class="allRightContentHolderContentProfileQualification">
-                        <span>Professor of  Dept. of Electronics and Communications Engineering</span>
-                    </div>
-                    </center>
-                    
-                <hr/>
-                <p>Email: dr@jntugv.edu.in</p>
-                <hr/>
+        <div className="allRightContentHeading">
+        Director of Research & Development
+        </div><br></br>
+        <div className="allRightContentProfile">
+          {/* Profile information */}
+          <div className="profileImage">
+            <center>
+            <img src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/da.jpg" alt="Profile" />
+            </center>
+          </div>
+          </div>
+          <center>
+          <div className="profileName">
+            <h3>Dr. K. Babulu</h3>
+            <h3><b>Director of Research & Development</b></h3>
+          </div>
+          <div className="profileDesignation">
+            <h4 className="regularStyleH4">Professor of Dept. of Electronics and Communications Engineering</h4>
+          </div>
+          </center>
+          <hr />
+          {/* Profile description */}
+          <p>Email: da@jntugv.edu.in</p><br></br>
+          <hr/>
                 <p className='a'>Educational Qualifications:</p>
                 <p>❖	B.E from Andhra University with Electronics and Communication Engineering.</p>
                 <p>❖	M.Tech from REC, Warangal with Electronic Instrumentation.</p>
@@ -142,12 +143,10 @@ function Research(){
                 <p>❖	 CONFERENCES/TRAINING PROGRAMMES/ WORKSHOPS CONDUCTED: 11.</p>
                 <p>❖	 RESOURCE PERSON: 10.</p>
                 <p>❖	 CHAIR PERSON: 01.</p>
-                <hr/>
-            </div>
-        </div>
-    </div>
-
-
-);
+                
+          </div>
+      </div>
+  );
 }
+
 export default Research;
