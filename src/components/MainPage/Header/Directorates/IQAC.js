@@ -1,9 +1,9 @@
 import React from 'react';
-import '../Administration/AdminandDirectorates.css';// Import your CSS file here
-import { Link, useLocation } from 'react-router-dom'; 
+import '../Administration/AdminandDirectorates.css'; // Import your CSS file here
+import { Link, useLocation } from 'react-router-dom';
 
 function IQAC() {
-  const location = useLocation(); 
+    const location = useLocation(); 
   return (
     <div className="mainContainer">
       <div className="allLeftMenu">
@@ -62,30 +62,31 @@ function IQAC() {
       </div>
       <div className="allRightContent">
         <div className="allRightContentHeading">
-                Director of IQAC
-            </div>
-            <div class="allRightContentHolderContent">
-                <div class="allRightContentHolderContentProfile">
-                  <center>
-                    <div class="allRightContentHolderContentProfileImage">
-                        <img src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/iqac.jpg"alt="Profile"/>
-                    </div>
-                    <div class="allRightContentHolderContentProfileName">
-                        <h3>Dr. K. Chandra Bhushana Rao</h3>
-                    </div>
-                    <div class="allRightContentHolderContentProfileDesignation">
-                        <h4 class="regularStyleH4">Director of IQAC</h4>
-                    </div>
-                    <div class="allRightContentHolderContentProfileQualification">
-                        <span>Professor of  Dept. of Electronics and Communication Engineering</span>
-                    </div>
-                    </center>
-                </div>
-                <hr/>
-                <p>Email: diqac@jntugv.edu.in</p>
-                <hr/>
-                <p>Dr. Kota. Chandrabhushana Rao, completed his B.E, M.E and PhD in ECE from AU, Visakhapatnam during1992, 1995 and 2005 respectively. Having experience of 29 years in teaching, research and administration of engineering education. Worked as Principal, Dean, Professor and HoD in reputed private institutions during 1992-2012 in A.P. At present, working as a Professor and HoD of ECE at UCEV-JNTUK-Vizianagaram, A.P.</p>
-                <hr/>
+        Director of IQAC
+        </div><br></br>
+        <div className="allRightContentProfile">
+          {/* Profile information */}
+          <div className="profileImage">
+            <center>
+            <img src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/dap.jpg" alt="Profile" />
+            </center>
+          </div>
+          </div>
+          <center>
+          <div className="profileName">
+            <h3>Dr. K. Chandra Bhushana Rao</h3>
+            <h3><b>Director of IQAC</b></h3>
+          </div>
+          <div className="profileDesignation">
+            <h4 className="regularStyleH4">Professor of Dept. of Electronics and Communication Engineering</h4>
+          </div>
+          </center>
+          <hr />
+          {/* Profile description */}
+          <p>Email: dap@jntugv.edu.in</p><br></br>
+<p>Dr. Kota. Chandrabhushana Rao, completed his B.E, M.E and PhD in ECE from AU, Visakhapatnam during1992, 1995 and 2005 respectively. Having experience of 29 years in teaching, research and administration of engineering education. Worked as Principal, Dean, Professor and HoD in reputed private institutions during 1992-2012 in A.P. At present, working as a Professor and HoD of ECE at UCEV-JNTUK-Vizianagaram, A.P.</p>
+                
+<hr/>
                 <p className='a'>Achievements:</p>
                 <p>❖	Senior member, IEEE since 2016.</p>
                 <p>❖   Professor of ECE since Jan.2016.</p>
@@ -147,9 +148,9 @@ Maharashtra, Madhya Pradesh, Jammu, Uttar Pradesh and Tamilnadu.</p>
                 <p>❖	Executed THREE MoUs with ECE department during 2020-21.</p>
                 <p>❖	Trained students through Virtual labs using mobile app- first of its kind!</p>
                 <p>❖	Given about 23 webinars as Resource person during 2020-21 Lock down.</p>
-            </div>
-        </div>
-    </div>
+
+          </div>
+      </div>
   );
 }
 
