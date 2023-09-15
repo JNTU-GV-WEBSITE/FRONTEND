@@ -7,10 +7,18 @@ import ReadMore from './components/MainPage/NoticeBoard/ReadMore';
 import Chancellor from './components/MainPage/Header/Administration/Chancellor'; 
 import ViceChancellor from './components/MainPage/Header/Administration/ViceChancellor';
 import Registrar from './components/MainPage/Header/Administration/Registrar';
+import AcademicAudit from './components/MainPage/Header/Directorates/AcademicAudit';
+import AcademicPlanning from './components/MainPage/Header/Directorates/AcademicPlanning';
+import Admissions from './components/MainPage/Header/Directorates/Admissions';
+import AlumniRelations from './components/MainPage/Header/Directorates/AlumniRelations';
 import Empowerment from './components/MainPage/Header/Directorates/Empowerment';
 import Evaluation from './components/MainPage/Header/Directorates/Evaluation';
 import FacultyDevelopmentCell from './components/MainPage/Header/Directorates/FacultyDevelopmentCell';
 import ForeignUniversityRelations from './components/MainPage/Header/Directorates/ForeignUniversityRelations';
+import IQAC from './components/MainPage/Header/Directorates/IQAC';
+import Placements from './components/MainPage/Header/Directorates/Placements';
+import Research from './components/MainPage/Header/Directorates/Research';
+import SportsAdministration from './components/MainPage/Header/Directorates/SportsAdministration';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/MainPage/Footer/Footer';
 
@@ -27,10 +35,18 @@ function App() {
       <Route path="/chancellor" element={<Chancellor />} /> {/* Add this route */}
       <Route path="/ViceChancellor" element={<ViceChancellor />} /> 
       <Route path="/Registrar" element={<Registrar />} /> 
+      <Route path="AcademicAudit" element={<AcademicAudit />} /> {/* Add this route */}
+      <Route path="/AcademicPlanning" element={<AcademicPlanning />} /> 
+      <Route path="/Admissions" element={<Admissions />} /> 
+      <Route path="/AlumniRelations" element={<AlumniRelations />} /> {/* Add this route */}
       <Route path="/Empowerment" element={<Empowerment />} />
       <Route path="/Evaluation" element={<Evaluation />} />  
       <Route path="/FacultyDevelopmentCell" element={<FacultyDevelopmentCell />} /> 
       <Route path="/ForeignUniversityRelations" element={<ForeignUniversityRelations />} /> 
+      <Route path="/IQAC" element={<IQAC /> } />
+      <Route path="/Placements" element={<Placements /> } />
+      <Route path="/Research" element={<Research/> } />
+      <Route path="/SportsAdministration" element={<SportsAdministration />} />
       </Routes>
       <Footer />
     </div>

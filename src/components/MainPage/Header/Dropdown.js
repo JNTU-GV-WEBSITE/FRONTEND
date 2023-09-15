@@ -60,6 +60,22 @@ const Dropdown = () => {
       <div class="dropdown">
         <button class="dropbtn">DIRECTORATES</button>
         <div class="dropdown-content">
+        <button>
+            {" "}
+            <Link className="link-btn" to="/AcademicAudit" target="_self">Academic Audit</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/AcademicPlanning" target="_self">Academic Planning</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Admissions" target="_self">Admissions</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/AlumniRelations" target="_self">Alumni Relations</Link>
+          </button>
           <button>
             {" "}
             <Link className="link-btn" to="/Empowerment" target="_self">Empowerment of Women & Grievances</Link>
@@ -76,6 +92,23 @@ const Dropdown = () => {
             {" "}
             <Link className="link-btn" to="/ForeignUniversityRelations" target="_self">Foreign University Relations</Link>
           </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/IQAC" target='_self'>IQAC</Link>
+          </button>
+          <button>
+          {" "}
+            <Link className="link-btn" to="/Placements" target='_self'>IIIT & Placements</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Research" target='_self'>Research & Development</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/SportsAdministration" target='_self'>University Games & Sports Administration</Link>
+          </button>
+
         </div>
       </div>
       <div class="dropdown">
