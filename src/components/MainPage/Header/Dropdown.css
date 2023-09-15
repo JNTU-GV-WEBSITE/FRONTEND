@@ -1,6 +1,7 @@
 /* Dropdown.css */
 .topnav {
   background-color: #04AA6D;
+  text-align: center;
 }
 
 .topnav a {
@@ -70,6 +71,8 @@
 .dropdown-content button{
   background-color: #ffffff;
   width: 100%;
+  font-size: 3px; /* Adjust the font size as needed */
+  padding: 0px 0px;
 }
 
 .link-btn{
