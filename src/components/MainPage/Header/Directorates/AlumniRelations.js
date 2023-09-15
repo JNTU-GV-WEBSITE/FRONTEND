@@ -2,7 +2,7 @@ import React from 'react';
 import '../Administration/AdminandDirectorates.css'; // Import your CSS file here
 import { Link, useLocation } from 'react-router-dom';
 
-function AluminiRelations() {
+function AlumniRelations() {
     const location = useLocation(); 
   return (
     <div className="mainContainer">
@@ -26,15 +26,43 @@ function AluminiRelations() {
           Director of Admissions
         </Link>
         <Link
-          to="/AluminiRelations"
-          className={`menuButton ${location.pathname === '/AluminiRelations' ? 'active' : ''}`}
+          to="/AlumniRelations"
+          className={`menuButton ${location.pathname === '/AlumniRelations' ? 'active' : ''}`}
         >
-          Director of Alumini Relations
+          Director of Alumni Relations
+        </Link>
+        <Link to="/Empowerment" className={`menuButton ${location.pathname === '/Empowerment' ? 'active' : ''}`}>Empowerment of Women & Grievances</Link>
+        <Link to="/Evaluation" className={`menuButton ${location.pathname === '/Evaluation' ? 'active' : ''}`}>Evaluation</Link>
+        <Link to="/FacultyDevelopmentCell" className={`menuButton ${location.pathname === '/FacultyDevelopmentCell' ? 'active' : ''}`}>Faculty Development Cell</Link>
+        <Link to="/ForeignUniversityRelations" className={`menuButton ${location.pathname === '/ForeignUniversityRelations' ? 'active' : ''}`}>Foreign University Relations</Link>
+        <Link
+          to="/IQAC"
+          className={`menuButton ${location.pathname === '/IQAC' ? 'active' : ''}`}
+        >
+          Director of IQAC
+        </Link>
+        <Link
+          to="/Placements"
+          className={`menuButton ${location.pathname === '/Placements' ? 'active' : ''}`}
+        >
+          Director of IIIT & Placements
+        </Link>
+        <Link
+          to="/Research"
+          className={`menuButton ${location.pathname === '/Research' ? 'active' : ''}`}
+        >
+          Director of Research & Development
+        </Link>
+        <Link
+          to="/SportsAdministration"
+          className={`menuButton ${location.pathname === '/SportsAdministration' ? 'active' : ''}`}
+        >
+          Director of University Games & Sports Administration
         </Link>
       </div>
       <div className="allRightContent">
         <div className="allRightContentHeading">
-          Director of Alumini Relations
+          Director of Alumni Relations
         </div><br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -47,7 +75,7 @@ function AluminiRelations() {
           <center>
           <div className="profileName">
             <h3>Dr. R. Rajeswara Rao</h3>
-            <h3><b>Director of Alumini Relations</b></h3>
+            <h3><b>Director of Alumni Relations</b></h3>
           </div>
           <div className="profileDesignation">
             <h4 className="regularStyleH4">Professor of Dept. of Computer Science and Engineering</h4>
@@ -63,4 +91,4 @@ function AluminiRelations() {
   );
 }
 
-export default AluminiRelations;
+export default AlumniRelations;
