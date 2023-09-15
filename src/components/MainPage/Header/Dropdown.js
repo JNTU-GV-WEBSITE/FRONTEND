@@ -74,8 +74,41 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AluminiRelations" target="_self">Alumini Relations</Link>
+            <Link className="link-btn" to="/AlumniRelations" target="_self">Alumni Relations</Link>
           </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Empowerment" target="_self">Empowerment of Women & Grievances</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Evaluation" target="_self">Evaluation</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/FacultyDevelopmentCell" target="_self">Faculty Development Cell</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/ForeignUniversityRelations" target="_self">Foreign University Relations</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/IQAC" target='_self'>IQAC</Link>
+          </button>
+          <button>
+          {" "}
+            <Link className="link-btn" to="/Placements" target='_self'>IIIT & Placements</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/Research" target='_self'>Research & Development</Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/SportsAdministration" target='_self'>University Games & Sports Administration</Link>
+          </button>
+
         </div>
       </div>
       <div class="dropdown">
@@ -117,7 +150,7 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">Link 1</Link>
+            <Link style={{}} className="link-btn" to="/Main">Link 1</Link>
           </button>
           <button>
             {" "}
