@@ -15,9 +15,9 @@ const ConstituentColleges = () => {
           Programs Offered
         </Link>
         <Link
-          to="/programsoffered"
+          to="/AdmissionsOP"
           className={`menuButton ${
-            location.pathname === "/programsoffered" ? "active" : ""
+            location.pathname === "/AdmissionsOP" ? "active" : ""
           }`}
         >
           Admissions
