@@ -1,26 +1,30 @@
 import "./Dropdown.css";
 import { Link } from "react-router-dom";
-import HomeIcon from '@mui/icons-material/Home';
-import GroupsIcon from '@mui/icons-material/Groups';
-import SchoolIcon from '@mui/icons-material/School';
-import PersonIcon from '@mui/icons-material/Person';
-import DraftsIcon from '@mui/icons-material/Drafts';
-import LoginIcon from '@mui/icons-material/Login';
-import GridViewRoundedIcon from '@mui/icons-material/GridViewRounded';
-import ApartmentIcon from '@mui/icons-material/Apartment';
-import DescriptionIcon from '@mui/icons-material/Description';
+import HomeIcon from "@mui/icons-material/Home";
+import GroupsIcon from "@mui/icons-material/Groups";
+import SchoolIcon from "@mui/icons-material/School";
+import PersonIcon from "@mui/icons-material/Person";
+import DraftsIcon from "@mui/icons-material/Drafts";
+import LoginIcon from "@mui/icons-material/Login";
+import GridViewRoundedIcon from "@mui/icons-material/GridViewRounded";
+import ApartmentIcon from "@mui/icons-material/Apartment";
+import DescriptionIcon from "@mui/icons-material/Description";
 
 const Dropdown = () => {
   return (
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
-        
-        <div class="dropbtn"><HomeIcon />HOME</div>
+        <div class="dropbtn">
+          <HomeIcon />
+          HOME
+        </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><ApartmentIcon /> ABOUT US</div>
+        <div class="dropbtn">
+          <ApartmentIcon /> ABOUT US
+        </div>
         <div class="dropdown-content">
-          <button className="nav-options">
+          <button>
             {" "}
             <Link className="link-btn" to="/Main">
               Link 1
@@ -41,7 +45,9 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><SchoolIcon />   ACADEMICS</div>
+        <div class="dropbtn">
+          <SchoolIcon /> ACADEMICS
+        </div>
         <div class="dropdown-content">
           <button>
             {" "}
@@ -72,7 +78,9 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><GroupsIcon /> ADMINISTRATION</div>
+        <div class="dropbtn">
+          <GroupsIcon /> ADMINISTRATION
+        </div>
         <div class="dropdown-content">
           <button>
             {" "}
@@ -95,7 +103,10 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><PersonIcon />DIRECTORATES</div>
+        <div class="dropbtn">
+          <PersonIcon />
+          DIRECTORATES
+        </div>
         <div class="dropdown-content">
           <button>
             {" "}
@@ -184,7 +195,9 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><DescriptionIcon /> EXAMINATIONS</div>
+        <div class="dropbtn">
+          <DescriptionIcon /> EXAMINATIONS
+        </div>
         <div class="dropdown-content">
           <button>
             {" "}
@@ -208,7 +221,10 @@ const Dropdown = () => {
       </div>
 
       <div class="dropdown">
-        <div class="dropbtn"><GridViewRoundedIcon />JNTUGV UNITS</div>
+        <div class="dropbtn">
+          <GridViewRoundedIcon />
+          JNTUGV UNITS
+        </div>
         <div class="dropdown-content">
           <button>
             {" "}
@@ -231,10 +247,15 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><DraftsIcon /> CONTACTUS</div>
+        <div class="dropbtn">
+          <DraftsIcon /> CONTACTUS
+        </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn"><LoginIcon />LOGIN</div>
+        <div class="dropbtn">
+          <LoginIcon />
+          LOGIN
+        </div>
         <div class="dropdown-content">
           <button>
             {" "}
