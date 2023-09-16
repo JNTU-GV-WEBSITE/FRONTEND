@@ -1,29 +1,29 @@
 /* Dropdown.css */
 .topnav {
   background-color: #04aa6d;
-  text-align: center; 
+  text-align: center;
   font-size: larger;
 }
 
-button{
+button {
   border-style: none;
   background-color: #04aa6d;
 }
-
 
 .topnav a {
   float: left;
   display: block;
   color: black;
   /* text-align: center; */
-  padding: 14px 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-decoration: none;
   font-size: 12px;
 }
 
-/* .nav-options{
-  padding-right: 5px;
-} */
+.a:hover{
+  color: #ffffff;
+}
 
 .active {
   background-color: #04aa6d;
@@ -41,7 +41,7 @@ button{
 }
 
 .dropbtn:hover {
-  background-color: rgb(22, 75, 0);
+  background-color: rgb(3, 103, 31);
   color: #ffffff;
 }
 
@@ -56,12 +56,16 @@ button{
   background-color: #f9f9f9;
   box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.2);
   z-index: 5;
-  height: 50px;
-  width: 150px;
+  /* height: 20px; */
+  width: 300px;
+}
+
+.dropdown-content:hover {
+  color: #ffffff;
 }
 
 .dropdown-content button {
-  color: rgb(22, 75, 0);
+  color: rgb(165, 221, 141);
   text-decoration: none;
   display: block;
   height: auto;
@@ -76,14 +80,28 @@ button{
   width: 100%;
 }
 
-.dropdown-content button:hover {
-  background-color: #404040;
+.dropdown-content:hover button:hover {
+  background-color: #04aa6d;
   color: rgb(255, 255, 255);
+}
+
+.link-btn{
+  text-align: left;
+  width: 100%;
+}
+
+.link-btn:hover {
+  color: #ffffff;
+}
+
+button:hover {
+  color: #ffffff;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child),
