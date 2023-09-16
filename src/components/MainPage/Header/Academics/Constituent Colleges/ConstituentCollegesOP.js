@@ -52,7 +52,6 @@ const ConstituentColleges = () => {
             </a>
             <a
               className="clgnamediv"
-              href="#"
             >
               <div className="clgtextdivOP">JNTU-GV Trible College of Engineering, Kurupam</div>
             </a>
