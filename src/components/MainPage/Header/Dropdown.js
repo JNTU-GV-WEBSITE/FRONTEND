@@ -51,7 +51,7 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
+            <Link className="link-btn" to="/AdmissionsOP">
               {" "}
               Admissions
             </Link>
