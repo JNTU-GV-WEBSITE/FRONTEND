@@ -36,7 +36,7 @@ export const Administration_Wing = [
       "link": '/'
     },
     {
-      "title": "AU Grievance",
+      "title": "Grievance Cell",
       "link": '/'
     }
   ];

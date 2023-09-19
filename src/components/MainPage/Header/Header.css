@@ -1,52 +1,35 @@
-
 .container {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .container-item {
-    flex: 1; 
-    margin: 10px;
-    padding: 1px;
-    text-align-last: right ;
-   
-    
-  }
-  
-  /* App.css */
-  .logo-container {
-    display: flex; /* Use flexbox to position the logo and text */
-    align-items: center; /* Vertically center the logo and text */
-  }
-  
-  .logo {
-    width: 200px; 
-    height: auto; 
-    margin-right: 10px; 
-  }
-  
-  .logo-text {
-    font-size: 18px; 
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  h11{
-    text-align-last: right ;
-    text-align: right;
-  }
-  
-  hr{
-    width: 70%;
-    font-weight: 700;
-    color: black;
-    font-style: bold;
-  }
-  .item{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: -10px; */
-    align-items: center;
-    /* justify-content: center; */
-    /* text-align: center; */
-  }
+.container-item {
+  flex: 1;
+  margin: 10px;
+  padding: 1px;
+  text-align-last: right;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: larger;
+  text-align: center  ;
+}
+
+.item {
+  align-items: center;
+  font-size: small;
+  /* margin-left: 5%; */
+}

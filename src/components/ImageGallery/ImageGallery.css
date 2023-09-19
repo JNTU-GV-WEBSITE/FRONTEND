@@ -1,7 +1,20 @@
-.image{
-    min-height: 500px;
-    max-width: 800px;
+.image {
+  height: 400px;
+  width: 80vw;
 }
-img{
-    height: 500px;
+.mainImageGaller {
+  background-color: transparent;
+}
+
+.mianDivIG {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.carouselText{
+    background-color: rgb(72, 96, 65);
+    width: max-content;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
