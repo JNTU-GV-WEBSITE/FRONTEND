@@ -25,7 +25,6 @@ import AcademicsOP from './components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from './components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP';
 import AdmissionsOP from './components/MainPage/Header/Academics/Admissions/AdmissionsOP';
 import AffliatedCollegesOP from './components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP';
-import Footer from "./components/MainPage/Footer/Footer";
 
 function App() {
   return (
@@ -56,7 +55,6 @@ function App() {
       <Route path="/Placements" element={<Placements /> } />
       <Route path="/Research" element={<Research/> } />
       <Route path="/SportsAdministration" element={<SportsAdministration />} />
-      <Route path="/Footer" element={<Footer />} />
       </Routes>
     </div>
   );
