@@ -3,8 +3,10 @@ import {FaBook} from 'react-icons/fa';
 import "./Policies.css";
 const Policies = () => {
     const Data=[
-        {link:'https://www.npmjs.com/package/react-router-dom',text:'iqac'},
-        {link:'https://www.npmjs.com/package/react-router-dom',text:'jntugv Reasearch Promotion Policy'},
+        {
+            link:'https://www.npmjs.com/package/react-router-dom',text:'iqac'
+        },
+        {link:'https://www.npmjs.com/package/react-router-dom',text:'jntugv Research Promotion Policy'},
         {link:'https://www.npmjs.com/package/react-router-dom',text:'jntugv Consultancy  Policy'},
         {link:'https://www.npmjs.com/package/react-router-dom',text:'jntugv E-Governance Policy'},
         {link:'https://www.npmjs.com/package/react-router-dom',text:'jntugv IP POLICY 2021'},
@@ -13,14 +15,14 @@ const Policies = () => {
         {link:'https://www.npmjs.com/package/react-router-dom', text:'RTI'}
     ]
   return (
-    <div className='project'>
-      <div className='links'>
+    <div className='Policies'>
+      <div className='Policies-Heading'>
         <h4>jntugv   Policies</h4>
       </div>
       <ul>
         {Data.map((val,index)=>(
             <li key={index}>
-                <a className='hover'
+                <a 
                 href={val.link}
                 rel="noopener noreferrer"
                 target='_blank'>
