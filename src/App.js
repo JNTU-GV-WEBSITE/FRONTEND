@@ -20,7 +20,6 @@ import Placements from './components/MainPage/Header/Directorates/Placements';
 import Research from './components/MainPage/Header/Directorates/Research';
 import SportsAdministration from './components/MainPage/Header/Directorates/SportsAdministration';
 import { Route, Routes } from 'react-router-dom';
-import Footer from './components/MainPage/Footer/Footer';
 import AcademicsOP from './components/MainPage/Header/Academics/Programs Offered/AcademicsOP';
 import ConstituentCollegesOP from './components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP';
 import AdmissionsOP from './components/MainPage/Header/Academics/Admissions/AdmissionsOP';
@@ -55,8 +54,6 @@ function App() {
       <Route path="/Placements" element={<Placements /> } />
       <Route path="/Research" element={<Research/> } />
       <Route path="/SportsAdministration" element={<SportsAdministration />} />
-      <Route path="/Footer" element={<Footer />} />
-
       </Routes>
     </div>
   );

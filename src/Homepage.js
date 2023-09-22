@@ -16,7 +16,7 @@ function Homepage() {
       <Noticeboard />
       <br />
       <Map />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
