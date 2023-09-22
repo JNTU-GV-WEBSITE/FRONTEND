@@ -3,12 +3,17 @@ import "./App.css";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Noticeboard from "./components/MainPage/NoticeBoard/Noticeboard";
 import Map from "./components/MainPage/Map/Map";
-
+import UpdatePanel from "./UpdatePanel/UpdatePanel";
+import './Homepage.css'
 function Homepage() {
   return (
     <div>
       <ImageGallery />
       <Noticeboard />
+      <div className="newsNUpdates">
+        <UpdatePanel />
+        <UpdatePanel />
+      </div>
       <br />
       <Map />
     </div>
