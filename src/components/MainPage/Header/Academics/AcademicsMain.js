@@ -1,46 +1,49 @@
-import { Link, useLocation } from "react-router-dom"
+import { Link, Outlet, useLocation } from "react-router-dom";
+import './Academics.css'
 
-const AcademicsMain = () =>{
-const location = useLocation;
+const AcademicsMain = () => {
+  const location = useLocation();
 
-    return(
-        <div>
-            <div className="allLeftMenu">
+  return (
+    <div>
+      <div className="allLeftMenuAOP">
         <Link
-          to="/programsoffered"
-          className={`menuButton ${
-            location.pathname === "/programsoffered" ? "active" : ""
+          to="/AcademicsMain/ProgramsofferedOP"
+          className={`menubutton ${
+            location.pathname === "/AcademicsMain/ProgramsofferedOP" ? "active" : ""
           }`}
         >
           Programs Offered
         </Link>
         <Link
-          to="/AdmissionsOP"
-          className={`menuButton ${
-            location.pathname === "/AdmissionsOP" ? "active" : ""
+          to="/AcademicsMain/AdmissionsOP"
+          className={`menubutton ${
+            location.pathname === "/AcademicsMain/AdmissionsOP" ? "active" : ""
           }`}
         >
           Admissions
         </Link>
         <Link
-          to="/ConstituentCollegesOP"
-          className={`menuButton ${
-            location.pathname === "/ConstituentCollegesOP" ? "active" : ""
+          to="/AcademicsMain/ConstituentCollegesOP"
+          className={`menubutton ${
+            location.pathname === "/AcademicsMain/ConstituentCollegesOP" ? "active" : ""
           }`}
         >
           Constituent Colleges
         </Link>
         <Link
-          to="/programsofferedOP"
-          className={`menuButton ${
-            location.pathname === "/programsofferedOP" ? "active" : ""
+          to="/AcademicsMain/AffliatedCollegesOP"
+          className={`menubutton ${
+            location.pathname === "/AcademicsMain/AffliatedCollegesOP" ? "active" : ""
           }`}
         >
           Affiliated Colleges
         </Link>
+        
       </div>
-        </div>
-    )
-}
+      <Outlet />
+    </div>
+  );
+};
 
 export default AcademicsMain;

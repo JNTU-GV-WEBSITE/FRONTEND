@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
 import "./Programs_Offered.css";
 import Paper from "@mui/material/Paper";
 import Table from "@mui/material/Table";
@@ -59,46 +58,7 @@ function AcademicsOP() {
     setRowsPerPage(+event.target.value);
     setPage(0);
   };
-
-  const location = useLocation();
   return (
-    <div className="mainContainer">
-      <div className="allLeftMenu">
-        <Link
-          to="/programsoffered"
-          className={`menuButton ${
-            location.pathname === "/programsoffered" ? "active" : ""
-          }`}
-        >
-          Programs Offered
-        </Link>
-        <Link
-          to="/AdmissionsOP"
-          className={`menuButton ${
-            location.pathname === "/AdmissionsOP" ? "active" : ""
-          }`}
-        >
-         Admissions
-        </Link>
-        <Link
-          to="/ConstituentCollegesOP"
-          className={`menuButton ${
-            location.pathname === "/ConstituentCollegesOP" ? "active" : ""
-          }`}
-        >
-          Constituent Colleges
-        </Link>
-        <Link
-          to="/AffliatedCollegesOP"
-          className={`menuButton ${
-            location.pathname === "/AffliatedCollegesOP" ? "active" : ""
-          }`}
-        >
-          Affiliated Colleges
-        </Link>
-      </div>
-      <div className="allRightContent">
-        <div className="allRightContentProfile">
           <div className="tableProgramOffered">
             <div style={{display:'flex',flexDirection:'row'}}>
             <div className="headProgramsOffered">Programs Offered</div>
@@ -173,9 +133,6 @@ function AcademicsOP() {
               </Paper>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   );
 }
 
