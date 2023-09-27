@@ -1,45 +1,8 @@
 import "./ConstituentCollegesOP.css";
-import { Link, useLocation } from "react-router-dom";
 
-const ConstituentColleges = () => {
-  const location = useLocation();
+const ConstituentCollegesOP = () => {
   return (
-    <div className="mainContainer">
-      <div className="allLeftMenu">
-        <Link
-          to="/programsoffered"
-          className={`menuButton ${
-            location.pathname === "/programsoffered" ? "active" : ""
-          }`}
-        >
-          Programs Offered
-        </Link>
-        <Link
-          to="/AdmissionsOP"
-          className={`menuButton ${
-            location.pathname === "/AdmissionsOP" ? "active" : ""
-          }`}
-        >
-          Admissions
-        </Link>
-        <Link
-          to="/ConstituentCollegesOP"
-          className={`menuButton ${
-            location.pathname === "/ConstituentCollegesOP" ? "active" : ""
-          }`}
-        >
-          Constituent Colleges
-        </Link>
-        <Link
-          to="/programsofferedOP"
-          className={`menuButton ${
-            location.pathname === "/programsofferedOP" ? "active" : ""
-          }`}
-        >
-          Affiliated Colleges
-        </Link>
-      </div>
-      <div className="allRightContent">
+      <div className="allRightContentAOP">
         <div className="clgheaddiv">Constituent Colleges</div>
         <br></br>
         <div className="clgdiv">
@@ -65,8 +28,7 @@ const ConstituentColleges = () => {
           </a>
         </div>
       </div>
-    </div>
   );
 };
 
-export default ConstituentColleges;
+export default ConstituentCollegesOP;

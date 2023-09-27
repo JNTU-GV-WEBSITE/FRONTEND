@@ -1,0 +1,39 @@
+/* Default button style */
+
+.allLeftMenuAOP{
+  margin-top: 15px;
+}
+
+
+.allLeftMenuAOP .menubutton {
+  
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  width: 300px; /* Set a fixed width for your buttons */
+  height: 60px; /* Set a fixed height for your buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 13%;
+}
+
+/* Hover state */
+.allLeftMenuAOP .menubutton:hover {
+  background-color: #04aa6d;
+}
+
+/* Selected state */
+.allLeftMenuAOP .menubutton.active {
+  background-color: #04aa6d;
+}
+
+
+

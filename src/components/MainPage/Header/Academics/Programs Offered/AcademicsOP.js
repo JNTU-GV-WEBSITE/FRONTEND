@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
 import "./Programs_Offered.css";
 import Paper from "@mui/material/Paper";
 import Table from "@mui/material/Table";
@@ -45,7 +44,7 @@ function AcademicsOP() {
       columns.some((column) => {
         const value = row[column.id].toString().toLowerCase();
         return value.includes(searchText);
-      }),
+      })
     );
     setFilteredRows(filtered);
     setPage(0);
@@ -59,59 +58,19 @@ function AcademicsOP() {
     setRowsPerPage(+event.target.value);
     setPage(0);
   };
-
-  const location = useLocation();
   return (
-    <div className="mainContainer">
-      <div className="allLeftMenu">
-        <Link
-          to="/programsoffered"
-          className={`menuButton ${
-            location.pathname === "/programsoffered" ? "active" : ""
-          }`}
-        >
-          Programs Offered
-        </Link>
-        <Link
-          to="/AdmissionsOP"
-          className={`menuButton ${
-            location.pathname === "/AdmissionsOP" ? "active" : ""
-          }`}
-        >
-          Admissions
-        </Link>
-        <Link
-          to="/ConstituentCollegesOP"
-          className={`menuButton ${
-            location.pathname === "/ConstituentCollegesOP" ? "active" : ""
-          }`}
-        >
-          Constituent Colleges
-        </Link>
-        <Link
-          to="/AffliatedCollegesOP"
-          className={`menuButton ${
-            location.pathname === "/AffliatedCollegesOP" ? "active" : ""
-          }`}
-        >
-          Affiliated Colleges
-        </Link>
-      </div>
-      <div className="allRightContent">
-        <div className="allRightContentProfile">
           <div className="tableProgramOffered">
-            <div style={{ display: "flex", flexDirection: "row" }}>
-              <div className="headProgramsOffered">Programs Offered</div>
-              <div className="searchTextProgramsOffered">
-                <TextField
-                  id="outlined-basic"
-                  onChange={inputHandler}
-                  variant="outlined"
-                  fullWidth
-                  label="Search"
-                />
-              </div>
-            </div>
+            <div style={{display:'flex',flexDirection:'row'}}>
+            <div className="headProgramsOffered">Programs Offered</div>
+            <div className="searchTextProgramsOffered">
+              <TextField
+                id="outlined-basic"
+                onChange={inputHandler}
+                variant="outlined"
+                fullWidth
+                label="Search"
+              />
+            </div></div>
             <div className="searchProgramsOffered">
               <Paper sx={{ width: "100%", overflow: "hidden" }}>
                 <TableContainer sx={{ maxHeight: 440 }}>
@@ -133,7 +92,7 @@ function AcademicsOP() {
                       {filteredRows
                         .slice(
                           page * rowsPerPage,
-                          page * rowsPerPage + rowsPerPage,
+                          page * rowsPerPage + rowsPerPage
                         )
                         .map((row) => {
                           return (
@@ -174,9 +133,6 @@ function AcademicsOP() {
               </Paper>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   );
 }
 

@@ -1,26 +1,34 @@
-.clgnamediv{
-    width: 100px;
-    height: 10vh;
-    text-decoration: none;
-    color: green;
-    margin-left: 100px;
+.allRightContentAOP{
+    
+  margin-top: -18%;
+  margin-left: 35%;
 }
 
-.clgdiv{
-    margin-top: -20px;
+.clgnamediv {
+  width: 100px;
+  height: 10vh;
+  text-decoration: none;
+  color: green;
+  margin-left: 100px;
+  margin-top: -19%;
+  margin-left: 35%;
 }
 
-.clgheaddiv{
-    color: #04AA6D;
-    font-weight: 600;
-    font-size: 26px;
-    width: 400px;
+.clgdiv {
+  margin-top: -20px;
 }
 
-.clgtextdivOP{
-    background-color: whitesmoke;
-    height: 40px;
-    padding: 10px;
-    font-weight: 400;
-    font-size: medium;
+.clgheaddiv {
+  color: #04aa6d;
+  font-weight: 600;
+  font-size: 26px;
+  width: 400px;
+}
+
+.clgtextdivOP {
+  background-color: whitesmoke;
+  height: 40px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: medium;
 }

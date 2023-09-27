@@ -27,6 +27,7 @@ import AcademicsOP from "./components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from "./components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP";
 import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/AdmissionsOP";
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
+import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
 
 function App() {
   return (
@@ -38,13 +39,18 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} /> {/* Add this route */}
-        <Route
-          path="/ConstituentCollegesOP"
-          element={<ConstituentCollegesOP />}
-        />
-        <Route path="/programsoffered" element={<AcademicsOP />} />
-        <Route path="/AdmissionsOP" element={<AdmissionsOP />} />
-        <Route path="/AffliatedCollegesOP" element={<AffliatedCollegesOP />} />
+        <Route path="/AcademicsMain" element={<AcademicsMain />}>
+          <Route
+            path="ConstituentCollegesOP"
+            element={<ConstituentCollegesOP />}
+          />
+          <Route path="ProgramsofferedOP" element={<AcademicsOP />} />
+          <Route path="AdmissionsOP" element={<AdmissionsOP />} />
+          <Route
+            path="AffliatedCollegesOP"
+            element={<AffliatedCollegesOP />}
+          />
+        </Route>
         <Route path="/AboutJNTUGV" element={<AboutJNTUGV />} />
         <Route path="/Vision" element={<Vision />} />
         <Route path="/Mission" element={<Mission />} />
