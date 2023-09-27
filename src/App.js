@@ -55,8 +55,11 @@ import AcademicsOP from './components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from './components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP';
 import AdmissionsOP from './components/MainPage/Header/Academics/Admissions/AdmissionsOP';
 import AffliatedCollegesOP from './components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP';
+<<<<<<< HEAD
 import Administration from './components/MainPage/Header/Administration/Administration';
 >>>>>>> fe2b19f297d534b2e8cc91373be18ed59167ea0e
+=======
+>>>>>>> adfa5050700c4b7931bba79447d7c9b2c8b736f2
 
 function App() {
   return (
@@ -113,7 +116,6 @@ function App() {
       <Route path='/Vision' element={<Vision />}/>
       <Route path='/Mission' element={<Mission />}/>
       <Route path='/Vision' element={<Vision />}/>
-      <Route path='Administration.js' element={<Administration />}/>
       <Route path="/chancellor" element={<Chancellor />} /> {/* Add this route */}
       <Route path="/ViceChancellor" element={<ViceChancellor />} /> 
       <Route path="/Registrar" element={<Registrar />} /> 
