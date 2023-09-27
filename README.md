@@ -21,7 +21,7 @@ npm install
 npm start
 ```
 ## Live Website
-You can also access the live version of the JNTUGV website by visiting the following link: [Click Here](https://jntugv.netlify.app/)
+You can also access the live version of the JNTUGV website by visiting the following link: [Click Here](https://frontend-jntugv.vercel.app//)
 
 
 Feel free to explore the website, and if you encounter any issues, have suggestions, or would like to contribute to the development of the website, please don't hesitate to create issues or pull requests in this repository. We welcome your feedback and contributions to help us improve the JNTUGV website.
