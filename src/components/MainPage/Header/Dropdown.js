@@ -1,5 +1,5 @@
 import "./Dropdown.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import GroupsIcon from "@mui/icons-material/Groups";
 import SchoolIcon from "@mui/icons-material/School";
@@ -11,32 +11,35 @@ import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 
 const Dropdown = () => {
+  const navigate = useNavigate();
+  const eventHandler = () =>{
+    navigate('/');
+  }
   return (
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
-        <div class="dropbtn">
-          <HomeIcon />
-          HOME
+        <div class="dropbtn" onClick={eventHandler}>
+        <HomeIcon />Home
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn">
+        <div class="dropbtn" >
           <ApartmentIcon /> ABOUT US
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 1
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 2
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 3
@@ -49,26 +52,26 @@ const Dropdown = () => {
           <SchoolIcon /> ACADEMICS
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/programsoffered">
               Programs offered
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/AdmissionsOP">
               {" "}
               Admissions
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/ConstituentCollegesOP">
               Constituent Colleges
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               {" "}
@@ -82,24 +85,24 @@ const Dropdown = () => {
           <GroupsIcon /> ADMINISTRATION
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/chancellor" target="_self">
               CHANCELLOR
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/ViceChancellor" target="_self">
               VICE CHANCELLOR
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Registrar" target="_self">
               REGISTRAR
             </Link>
-          </button>
+          </button >
         </div>
       </div>
       <div class="dropdown">
@@ -108,43 +111,43 @@ const Dropdown = () => {
           DIRECTORATES
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/AcademicAudit" target="_self">
               Academic Audit
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/AcademicPlanning" target="_self">
               Academic Planning
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Admissions" target="_self">
               Admissions
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/AlumniRelations" target="_self">
               Alumni Relations
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Empowerment" target="_self">
               Empowerment of Women & Grievances
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Evaluation" target="_self">
               Evaluation
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link
               className="link-btn"
@@ -154,7 +157,7 @@ const Dropdown = () => {
               Faculty Development Cell
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link
               className="link-btn"
@@ -164,25 +167,25 @@ const Dropdown = () => {
               Foreign University Relations
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/IQAC" target="_self">
               IQAC
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Placements" target="_self">
               IIIT & Placements
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Research" target="_self">
               Research & Development
             </Link>
           </button>
-          <button>
+          <button > 
             {" "}
             <Link
               className="link-btn"
@@ -199,19 +202,19 @@ const Dropdown = () => {
           <DescriptionIcon /> EXAMINATIONS
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 1
             </Link>
-          </button>
-          <button>
+          </button >
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 2
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 3
@@ -226,19 +229,19 @@ const Dropdown = () => {
           JNTUGV UNITS
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 1
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 2
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 3
@@ -257,19 +260,19 @@ const Dropdown = () => {
           LOGIN
         </div>
         <div class="dropdown-content">
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 1
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 2
             </Link>
           </button>
-          <button>
+          <button >
             {" "}
             <Link className="link-btn" to="/Main">
               Link 3
