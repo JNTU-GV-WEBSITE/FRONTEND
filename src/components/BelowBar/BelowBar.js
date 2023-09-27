@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './BelowBar.css';
+import React, { useState, useEffect } from "react";
+import "./BelowBar.css";
 
 function BelowBar() {
   return (
@@ -25,20 +25,23 @@ function BelowBarComponent() {
   return (
     <nav className="BelowBar">
       <div className="BelowBar-content">
-        <div className="location">
-          India, Andhra Pradesh, Visakhapatnam.
-        </div>
+        <div className="location">India, Andhra Pradesh, Visakhapatnam.</div>
         <div className="datetime">
-          {currentTime.toLocaleString('en-IN', {
-            hour: 'numeric',
-            minute: 'numeric',
-            second: 'numeric',
+          {currentTime.toLocaleString("en-IN", {
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
             hour12: true,
           })}
         </div>
       </div>
       <div className="BelowBar-links">
-        <a href="https://github.com/JNTU-GV-WEBSITE/FRONTEND" className="nav-link">GitHub</a>
+        <a
+          href="https://github.com/JNTU-GV-WEBSITE/FRONTEND"
+          className="nav-link"
+        >
+          GitHub
+        </a>
       </div>
     </nav>
   );

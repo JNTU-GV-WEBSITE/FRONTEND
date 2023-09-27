@@ -1,11 +1,11 @@
-import { Link, useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom";
 
-const AcademicsMain = () =>{
-const location = useLocation;
+const AcademicsMain = () => {
+  const location = useLocation;
 
-    return(
-        <div>
-            <div className="allLeftMenu">
+  return (
+    <div>
+      <div className="allLeftMenu">
         <Link
           to="/programsoffered"
           className={`menuButton ${
@@ -39,8 +39,8 @@ const location = useLocation;
           Affiliated Colleges
         </Link>
       </div>
-        </div>
-    )
-}
+    </div>
+  );
+};
 
 export default AcademicsMain;

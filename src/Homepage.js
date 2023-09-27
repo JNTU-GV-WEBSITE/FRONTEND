@@ -5,7 +5,7 @@ import Noticeboard from "./components/MainPage/NoticeBoard/Noticeboard";
 import Map from "./components/MainPage/Map/Map";
 import UpdatePanel from "./components/UpdatePanel/UpdatePanel";
 import Footer from "./components/MainPage/Footer/Footer";
-import './Homepage.css'
+import "./Homepage.css";
 function Homepage() {
   return (
     <div>

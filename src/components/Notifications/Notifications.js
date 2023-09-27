@@ -1,20 +1,24 @@
-import React, { useRef, useEffect, useState } from 'react';
-import './Notifications.css'; // Import your CSS file
+import React, { useRef, useEffect, useState } from "react";
+import "./Notifications.css"; // Import your CSS file
 
 const Notifications = () => {
   const jsonData = [
-    { title: 'Example Link 1444444444444444444444444444444444444444444444444444444444444444444', link: 'https://example.com/link1' },
-    { title: 'Example Link 2', link: 'https://example.com/link2' },
-    { title: 'Example Link 3', link: 'https://example.com/link3' },
-    { title: 'Example Link 1', link: 'https://example.com/link1' },
-    { title: 'Example Link 2', link: 'https://example.com/link2' },
-    { title: 'Example Link 3', link: 'https://example.com/link3' },
-    { title: 'Example Link 1', link: 'https://example.com/link1' },
-    { title: 'Example Link 2', link: 'https://example.com/link2' },
-    { title: 'Example Link 3', link: 'https://example.com/link3' },
-    { title: 'Example Link 1', link: 'https://example.com/link1' },
-    { title: 'Example Link 2', link: 'https://example.com/link2' },
-    { title: 'Example Link 3', link: 'https://example.com/link3' },
+    {
+      title:
+        "Example Link 1444444444444444444444444444444444444444444444444444444444444444444",
+      link: "https://example.com/link1",
+    },
+    { title: "Example Link 2", link: "https://example.com/link2" },
+    { title: "Example Link 3", link: "https://example.com/link3" },
+    { title: "Example Link 1", link: "https://example.com/link1" },
+    { title: "Example Link 2", link: "https://example.com/link2" },
+    { title: "Example Link 3", link: "https://example.com/link3" },
+    { title: "Example Link 1", link: "https://example.com/link1" },
+    { title: "Example Link 2", link: "https://example.com/link2" },
+    { title: "Example Link 3", link: "https://example.com/link3" },
+    { title: "Example Link 1", link: "https://example.com/link1" },
+    { title: "Example Link 2", link: "https://example.com/link2" },
+    { title: "Example Link 3", link: "https://example.com/link3" },
   ];
 
   const listRef = useRef(null);

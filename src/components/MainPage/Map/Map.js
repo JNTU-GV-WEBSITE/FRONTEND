@@ -3,11 +3,9 @@ import "./Map.css";
 const Map = () => {
   return (
     <div className="videoTab">
-      <div
-        className="videoTabCon1">
-          <p className="videoText"> JNTU-GV CAMPUS</p>
+      <div className="videoTabCon1">
+        <p className="videoText"> JNTU-GV CAMPUS</p>
         <iframe
- 
           width="100%"
           height="100%"
           src="https://www.youtube-nocookie.com/embed/fOEDkvZzftM?si=Zr8zXVVNRL-AarGh"
@@ -17,9 +15,8 @@ const Map = () => {
           allowfullscreen
         ></iframe>
       </div>
-      <div
-        className="videoTabCon2">
-          <p className="videoText"> HOW TO REACH</p>
+      <div className="videoTabCon2">
+        <p className="videoText"> HOW TO REACH</p>
         <iframe
           title="Map"
           width="100%"
@@ -29,9 +26,8 @@ const Map = () => {
           loading="lazy"
         ></iframe>
       </div>
-      <div
-        className="videoTabCon3">
-          <p className="videoText"> JNTU-GV CAMPUS</p>
+      <div className="videoTabCon3">
+        <p className="videoText"> JNTU-GV CAMPUS</p>
         <iframe
           width="100%"
           height="100%"
