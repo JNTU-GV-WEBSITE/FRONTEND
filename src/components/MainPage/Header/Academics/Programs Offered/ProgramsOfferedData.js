@@ -26,7 +26,6 @@ export const columns = [
   },
 ];
 
-
 export const rows = [
   {
     id: 1,
@@ -125,5 +124,5 @@ export const rows = [
     department: "Data Sciences",
     CousreType: "Post Graduate (PG)",
     Duration: "3 Years",
-  }
+  },
 ];
