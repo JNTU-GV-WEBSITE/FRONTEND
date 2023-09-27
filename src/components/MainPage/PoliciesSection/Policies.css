@@ -1,8 +1,8 @@
 
-.project{
+.Policies{
     width: 30%;
 }
-.links h4{
+.Policies-Heading h4{
     color:#f95c39;
     text-transform: uppercase;
     display: inline-block;
@@ -13,7 +13,7 @@
     font-weight: 500;
     line-height: 1.2    ;
 }
-.project ul li{
+.Policies  li{
     list-style: none;
     padding: 7px 0;
     border-bottom: 1px solid #e1e1e1;
@@ -21,16 +21,14 @@
     display: flex;
     justify-content: space-between;
 }
-.projects ul,li,a{
+.Policies a{
     color: #2a5dc8;
     text-transform: uppercase;
     font-weight: 700;
-}
-.hover{
     text-decoration: none;
     background-color: transparent;
 }
-.project ul li a .fa{
+.Policies  a .fa{
     margin-right: 10px;
     margin-bottom: 2px;
     
@@ -40,14 +38,14 @@
     transition: color 0.3s ease-in-out;
 }
 
- ul li:hover .hover {
+.Policies li:hover a {
     color:#f95c39;
  }
  @media screen and (max-width:400px) {
-    .project{
+    .Policies{
         width: 90%;
     }
-    .projects ul,li,a{
+    .Policies a{
         color: #2a5dc8;
         text-transform: uppercase;
         font-weight: 700;
