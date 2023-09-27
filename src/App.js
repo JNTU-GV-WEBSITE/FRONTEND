@@ -46,7 +46,6 @@ function App() {
       <Route path='/Vision' element={<Vision />}/>
       <Route path='/Mission' element={<Mission />}/>
       <Route path='/Vision' element={<Vision />}/>
-      <Route path='Administration.js' element={<Administration />}/>
       <Route path="/chancellor" element={<Chancellor />} /> {/* Add this route */}
       <Route path="/ViceChancellor" element={<ViceChancellor />} /> 
       <Route path="/Registrar" element={<Registrar />} /> 
