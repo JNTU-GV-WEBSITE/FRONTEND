@@ -13,7 +13,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 const Dropdown = () => {
   const navigate = useNavigate();
   
-  const eventHandler = () => {
+  const contactHandler = () => {
     navigate('/ContactUs');
   }
   return (
@@ -252,7 +252,7 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div className="dropbtn" onClick={eventHandler}>
+        <div className="dropbtn" onClick={contactHandler}>
         <DraftsIcon /> CONTACTUS 
         </div>
       </div>
