@@ -26,20 +26,20 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 1
+            <Link className="link-btn" to="/AboutJNTUGV">
+              About JNTU-GV
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 2
+            <Link className="link-btn" to="/Vision">
+              Vision
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 3
+            <Link className="link-btn" to="/Mission">
+              Mission
             </Link>
           </button>
         </div>
@@ -85,19 +85,19 @@ const Dropdown = () => {
           <button>
             {" "}
             <Link className="link-btn" to="/chancellor" target="_self">
-              CHANCELLOR
+              chancellor
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/ViceChancellor" target="_self">
-              VICE CHANCELLOR
+              Vice Chancellor
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/Registrar" target="_self">
-              REGISTRAR
+              Registrar
             </Link>
           </button>
         </div>
