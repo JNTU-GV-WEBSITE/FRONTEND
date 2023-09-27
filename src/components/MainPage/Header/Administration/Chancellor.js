@@ -1,4 +1,6 @@
 import React from 'react';
+import chancellor from '../../../../assets/AdminDirectoratesImages/chancellor.jpeg';
+
 import './AdminandDirectorates.css'; // Import your CSS file here
 import { Link, useLocation } from 'react-router-dom';
 
@@ -37,20 +39,20 @@ function Chancellor() {
           <center>
           <div className="profileImage">
             
-          <img className='ADimg' src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/apgoverner.jpeg" alt="Profile" />
+          <img src = {chancellor} alt="Profile" />
         
           </div>
           <div className="profileName">
-            <h3 className="ADh3">Shri Justice(Retd.) Syed Abdul Nazeer</h3>
+            <h3>Shri Justice(Retd.) Syed Abdul Nazeer</h3>
           </div>
           <div className="profileDesignation">
-            <h4 className="ADh4">Hon’ble Governor of Andhra Pradesh</h4>
+            <h4 className="regularStyleH4">Hon’ble Governor of Andhra Pradesh</h4>
           </div>
           </center>
           <hr />
           {/* Profile description */}
-          <p className='ADp'>Syed Abdul Nazeer (born 5 January 1958) is a former judge of the Supreme Court of India, who is currently serving as the 24th Governor of Andhra Pradesh. He is also former judge of Karnataka High Court. He was appointed as the Governor of Andhra Pradesh on 12 February 2023. </p>
-          <p className='ADp'>Syed Abdul Nazeer is a former judge of the Supreme Court of India, who is currently serving as the 3rd Governor of Andhra Pradesh.</p>
+          <p>Syed Abdul Nazeer (born 5 January 1958) is a former judge of the Supreme Court of India, who is currently serving as the 24th Governor of Andhra Pradesh. He is also former judge of Karnataka High Court. He was appointed as the Governor of Andhra Pradesh on 12 February 2023. </p>
+          <p>Syed Abdul Nazeer is a former judge of the Supreme Court of India, who is currently serving as the 3rd Governor of Andhra Pradesh.</p>
         </div>
       </div>
     </div>
