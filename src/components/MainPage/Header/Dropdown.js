@@ -1,5 +1,5 @@
 import "./Dropdown.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from 'react-router-dom';
 import HomeIcon from "@mui/icons-material/Home";
 import GroupsIcon from "@mui/icons-material/Groups";
 import SchoolIcon from "@mui/icons-material/School";
@@ -11,6 +11,11 @@ import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 
 const Dropdown = () => {
+  const navigate = useNavigate();
+  
+  const contactHandler = () => {
+    navigate('/ContactUs');
+  }
   return (
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
@@ -247,8 +252,8 @@ const Dropdown = () => {
         </div>
       </div>
       <div class="dropdown">
-        <div class="dropbtn">
-          <DraftsIcon /> CONTACTUS
+        <div className="dropbtn" onClick={contactHandler}>
+        <DraftsIcon /> CONTACTUS 
         </div>
       </div>
       <div class="dropdown">
