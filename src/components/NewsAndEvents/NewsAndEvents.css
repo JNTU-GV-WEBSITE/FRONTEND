@@ -6,12 +6,12 @@
     color: #0ead56;
 }
 
-.m1 a{
+.marquee-content a{
     text-decoration: none;
     color: #0ead56;
 }
 
-.m1 a:hover{
+.marquee-content a:hover{
     text-decoration: underline;
 }
 

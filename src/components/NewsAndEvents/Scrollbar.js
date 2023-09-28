@@ -1,7 +1,10 @@
+/* eslint-disable no-restricted-syntax */
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useRef } from 'react';
-import "./NewsAndEvents.css"
+import React, {useRef} from 'react';
+import "./NewsAndEvents.css";
+
 // import $ from 'jquery';
+// { useRef }
 // import { MarqueeComponent } from 'MarqueeComponent';
 
 const arr = [
@@ -27,19 +30,19 @@ function Scrollbar()
             marqueeRef.current.start();
           }
     };
-
+// {/* ref={marqueeRef} height="500px" width="200px" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  */}
     //The Scrollbar component
     return (
         <div className="d1">
             <center><h1 className="h1">NEWS AND EVENTS</h1></center>
-            <marquee direction="up" ref={marqueeRef} scrollamount={2} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="m1">
-                
-                {arr.map((item, i) => (
-                    <div>
-                        <a href={item.hypertext}><div>{item.text}<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img><hr /></div></a>
-                    </div>
-                ))}
-                
+            <marquee direction="up" className="maquee-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <div className='marquee-content-box'>
+                        {arr.map((item, i) => (
+                            <div className='marquee-content'>
+                                <a href={item.hypertext}><div>{item.text}<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img><hr /></div></a>
+                            </div>
+                        ))}
+                </div>
             </marquee>
             <button className="btn w-100">Show All...</button>
         </div>
