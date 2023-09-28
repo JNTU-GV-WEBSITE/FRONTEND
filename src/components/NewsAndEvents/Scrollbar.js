@@ -3,10 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useRef} from 'react';
 import "./NewsAndEvents.css";
 
-// import $ from 'jquery';
-// { useRef }
-// import { MarqueeComponent } from 'MarqueeComponent';
-
 const arr = [
     { hypertext: "https://exams.andhrauniversity.edu.in/FeePay/phd-convoc/guess-pass-req.php", text: "04/09/2023 :: GUEST PASS Registration for Andhra University 87-90 Convacations held on 09-09-2023 || Only one Person allowed from Family " },
     { hypertext: "https://www.andhrauniversity.edu.in/img/nptel.jpg", text: "16/08/2023 :: Andhra University has been awarded as \"Best New LC\" among the top 100 Local Chapters " },
@@ -30,19 +26,15 @@ function Scrollbar()
             marqueeRef.current.start();
           }
     };
-// {/* ref={marqueeRef} height="500px" width="200px" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  */}
-    //The Scrollbar component
     return (
         <div className="d1">
             <center><h1 className="h1">NEWS AND EVENTS</h1></center>
-            <marquee direction="up" className="maquee-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <div className='marquee-content-box'>
+            <marquee ref={marqueeRef} direction="up" className="marquee-container" scrollamount={2} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         {arr.map((item, i) => (
                             <div className='marquee-content'>
                                 <a href={item.hypertext}><div>{item.text}<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img><hr /></div></a>
                             </div>
                         ))}
-                </div>
             </marquee>
             <button className="btn w-100">Show All...</button>
         </div>

@@ -6,6 +6,10 @@
     color: #0ead56;
 }
 
+.marquee-container{
+    height: 49vh;
+}
+
 .marquee-content a{
     text-decoration: none;
     color: #0ead56;
