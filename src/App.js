@@ -44,10 +44,7 @@ function App() {
           />
           <Route path="ProgramsofferedOP" element={<AcademicsOP />} />
           <Route path="AdmissionsOP" element={<AdmissionsOP />} />
-          <Route
-            path="AffliatedCollegesOP"
-            element={<AffliatedCollegesOP />}
-          />
+          <Route path="AffliatedCollegesOP" element={<AffliatedCollegesOP />} />
         </Route>
         <Route path="/chancellor" element={<Chancellor />} />{" "}
         {/* Add this route */}

@@ -1,5 +1,5 @@
 import "./Dropdown.css";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import GroupsIcon from "@mui/icons-material/Groups";
 import SchoolIcon from "@mui/icons-material/School";
@@ -12,10 +12,10 @@ import DescriptionIcon from "@mui/icons-material/Description";
 
 const Dropdown = () => {
   const navigate = useNavigate();
-  
+
   const contactHandler = () => {
-    navigate('/ContactUs');
-  }
+    navigate("/ContactUs");
+  };
   return (
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
@@ -69,13 +69,19 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AcademicsMain/ConstituentCollegesOP">
+            <Link
+              className="link-btn"
+              to="/AcademicsMain/ConstituentCollegesOP"
+            >
               Constituent Colleges
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AcademicsMain/ConstituentCollegesOP">
+            <Link
+              className="link-btn"
+              to="/AcademicsMain/ConstituentCollegesOP"
+            >
               {" "}
               Affiliated Colleges
             </Link>
@@ -233,27 +239,39 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 1
+            <Link className="link-btn" to="/JntuGvUnits/DMC" target="blank">
+              DMC
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 2
+            <Link className="link-btn" to="/JntuGvUnits/IQACUnits" target="blank">
+              IQAC{" "}
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 3
+            <Link className="link-btn" to="/JntuGvUnits/Sports" target="blank">
+              Sports{" "}
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/JntuGvUnits/LibraryUnit" target="blank">
+              Library{" "}
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/JntuGvUnits/IncubationCenter" target="blank">
+              Incubation Center{" "}
             </Link>
           </button>
         </div>
       </div>
       <div class="dropdown">
         <div className="dropbtn" onClick={contactHandler}>
-        <DraftsIcon /> CONTACTUS 
+          <DraftsIcon /> CONTACTUS
         </div>
       </div>
       <div class="dropdown">
