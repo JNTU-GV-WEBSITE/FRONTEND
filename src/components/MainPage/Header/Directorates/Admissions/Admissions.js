@@ -1,113 +1,10 @@
 import React from "react";
-import "../Administration/AdminandDirectorates.css"; // Import your CSS file here
-import { Link, useLocation } from "react-router-dom";
-
-function Research() {
-  const location = useLocation();
+import "../../Administration/AdminandDirectorates.css"; // Import your CSS file here
+function Admissions() {
   return (
     <div className="mainContainer">
-      <div className="allLeftMenu">
-        <Link
-          to="/AcademicAudit"
-          className={`menuButton ${
-            location.pathname === "/AcademicAudit" ? "active" : ""
-          }`}
-        >
-          Director of Academic Audit
-        </Link>
-        <Link
-          to="/AcademicPlanning"
-          className={`menuButton ${
-            location.pathname === "/AcademicPlanning" ? "active" : ""
-          }`}
-        >
-          Director of Academic Planning
-        </Link>
-        <Link
-          to="/Admissions"
-          className={`menuButton ${
-            location.pathname === "/Admissions" ? "active" : ""
-          }`}
-        >
-          Director of Admissions
-        </Link>
-        <Link
-          to="/AlumniRelations"
-          className={`menuButton ${
-            location.pathname === "/AlumniRelations" ? "active" : ""
-          }`}
-        >
-          Director of Alumni Relations
-        </Link>
-        <Link
-          to="/Empowerment"
-          className={`menuButton ${
-            location.pathname === "/Empowerment" ? "active" : ""
-          }`}
-        >
-          Empowerment of Women & Grievances
-        </Link>
-        <Link
-          to="/Evaluation"
-          className={`menuButton ${
-            location.pathname === "/Evaluation" ? "active" : ""
-          }`}
-        >
-          Evaluation
-        </Link>
-        <Link
-          to="/FacultyDevelopmentCell"
-          className={`menuButton ${
-            location.pathname === "/FacultyDevelopmentCell" ? "active" : ""
-          }`}
-        >
-          Faculty Development Cell
-        </Link>
-        <Link
-          to="/ForeignUniversityRelations"
-          className={`menuButton ${
-            location.pathname === "/ForeignUniversityRelations" ? "active" : ""
-          }`}
-        >
-          Foreign University Relations
-        </Link>
-        <Link
-          to="/IQAC"
-          className={`menuButton ${
-            location.pathname === "/IQAC" ? "active" : ""
-          }`}
-        >
-          Director of IQAC
-        </Link>
-        <Link
-          to="/Placements"
-          className={`menuButton ${
-            location.pathname === "/Placements" ? "active" : ""
-          }`}
-        >
-          Director of IIIT & Placements
-        </Link>
-        <Link
-          to="/Research"
-          className={`menuButton ${
-            location.pathname === "/Research" ? "active" : ""
-          }`}
-        >
-          Director of Research & Development
-        </Link>
-        <Link
-          to="/SportsAdministration"
-          className={`menuButton ${
-            location.pathname === "/SportsAdministration" ? "active" : ""
-          }`}
-        >
-          Director of University Games & Sports Administration
-        </Link>
-      </div>
       <div className="allRightContent">
-        <div className="allRightContentHeading">
-          Director of Research & Development
-        </div>
+        <div className="allRightContentHeading">Director of Admissions</div>
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -124,7 +21,7 @@ function Research() {
           <div className="profileName">
             <h3>Dr. K. Babulu</h3>
             <h3>
-              <b>Director of Research & Development</b>
+              <b>Director of Admissions</b>
             </h3>
           </div>
           <div className="profileDesignation">
@@ -273,4 +170,4 @@ function Research() {
   );
 }
 
-export default Research;
+export default Admissions;

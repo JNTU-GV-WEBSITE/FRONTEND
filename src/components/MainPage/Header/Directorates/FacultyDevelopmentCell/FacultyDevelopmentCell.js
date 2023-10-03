@@ -1,61 +1,36 @@
 import React from "react";
-import registrar from "../../../../assets/AdminDirectoratesImages/registrar.jpeg";
-import "./AdminandDirectorates.css"; // Import your CSS file here
-import { Link, useLocation } from "react-router-dom";
-
-function Registrar() {
-  const location = useLocation();
+import "../../Administration/AdminandDirectorates.css"; // Import your CSS file here
+function FacultyDevelopmentCell() {
   return (
     <div className="mainContainer">
-      <div className="allLeftMenu">
-        {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
-        <Link
-          to="/Chancellor"
-          className={`menuButton ${
-            location.pathname === "/Chancellor" ? "active" : ""
-          }`}
-        >
-          Chancellor
-        </Link>
-        <Link
-          to="/ViceChancellor"
-          className={`menuButton ${
-            location.pathname === "/Vice Chancellor" ? "active" : ""
-          }`}
-        >
-          Vice Chancellor
-        </Link>
-        <Link
-          to="/Registrar"
-          className={`menuButton ${
-            location.pathname === "/Registrar" ? "active" : ""
-          }`}
-        >
-          Registrar
-        </Link>
-      </div>
       <div className="allRightContent">
-        <div className="allRightContentHeading">Registrar</div>
+        <div className="allRightContentHeading">
+          Director of Faculty Development Cell
+        </div>
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
             <div className="profileImage">
-              <img src={registrar} alt="Profile" />
+              <img
+                src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/registrar.jpeg"
+                alt="Profile"
+              />
             </div>
             <div className="profileName">
-              <h3>Prof.Dr.G.Jaya Suma</h3>
-              <h3>Registrar</h3>
+              <h3>Dr.G.Jaya Suma</h3>
+              <h3>Director of Faculty Development Cell</h3>
             </div>
             <div className="profileDesignation">
               <h4 className="regularStyleH4">
-                Professor of Dept.of information Technology
+                Professor of Dept. of Information Technology
               </h4>
             </div>
           </center>
           <hr />
           {/* Profile description */}
-          <p>Email: registrar@jntugv.edu.in</p>
+          <p>Email: dfdp@jntugv.edu.in</p>
+          <br></br>
 
           <p>
             Dr. G. Jaya Suma, present working as a Professor in Department of
@@ -139,4 +114,4 @@ function Registrar() {
   );
 }
 
-export default Registrar;
+export default FacultyDevelopmentCell;
