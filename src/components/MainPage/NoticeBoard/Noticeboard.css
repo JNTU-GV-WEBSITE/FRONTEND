@@ -79,12 +79,13 @@ p {
 }
 @media (max-width:500px) {
   .Mainbox{
-    
+
     margin-top:850px;
      display:inline;
   }
   .Subbox {
     width: 100%;
+    
   }
 
 }
