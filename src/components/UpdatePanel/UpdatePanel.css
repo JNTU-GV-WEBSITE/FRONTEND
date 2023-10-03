@@ -75,10 +75,17 @@
       transition: width 0.2s ease;
   }
   
-  @media(max-width : 810px)
+  @media(max-width : 500px)
   {
     .updateComponent{
-      max-width: 75%;
+      width:100%;
+    }
+    .updatesContainer{
+      width:100%;
+    }
+    .updateDescription{
+      width:100%;
+      
     }
   }
   
