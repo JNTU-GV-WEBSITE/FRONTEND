@@ -1,4 +1,3 @@
-
 import { Link, Outlet, useLocation } from "react-router-dom";
 import './Academics.css'
 
@@ -8,7 +7,6 @@ const AcademicsMain = () => {
   return (
     <div>
       <div className="allLeftMenuAOP">
-
         <Link
           to="/AcademicsMain/ProgramsofferedOP"
           className={`menubutton ${
@@ -44,7 +42,6 @@ const AcademicsMain = () => {
         
       </div>
       <Outlet />
-
     </div>
   );
 };

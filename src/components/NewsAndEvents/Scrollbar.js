@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import $ from 'jquery';
 import  'jquery.marquee';
 import "./NewsAndEvents.css";
+import CampaignIcon from '@mui/icons-material/Campaign';
 
 const arr = [
     { hypertext: "https://exams.andhrauniversity.edu.in/FeePay/phd-convoc/guess-pass-req.php", text: "04/09/2023 :: GUEST PASS Registration for Andhra University 87-90 Convacations held on 09-09-2023 || Only one Person allowed from Family " },
@@ -31,7 +32,7 @@ function Scrollbar()
     //The Scrollbar component
     return (
         <div className="d1">
-            <center><h1 className="h1">NEWS AND EVENTS</h1></center>
+            <center><h1 className="h1"><CampaignIcon sx={{fontSize:'45px',transform:'scaleX(-1)'}}></CampaignIcon> NEWS AND EVENTS <CampaignIcon sx={{fontSize:'45px'}}></CampaignIcon></h1></center>
             <div className="m1" ref={el}>
                 
                 {arr.map((item, i) => (

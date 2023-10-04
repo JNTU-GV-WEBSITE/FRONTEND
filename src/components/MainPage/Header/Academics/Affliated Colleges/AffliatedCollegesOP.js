@@ -1,5 +1,7 @@
-const AffliatedCollegesOP = () => {
-  return <div></div>;
-};
+const AffliatedCollegesOP = () =>{
+    return(
+        <div></div>
+    )
+}
 
 export default AffliatedCollegesOP;

@@ -4,9 +4,6 @@ import Homepage from "./Homepage";
 import BelowBar from "./components/BelowBar/BelowBar";
 import Header from "./components/MainPage/Header/Header";
 import ReadMore from "./components/MainPage/NoticeBoard/ReadMore";
-import AboutJNTUGV from "./components/MainPage/Header/Aboutus/AboutJNTUGV";
-import Vision from "./components/MainPage/Header/Aboutus/Vision";
-import Mission from "./components/MainPage/Header/Aboutus/Mission";
 import Chancellor from "./components/MainPage/Header/Administration/Chancellor";
 import ViceChancellor from "./components/MainPage/Header/Administration/ViceChancellor";
 import Registrar from "./components/MainPage/Header/Administration/Registrar";
@@ -27,6 +24,7 @@ import AcademicsOP from "./components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from "./components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP";
 import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/AdmissionsOP";
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
+import ContactUs from "./components/MainPage/Header/ContactUs";
 import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
 
 function App() {
@@ -51,10 +49,6 @@ function App() {
             element={<AffliatedCollegesOP />}
           />
         </Route>
-        <Route path="/AboutJNTUGV" element={<AboutJNTUGV />} />
-        <Route path="/Vision" element={<Vision />} />
-        <Route path="/Mission" element={<Mission />} />
-        <Route path="/Vision" element={<Vision />} />
         <Route path="/chancellor" element={<Chancellor />} />{" "}
         {/* Add this route */}
         <Route path="/ViceChancellor" element={<ViceChancellor />} />
@@ -82,6 +76,7 @@ function App() {
           path="/SportsAdministration"
           element={<SportsAdministration />}
         />
+        <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
     </div>
   );
