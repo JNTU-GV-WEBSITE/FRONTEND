@@ -1,7 +1,9 @@
-/* eslint-disable no-restricted-syntax */
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, {useRef} from 'react';
+import React, { useEffect, useRef } from 'react';
+import $ from 'jquery';
+import  'jquery.marquee';
 import "./NewsAndEvents.css";
+import CampaignIcon from '@mui/icons-material/Campaign';
 
 const arr = [
     { hypertext: "https://exams.andhrauniversity.edu.in/FeePay/phd-convoc/guess-pass-req.php", text: "04/09/2023 :: GUEST PASS Registration for Andhra University 87-90 Convacations held on 09-09-2023 || Only one Person allowed from Family " },
@@ -12,30 +14,34 @@ const arr = [
 
 function Scrollbar()
 {
-    //functions used for handling the mouse events onMouseEnter and onMouseLeave
-    const marqueeRef = useRef(null);
 
-    const handleMouseEnter = () => {
-        if (marqueeRef.current) {
-            marqueeRef.current.stop();
-          }
-    };
+    const el = useRef();
 
-    const handleMouseLeave = () => {
-        if (marqueeRef.current) {
-            marqueeRef.current.start();
-          }
-    };
+  useEffect(function() {
+    const $el = $(el.current);
+
+        $el.marquee({
+        duration: 10000,
+        gap: 50,
+        delayBeforeStart: 0,
+        direction: 'up',
+        pauseOnHover: true
+        });
+    });
+    
+    //The Scrollbar component
     return (
         <div className="d1">
-            <center><h1 className="h1">NEWS AND EVENTS</h1></center>
-            <marquee ref={marqueeRef} direction="up" className="marquee-container" scrollamount={2} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        {arr.map((item, i) => (
-                            <div className='marquee-content'>
-                                <a href={item.hypertext}><div>{item.text}<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img><hr /></div></a>
-                            </div>
-                        ))}
-            </marquee>
+            <center><h1 className="h1"><CampaignIcon sx={{fontSize:'45px',transform:'scaleX(-1)'}}></CampaignIcon> NEWS AND EVENTS <CampaignIcon sx={{fontSize:'45px'}}></CampaignIcon></h1></center>
+            <div className="m1" ref={el}>
+                
+                {arr.map((item, i) => (
+                    <div>
+                        <a href={item.hypertext}><div>{item.text}<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img><hr /></div></a>
+                    </div>
+                ))}
+                
+            </div>
             <button className="btn w-100">Show All...</button>
         </div>
     );
