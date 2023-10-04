@@ -18,11 +18,21 @@ const Noticeboard = () => {
             <h11>Posted date:13-05-2023</h11>
           </div>
           <p>
-          The beginning of a year is an eventful time for schools and students. It is also the time when most schools organize the most important event of the year, the annual day. Celebrating the school's annual day provides the school with an opportunity to showcase its achievements. This function also gives students an opportunity to showcase their various talents and interact with their teachers in a more informal environment.
-          </p><br></br><br></br>
+            The beginning of a year is an eventful time for schools and
+            students. It is also the time when most schools organize the most
+            important event of the year, the annual day. Celebrating the
+            school's annual day provides the school with an opportunity to
+            showcase its achievements. This function also gives students an
+            opportunity to showcase their various talents and interact with
+            their teachers in a more informal environment.
+          </p>
+          <br></br>
+          <br></br>
           <div>
             <button className="read-more-button">
-                <Link className="Linker" to="/readmore">Read More</Link>
+              <Link className="Linker" to="/readmore">
+                Read More
+              </Link>
             </button>
           </div>
         </div>
@@ -35,13 +45,19 @@ const Noticeboard = () => {
             <h11>Posted date:13-05-2023</h11>
           </div>
           <p>
-          The 73rd Republic Day is being celebrated on January 26 following the COVID-19 safety rules. Universitie will celebrate the Republic Day at their institutions following the mandatory Covid-19 SOPs. The event will be held in both physical and virtual mode as per the direction of the institutions.
-          </p><br></br>
+            The 73rd Republic Day is being celebrated on January 26 following
+            the COVID-19 safety rules. Universitie will celebrate the Republic
+            Day at their institutions following the mandatory Covid-19 SOPs. The
+            event will be held in both physical and virtual mode as per the
+            direction of the institutions.
+          </p>
+          <br></br>
           <div>
             <button className="read-more-button">
-                <Link className="Linker" to={"/readmore"}>Read More</Link>
+              <Link className="Linker" to={"/readmore"}>
+                Read More
+              </Link>
             </button>
-            
           </div>
         </div>
         <div className="Subbox">
@@ -53,11 +69,19 @@ const Noticeboard = () => {
             <h11>Posted date:13-05-2023</h11>
           </div>
           <p>
-          Educational institutions including colleges and universities across the world will also celebrate International Women's Day today. The colleges and universities organise public speeches, rallies, exhibitions, workshops and seminars on themes and concepts, debates, quiz competitions and lectures to mark the day.
-          </p><br></br><br></br>
+            Educational institutions including colleges and universities across
+            the world will also celebrate International Women's Day today. The
+            colleges and universities organise public speeches, rallies,
+            exhibitions, workshops and seminars on themes and concepts, debates,
+            quiz competitions and lectures to mark the day.
+          </p>
+          <br></br>
+          <br></br>
           <div>
             <button className="read-more-button">
-                <Link className="Linker" to={"/readmore"}>Read More</Link>
+              <Link className="Linker" to={"/readmore"}>
+                Read More
+              </Link>
             </button>
           </div>
         </div>
