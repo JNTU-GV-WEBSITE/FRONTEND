@@ -1077,7 +1077,7 @@ export const Data = [
       isLink : true,
       link : null
     },
-  ]
+    {
     date: "23",
     month: "Sep",
     year: "2023",
@@ -1101,7 +1101,7 @@ export const Data = [
     date: "23",
     month: "Sep",
     year: "2023",
-    type: "conference",
+    type: "tender",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
     link: null,
