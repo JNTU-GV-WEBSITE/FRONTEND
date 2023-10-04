@@ -6,16 +6,12 @@
     color: #0ead56;
 }
 
-.marquee-container{
-    height: 49vh;
-}
-
-.marquee-content a{
+.m1 a{
     text-decoration: none;
     color: #0ead56;
 }
 
-.marquee-content a:hover{
+.m1 a:hover{
     text-decoration: underline;
 }
 
@@ -28,3 +24,11 @@
     background-color: #0ead56;
     color: azure;
 }
+
+.m1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+  }
+  
