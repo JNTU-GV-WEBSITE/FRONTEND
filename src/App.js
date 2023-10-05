@@ -26,6 +26,16 @@ import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/Admi
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
 import ContactUs from "./components/MainPage/Header/ContactUs";
 import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
+import ExaminationMain from "./components/MainPage/Header/Examinations/ExaminationMain";
+import EvaluationExam from "./components/MainPage/Header/Examinations/EvaluationExam";
+import Controller from "./components/MainPage/Header/Examinations/Controller";
+import ControllerSDC from "./components/MainPage/Header/Examinations/ControllerSDC";
+import Controller1 from './components/MainPage/Header/Examinations/Controller1';
+import Controller2 from './components/MainPage/Header/Examinations/Controller2';
+import Controller3 from './components/MainPage/Header/Examinations/Controller3';
+import ControllerPG from './components/MainPage/Header/Examinations/ControllerPG';
+import ExamResults from './components/MainPage/Header/Examinations/ExamResults';
+
 
 function App() {
   return (
@@ -73,6 +83,17 @@ function App() {
           path="/SportsAdministration"
           element={<SportsAdministration />}
         />
+        
+        <Route path="/ExaminationMain" element={<ExaminationMain />}>
+          <Route path="EvaluationExam" element={<EvaluationExam />} />
+          <Route path="Controller" element={<Controller />} />
+          <Route path="ControllerSDC" element={<ControllerSDC />} />
+          <Route path="Controller1" element={<Controller1 />}/>
+          <Route path="Controller2" element={<Controller2 />} />
+          <Route path="Controller3" element={<Controller3 />} />
+          <Route path="ControllerPG" element={<ControllerPG />}/>
+          <Route path="ExamResults" element={<ExamResults />} />
+        </Route>
         <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
     </div>
