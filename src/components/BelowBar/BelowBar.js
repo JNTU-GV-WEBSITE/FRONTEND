@@ -36,14 +36,28 @@ function BelowBar() {
           {" "}
           <FaInstagram />
         </a>
-        <a href="https://www.youtube.com/@JNTUGV" className="Below-Social-links">
+        <a
+          href="https://www.youtube.com/@JNTUGV"
+          className="Below-Social-links"
+        >
           <FaYoutube />
         </a>
       </div>
-      <a href="/#" className="Below-Social-links">
-        {" "}
-        Students Grievance
-      </a>
+      <div className="belowbar-seconddiv">
+        {/* <a
+          href="https://mail.google.com/a/jntugv.edu.in"
+          className="Below-Social-links"
+        >
+          Login
+        </a> */}
+        <a
+          href="https://mail.google.com/a/jntugv.edu.in"
+          className="Below-Social-links"
+        >
+          {" "}
+          Students Grievance
+        </a>
+      </div>
     </div>
   );
 }

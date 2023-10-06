@@ -5,7 +5,6 @@ import GroupsIcon from "@mui/icons-material/Groups";
 import SchoolIcon from "@mui/icons-material/School";
 import PersonIcon from "@mui/icons-material/Person";
 import DraftsIcon from "@mui/icons-material/Drafts";
-import LoginIcon from "@mui/icons-material/Login";
 import GridViewRoundedIcon from "@mui/icons-material/GridViewRounded";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
