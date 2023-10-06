@@ -1,40 +1,11 @@
 import React from "react";
-import chancellor from "../../../../assets/AdminDirectoratesImages/chancellor.jpeg";
+import chancellor from "../../../../../assets/AdminDirectoratesImages/chancellor.jpeg";
 
-import "./AdminandDirectorates.css"; // Import your CSS file here
-import { Link, useLocation } from "react-router-dom";
+import "../AdminandDirectorates.css"; // Import your CSS file here
 
 function Chancellor() {
-  const location = useLocation();
   return (
     <div className="mainContainer">
-      <div className="allLeftMenu">
-        {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
-        <Link
-          to="/Chancellor"
-          className={`menuButton ${
-            location.pathname === "/Chancellor" ? "active" : ""
-          }`}
-        >
-          Chancellor
-        </Link>
-        <Link
-          to="/ViceChancellor"
-          className={`menuButton ${
-            location.pathname === "/ViceChancellor" ? "active" : ""
-          }`}
-        >
-          Vice Chancellor
-        </Link>
-        <Link
-          to="/Registrar"
-          className={`menuButton ${
-            location.pathname === "/Registrar" ? "active" : ""
-          }`}
-        >
-          Registrar
-        </Link>
-      </div>
       <div className="allRightContent">
         <div className="allRightContentHeading">Chancellor</div>
         <br></br>

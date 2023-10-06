@@ -95,19 +95,19 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/chancellor" target="_self">
-              chancellor
+            <Link className="link-btn" to="/AdministrationMain/Chancellor" target="_self">
+              Chancellor
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/ViceChancellor" target="_self">
+            <Link className="link-btn" to="/AdministrationMain/ViceChancellor" target="_self">
               Vice Chancellor
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Registrar" target="_self">
+            <Link className="link-btn" to="/AdministrationMain/Registrar" target="_self">
               Registrar
             </Link>
           </button>
@@ -121,37 +121,37 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/AcademicAudit" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/AcademicAudit" target="_self">
               Academic Audit
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AcademicPlanning" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/AcademicPlanning" target="_self">
               Academic Planning
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Admissions" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/Admissions" target="_self">
               Admissions
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AlumniRelations" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/AlumniRelations" target="_self">
               Alumni Relations
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Empowerment" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/Empowerment" target="_self">
               Empowerment of Women & Grievances
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Evaluation" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/Evaluation" target="_self">
               Evaluation
             </Link>
           </button>
@@ -159,7 +159,7 @@ const Dropdown = () => {
             {" "}
             <Link
               className="link-btn"
-              to="/FacultyDevelopmentCell"
+              to="/DirectoratesMain/FacultyDevelopmentCell"
               target="_self"
             >
               Faculty Development Cell
@@ -169,7 +169,7 @@ const Dropdown = () => {
             {" "}
             <Link
               className="link-btn"
-              to="/ForeignUniversityRelations"
+              to="/DirectoratesMain/ForeignUniversityRelations"
               target="_self"
             >
               Foreign University Relations
@@ -177,19 +177,19 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/IQAC" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/IQAC" target="_self">
               IQAC
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Placements" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/Placements" target="_self">
               IIIT & Placements
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Research" target="_self">
+            <Link className="link-btn" to="/DirectoratesMain/Research" target="_self">
               Research & Development
             </Link>
           </button>
@@ -197,7 +197,7 @@ const Dropdown = () => {
             {" "}
             <Link
               className="link-btn"
-              to="/SportsAdministration"
+              to="/DirectoratesMain/SportsAdministration"
               target="_self"
             >
               University Games & Sports Administration
