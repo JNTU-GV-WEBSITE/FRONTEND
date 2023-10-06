@@ -5,7 +5,7 @@ const AcademicsMain = () => {
   const location = useLocation();
 
   return (
-    <div>
+    <div style={{display:"flex"}}>
       <div className="allLeftMenuAOP">
         <Link
           to="/AcademicsMain/ProgramsofferedOP"
