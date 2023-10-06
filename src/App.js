@@ -88,7 +88,7 @@ function App() {
           path="SportsAdministration"
           element={<SportsAdministration />}
         />
-
+        </Route>
         
         <Route path="/ExaminationMain" element={<ExaminationMain />}>
           <Route path="EvaluationExam" element={<EvaluationExam />} />
