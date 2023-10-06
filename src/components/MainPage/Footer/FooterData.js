@@ -162,21 +162,5 @@ export const University_Hostels = [
   {
     title: "Ladies Hostel, Maharanipeta",
     link: "/",
-  },
-  {
-    title: "Law Hostel",
-    link: "/",
-  },
-  {
-    title: "Research Hostel",
-    link: "/",
-  },
-  {
-    title: "Engineering Ladies Hostel",
-    link: "/",
-  },
-  {
-    title: "International Students Hostel",
-    link: "/",
-  },
+  }
 ];
