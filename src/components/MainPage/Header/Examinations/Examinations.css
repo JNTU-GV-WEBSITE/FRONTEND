@@ -34,7 +34,7 @@
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  color: #04AA6D;
+  color: #2e0669;
 }
 
 .profileImage {
@@ -99,10 +99,10 @@
 
 /* Hover state */
 .allLeftMenu .menuButton:hover {
-  background-color: #04AA6D;
+  background-color: #690001;
 }
 
 /* Selected state */
 .allLeftMenu .menuButton.active {
-  background-color: #04AA6D;
+  background-color: #690001;
 }

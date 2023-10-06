@@ -4,7 +4,7 @@
   width: 100px;
   height: 10vh;
   text-decoration: none;
-  color: green;
+  color: #690001;
   margin-left: 100px;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .clgheaddiv {
-  color: #04aa6d;
-  font-weight: 600;
+  color: #2e0669;
+  font-weight: 700;
   font-size: 26px;
   width: 400px;
 }

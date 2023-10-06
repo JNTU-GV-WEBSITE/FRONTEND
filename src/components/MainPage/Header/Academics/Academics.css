@@ -1,4 +1,6 @@
-/* Default button style */
+.Academicmain-Main{
+  display: flex;
+}
 
 .allLeftMenuAOP{
   margin-top: 15px;
@@ -25,12 +27,12 @@
 
 /* Hover state */
 .allLeftMenuAOP .menubutton:hover {
-  background-color: #04aa6d;
+  background-color: #2e0669;
 }
 
 /* Selected state */
 .allLeftMenuAOP .menubutton.active {
-  background-color: #04aa6d;
+  background-color: #2e0669;
 }
 
 
