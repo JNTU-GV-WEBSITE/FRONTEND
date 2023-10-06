@@ -1,10 +1,10 @@
 .tableProgramOffered {
   height: 90vh;
-  /* width: 60vw; */
+  width: 80vw;
   padding-top: 10px;
 }
 .searchProgramsOffered {
-  width: max-content;
+  width: 100%;
 }
 .headProgramsOffered {
   color: #04aa6d;
