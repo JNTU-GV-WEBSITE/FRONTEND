@@ -20,8 +20,10 @@ const Dropdown = () => {
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
         <div class="dropbtn">
-          <HomeIcon />
-          HOME
+          <Link className="drop-icon" to="/">
+            <HomeIcon />
+            HOME
+          </Link>
         </div>
       </div>
       <div class="dropdown">
@@ -95,19 +97,31 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/AdministrationMain/Chancellor" target="_self">
+            <Link
+              className="link-btn"
+              to="/AdministrationMain/Chancellor"
+              target="_self"
+            >
               Chancellor
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AdministrationMain/ViceChancellor" target="_self">
+            <Link
+              className="link-btn"
+              to="/AdministrationMain/ViceChancellor"
+              target="_self"
+            >
               Vice Chancellor
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/AdministrationMain/Registrar" target="_self">
+            <Link
+              className="link-btn"
+              to="/AdministrationMain/Registrar"
+              target="_self"
+            >
               Registrar
             </Link>
           </button>
@@ -121,37 +135,61 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/AcademicAudit" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/AcademicAudit"
+              target="_self"
+            >
               Academic Audit
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/AcademicPlanning" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/AcademicPlanning"
+              target="_self"
+            >
               Academic Planning
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/Admissions" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/Admissions"
+              target="_self"
+            >
               Admissions
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/AlumniRelations" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/AlumniRelations"
+              target="_self"
+            >
               Alumni Relations
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/Empowerment" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/Empowerment"
+              target="_self"
+            >
               Empowerment of Women & Grievances
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/Evaluation" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/Evaluation"
+              target="_self"
+            >
               Evaluation
             </Link>
           </button>
@@ -177,19 +215,31 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/IQAC" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/IQAC"
+              target="_self"
+            >
               IQAC
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/Placements" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/Placements"
+              target="_self"
+            >
               IIIT & Placements
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/DirectoratesMain/Research" target="_self">
+            <Link
+              className="link-btn"
+              to="/DirectoratesMain/Research"
+              target="_self"
+            >
               Research & Development
             </Link>
           </button>
@@ -219,43 +269,47 @@ const Dropdown = () => {
           <button>
             {" "}
             <Link className="link-btn" to="/ExaminationMain/Controller">
-            Controller of Examinations
+              Controller of Examinations
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/ExaminationMain/ControllerSDC">
-            Additional Controller of Examinations-SDC
+              Additional Controller of Examinations-SDC
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/ExaminationMain/Controller1">
-            Additional Controller of Examinations-1
+              Additional Controller of Examinations-1
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/ExaminationMain/Controller2">
-            Additional Controller of Examinations-2
+              Additional Controller of Examinations-2
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/ExaminationMain/Controller3">
-            Additional Controller of Examinations-3
+              Additional Controller of Examinations-3
             </Link>
           </button>
           <button>
             {" "}
             <Link className="link-btn" to="/ExaminationMain/ControllerPG">
-            Additional Controller of Examinations-PG
+              Additional Controller of Examinations-PG
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="https://results.jntugv.edu.in" target="_blank">
-           Examination Results
+            <Link
+              className="link-btn"
+              to="https://results.jntugv.edu.in"
+              target="_blank"
+            >
+              Examination Results
             </Link>
           </button>
         </div>
@@ -275,7 +329,11 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/JntuGvUnits/IQACUnits" target="blank">
+            <Link
+              className="link-btn"
+              to="/JntuGvUnits/IQACUnits"
+              target="blank"
+            >
               IQAC{" "}
             </Link>
           </button>
@@ -287,13 +345,21 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/JntuGvUnits/LibraryUnit" target="blank">
+            <Link
+              className="link-btn"
+              to="/JntuGvUnits/LibraryUnit"
+              target="blank"
+            >
               Library{" "}
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/JntuGvUnits/IncubationCenter" target="blank">
+            <Link
+              className="link-btn"
+              to="/JntuGvUnits/IncubationCenter"
+              target="blank"
+            >
               Incubation Center{" "}
             </Link>
           </button>
