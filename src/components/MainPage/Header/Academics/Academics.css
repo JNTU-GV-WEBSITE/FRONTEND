@@ -2,6 +2,7 @@
 
 .allLeftMenuAOP{
   margin-top: 15px;
+  margin-right: 60px;
 }
 
 
@@ -11,11 +12,8 @@
   flex-direction: column;
   background-color: grey;
   color: white;
-  text-align: center;
   text-decoration: none;
-  border: none;
-  cursor: pointer;
-  width: 300px; /* Set a fixed width for your buttons */
+  width: 300px; 
   height: 60px; /* Set a fixed height for your buttons */
   display: flex;
   justify-content: center;
