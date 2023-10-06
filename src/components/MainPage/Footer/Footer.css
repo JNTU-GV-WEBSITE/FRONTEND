@@ -98,8 +98,8 @@
 .sublinksFooter{
     color: #ffffff;
     text-decoration: none;
+    text-transform: capitalize;
 }
-
 
 .sublinksFooter:hover{
     color: orange;

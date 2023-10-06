@@ -2,7 +2,7 @@
 .topnav {
   background-color: #690001;
   text-align: center;
-  font-size: larger;
+  font-size: 20px;
   height: 50px;
 }
 
@@ -17,7 +17,7 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   
 }

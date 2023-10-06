@@ -6,6 +6,7 @@ import {
   Online_Courses,
   University_Hostels,
   Sports,
+  JntuGv_Units,
 } from "./FooterData.js";
 
 function Footer() {
@@ -72,11 +73,7 @@ function Footer() {
               </div>
             ))}
           </div>
-        </div>
-
         {/* Sports */}
-
-        <div className="container4Footer">
           <p className="subheadingFooter">Sports</p>
           <hr className="subFooter" />
           <div>
@@ -90,9 +87,10 @@ function Footer() {
               </div>
             ))}
           </div>
+        </div>
 
+        <div className="container4Footer">
           {/* University_Hostels */}
-
           <p className="subheadingFooter">University Hostels</p>
           <hr className="subFooter" />
           <div>
@@ -100,6 +98,20 @@ function Footer() {
               <div key={index}>
                 <p>
                   <Link to={item.link} className="sublinksFooter">
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
+          {/* JNTU GV UNITS */}
+          <p className="subheadingFooter">Jntu-Gv Units</p>
+          <hr className="subFooter" />
+          <div>
+            {JntuGv_Units.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link to={item.link} className="sublinksFooter" target="_blankx ">
                     {item.title}
                   </Link>
                 </p>
