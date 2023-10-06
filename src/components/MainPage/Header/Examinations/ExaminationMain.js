@@ -64,15 +64,6 @@ const ExaminationMain = () => {
         >
           Addt. Controller Of Examinations PG
         </Link>
-        <Link
-          to="/ExaminationMain/ExamResults"
-          className={`menubutton ${
-            location.pathname === "/ExaminationMain/ExamResults" ? "active" : ""
-          }`}
-        >
-          Examination Results
-        </Link>
-        
       </div>
       <Outlet />
     </div>

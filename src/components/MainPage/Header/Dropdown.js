@@ -212,20 +212,50 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 1
+            <Link className="link-btn" to="/ExaminationMain/EvaluationExam">
+              Director of Evaluation
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 2
+            <Link className="link-btn" to="/ExaminationMain/Controller">
+            Controller of Examinations
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Main">
-              Link 3
+            <Link className="link-btn" to="/ExaminationMain/ControllerSDC">
+            Additional Controller of Examinations-SDC
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/ExaminationMain/Controller1">
+            Additional Controller of Examinations-1
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/ExaminationMain/Controller2">
+            Additional Controller of Examinations-2
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/ExaminationMain/Controller3">
+            Additional Controller of Examinations-3
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="/ExaminationMain/ControllerPG">
+            Additional Controller of Examinations-PG
+            </Link>
+          </button>
+          <button>
+            {" "}
+            <Link className="link-btn" to="https://results.jntugv.edu.in" target="_blank">
+           Examination Results
             </Link>
           </button>
         </div>
