@@ -370,32 +370,6 @@ const Dropdown = () => {
           <DraftsIcon /> CONTACTUS
         </div>
       </div>
-      <div class="dropdown">
-        <div class="dropbtn">
-          <LoginIcon />
-          LOGIN
-        </div>
-        <div class="dropdown-content">
-          <button>
-            {" "}
-            <Link className="link-btn" to="/Main">
-              Link 1
-            </Link>
-          </button>
-          <button>
-            {" "}
-            <Link className="link-btn" to="/Main">
-              Link 2
-            </Link>
-          </button>
-          <button>
-            {" "}
-            <Link className="link-btn" to="/Main">
-              Link 3
-            </Link>
-          </button>
-        </div>
-      </div>
     </div>
   );
 };
