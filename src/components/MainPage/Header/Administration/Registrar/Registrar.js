@@ -12,15 +12,15 @@ function Registrar() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
-            <div className="profileImage">
+            <div className="ADimg">
               <img src={registrar} alt="Profile" />
             </div>
             <div className="profileName">
-              <h3>Prof.Dr.G.Jaya Suma</h3>
-              <h3>Registrar</h3>
+              <h3 className="ADh3">Prof.Dr.G.Jaya Suma</h3>
+              <h3 className="ADh3">Registrar</h3>
             </div>
             <div className="profileDesignation">
-              <h4 className="regularStyleH4">
+              <h4 className="ADh4">
                 Professor of Dept.of information Technology
               </h4>
             </div>
@@ -28,7 +28,7 @@ function Registrar() {
           <hr />
           {/* Profile description */}
           <p>Email: registrar@jntugv.edu.in</p>
-
+          <hr></hr>
           <p>
             Dr. G. Jaya Suma, present working as a Professor in Department of
             Information Technology, Registrar, Director (i/c) of Industry
@@ -39,7 +39,7 @@ function Registrar() {
             Administration of Engineering Education
           </p>
 
-          <p className="a">Administration Contributions</p>
+          <p className="ADsub">Administration Contributions</p>
           <p>
             ❖ Served as Head, Department of Information Technology, university
             college of Engineering, since 2014 to August 2022.
@@ -64,7 +64,7 @@ function Registrar() {
             ❖ Secretary & Member for Women Empowerment & Grievance Cell from
             January 2014-August 2017.
           </p>
-          <p className="a">Academic Contributions</p>
+          <p className="ADsub">Academic Contributions</p>
           <p>
             ❖ Specialization of Artificial Intelligence, Data Mining, Machine
             Learning, Deep Learning, Soft Computing, and Internet of Things.
@@ -83,7 +83,7 @@ function Registrar() {
             ❖ Member of Board of Studies for 3 years (2007-2010) in the Dept of
             CSE, GIT, GITAM University.
           </p>
-          <p className="a">Research Contributions</p>
+          <p className="ADsub">Research Contributions</p>
           <p>
             ❖ Awarded Six PhDs and Eight Scholars are working for PhD at
             present.
@@ -98,7 +98,7 @@ function Registrar() {
             ❖ 32 workshops Organized, 58 Attended, 5 Chaired sessions in
             international Conferences, and 32 technical talks delivered.
           </p>
-          <p className="a">Professional Contributions</p>
+          <p className="ADsub">Professional Contributions</p>
           <p>❖ Member of CSI (ID – 01170956).</p>
           <p>❖ Senior Fellow of IEEE-92245858.</p>
           <p>❖ Member of ISTE- (ID – LM44520).</p>

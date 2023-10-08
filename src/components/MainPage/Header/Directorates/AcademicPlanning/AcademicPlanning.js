@@ -11,7 +11,7 @@ function AcademicPlanning() {
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
-          <div className="profileImage">
+          <div className="ADimg">
             <center>
               <img
                 src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/dap.jpg"
@@ -22,13 +22,13 @@ function AcademicPlanning() {
         </div>
         <center>
           <div className="profileName">
-            <h3>Dr. K. Chandra Bhushana Rao</h3>
-            <h3>
-              <b>Director of Academic Planning</b>
+            <h3 className="ADh3">Dr. K. Chandra Bhushana Rao</h3>
+            <h3 className="ADh3">
+              Director of Academic Planning
             </h3>
           </div>
           <div className="profileDesignation">
-            <h4 className="regularStyleH4">
+            <h4 className="ADh4">
               Professor of Dept. of Electronics and Communication Engineering
             </h4>
           </div>
@@ -36,7 +36,7 @@ function AcademicPlanning() {
         <hr />
         {/* Profile description */}
         <p>Email: dap@jntugv.edu.in</p>
-        <br></br>
+        <hr></hr>
         <p>
           Dr. Kota. Chandrabhushana Rao, completed his B.E, M.E and PhD in ECE
           from AU, Visakhapatnam during1992, 1995 and 2005 respectively. Having
@@ -46,8 +46,7 @@ function AcademicPlanning() {
           working as a Professor and HoD of ECE at UCEV-JNTUK-Vizianagaram, A.P.
         </p>
 
-        <hr />
-        <p className="a">Achievements:</p>
+        <p className="ADsub">Achievements:</p>
         <p>❖ Senior member, IEEE since 2016.</p>
         <p>❖ Professor of ECE since Jan.2016.</p>
         <p>❖ HoD of ECE –UCEV since Feb.2017.</p>
@@ -73,8 +72,8 @@ function AcademicPlanning() {
           university.
         </p>
         <p>❖ Chairman, BoS, ECE –UCEV-JNTUK since 2017.</p>
-        <hr />
-        <p className="a">Recognitions:</p>
+        
+        <p className="ADsub">Recognitions:</p>
         <p>❖ Evaluator- NBA since 2009.</p>
         <p>❖ EVC-Member, AICTE and Evaluator of NBA;</p>
         <p>❖ Obtained Level 5-CMI-UK- certificate.</p>
@@ -101,8 +100,8 @@ function AcademicPlanning() {
         </p>
         <p>❖ Resource person for ESCI-Hyderabad.</p>
         <p>❖ Chairman- CPRC- SAMEER Visakhapatnam.</p>
-        <hr />
-        <p className="a">Involvement in accreditations:</p>
+        
+        <p className="ADsub">Involvement in accreditations:</p>
         <p>
           ❖ Expert member of National Board of Accreditation (NBA) since 2011,
           involved as member, with Mock-accreditation team for Washington Accord
@@ -119,8 +118,8 @@ function AcademicPlanning() {
           Tamilnadu, MP, Maharashtra, Uttar Pradesh, Rajasthan, Haryana,
           Telangana, AP and other states.
         </p>
-        <hr />
-        <p className="a">
+        
+        <p className="ADsub">
           Given guidance towards NBA (SAR) OBE-OBA and NAAC (new SSR) to
         </p>
         <p>❖ SRKR Engg.College, a 30 year old institution at Bhimavaram.</p>
@@ -147,8 +146,8 @@ function AcademicPlanning() {
           Bikaner College of Engineering- Rajasthan, Integral university,
           Lucknow and at ESCI chapter-Jammu.
         </p>
-        <hr />
-        <p className="a">Other Achievements:</p>
+      
+        <p className="ADsub">Other Achievements:</p>
         <p>
           ❖ Guided several students to acquire core jobs in ISRO, SAMEER, BSNL
           and other reputed organizations.

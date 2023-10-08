@@ -5,12 +5,12 @@ const AdministrationMain = () => {
 
   return (
     <div className="mainContainer">
-      <div className="allLeftMenu">
+      <div className="ADallLeftMenu">
          {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
          <Link
           to="Chancellor"
           className={`menuButton ${
-            location.pathname === "/Chancellor" ? "active" : ""
+            location.pathname === "/AdministrationMain/Chancellor" ? "active" : ""
           }`}
         >
           Chancellor
@@ -18,7 +18,7 @@ const AdministrationMain = () => {
         <Link
           to="ViceChancellor"
           className={`menuButton ${
-            location.pathname === "/ViceChancellor" ? "active" : ""
+            location.pathname === "/AdministrationMain/ViceChancellor" ? "active" : ""
           }`}
         >
           Vice Chancellor
@@ -26,7 +26,7 @@ const AdministrationMain = () => {
         <Link
           to="Registrar"
           className={`menuButton ${
-            location.pathname === "/Registrar" ? "active" : ""
+            location.pathname === "/AdministrationMain/Registrar" ? "active" : ""
           }`}
         >
           Registrar

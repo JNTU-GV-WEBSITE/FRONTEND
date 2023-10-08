@@ -10,7 +10,7 @@ function AlumniRelations() {
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
-          <div className="profileImage">
+          <div className="ADimg">
             <center>
               <img
                 src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/daa.jpeg"
@@ -21,13 +21,13 @@ function AlumniRelations() {
         </div>
         <center>
           <div className="profileName">
-            <h3>Dr. R. Rajeswara Rao</h3>
-            <h3>
-              <b>Director of Alumni Relations</b>
+            <h3 className="ADh3">Dr. R. Rajeswara Rao</h3>
+            <h3 className="ADh3">
+              Director of Alumni Relations
             </h3>
           </div>
           <div className="profileDesignation">
-            <h4 className="regularStyleH4">
+            <h4 className="ADh4">
               Professor of Dept. of Computer Science and Engineering
             </h4>
           </div>
@@ -35,7 +35,7 @@ function AlumniRelations() {
         <hr />
         {/* Profile description */}
         <p>Email: Email: daa@jntugv.edu.in</p>
-        <br></br>
+        <hr></hr>
         <p>
           Dr. Ramisetty Rajeswara Rao is presently working as Director(i/c)
           Academic Audit & Director(i/c) Alumni Relations, JNTU-GV,

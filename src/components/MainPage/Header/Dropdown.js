@@ -32,19 +32,19 @@ const Dropdown = () => {
         <div class="dropdown-content">
           <button>
             {" "}
-            <Link className="link-btn" to="/AboutJNTUGV">
+            <Link className="link-btn" to="/AboutusMain/AboutJNTUGV">
               About JNTU-GV
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Vision">
+            <Link className="link-btn" to="/AboutusMain/Vision">
               Vision
             </Link>
           </button>
           <button>
             {" "}
-            <Link className="link-btn" to="/Mission">
+            <Link className="link-btn" to="/AboutusMain/Mission">
               Mission
             </Link>
           </button>

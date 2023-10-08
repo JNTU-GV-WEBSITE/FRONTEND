@@ -11,18 +11,18 @@ function Empowerment() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
-            <div className="profileImage">
+            <div className="ADimg">
               <img
                 src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/director-of-evaluation.png"
                 alt="Profile"
               />
             </div>
             <div className="profileName">
-              <h3>Dr.D.Rajya Lakshmi</h3>
-              <h3>Director of Empowerment of Women & Grievances</h3>
+              <h3 className="ADh3">Dr.D.Rajya Lakshmi</h3>
+              <h3 className="ADh3">Director of Empowerment of Women & Grievances</h3>
             </div>
             <div className="profileDesignation">
-              <h4 className="regularStyleH4">
+              <h4 className="ADh4">
                 Professor of Dept. of Computer Science and Engineering
               </h4>
             </div>
@@ -30,7 +30,7 @@ function Empowerment() {
           <hr />
           {/* Profile description */}
           <p>Email: dewg@jntugv.edu.in</p>
-          <br></br>
+          <hr></hr>
           <p>
             Dr. D. Rajya Lakshmi obtained her BTech in Electronics and
             Communications Engineering from Andhra University, M.Tech in

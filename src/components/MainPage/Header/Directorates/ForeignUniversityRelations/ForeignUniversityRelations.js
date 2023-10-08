@@ -11,18 +11,18 @@ function ForeignUniversityRelations() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
-            <div className="profileImage">
+            <div className="ADimg">
               <img
                 src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/iqac.jpg"
                 alt="Profile"
               />
             </div>
             <div className="profileName">
-              <h3>Dr.K.Chandra Bhushana Rao</h3>
-              <h3>Director of Foreign University Relations</h3>
+              <h3 className="ADh3">Dr.K.Chandra Bhushana Rao</h3>
+              <h3 className="ADh3">Director of Foreign University Relations</h3>
             </div>
             <div className="profileDesignation">
-              <h4 className="regularStyleH4">
+              <h4 className="ADh4">
                 Professor of Dept. of Electronics and Communication Engineering
               </h4>
             </div>
@@ -30,7 +30,7 @@ function ForeignUniversityRelations() {
           <hr />
           {/* Profile description */}
           <p>Email: dfur@jntugv.edu.in</p>
-          <br></br>
+          <hr></hr>
           <p>
             Dr. Kota. Chandrabhushana Rao, completed his B.E, M.E and PhD in ECE
             from AU, Visakhapatnam during1992, 1995 and 2005 respectively.
@@ -40,7 +40,7 @@ function ForeignUniversityRelations() {
             in A.P. At present, working as a Professor and HoD of ECE at
             UCEV-JNTUK-Vizianagaram, A.P.
           </p>
-          <p className="a">Achievemnts</p>
+          <p className="ADsub">Achievemnts</p>
           <p>❖ Senior member, IEEE since 2016.</p>
           <p>❖ Professor of ECE since Jan.2016.</p>
           <p>❖ HoD of ECE –UCEV since Feb.2017.</p>
@@ -68,7 +68,7 @@ function ForeignUniversityRelations() {
             Integral university.
           </p>
           <p>❖ Chairman, BoS, ECE –UCEV-JNTUK since 2017.</p>
-          <p className="a">Recognitions</p>
+          <p className="ADsub">Recognitions</p>
           <p>❖ Evaluator- NBA since 2009.</p>
           <p>❖ EVC-Member, AICTE and Evaluator of NBA;</p>
           <p>❖ Obtained Level 5-CMI-UK- certificate.</p>
@@ -95,7 +95,7 @@ function ForeignUniversityRelations() {
           </p>
           <p>❖ Resource person for ESCI-Hyderabad.</p>
           <p>❖ Chairman- CPRC- SAMEER Visakhapatnam.</p>
-          <p className="a">Involvement in accreditation</p>
+          <p className="ADsub">Involvement in accreditation</p>
           <p>
             ❖ Expert member of National Board of Accreditation (NBA) since 2011,
             involved as member, with Mock-accreditation team for Washington
@@ -112,7 +112,7 @@ function ForeignUniversityRelations() {
             Tamilnadu, MP, Maharashtra, Uttar Pradesh, Rajasthan, Haryana,
             Telangana, AP and other states.
           </p>
-          <p className="a">
+          <p className="ADsub">
             Given guidance towards NBA (SAR) OBE-OBA and NAAC (new SSR) to
           </p>
           <p>❖ SRKR Engg.College, a 30 year old institution at Bhimavaram.</p>
@@ -139,7 +139,7 @@ function ForeignUniversityRelations() {
             Bikaner College of Engineering- Rajasthan, Integral university,
             Lucknow and at ESCI chapter-Jammu.
           </p>
-          <p className="a">Other Achievements</p>
+          <p className="ADsub">Other Achievements</p>
           <p>
             ❖ Guided several students to acquire core jobs in ISRO, SAMEER, BSNL
             and other reputed organizations.

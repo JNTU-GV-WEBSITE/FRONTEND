@@ -8,50 +8,52 @@
   align-items: flex-start;
 }
 
-
-.allLeftMenu {
-  list-style-type: none;
-  padding: 0;
-  margin-right: 20px;
+.AD-Main{
+  display: flex;
 }
 
-.allLeftMenu a {
+.ADallLeftMenu{
+  margin-top: 10px;
+  margin-right: 60px;
+}
+
+.ADallLeftMenu a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: block;
   font-weight: bold;
 }
 
-.allLeftMenu a.active {
-  color: rgb(9, 9, 9); /* Change the active link color as desired */
+.ADallLeftMenu a.active {
+  color: white; /* Change the active link color as desired */
 }
 
-.allRightContent {
-  flex-grow: 1;
-}
 
 .allRightContentHeading {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  color: #690001;
-} 
-.ADimg {
-  height: 300px;
-  width: 300px;
+  color: #2e0669;
+}
+
+
+
+.ADimg img{
+  width: 350px; 
+  height: 350px; 
 }
 
 .ADh3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 10px;
-  color: rgb(6, 6, 93);
+  color: rgb(20, 6, 63);
   font-weight: bold;
 }
 
 .ADh4 {
   margin: 0;
- font-size: 15px;
+ font-size: 20px;
   margin-top: 5px;
 }
 
@@ -62,7 +64,7 @@
 
 .ADsub{
   text-decoration: underline;
-  color: rgb(14, 14, 174); 
+  color: #2e0669; 
   font-size: 17px;
   font-weight: bold;
 }
@@ -74,14 +76,14 @@
 }
 
 /* Button structure */
-.allLeftMenu {
+.ADallLeftMenu {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
 /* Default button style */
-.allLeftMenu .menuButton {
+.ADallLeftMenu .menuButton {
   background-color: grey;
   color: white;
   padding: 10px;
@@ -97,11 +99,20 @@
 }
 
 /* Hover state */
-.allLeftMenu .menuButton:hover {
-  background-color: #690001;
+.ADallLeftMenu .menuButton:hover {
+  background-color: #2e0669;
 }
 
+
+
 /* Selected state */
-.allLeftMenu .menuButton.active {
-  background-color: #690001;
+.ADallLeftMenu .menuButton.active {
+  background-color: #2e0669;
+ 
+}
+
+.a{
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(20, 6, 63);
 }
