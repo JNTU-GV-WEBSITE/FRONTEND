@@ -4,7 +4,7 @@ const AdministrationMain = () => {
   const location = useLocation();
 
   return (
-    <div className="mainContainer">
+    <div className="AD-Main">
       <div className="ADallLeftMenu">
          {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
          <Link

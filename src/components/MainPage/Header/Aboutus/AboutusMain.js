@@ -4,7 +4,7 @@ const AboutusMain = () => {
   const location = useLocation();
 
   return (
-    <div className="ABOUTmainContainer">
+    <div className="ABOUT-Main">
       <div className="ABOUTallLeftMenu">
          {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
          <Link

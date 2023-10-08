@@ -1,4 +1,53 @@
-.ABOUTmainContainer {
+.ABOUT-Main{
+  display: flex;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.ABOUTallLeftMenu{
+  margin-top: 10px;
+  margin-right: 60px;
+}
+
+
+.ABOUTallLeftMenu .menubutton {
+  
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  width: 300px; 
+  height: 60px; /* Set a fixed height for your buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 13%;
+}
+
+/* Hover state */
+.ABOUTallLeftMenuAOP .menubutton:hover {
+  background-color: #2e0669;
+}
+
+/* Selected state */
+.ABOUTallLeftMenuAOP .menubutton.active {
+  background-color: #2e0669;
+}
+
+
+.ABOUTallLeftMenu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+
+
+
+/* .ABOUTmainContainer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -12,18 +61,8 @@
     margin-top: 10px;
     margin-right: 60px;
   }
-  
-  .ABOUTallLeftMenu a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    font-weight: bold;
-  }
-  
-  .ABOUTallLeftMenu a.active {
-    color: white; /* Change the active link color as desired */
-  }
-  
+
+
   
   .allRightContentHeading {
     font-size: 24px;
