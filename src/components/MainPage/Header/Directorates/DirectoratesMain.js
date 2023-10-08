@@ -4,7 +4,7 @@ const DirectoratesMain = () => {
   const location = useLocation();
 
   return (
-    <div className="mainContainer">
+    <div className="AD-Main">
       <div className="ADallLeftMenu">
       <Link
           to="AcademicAudit"
