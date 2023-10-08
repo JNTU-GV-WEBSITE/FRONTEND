@@ -5,21 +5,21 @@ import "../AdminandDirectorates.css"; // Import your CSS file here
 
 function Chancellor() {
   return (
-    <div className="mainContainer">
+    <div className="ADmainContainer">
       <div className="allRightContent">
         <div className="allRightContentHeading">Chancellor</div>
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
-            <div className="profileImage">
+            <div className="ADimg">
               <img src={chancellor} alt="Profile" />
             </div>
             <div className="profileName">
-              <h3>Shri Justice(Retd.) Syed Abdul Nazeer</h3>
+              <h3 className="ADh3">Shri Justice(Retd.) Syed Abdul Nazeer</h3>
             </div>
             <div className="profileDesignation">
-              <h4 className="regularStyleH4">
+              <h4 className="ADh4">
                 Hon’ble Governor of Andhra Pradesh
               </h4>
             </div>
@@ -39,7 +39,7 @@ function Chancellor() {
           </p>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

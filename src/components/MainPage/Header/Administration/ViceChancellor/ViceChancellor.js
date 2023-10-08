@@ -10,16 +10,16 @@ function ViceChancellor() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
-            <div className="profileImage">
+            <div className="ADimg">
               <center>
                 <img src={vc} alt="Profile" />
               </center>
             </div>
             <div className="profileName">
-              <h3>Prof.Dr.K.Venkatasubbaiah</h3>
+              <h3 className="ADh3">Prof.Dr.K.Venkatasubbaiah</h3>
             </div>
             <div className="profileDesignation">
-              <h4 className="regularStyleH4">Hon’ble Vice-Chancellor</h4>
+              <h4 className="ADh4">Hon’ble Vice-Chancellor</h4>
             </div>
           </center>
           <hr />

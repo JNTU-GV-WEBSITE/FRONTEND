@@ -10,7 +10,7 @@ function Research() {
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
-          <div className="profileImage">
+          <div className="ADimg">
             <center>
               <img
                 src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/da.jpg"
@@ -21,13 +21,13 @@ function Research() {
         </div>
         <center>
           <div className="profileName">
-            <h3>Dr. K. Babulu</h3>
-            <h3>
-              <b>Director of Research & Development</b>
+            <h3 className="ADh3">Dr. K. Babulu</h3>
+            <h3 className="ADh3">
+              Director of Research & Development
             </h3>
           </div>
           <div className="profileDesignation">
-            <h4 className="regularStyleH4">
+            <h4 className="ADh4">
               Professor of Dept. of Electronics and Communications Engineering
             </h4>
           </div>
@@ -35,9 +35,9 @@ function Research() {
         <hr />
         {/* Profile description */}
         <p>Email: da@jntugv.edu.in</p>
-        <br></br>
-        <hr />
-        <p className="a">Educational Qualifications:</p>
+        <hr></hr>
+        
+        <p className="ADsub">Educational Qualifications:</p>
         <p>
           ❖ B.E from Andhra University with Electronics and Communication
           Engineering.
@@ -47,8 +47,8 @@ function Research() {
           ❖ Ph.D from J.N.T. University, Anantapur in the area of VLSI& Embedded
           System Design.
         </p>
-        <hr />
-        <p className="a">Industrial Experience:</p>
+        
+        <p className="ADsub">Industrial Experience:</p>
         <p>
           ❖ “Engineer Trainee” in Vijaya Electronics Pvt.Ltd, Hyderabad for a
           period of 1year and 6 months.
@@ -57,8 +57,8 @@ function Research() {
           ❖ “Instrumentation Engineer” in Andhra Paper Mills Ltd. Rajahmundry
           for a period of 6 Months.
         </p>
-        <hr />
-        <p className="a">Teaching Experience:</p>
+        
+        <p className="ADsub">Teaching Experience:</p>
         <p>
           ❖ “Lecturer in the Department of ECE”, at NBKR Institute of Science &
           Technology, Vidyanagar for a Period of 1 year.
@@ -92,13 +92,13 @@ function Research() {
           ❖ Working as “Professor in the Department of ECE”, at JNTU-GV College
           of Engineering (CEV), Vizianagaram since January 2022.
         </p>
-        <hr />
-        <p className="a">Memberships:</p>
+        
+        <p className="ADsub">Memberships:</p>
         <p>❖ Life Member of ISTE.</p>
         <p>❖ Fellow of IETE (F235351).</p>
         <p>❖ Fellow of IE (F1184004).</p>
-        <hr />
-        <p className="a">Administrative Responsibilities:</p>
+        
+        <p className="ADsub">Administrative Responsibilities:</p>
         <p>
           ❖ Director, Director Research & Development and Admissions (i/c),
           JNTU-GV, Vizianagaram.
@@ -148,18 +148,18 @@ function Research() {
           ❖ Executive Member for ISTE Student chapter at NBKR Institute of
           Science & Technology, Vidyanagar.
         </p>
-        <hr />
-        <p className="a">List of Publications:</p>
+        
+        <p className="ADsub">List of Publications:</p>
         <p>❖ International Journals: 47.</p>
         <p>❖ National Journals: 02</p>
         <p>❖ International Conferences : 31</p>
         <p>❖ National Conferences : 14</p>
-        <hr />
-        <p className="a">Ph.D s:</p>
+        
+        <p className="ADsub">Ph.D s:</p>
         <p>❖ Number of Ph.D s Awarded: 05.</p>
         <p>❖ Number of Ph.D Scholars Pursing: 08.</p>
-        <hr />
-        <p className="a">Others:</p>
+        
+        <p className="ADsub">Others:</p>
         <p>❖ AWARDS: 05.</p>
         <p>❖ SHORT TERM TRAINING PROGRAMS (STTP) ATTEND: 03.</p>
         <p>❖ WORKSHOPS ATTENED: 11.</p>

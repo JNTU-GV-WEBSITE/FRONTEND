@@ -12,19 +12,19 @@ function SportsAdministration() {
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center>
-            <div className="profileImage">
+            <div className="ADimg">
               <img
                 src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/registrar.jpg"
                 alt="Profile"
               />
             </div>
             <div className="profileName">
-              <h3>Dr.Swami Naidu Gurugubelli</h3>
-              <h3>Director of University Games & Sports Administration</h3>
+              <h3 className="ADh3">Dr.Swami Naidu Gurugubelli</h3>
+              <h3 className="ADh3">Director of University Games & Sports Administration</h3>
             </div>
             <div className="profileDesignation">
-              <h4 className="regularStyleH4">M.Tech(IITM);Ph.D</h4>
-              <h4 className="regularStyleH4">
+              <h4 className="ADh4">M.Tech(IITM);Ph.D</h4>
+              <h4 className="ADh4">
                 Professor in Metallurgical Engineering
               </h4>
             </div>
@@ -32,13 +32,13 @@ function SportsAdministration() {
           <hr />
           {/* Profile description */}
           <p>Email: dgs@jntugv.edu.in</p>
-          <br></br>
+          <hr></hr>
           <p>Teaching and Research Experience: 22 Years.</p>
-          <p className="a">Research supervision:</p>
+          <p className="ADsub">Research supervision:</p>
           <p>07 Research scholars awarded PhD.</p>
           <p>08 Research scholars pursuing for their PhD.</p>
           <p>Guided for 28 M.Tech projects.</p>
-          <p className="a">Awards/Fellowships/Prizes:</p>
+          <p className="ADsub">Awards/Fellowships/Prizes:</p>
           <p>
             ❖ State award for Best Teacher on 7th September 2016 from the
             Government of Andhra Pradesh.
@@ -75,7 +75,7 @@ function SportsAdministration() {
             conference on Electrical, Electronics, and Optimization Techniques
             (ICEEOT) - 2016, Chennai, Tamilnadu, during 3-5, March 2016.
           </p>
-          <p className="a">Professional and administrative service:</p>
+          <p className="ADsub">Professional and administrative service:</p>
           <p>
             ❖ Principal, JNTUK College of engineering, Vizianagaram. (2019-21)
           </p>
@@ -105,7 +105,7 @@ function SportsAdministration() {
           </p>
           <p>❖ Member, AICTE Expert Verification Committee</p>
           <p>❖ Member, AICTE-AQIS Evaluation committee</p>
-          <p className="a">Research projects executed:</p>
+          <p className="ADsub">Research projects executed:</p>
           <p>
             ❖ Executed UGC funded research project titled: Synthesis and
             characterization of nano redmud particle reinforced aluminium matrix
@@ -117,13 +117,13 @@ function SportsAdministration() {
             homogeneity and improved mechanical properties for naval
             applications". Cost of the project: Rs 33.628 Lac.
           </p>
-          <p className="a">Patents:</p>
+          <p className="ADsub">Patents:</p>
           <p>
             ❖ Filed patent on Synthesis of a new class insulators and
             dielectrics from industrial solid waste - a novel method, Apple. No.
             6450/CHE/2015 A, Dt: 8-1-16
           </p>
-          <p className="a">Professional Recognition:</p>
+          <p className="ADsub">Professional Recognition:</p>
           <p>❖ Editorial Board Correspondent, IIM Metal News, 2015-16</p>
           <p>
             ❖ Vice-Chairman, Indian Institute of Metals, Visakhapatnam Chapter
