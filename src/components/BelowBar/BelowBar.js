@@ -14,24 +14,31 @@ function BelowBar() {
         <a
           href="https://www.facebook.com/JNTUGurajada"
           className="Below-Social-links"
+          target="_blank" rel="noreferrer"
         >
           <FaFacebook />
         </a>
         <a
           href="https://www.linkedin.com/in/jntugurajada/"
           className="Below-Social-links"
+          target="_blank" rel="noreferrer"
+
         >
           <FaLinkedinIn />
         </a>
         <a
           href="https://twitter.com/JNTU_Gurajada"
           className="Below-Social-links"
+          target="_blank" rel="noreferrer"
+
         >
           <FaTwitter />
         </a>
         <a
           href="https://www.instagram.com/jntu_gurajada/"
           className="Below-Social-links"
+          target="_blank" rel="noreferrer"
+
         >
           {" "}
           <FaInstagram />
@@ -39,6 +46,8 @@ function BelowBar() {
         <a
           href="https://www.youtube.com/@JNTUGV"
           className="Below-Social-links"
+          target="_blank" rel="noreferrer"
+
         >
           <FaYoutube />
         </a>
