@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
-import Noticeboard from "./components/MainPage/NoticeBoard/Noticeboard";
+// import Noticeboard from "./components/MainPage/NoticeBoard/Noticeboard";
+import Gallery from "./Gallery/Gallery";
 import Map from "./components/MainPage/Map/Map";
 import Scrollbar from "./components/NewsAndEvents/Scrollbar";
 import UpdatePanel from "./components/UpdatePanel/UpdatePanel";
@@ -15,7 +16,8 @@ function Homepage() {
         <Scrollbar />
         <UpdatePanel />
       </div>
-      <Noticeboard />
+      {/* <Noticeboard /> */}
+      <Gallery/>
       <br />
       <Map />
       <Footer />

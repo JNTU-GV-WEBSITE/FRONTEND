@@ -1,0 +1,41 @@
+
+.galleryhead {
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0px;
+    
+  }
+  .gallery{
+    text-align: center;
+    margin: 0px;;
+  
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .imageslider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: transform 1s;
+    max-width: 40px; 
+  }
+  
+  .imageslider img {
+    max-width: 300px; 
+    min-height: 250px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .imageslider {
+      max-width: 150px; 
+    }
+  }
+  
