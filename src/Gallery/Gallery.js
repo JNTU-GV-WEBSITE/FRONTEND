@@ -48,7 +48,7 @@ function Gallery(){
     ];
   return (
     < div style={{backgroundColor:"#6499E9"}}>
-   
+      
       <div className="galleryhead">
    <h3 class=" gallery"style={{color:"black"}}>Gallery</h3>
       </div>
