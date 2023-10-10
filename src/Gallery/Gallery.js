@@ -53,7 +53,7 @@ function Gallery(){
    <h3 class=" gallery"style={{color:"black"}}>Gallery</h3>
       </div>
       <div className="carousel-container" >
-        <Carosel itemsToShow={4} enableAutoPlay={true} autoPlaySpeed={1000}>
+        <Carosel itemsToShow={4} enableAutoPlay={true} autoPlaySpeed={3000}>
           {sliderdata.map((item, index) => (
             <div key={index} className="imageslider">
               <img src={item.image} alt={item.name} />
