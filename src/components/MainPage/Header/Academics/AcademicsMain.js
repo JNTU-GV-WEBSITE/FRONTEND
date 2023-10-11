@@ -5,7 +5,7 @@ const AcademicsMain = () => {
   const location = useLocation();
 
   return (
-    <div>
+    <div className="Academicmain-Main">
       <div className="allLeftMenuAOP">
         <Link
           to="/AcademicsMain/ProgramsofferedOP"

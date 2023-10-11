@@ -148,35 +148,42 @@ export const Sports = [
 
 export const University_Hostels = [
   {
-    title: "Arts & Commerce Hostel",
+    title: "Gostani",
     link: "/",
   },
   {
-    title: "Science & Technology Hostel",
+    title: "Vegavathi",
     link: "/",
   },
   {
-    title: "Engineering Hostel",
+    title: "nagavalli",
     link: "/",
   },
   {
-    title: "Ladies Hostel, Maharanipeta",
+    title: "vamsadhara",
     link: "/",
-  },
-  {
-    title: "Law Hostel",
-    link: "/",
-  },
-  {
-    title: "Research Hostel",
-    link: "/",
-  },
-  {
-    title: "Engineering Ladies Hostel",
-    link: "/",
-  },
-  {
-    title: "International Students Hostel",
-    link: "/",
-  },
+  }
 ];
+
+export const JntuGv_Units = [
+  {
+    title:"DMC",
+    link:"/"
+  },
+  {
+    title:"IQAC",
+    link:"/"
+  },
+  {
+    title:"Sports",
+    link:"/"
+  },
+  {
+    title:"Library",
+    link:"/"
+  },
+  {
+    title:"Incubation Center",
+    link:"/"
+  }
+]
