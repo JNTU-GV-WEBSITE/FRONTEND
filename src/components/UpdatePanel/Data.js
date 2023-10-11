@@ -1034,95 +1034,51 @@ export const Data = [
     "type": "notifications",
     "isLink": true
 },
-    {
-      date : "23",
-      month : "Sep",
-      year : "2023",
-      description : "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-      isLink : true,
-      type : "notifications",
-      link : "https://www.google.com"
-    },
-    {
-      date : "23",
-      month : "Sep",
-      year : "2023",
-      description : "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-      isLink : true,
-      type : "tender",
-      link : "https://www.jntugv.edu.in"
-    },
-    {
-      date : "23",
-      month : "Sep",
-      year : "2023",
-      type : "conference",
-      description : "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-      link : null
-    },
-    {
-      date : "23",
-      month : "Sep",
-      year : "2023",
-      type : "notifications",
-      description : "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci   Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-      link : null
-    },
-    {
-      date : "23",
-      month : "Sep",
-      year : "2023",
-      type : "notifications",
-      description : "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-      isLink : true,
-      link : null
-    },
-    {
-    date: "23",
-    month: "Sep",
-    year: "2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-    isLink: true,
-    type: "notifications",
-    link: "https://www.google.com",
-  },
-  {
-    date: "23",
-    month: "Sep",
-    year: "2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-    isLink: true,
-    type: "tender",
-    link: "https://www.jntugv.edu.in",
-  },
-  {
-    date: "23",
-    month: "Sep",
-    year: "2023",
-    type: "tender",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-    link: null,
-  },
-  {
-    date: "23",
-    month: "Sep",
-    year: "2023",
-    type: "notifications",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci   Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-    link: null,
-  },
-  {
-    date: "23",
-    month: "Sep",
-    year: "2023",
-    type: "notifications",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci",
-    isLink: true,
-    link: null,
-  },
-];
+    
+
+{
+    "description": "Notification For I B. Pharmacy II Semester Supply Exams, July - 2023",
+    "link": "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1688472660-13301B.pdf",
+    "date": "04",
+    "month": "Jul",
+    "year": "2023",
+    "type": "tender",
+    "isLink": true
+},
+{
+    "description": "CIRCULAR - Payment of Total Affiliation/Common Services dues up to 2021-2022",
+    "link": "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1688376360-19813daa comman service fees.pdf",
+    "date": "03",
+    "month": "Jul",
+    "year": "2023",
+    "type": "tender",
+    "isLink": true
+},
+{
+    "description": "Academic Calendar for IV and V Pharma.D",
+    "link": "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1688120220-22660Academic Calender for IV and V Pharma.pdf",
+    "date": "30",
+    "month": "Jun",
+    "year": "2023",
+    "type": "tender",
+    "isLink": true
+},
+{
+    "description": "Revised I B.Tech II sem R16 supply time table July_2023.pdf",
+    "link": "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1687954500-80891Revised I B.pdf",
+    "date": "28",
+    "month": "Jun",
+    "year": "2023",
+    "type": "conference",
+    "isLink": true
+},
+{
+    "description": "II B. PHARMACY II SEMESTER (PCI , R16, R13) REGULAR / SUPPLEMENTRY EXAMINATIONS, JULY-2023",
+    "link": "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1687851120-68574II B.pdf",
+    "date": "27",
+    "month": "Jun",
+    "year": "2023",
+    "type": "conference",
+    "isLink": true
+}
+]
