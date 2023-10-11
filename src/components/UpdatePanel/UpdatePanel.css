@@ -18,7 +18,7 @@
   .updateBox{
     margin: 1rem;
     display: inline-flex;
-    color: #0ead56;
+    color: #2e0669;
     font-weight: 550;
   }
   
@@ -26,10 +26,10 @@
     margin-left: 1.3rem;
     text-align: justify;
     font-weight: 700;
-    color: #0ead56;
+    color: #2e0669;
   }
   .dateTimeContainer{
-    border: .08rem solid #0ead56;
+    border: .08rem solid #2e0669;
     border-radius: .2rem;
     display: inline-flex;
     height: 70%;

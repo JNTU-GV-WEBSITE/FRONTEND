@@ -1,17 +1,15 @@
 .allRightContentAOP{
-    
-  margin-top: -18%;
-  margin-left: 35%;
+  margin-top: 10px;
+
 }
 
 .clgnamediv {
   width: 100px;
   height: 10vh;
   text-decoration: none;
-  color: green;
+  color: #2e0669;
   margin-left: 100px;
-  margin-top: -19%;
-  margin-left: 35%;
+  margin-top: 10px;
 }
 
 .clgdiv {
@@ -19,8 +17,8 @@
 }
 
 .clgheaddiv {
-  color: #04aa6d;
-  font-weight: 600;
+  color: #690001;
+  font-weight: 500;
   font-size: 26px;
   width: 400px;
 }

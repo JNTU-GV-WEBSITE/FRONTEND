@@ -1,67 +1,69 @@
 /* Dropdown.css */
 .topnav {
-  background-color: #04aa6d;
+  background-color: #690001;
   text-align: center;
-  font-size: larger;
+  font-size: 20px;
+  height: 50px;
 }
 
 button {
   border-style: none;
-  background-color: #04aa6d;
+  background-color: #690001;
 }
 
 .topnav a {
-  float: left;
   display: block;
-  color: black;
-  /* text-align: center; */
+  color: white;
   padding-top: 5px;
   padding-bottom: 5px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+  
 }
 
-.a:hover{
+.a:hover {
   color: #ffffff;
 }
 
 .active {
-  background-color: #04aa6d;
+  background-color: #690001;
   color: white;
 }
 
 .dropbtn {
-  background-color: #04aa6d;
+  background-color: #690001;
   color: white;
   padding: 10px;
   font-size: 16px;
   border: none;
-  height: 100%;
   text-align: center;
 }
 
 .dropbtn:hover {
-  background-color: rgb(3, 103, 31);
+  background-color: #2e0669;
   color: #ffffff;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  background-color: #2e0669;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #2e0669;
   box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.2);
   z-index: 5;
-  /* height: 20px; */
-  width: 300px;
+  height: 20px;
+  width: 500px;
 }
 
 .dropdown-content:hover {
-  color: #ffffff;
+  color: #2e0669;
 }
 
 .dropdown-content button {
@@ -72,22 +74,24 @@ button {
 }
 
 .dropbtn:hover .dropdown-content {
-  background-color: #04aa6d;
+  background-color: #690001;
 }
 
 .dropdown-content button {
-  background-color: #ffffff;
+  background-color: #2e0669;
   width: 100%;
 }
 
 .dropdown-content:hover button:hover {
-  background-color: #04aa6d;
+  background-color: #690001;
   color: rgb(255, 255, 255);
 }
 
-.link-btn{
+.link-btn {
   text-align: left;
+  color: #ffffff;
   width: 100%;
+  font-weight: 500;
 }
 
 .link-btn:hover {
@@ -100,8 +104,12 @@ button:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  width: 200px;
 }
 
+.drop-icon{
+  height: 30px;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child),
