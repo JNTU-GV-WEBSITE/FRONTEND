@@ -1,18 +1,18 @@
-.AffiliatedColleges{
+.AffiliatedColleges {
     height: 90vh;
     width: 60vw;
     padding-top: 10px;
-    margin-top: -19%;
-    margin-left: 35%;
 }
-.table-container{
+
+.table-container {
     max-width: 100%;
     padding: 0rem;
 }
-.AffiliatedColleges-title{   
+
+.AffiliatedColleges-title {
     font-size: 26px;
     font-weight: 600;
-    color: #04aa6d;
+    color: #690001;
 }
 
 .AffiliatedColleges-search {
@@ -20,26 +20,31 @@
     padding-bottom: .4rem;
     margin-left: 70%;
 }
+
 @media screen and (max-width:500px) {
-    .AffiliatedColleges{
+    .AffiliatedColleges {
         padding-top: 4rem;
         margin-left: 0px;
         width: 99%;
     }
-    .table-container{
+
+    .table-container {
         width: 100%;
         padding: 0rem;
     }
+
     .AffiliatedColleges-search {
         width: 50%;
         padding-bottom: .5rem;
         margin-left: 50%;
     }
-    .AffiliatedColleges-title{
+
+    .AffiliatedColleges-title {
         padding-left: 0rem;
         padding-top: 2rem;
         padding-bottom: .5rem;
         font-size: 26px;
-        color: #04aa6d;
+        color: #690001;
+
     }
 }
