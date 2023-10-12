@@ -33,7 +33,7 @@ function Gallery() {
       <div className="image-gallery">
         <div className="image-scroll" style={{ width: totalWidth }}>
           {duplicatedImages.map((image, index) => (
-        <img key={index} src={image} alt={`Image ${index}`} onClick={() => handleImageClick({ image, name: `Image ${index}` })} />
+        <img key={index} src={image} alt={`${index}`} onClick={() => handleImageClick({ image, name: `${index}` })} />
       ))}
 
         </div>
