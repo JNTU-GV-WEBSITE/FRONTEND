@@ -27,6 +27,11 @@
 
 }
 
+.fetchVideo{
+    height: 100%;
+    width: 100%;
+}
+
 .videoText{
     font-weight: 600;
     font-size: large;
