@@ -49,7 +49,7 @@ const Map = () => {
       </div>
       {video.map((video) => (
         <div key={video.id.videoId} className="videoTabCon3">
-          <p className="videoText"> Our Latest Video</p>
+          <p className="videoText"> {video.snippet.title}</p>
           <iframe
             title={video.snippet.title}
             width="100%"
