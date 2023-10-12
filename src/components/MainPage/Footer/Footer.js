@@ -56,7 +56,22 @@ function Footer() {
               </div>
             ))}
           </div>
+           {/* Sports */}
+           <p className="subheadingFooter">Sports</p>
+          <hr className="subFooter" />
+          <div>
+            {Sports.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link to={item.link} className="sublinksFooter">
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
+
 
         {/* Online_Courses */}
         <div className="container3Footer">
@@ -73,20 +88,7 @@ function Footer() {
               </div>
             ))}
           </div>
-        {/* Sports */}
-          <p className="subheadingFooter">Sports</p>
-          <hr className="subFooter" />
-          <div>
-            {Sports.map((item, index) => (
-              <div key={index}>
-                <p>
-                  <Link to={item.link} className="sublinksFooter">
-                    {item.title}
-                  </Link>
-                </p>
-              </div>
-            ))}
-          </div>
+       
         </div>
 
         <div className="container4Footer">

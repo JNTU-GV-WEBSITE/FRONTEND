@@ -51,10 +51,6 @@ export const Central_Facilites = [
     link: "/",
   },
   {
-    title: "Cyber Lab",
-    link: "/",
-  },
-  {
     title: "Press & Publications",
     link: "/",
   },
@@ -67,14 +63,6 @@ export const Central_Facilites = [
     link: "/",
   },
   {
-    title: "Horticulture & Gardening Unit",
-    link: "/",
-  },
-  {
-    title: "Health Services",
-    link: "/",
-  },
-  {
     title: "National Service Scheme (NSS)",
     link: "/",
   },
@@ -83,19 +71,7 @@ export const Central_Facilites = [
     link: "/",
   },
   {
-    title: "Transport",
-    link: "/",
-  },
-  {
     title: "Centre for Defence Studies",
-    link: "/",
-  },
-  {
-    title: "Centre for Gandhian Studies",
-    link: "/",
-  },
-  {
-    title: "Unnat Bharat Abhiyan",
     link: "/",
   },
 ];
