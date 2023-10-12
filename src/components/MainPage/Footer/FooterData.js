@@ -85,30 +85,11 @@ export const Online_Courses = [
     title: "UGC MOOCs: A Vertical of SWAYAM",
     link: "/",
   },
-  {
-    title: "e-PGPathshala",
-    link: "/",
-  },
-  {
-    title: "Swayam Prabha | 32 DTH channels",
-    link: "/",
-  },
+  
   {
     title: "National Digital Library of India",
     link: "/",
-  },
-  {
-    title: "Shodhganga",
-    link: "/",
-  },
-  {
-    title: "E-ShodhSindhu",
-    link: "/",
-  },
-  {
-    title: "Vidwan | Profile Page - Inflibnet",
-    link: "/",
-  },
+  }
 ];
 
 export const Sports = [
