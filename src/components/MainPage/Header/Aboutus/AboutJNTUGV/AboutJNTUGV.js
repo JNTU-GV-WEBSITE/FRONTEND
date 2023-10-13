@@ -6,34 +6,8 @@ import "../Aboutus.css";
 function AboutJNTUGV() {
   
   return (
-    <div className="mainContainer">
-      <div className="allLeftMenu">
-        {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
-        <Link
-          to="/AboutJNTUGV"
-          className={`menuButton ${
-            location.pathname === "/Chancellor" ? "active" : ""
-          }`}
-        >
-          About JNTUGV
-        </Link> 
-        <Link
-          to="/Vision"
-          className={`menuButton ${
-            location.pathname === "/ViceChancellor" ? "active" : ""
-          }`}
-        >
-          Vision
-        </Link>
-        <Link
-          to="/Mission"
-          className={`menuButton ${
-            location.pathname === "/Registrar" ? "active" : ""
-          }`}
-        >
-          Mission
-        </Link>
-      </div>
+    <div className="ABOUTmainContainer">
+      
       <div className="allRightContent">
         <div className="allRightContentHeading">About JNTUGV</div>
         
