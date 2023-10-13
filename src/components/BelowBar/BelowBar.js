@@ -1,4 +1,6 @@
 import "./BelowBar.css";
+// import Grievance from "../GrievanceForm/GrievanceForm";
+import { Link } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagram,
@@ -59,13 +61,12 @@ function BelowBar() {
         >
           Login
         </a> */}
-        <a
-          href="https://mail.google.com/a/jntugv.edu.in"
+        <Link
+          to="./GrievanceForm"
           className="Below-Social-links"
         >
-          {" "}
           Students Grievance
-        </a>
+        </Link>
       </div>
     </div>
   );
