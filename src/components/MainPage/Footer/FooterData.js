@@ -51,10 +51,6 @@ export const Central_Facilites = [
     link: "/",
   },
   {
-    title: "Cyber Lab",
-    link: "/",
-  },
-  {
     title: "Press & Publications",
     link: "/",
   },
@@ -67,14 +63,6 @@ export const Central_Facilites = [
     link: "/",
   },
   {
-    title: "Horticulture & Gardening Unit",
-    link: "/",
-  },
-  {
-    title: "Health Services",
-    link: "/",
-  },
-  {
     title: "National Service Scheme (NSS)",
     link: "/",
   },
@@ -83,19 +71,7 @@ export const Central_Facilites = [
     link: "/",
   },
   {
-    title: "Transport",
-    link: "/",
-  },
-  {
     title: "Centre for Defence Studies",
-    link: "/",
-  },
-  {
-    title: "Centre for Gandhian Studies",
-    link: "/",
-  },
-  {
-    title: "Unnat Bharat Abhiyan",
     link: "/",
   },
 ];
@@ -109,30 +85,11 @@ export const Online_Courses = [
     title: "UGC MOOCs: A Vertical of SWAYAM",
     link: "/",
   },
-  {
-    title: "e-PGPathshala",
-    link: "/",
-  },
-  {
-    title: "Swayam Prabha | 32 DTH channels",
-    link: "/",
-  },
+  
   {
     title: "National Digital Library of India",
     link: "/",
-  },
-  {
-    title: "Shodhganga",
-    link: "/",
-  },
-  {
-    title: "E-ShodhSindhu",
-    link: "/",
-  },
-  {
-    title: "Vidwan | Profile Page - Inflibnet",
-    link: "/",
-  },
+  }
 ];
 
 export const Sports = [

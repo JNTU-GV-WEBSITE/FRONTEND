@@ -56,7 +56,9 @@ function Footer() {
               </div>
             ))}
           </div>
+         
         </div>
+
 
         {/* Online_Courses */}
         <div className="container3Footer">
@@ -73,8 +75,8 @@ function Footer() {
               </div>
             ))}
           </div>
-        {/* Sports */}
-          <p className="subheadingFooter">Sports</p>
+         {/* Sports */}
+         <p className="subheadingFooter">Sports</p>
           <hr className="subFooter" />
           <div>
             {Sports.map((item, index) => (

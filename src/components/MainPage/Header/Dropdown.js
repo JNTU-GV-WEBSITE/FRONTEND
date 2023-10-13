@@ -81,7 +81,7 @@ const Dropdown = () => {
             {" "}
             <Link
               className="link-btn"
-              to="/AcademicsMain/ConstituentCollegesOP"
+              to="/AcademicsMain/AffliatedCollegesOP"
             >
               {" "}
               Affiliated Colleges
