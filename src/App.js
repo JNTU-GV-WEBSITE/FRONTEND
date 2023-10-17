@@ -41,6 +41,7 @@ import Controller2 from './components/MainPage/Header/Examinations/Controller2';
 import Controller3 from './components/MainPage/Header/Examinations/Controller3';
 import ControllerPG from './components/MainPage/Header/Examinations/ControllerPG';
 import ExamResults from './components/MainPage/Header/Examinations/ExamResults';
+import Grievance from "./components/GrievanceForm/GrievanceForm";
 
 
 function App() {
@@ -109,6 +110,7 @@ function App() {
 
         </Route>
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/GrievanceForm" element={<Grievance />}/>
       </Routes>
     </div>
   );
