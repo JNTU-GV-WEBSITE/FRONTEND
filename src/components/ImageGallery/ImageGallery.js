@@ -17,8 +17,8 @@ function ImageGallery() {
             <img className="image" src={TeachersDay} alt="First slide" />
             <Carousel.Caption>
               <div className="carouselText">
-                <h4>Image</h4>
-                <p>Image Description</p>
+                {/* <h4>Image</h4>
+                <p>Image Description</p> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -27,8 +27,8 @@ function ImageGallery() {
             <img className="image" src={IndependenceDay1} alt="Second slide" />
             <Carousel.Caption>
               <div className="carouselText">
-                <h4>Image</h4>
-                <p>Image Description</p>
+                {/* <h4>Image</h4>
+                <p>Image Description</p> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -37,8 +37,8 @@ function ImageGallery() {
             <img className="image" src={IndependenceDay2} alt="Second slide" />
             <Carousel.Caption>
               <div className="carouselText">
-                <h4>Image</h4>
-                <p>Image Description</p>
+                {/* <h4>Image</h4>
+                <p>Image Description</p> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -47,8 +47,8 @@ function ImageGallery() {
             <img className="image" src={IndependenceDay3} alt="Second slide" />
             <Carousel.Caption>
               <div className="carouselText">
-                <h4>Image</h4>
-                <p>Image Description</p>
+                {/* <h4>Image</h4>
+                <p>Image Description</p> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -56,8 +56,8 @@ function ImageGallery() {
             <img className="image" src={Expo} alt="Second slide" />
             <Carousel.Caption>
               <div className="carouselText">
-                <h4>Image</h4>
-                <p>Image Description</p>
+                {/* <h4>Image</h4>
+                <p>Image Description</p> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
