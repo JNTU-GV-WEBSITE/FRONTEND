@@ -8,7 +8,6 @@ function Gallery() {
     'https://assets.thehansindia.com/h-upload/2020/08/02/988062-jntu-vizianagaram.jpg',
     'https://th.bing.com/th/id/OIP._KgEoeUCp0qBL0-lpgNXmQHaHi?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     'https://th.bing.com/th/id/OIP.yXsJm3CukglGEU3QW_GcjwHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    'https://th.bing.com/th/id/OIP.AxRTa5iLV4NQrpYo2EGF1QHaEj?w=308&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7',
     'https://th.bing.com/th/id/OIP.RicDyStGse3SuGblE_C-AwHaFj?w=253&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7',
   ];
 
