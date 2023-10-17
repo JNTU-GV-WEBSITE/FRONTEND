@@ -79,7 +79,7 @@ export const Online_Courses = [
   },
 
   {
-    title: "National Digital Library of India",
+    title: "Dr.YSR Central Library",
     link: "/",
   },
 ];
