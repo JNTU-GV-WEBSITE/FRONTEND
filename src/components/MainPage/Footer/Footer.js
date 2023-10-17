@@ -18,8 +18,7 @@ function Footer() {
         </div>
         <div className="subcontentFooter">
           <p className="headlinksFooter">DIRECTORATE OF ADMISSIONS </p>
-          <p className="headlinksFooter">INTERNATIONAL AFFAIRS </p>
-          <p>SCHOOL OF DISTANCE EDUCATION</p>
+          <p>INTERNATIONAL AFFAIRS </p>
         </div>
       </div>
       <div className="subcontainer2Footer">

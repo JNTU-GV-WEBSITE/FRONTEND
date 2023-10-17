@@ -25,11 +25,21 @@
 
 .logo-text {
   font-size: larger;
-  text-align: center  ;
+  text-align: center;
 }
 
 .item {
   align-items: center;
   font-size: small;
   /* margin-left: 5%; */
+}
+@media (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
