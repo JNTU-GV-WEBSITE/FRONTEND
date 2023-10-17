@@ -1,5 +1,6 @@
 .d1{
     margin: 2% 0 2% 2%;
+    width: 100%;
 }
 
 .h1{
@@ -32,3 +33,9 @@
     overflow:hidden;
   }
   
+  @media(max-width: 900px) {
+    .d1{
+        max-width: fit-content;
+        align-items: center;
+    }
+  }

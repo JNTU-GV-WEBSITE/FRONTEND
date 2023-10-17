@@ -6,10 +6,10 @@ import "./NewsAndEvents.css";
 import CampaignIcon from '@mui/icons-material/Campaign';
 
 const arr = [
-    { hypertext: "https://exams.andhrauniversity.edu.in/FeePay/phd-convoc/guess-pass-req.php", text: "04/09/2023 :: GUEST PASS Registration for Andhra University 87-90 Convacations held on 09-09-2023 || Only one Person allowed from Family " },
-    { hypertext: "https://www.andhrauniversity.edu.in/img/nptel.jpg", text: "16/08/2023 :: Andhra University has been awarded as \"Best New LC\" among the top 100 Local Chapters " },
-    { hypertext: "https://exams.andhrauniversity.edu.in/FeePay/phd-convoc/homepage.php", text: "11/08/2023 :: Andhra University 87-90 Convacation Online Registration " },
-    { hypertext: "https://www.andhrauniversity.edu.in/arirt2023/arirt-brochure-final.pdf", text: "13/07/2023 :: A National Seminar on Recent Trends on Appications of Radio Isotopes and Radiation Technologies ARIRT – 2023 organized by Department of Nuclear Physics, Andhra University.Visakhapatnam || Click Here for more Information" }
+    { hypertext: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1696407000-20501AC for I Year MBA and MCA .pdf", text: "Academic Calendar for I Year MBA and MCA " },
+    { hypertext: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1696406940-1250AC for I Year M.pdf", text: "Academic Calendar for I Year M. Tech and M. Pharmacy " },
+    { hypertext: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695812280-34056APSCHE UNICEF Launched P2E Program.pdf", text: "APSCHE-BCDE-UNICEF-P2E Program " },
+    { hypertext: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695790980-78550Academic Calander for II year B.pdf", text: "Academic Calender for II year B. Pharmacy AY 2023-24 " }
 ]  
 
 function Scrollbar()
