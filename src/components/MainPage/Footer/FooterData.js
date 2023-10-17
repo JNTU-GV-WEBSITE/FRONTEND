@@ -1,44 +1,29 @@
 export const Administration_Wing = [
+  
   {
-    title: "Academic Affairs",
-    link: "/",
+    title: "Chancellor",
+    link: "/AdministrationMain/Chancellor",
   },
   {
-    title: "College Development Council (CDC)",
-    link: "/",
+    title: "Vice Chancellor",
+    link: "/AdministrationMain/ViceChancellor",
   },
   {
-    title: "Research & Development",
-    link: "/",
+    title: "Registrar",
+    link: "/AdministrationMain/Registrar",
   },
   {
-    title: "Computer Centre",
-    link: "/",
+    title: "Program Offered",
+    link: "/AcademicsMain/ProgramsofferedOP",
   },
   {
-    title: "Student Affairs",
-    link: "/",
+    title: "Admissions",
+    link: "/AcademicsMain/AdmissionsOP",
   },
   {
-    title: "UGC - HRD Centre",
-    link: "/",
-  },
-  {
-    title: "IQAC",
-    link: "/",
-  },
-  {
-    title: "Media Relations",
-    link: "/",
-  },
-  {
-    title: "Engineer's Office",
-    link: "/",
-  },
-  {
-    title: "Grievance Cell",
-    link: "/",
-  },
+    title: "AffliatedCollegesOP",
+    link: "/AcademicsMain/AffliatedCollegesOP",
+  }
 ];
 
 export const Central_Facilites = [
@@ -56,10 +41,6 @@ export const Central_Facilites = [
   },
   {
     title: "Employment & Guidance Bureau",
-    link: "/",
-  },
-  {
-    title: "National Service Scheme (NSS)",
     link: "/",
   },
   {
@@ -88,11 +69,7 @@ export const Sports = [
   {
     title: "Anti Ragging Committee",
     link: "/",
-  },
-  {
-    title: "Cell for Differently Abled Persons",
-    link: "/",
-  },
+  }
 ];
 
 export const University_Hostels = [
