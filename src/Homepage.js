@@ -15,7 +15,7 @@ function Homepage() {
         <Scrollbar />
         <UpdatePanel />
       </div>
-    <Gallery />
+      <Gallery />
       <br />
       <Map />
       <Footer />

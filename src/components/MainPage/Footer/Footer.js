@@ -56,9 +56,21 @@ function Footer() {
               </div>
             ))}
           </div>
-         
+          {/* Sports */}
+          <p className="subheadingFooter">Sports</p>
+          <hr className="subFooter" />
+          <div>
+            {Sports.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link to={item.link} className="sublinksFooter">
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
-
 
         {/* Online_Courses */}
         <div className="container3Footer">
@@ -75,23 +87,6 @@ function Footer() {
               </div>
             ))}
           </div>
-         {/* Sports */}
-         <p className="subheadingFooter">Sports</p>
-          <hr className="subFooter" />
-          <div>
-            {Sports.map((item, index) => (
-              <div key={index}>
-                <p>
-                  <Link to={item.link} className="sublinksFooter">
-                    {item.title}
-                  </Link>
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="container4Footer">
           {/* University_Hostels */}
           <p className="subheadingFooter">University Hostels</p>
           <hr className="subFooter" />
@@ -106,6 +101,9 @@ function Footer() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="container4Footer">
           {/* JNTU GV UNITS */}
           <p className="subheadingFooter">Jntu-Gv Units</p>
           <hr className="subFooter" />
@@ -113,7 +111,11 @@ function Footer() {
             {JntuGv_Units.map((item, index) => (
               <div key={index}>
                 <p>
-                  <Link to={item.link} className="sublinksFooter" target="_blankx ">
+                  <Link
+                    to={item.link}
+                    className="sublinksFooter"
+                    target="_blankx "
+                  >
                     {item.title}
                   </Link>
                 </p>

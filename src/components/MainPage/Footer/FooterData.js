@@ -43,10 +43,6 @@ export const Administration_Wing = [
 
 export const Central_Facilites = [
   {
-    title: "Dr. B.R. Ambedkar Chair",
-    link: "/",
-  },
-  {
     title: "Library",
     link: "/",
   },
@@ -70,10 +66,6 @@ export const Central_Facilites = [
     title: "National Cadet Corps (NCC)",
     link: "/",
   },
-  {
-    title: "Centre for Defence Studies",
-    link: "/",
-  },
 ];
 
 export const Online_Courses = [
@@ -85,11 +77,11 @@ export const Online_Courses = [
     title: "UGC MOOCs: A Vertical of SWAYAM",
     link: "/",
   },
-  
+
   {
-    title: "National Digital Library of India",
+    title: "Dr.YSR Central Library",
     link: "/",
-  }
+  },
 ];
 
 export const Sports = [
@@ -119,28 +111,28 @@ export const University_Hostels = [
   {
     title: "vamsadhara",
     link: "/",
-  }
+  },
 ];
 
 export const JntuGv_Units = [
   {
-    title:"DMC",
-    link:"/"
+    title: "DMC",
+    link: "/",
   },
   {
-    title:"IQAC",
-    link:"/"
+    title: "IQAC",
+    link: "/",
   },
   {
-    title:"Sports",
-    link:"/"
+    title: "Sports",
+    link: "/",
   },
   {
-    title:"Library",
-    link:"/"
+    title: "Library",
+    link: "/",
   },
   {
-    title:"Incubation Center",
-    link:"/"
-  }
-]
+    title: "Incubation Center",
+    link: "/",
+  },
+];
