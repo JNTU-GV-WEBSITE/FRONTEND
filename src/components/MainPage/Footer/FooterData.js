@@ -1,5 +1,4 @@
 export const Administration_Wing = [
-  
   {
     title: "Chancellor",
     link: "/AdministrationMain/Chancellor",
@@ -21,32 +20,30 @@ export const Administration_Wing = [
     link: "/AcademicsMain/AdmissionsOP",
   },
   {
-    title: "AffliatedCollegesOP",
+    title: "AffliatedColleges",
     link: "/AcademicsMain/AffliatedCollegesOP",
-  }
+  },
 ];
 
 export const Central_Facilites = [
   {
-    title: "Library",
+    title: "Dr.YSR Central Library",
     link: "/",
   },
-  {
-    title: "Press & Publications",
-    link: "/",
-  },
+
   {
     title: "Training & Placement",
     link: "/",
   },
+
   {
-    title: "Employment & Guidance Bureau",
+    title: "National Service Scheme (NSS)",
     link: "/",
   },
   {
-    title: "National Cadet Corps (NCC)",
+    title: "Anti Ragging Committee",
     link: "/",
-  },
+  }
 ];
 
 export const Online_Courses = [
@@ -65,12 +62,9 @@ export const Online_Courses = [
   },
 ];
 
-export const Sports = [
-  {
-    title: "Anti Ragging Committee",
-    link: "/",
-  }
-];
+// export const Sports = [
+  
+// ];
 
 export const University_Hostels = [
   {
