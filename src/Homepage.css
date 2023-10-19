@@ -2,9 +2,9 @@
     display: inline-flex;
 }
 
-/* .update-panel{
+ .update-panel{
     width: 50vw;
-} */
+} 
 @media (max-width: 767px)  {
 
     .newsNUpdates{
