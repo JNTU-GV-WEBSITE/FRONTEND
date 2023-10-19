@@ -1102,7 +1102,7 @@ export const Data = [
   {
     description: "Recruitment 2023 opening soon",
     type: "recruitment",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1681898880-61594Revised Pharm D I st Year Supple Time Table-April&May-2023.pdf",
+    link: "",
     date: "",
     month: "",
     year: "",
