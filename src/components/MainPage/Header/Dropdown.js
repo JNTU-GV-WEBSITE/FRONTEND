@@ -5,7 +5,7 @@ import GroupsIcon from "@mui/icons-material/Groups";
 import SchoolIcon from "@mui/icons-material/School";
 import PersonIcon from "@mui/icons-material/Person";
 import DraftsIcon from "@mui/icons-material/Drafts";
-import GridViewRoundedIcon from "@mui/icons-material/GridViewRounded";
+// import GridViewRoundedIcon from "@mui/icons-material/GridViewRounded";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 
@@ -20,8 +20,7 @@ const Dropdown = () => {
       <div class="dropdown">
         <div class="dropbtn">
           <Link className="drop-icon" to="/">
-            <HomeIcon />
-            HOME
+            <HomeIcon /> HOME
           </Link>
         </div>
       </div>
@@ -79,10 +78,7 @@ const Dropdown = () => {
           </button>
           <button>
             {" "}
-            <Link
-              className="link-btn"
-              to="/AcademicsMain/AffliatedCollegesOP"
-            >
+            <Link className="link-btn" to="/AcademicsMain/AffliatedCollegesOP">
               {" "}
               Affiliated Colleges
             </Link>
@@ -313,7 +309,7 @@ const Dropdown = () => {
           </button>
         </div>
       </div>
-
+      {/* 
       <div class="dropdown">
         <div class="dropbtn">
           <GridViewRoundedIcon />
@@ -363,7 +359,7 @@ const Dropdown = () => {
             </Link>
           </button>
         </div>
-      </div>
+      </div> */}
       <div class="dropdown">
         <div className="dropbtn" onClick={contactHandler}>
           <DraftsIcon /> CONTACTUS

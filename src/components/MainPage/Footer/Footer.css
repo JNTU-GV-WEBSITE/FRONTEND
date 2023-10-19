@@ -1,192 +1,194 @@
-
-
-.mainFooter{
-    display: flex;
-    flex-direction: column;
-    background-color: #690001;
-    color: aliceblue;
-    width: 100%;
+.mainFooter {
+  display: flex;
+  flex-direction: column;
+  background-color: #690001;
+  color: aliceblue;
+  width: 100%;
 }
 
-.container1Footer{
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
+.container1Footer {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.container2Footer{
-    border: 10px;
-    width: 21vw;
+.container2Footer {
+  border: 10px;
+  width: 21vw;
 }
 
-.container3Footer{
-    border: 10px;
-    width: 19vw;
+.container3Footer {
+  border: 10px;
+  width: 19vw;
 }
 
-.container4Footer{
-    border: 10px;
-    width: 20vw;
+.container4Footer {
+  border: 10px;
+  width: 20vw;
 }
 
-.footerHr{
-    width: 80%;
-    margin-left: 110px;
+.footerHr {
+  width: 80%;
+  margin-left: 110px;
 }
 
-.headlinksFooter{
-    padding-right: 60px;
+.headlinksFooter {
+  padding-right: 60px;
 }
-.headlinksFooter::after{
-    content: " | ";
-    padding-left: 30px;  
-}
-
-.mobilefooter{
-    text-align: center;
-    font-size: small;
+.headlinksFooter::after {
+  content: " | ";
+  padding-left: 30px;
 }
 
-.subFooter{
-    display: flex;
-    flex-direction: row;
+.mobilefooter {
+  text-align: center;
+  font-size: small;
 }
 
-.subcontainer1Footer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 145px;
-    margin-right: auto;
-    padding-left: -10px;
+.subFooter {
+  display: flex;
+  flex-direction: row;
 }
 
-.subcontainer2Footer{
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+.subcontainer1Footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 145px;
+  margin-right: auto;
+  padding-left: -10px;
 }
 
-.subcontainer3Footer{
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    font-size: medium;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: small;
+.subcontainer2Footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.subcontentFooter{
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 53px;
-    display: flex;
-    flex-direction: row;
-    font-weight: 600;
+.subcontainer3Footer {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
 }
 
-.subheadingFooter{
-    color: orange   ;
-    font-size: larger;
-    font-weight: 600;
+.subcontentFooter {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 53px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
 }
 
-.sublinksFooter{
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: capitalize;
+.subheadingFooter {
+  color: orange;
+  font-size: larger;
+  font-weight: 600;
 }
 
-.sublinksFooter:hover{
-    color: orange;
+.sublinksFooter {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-.subFooter{
-    width: 250px;
+.sublinksFooter:hover {
+  color: orange;
 }
 
-
-
+.subFooter {
+  width: 250px;
+}
 
 @media (max-width: 767px) {
-    .mainFooter{
+  .mainFooter {
     /* width: 100%; */
     overflow: hidden;
     padding-left: 10px;
-    }
-    .subcontainer2Footer, .subcontainer1Footer{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-    }
-    .container1Footer ,.container2Footer ,.container3Footer ,.container4Footer{
-        min-width: 400px;
-    }
-    .headlinksFooter::after{
-        content: "  ";
-        padding-left: 30px; 
-        padding-right: 15px;
-        padding-left: 20px; 
-    }
-    .subcontainer1Footer{
-        margin-left: 10px;
-        display: flex;
-        flex-direction: column;
-        /* margin-right: auto; */
-        /* padding-left: -10px; */
-    }
-    .subcontentFooter{
-        padding-left: 0%;
-        display: flex;
-        flex-direction: column;
-    }
-    .subcontainer3Footer{
-        display: flex;
-        flex-direction: column;
-    }
-    .footerHr{
+  }
+  .subcontainer2Footer,
+  .subcontainer1Footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .container1Footer,
+  .container2Footer,
+  .container3Footer,
+  .container4Footer {
+    min-width: 400px;
+  }
+  .headlinksFooter::after {
+    content: "  ";
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-left: 20px;
+  }
+  .subcontainer1Footer {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: auto; */
+    /* padding-left: -10px; */
+  }
+  .subcontentFooter {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  .subcontainer3Footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerHr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .subFooter {
+    width: 300px;
+  }
 
-        margin-left: auto;
-        margin-right: auto;
-        width: 95%;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet-specific styles go here */
+    .subcontainer2Footer,
+    .subcontainer1Footer {
+      display: flex;
+      flex-direction: column;
+      width: auto;
     }
-    .subFooter{
-        width: 300px;
+    .container1Footer,
+    .container2Footer,
+    .container3Footer,
+    .container4Footer {
+      min-width: 400px;
     }
-
-    @media (min-width: 768px) and (max-width: 1023px) {
-        /* Your tablet-specific styles go here */
-        .subcontainer2Footer, .subcontainer1Footer {
-            display: flex;
-            flex-direction: column;
-            width: auto;
-        }
-        .container1Footer, .container2Footer, .container3Footer, .container4Footer {
-            min-width: 400px;
-        }
-        .headlinksFooter::after {
-            content: "  ";
-            padding-left: 30px;
-            padding-right: 15px;
-            padding-left: 20px;
-        }
-        .subcontainer1Footer {
-            margin-left: 10px;
-            display: flex;
-            flex-direction: column;
-        }
-        .subcontentFooter {
-            padding-left: 0%;
-            display: flex;
-            flex-direction: column;
-        }
-        .subcontainer3Footer {
-            display: flex;
-            flex-direction: column;
-        }
+    .headlinksFooter::after {
+      content: "  ";
+      padding-left: 30px;
+      padding-right: 15px;
+      padding-left: 20px;
     }
-}    
+    .subcontainer1Footer {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .subcontentFooter {
+      padding-left: 0%;
+      display: flex;
+      flex-direction: column;
+    }
+    .subcontainer3Footer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

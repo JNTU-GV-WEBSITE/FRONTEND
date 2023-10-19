@@ -5,7 +5,7 @@ import {
   Central_Facilites,
   Online_Courses,
   University_Hostels,
-  Sports,
+  // Sports,
   JntuGv_Units,
 } from "./FooterData.js";
 
@@ -13,13 +13,13 @@ function Footer() {
   return (
     <div className="mainFooter">
       <div className="subcontainer1Footer">
-        <div>
+        {/* <div>
           <p className="subFooter subheadingFooter">Admission</p>
         </div>
         <div className="subcontentFooter">
           <p className="headlinksFooter">DIRECTORATE OF ADMISSIONS </p>
           <p>INTERNATIONAL AFFAIRS </p>
-        </div>
+        </div> */}
       </div>
       <div className="subcontainer2Footer">
         {/* Administration_Wing */}
@@ -55,24 +55,6 @@ function Footer() {
               </div>
             ))}
           </div>
-          {/* Sports */}
-          <p className="subheadingFooter">Sports</p>
-          <hr className="subFooter" />
-          <div>
-            {Sports.map((item, index) => (
-              <div key={index}>
-                <p>
-                  <Link to={item.link} className="sublinksFooter">
-                    {item.title}
-                  </Link>
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Online_Courses */}
-        <div className="container3Footer">
           <p className="subheadingFooter">Online Courses</p>
           <hr className="subFooter" />
           <div>
@@ -86,6 +68,24 @@ function Footer() {
               </div>
             ))}
           </div>
+          {/* Sports */}
+          {/* <p className="subheadingFooter">Sports</p>
+          <hr className="subFooter" />
+          <div>
+            {Sports.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link to={item.link} className="sublinksFooter">
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div> */}
+        </div>
+
+        {/* Online_Courses */}
+        <div className="container3Footer">
           {/* University_Hostels */}
           <p className="subheadingFooter">University Hostels</p>
           <hr className="subFooter" />

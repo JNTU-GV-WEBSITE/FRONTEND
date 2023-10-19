@@ -6,77 +6,95 @@ function UpdatePanel() {
   const tenderList = [];
   const notificationList = [];
   const conferenceList = [];
+  const recruitmentList = [];
 
-  const [notificationButtonColor, setNotificationButtonColor] =
-    useState("#0ead56");
-  const [tenderButtonColor, setTenderButtonColor] = useState("white");
-  const [conferenceButtonColor, setConferenceButtonColor] = useState("white");
   const [displayData, setDisplayData] = useState(notificationList);
+
+  const [activeButton, setActiveButton] = useState('Notifications');
+
+  const buttonStyles = {
+    backgroundColor: "white",
+    color: "black",
+    padding: "10px",
+    margin: "5px",
+    border: "none",
+    cursor: "pointer",
+  };
+
   Data.forEach((entry) => {
     if (entry.type === "notifications") {
       notificationList.push(entry);
+    } else if (entry.type === "recruitment") {
+      recruitmentList.push(entry);
     } else if (entry.type === "tender") {
       tenderList.push(entry);
-    }
-    if (entry.type === "conference") {
+    } else if (entry.type === "conference") {
       conferenceList.push(entry);
     }
   });
-  const notificationButtonStyle = {
-    backgroundColor: notificationButtonColor,
-    color: notificationButtonColor ? "black" : "",
-  };
-  const tenderButtonStyle = {
-    backgroundColor: tenderButtonColor,
-    color: tenderButtonColor ? "black" : "",
-  };
-  const conferenceButtonStyle = {
-    backgroundColor: conferenceButtonColor,
-    color: conferenceButtonColor ? "black" : "",
-  };
 
-  const handleNotification = () => {
-    setNotificationButtonColor("#0ead56");
-    setTenderButtonColor("white");
-    setConferenceButtonColor("white");
+  const handleNotification = (button) => {
     setDisplayData(notificationList);
+    setActiveButton(button);
   };
-  const handleTender = () => {
-    setNotificationButtonColor("white");
-    setTenderButtonColor("#0ead56");
-    setConferenceButtonColor("white");
+  const handleRecruitment = (button) => {
+    setDisplayData(recruitmentList);
+    setActiveButton(button);
+  };
+  const handleTender = (button) => {
     setDisplayData(tenderList);
+    setActiveButton(button);
   };
-  const handleConference = () => {
-    setNotificationButtonColor("white");
-    setTenderButtonColor("white");
-    setConferenceButtonColor("#0ead56");
+  const handleConference = (button) => {
     setDisplayData(conferenceList);
+    setActiveButton(button);
   };
 
   return (
     <div className="updateComponent">
       <div className="updateButtons">
         <button
-          className="updateButton"
-          style={notificationButtonStyle}
-          onClick={handleNotification}
+          style={{
+            ...buttonStyles,
+            backgroundColor:
+              activeButton === "Notifications" ? "#690001" : "white",
+            color: activeButton === "Notifications" ? "white" : "black",
+          }}
+          onClick={() => handleNotification("Notifications")}
         >
           Notifications
         </button>
         <button
-          className="updateButton"
-          style={tenderButtonStyle}
-          onClick={handleTender}
+          style={{
+            ...buttonStyles,
+            backgroundColor:
+              activeButton === "Recruitment" ? "#690001" : "white",
+            color: activeButton === "Recruitment" ? "white" : "black",
+          }}
+          onClick={() => handleRecruitment("Recruitment")}
         >
-          Tenders
+          Recruitment 2023<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img>
         </button>
         <button
-          className="updateButton"
-          style={conferenceButtonStyle}
-          onClick={handleConference}
+          style={{
+            ...buttonStyles,
+            backgroundColor:
+              activeButton === "Conferences" ? "#690001" : "white",
+            color: activeButton === "Conferences" ? "white" : "black",
+          }}
+          onClick={() => handleConference("Conferences")}
         >
           Conferences
+        </button>
+        <button
+          style={{
+            ...buttonStyles,
+            backgroundColor: activeButton === "Tenders" ? "#690001" : "white",
+            color: activeButton === "Tenders" ? "white" : "black",
+          }}
+          onClick={() => handleTender("Tenders")}
+        >
+          Tenders
         </button>
       </div>
       <div className="updatesContainer">

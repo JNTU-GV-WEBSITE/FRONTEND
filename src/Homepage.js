@@ -12,8 +12,8 @@ function Homepage() {
     <div>
       <ImageGallery />
       <div className="newsNUpdates">
-        <Scrollbar />
-        <UpdatePanel />
+        <Scrollbar className="update-panel"/>
+        <UpdatePanel className="update-panel"/>
       </div>
       <Gallery />
       <br />
