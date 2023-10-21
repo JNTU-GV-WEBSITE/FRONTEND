@@ -1,7 +1,7 @@
 export const Data = [
   {
     description: "Academic Calendar for I Year MBA and MCA",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1696407000-20501AC for I Year MBA and MCA .pdf",
+    link: "https://drive.google.com/file/d/18SIawj2DntYndNAsjXLA7-3s1f-23G9q/view?usp=share_link",
     date: "04",
     month: "Oct",
     year: "2023",
@@ -10,7 +10,7 @@ export const Data = [
   },
   {
     description: "Academic Calendar for I Year M. Tech and M. Pharmacy",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1696406940-1250AC for I Year M.pdf",
+    link: "https://drive.google.com/file/d/18SIawj2DntYndNAsjXLA7-3s1f-23G9q/view?usp=share_link",
     date: "04",
     month: "Oct",
     year: "2023",
@@ -28,7 +28,7 @@ export const Data = [
   },
   {
     description: "Academic Calender for II year B. Pharmacy AY 2023-24",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695790980-78550Academic Calander for II year B.pdf",
+    link: "https://drive.google.com/file/d/1IrawmiHcz5rP2le0Q5pXrNyt75psQnzH/view?usp=sharing",
     date: "27",
     month: "Sep",
     year: "2023",
@@ -37,7 +37,7 @@ export const Data = [
   },
   {
     description: "Ph.D-Tution Fee-Application.",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695715440-1649125-09-2023-Ph.pdf",
+    link: "https://drive.google.com/file/d/1rCCC2qpgSXno7O-8qpwcr6SUfFHxGDtz/view?usp=sharing",
     date: "26",
     month: "Sep",
     year: "2023",
@@ -46,7 +46,7 @@ export const Data = [
   },
   {
     description: "Ph.D-Tution Fee-Circular.",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695715260-5663525-09-2023-Ph.pdf",
+    link: "https://drive.google.com/file/d/1tVcX10y17yM0nQHx6a06zkrtQtItclWZ/view?usp=sharing",
     date: "26",
     month: "Sep",
     year: "2023",
@@ -56,7 +56,7 @@ export const Data = [
   {
     description:
       "IEEE Vizag Bay COMSOC/SPS Distinguished Lecture by Dr.Sudhir Dixit, San\u00a0Francisco,\u00a0USA.",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695449340-12470Distinguished Lecture on 29 Sep' 2023.pdf",
+    link: "https://drive.google.com/file/d/1AGieJ4z5hizI-rPQXyuvgy2pucOFHpRt/view?usp=sharing",
     date: "23",
     month: "Sep",
     year: "2023",
@@ -66,7 +66,7 @@ export const Data = [
   {
     description:
       "Most Urgent: Appointment of Student Grievances Redressal Committee (SGRC) and Ombud Persons in Constituent and Affiliated Colleges",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695383340-65872sgrc.pdf",
+    link: "https://drive.google.com/file/d/164BCaHh39X0JwmkRoQ5HqVUMfqZFGaHV/view?usp=sharing",
     date: "22",
     month: "Sep",
     year: "2023",
@@ -76,7 +76,7 @@ export const Data = [
   {
     description:
       "MBA I semester examinations Feb-2023 Revaluation/ Recounting -Submission of Application forms-Reg",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695378300-51241MBA I semester examinations Feb-2023 Revaluation&Recounting -Submission of Application forms-Reg.pdf",
+    link: "https://drive.google.com/file/d/1-KBGH1IDFadsCWD65ggn4AeyMZh0B3vH/view?usp=sharing",
     date: "22",
     month: "Sep",
     year: "2023",
@@ -86,7 +86,7 @@ export const Data = [
   {
     description:
       "IV B.Tech-I Sem (R20) I-MID Examination Time Table-September-2023",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695358500-8326IV B.pdf",
+    link: "https://drive.google.com/file/d/1XrB-mtU__G9lTfjzBLX5pVVZnesRw__h/view?usp=sharing",
     date: "22",
     month: "Sep",
     year: "2023",
@@ -96,7 +96,7 @@ export const Data = [
   {
     description:
       "MCA-III Sem (R20) I MID Examination Time Table-September-2023",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695205320-98104MCA-III Sem (R20) I MID Examination Time Table-September-2023.pdf",
+    link: "https://drive.google.com/file/d/1y0iXYQbA6JAkg17zFIPFfLx3tCYgk4zY/view?usp=sharing",
     date: "20",
     month: "Sep",
     year: "2023",
@@ -106,7 +106,7 @@ export const Data = [
   {
     description:
       "MBA-III Sem (R19) I  MID Examination Time Table-September-2023",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695205140-96663MBA-III Sem (R19) I  MID Examination Time Table-September-2023.pdf",
+    link: "https://drive.google.com/file/d/1ZxgOLoyb7qLhYwXczgPO-y9ijPy28ZX_/view?usp=sharing",
     date: "20",
     month: "Sep",
     year: "2023",
@@ -116,7 +116,7 @@ export const Data = [
   {
     description:
       "M.Tech-III Sem (R19) I-MID Examination Time Table-September-2023",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695201900-84897M.pdf",
+    link: "https://drive.google.com/file/d/1XFeInyqz7zwn4IVaI2-O6q44JzhYuq9H/view?usp=sharing",
     date: "20",
     month: "Sep",
     year: "2023",
@@ -126,7 +126,7 @@ export const Data = [
   {
     description:
       "Notification For I B.Pharmacy II Semester Regular/Supply Exams SEP/OCT-2023",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695125400-51581B.pdf",
+    link: "https://drive.google.com/file/d/1DBidkF3fnpEn3szSTe97NfLur1xF-FFv/view?usp=sharing",
     date: "19",
     month: "Sep",
     year: "2023",
@@ -136,7 +136,7 @@ export const Data = [
   {
     description:
       "Poetry competitions on the eve of Gurajada apparoa 161th birthday celebrations\u00a0at\u00a0JNTUGV",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695115980-3793gurajada birthday celebrations.pdf",
+    link: "https://drive.google.com/file/d/1jjNNwbVNWWcDxQNWFDHFwCyJF0qgHcbl/view?usp=sharing",
     date: "19",
     month: "Sep",
     year: "2023",
@@ -145,7 +145,7 @@ export const Data = [
   },
   {
     description: "Student Grievance Redressal Form",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1694766420-84291Student Grievance Redressal Form.pdf",
+    link: "https://drive.google.com/file/d/1Ao_AX3kc0gzjmyww--puYDnDNtRaaIUY/view?usp=sharing",
     date: "15",
     month: "Sep",
     year: "2023",
@@ -154,7 +154,7 @@ export const Data = [
   },
   {
     description: "JNTUGV-UG-B.Tech.- R23 Regulations",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1694524920-30032JNTUGV - UG  - B.pdf",
+    link: "https://drive.google.com/file/d/1Yh4HBl1QsiuVkfK1Osvsd9vcS5u9sBgO/view?usp=sharing",
     date: "12",
     month: "Sep",
     year: "2023",
@@ -163,7 +163,7 @@ export const Data = [
   },
   {
     description: "II Year M.Pharamacy Academic Calendar 2023-2024",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1694071860-15976Academic Calander for II year M.pdf",
+    link: "https://drive.google.com/file/d/1vx7pk_8IeSwdz4UXt3I22bO2N6bZaxn7/view?usp=sharing",
     date: "07",
     month: "Sep",
     year: "2023",
@@ -172,7 +172,7 @@ export const Data = [
   },
   {
     description: "B.Tech.- R23 EEE Syllabus",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693981620-18809B.pdf",
+    link: "https://drive.google.com/file/d/1OibFfXjzC8lPLTaX6FYkNO50CSgePGwi/view?usp=sharing",
     date: "06",
     month: "Sep",
     year: "2023",
@@ -181,7 +181,7 @@ export const Data = [
   },
   {
     description: "B.Tech.- R23 ECE Syllabus",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693981620-71876B.pdf",
+    link: "https://drive.google.com/file/d/1uxvCLKK9a-kFmaFqf7GvHAFjlADB8tDQ/view?usp=sharing",
     date: "06",
     month: "Sep",
     year: "2023",
@@ -190,7 +190,7 @@ export const Data = [
   },
   {
     description: "B.Tech.- R23 CSE,IT Allied Courses Syllabus",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693921140-35009B.pdf",
+    link: "https://drive.google.com/file/d/1IbU-wp_ZJAvB0QSo_ULLDflsOrDk_1nn/view?usp=sharing",
     date: "05",
     month: "Sep",
     year: "2023",
@@ -199,7 +199,7 @@ export const Data = [
   },
   {
     description: "B.Tech.- R23 MECH & Automobile Engg Syllabus",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693921140-45943B.pdf",
+    link: "https://drive.google.com/file/d/10fkXcjurScOBXzXqH8O6CcNae2CWVgVX/view?usp=sharing",
     date: "05",
     month: "Sep",
     year: "2023",
@@ -208,7 +208,7 @@ export const Data = [
   },
   {
     description: "B.Tech.-R23 Civil Eng Syllabus",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693921020-74231B.pdf",
+    link: "https://drive.google.com/file/d/19iaG0va7kQo9ufHiqqKh5BCtuxLPiIzy/view?usp=sharing",
     date: "05",
     month: "Sep",
     year: "2023",
@@ -217,7 +217,7 @@ export const Data = [
   },
   {
     description: "JNTUGV-UG-B.Tech.- COURSE STRUCTURE",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693910520-95279JNTUGV - UG  - B.pdf",
+    link: "https://drive.google.com/file/d/1TY6bM5LSoWhA8afnfY_bnGGanz455iIv/view?usp=sharing",
     date: "05",
     month: "Sep",
     year: "2023",
@@ -226,7 +226,7 @@ export const Data = [
   },
   {
     description: "Pre-Ph.D Subjects List and Syllabus",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693584120-4689302-Pre-Ph.pdf",
+    link: "https://drive.google.com/file/d/1vyc7MGqJzS_AMSbRZjgZk2mfyWtLxInY/view?usp=sharing",
     date: "01",
     month: "Sep",
     year: "2023",
@@ -235,7 +235,7 @@ export const Data = [
   },
   {
     description: "Pre-Ph.D Subjects Registrartion Form",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693523280-4015703-Pre-Ph.pdf",
+    link: "https://drive.google.com/file/d/18pPyP9PgEUtYFSujPuXrDT-OB_JTVFDn/view?usp=sharing",
     date: "01",
     month: "Sep",
     year: "2023",
@@ -244,7 +244,7 @@ export const Data = [
   },
   {
     description: "Pre-Ph.D Subjects Notification",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1693522740-3315201-Pre-Ph.pdf",
+    link: "https://drive.google.com/file/d/1j2s2Yy0vncDNiWYEyMSSHSSjy7I8nP1E/view?usp=sharing",
     date: "01",
     month: "Sep",
     year: "2023",
@@ -1102,7 +1102,7 @@ export const Data = [
   {
     description: "Recruitment 2023 opening soon",
     type: "recruitment",
-    link: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1681898880-61594Revised Pharm D I st Year Supple Time Table-April&May-2023.pdf",
+    link: "",
     date: "",
     month: "",
     year: "",
