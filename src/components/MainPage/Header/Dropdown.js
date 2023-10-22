@@ -12,16 +12,20 @@ import DescriptionIcon from "@mui/icons-material/Description";
 const Dropdown = () => {
   const navigate = useNavigate();
 
+  const homeHandler = () => {
+    navigate("/");
+  };
+
   const contactHandler = () => {
     navigate("/ContactUs");
   };
   return (
     <div class="topnav" id="myTopnav">
       <div class="dropdown">
-        <div class="dropbtn">
-          <Link className="drop-icon" to="/">
+        <div class="dropbtn" onClick={homeHandler}>
+          <div className="drop-icon">
             <HomeIcon /> HOME
-          </Link>
+          </div>
         </div>
       </div>
       <div class="dropdown">
@@ -362,7 +366,9 @@ const Dropdown = () => {
       </div> */}
       <div class="dropdown">
         <div className="dropbtn" onClick={contactHandler}>
-          <DraftsIcon /> CONTACTUS
+          <div className="drop-icon">
+            <DraftsIcon /> CONTACTUS
+          </div>
         </div>
       </div>
     </div>

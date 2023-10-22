@@ -93,7 +93,7 @@ function Scrollbar() {
           </div>
         ))}
       </div>
-      <button className="btn w-100">Show All...</button>
+      <button className="scroll-button">Show All...</button>
     </div>
   );
 }
