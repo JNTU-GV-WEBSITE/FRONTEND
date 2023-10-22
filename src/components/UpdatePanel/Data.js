@@ -1,7 +1,7 @@
 export const Data = [
   {
     description: "Academic Calendar for I Year MBA and MCA",
-    link: "https://drive.google.com/file/d/18SIawj2DntYndNAsjXLA7-3s1f-23G9q/view?usp=share_link",
+    link: "https://drive.google.com/file/d/12h7w_EuGdnR3gqAEyM68HcLmUIx26qaI/view?usp=share_link",
     date: "04",
     month: "Oct",
     year: "2023",

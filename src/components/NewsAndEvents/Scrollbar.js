@@ -6,7 +6,7 @@ import "./NewsAndEvents.css";
 import CampaignIcon from '@mui/icons-material/Campaign';
 
 const arr = [
-    { hypertext: "https://drive.google.com/file/d/18SIawj2DntYndNAsjXLA7-3s1f-23G9q/view?usp=share_link", text: "Academic Calendar for I Year MBA and MCA " },
+    { hypertext: "https://drive.google.com/file/d/12h7w_EuGdnR3gqAEyM68HcLmUIx26qaI/view?usp=share_link", text: "Academic Calendar for I Year MBA and MCA " },
     { hypertext: "https://drive.google.com/file/d/18SIawj2DntYndNAsjXLA7-3s1f-23G9q/view?usp=share_link", text: "Academic Calendar for I Year M. Tech and M. Pharmacy " },
     { hypertext: "https://jntugv.edu.in/updates/9266a0f9fc226ffbf57a3beb4c6b6388/notifications/1695812280-34056APSCHE UNICEF Launched P2E Program.pdf", text: "APSCHE-BCDE-UNICEF-P2E Program " },
     { hypertext: "https://drive.google.com/file/d/1IrawmiHcz5rP2le0Q5pXrNyt75psQnzH/view?usp=sharing", text: "Academic Calender for II year B. Pharmacy AY 2023-24 " },
