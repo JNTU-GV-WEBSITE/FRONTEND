@@ -64,6 +64,7 @@ function UpdatePanel() {
             color: activeButton === "Notifications" ? "white" : "black",
           }}
           onClick={() => handleNotification("Notifications")}
+          target = "_blank"
         >
           Notifications
         </button>
@@ -102,7 +103,7 @@ function UpdatePanel() {
       </div>
       <div className="updatesContainer">
         {displayData.map((entry) => (
-          <a href={entry.link || "#"}>
+          <a href={entry.link || "#"}  target="_blank" rel="noreferrer">
             <div>
               <div className="updateBox">
                 <div className="dateTimeContainer">
