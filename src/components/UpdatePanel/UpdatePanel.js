@@ -19,6 +19,7 @@ function UpdatePanel() {
     margin: "5px",
     border: "none",
     cursor: "pointer",
+    borderRadius:"15px"
   };
 
   Data.forEach((entry) => {
