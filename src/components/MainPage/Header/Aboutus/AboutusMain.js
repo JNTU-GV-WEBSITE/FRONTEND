@@ -8,9 +8,9 @@ const AboutusMain = () => {
       <div className="ABOUTallLeftMenu">
          {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
          <Link
-          to="AboutJNTUGV"
+          to="About-JNTUGV"
           className={`menuButton ${
-            location.pathname === "/AboutusMain/AboutJNTUGV" ? "active" : ""
+            location.pathname === "/Aboutus/About-JNTUGV" ? "active" : ""
           }`}
         >
           About JNTUGV
@@ -18,7 +18,7 @@ const AboutusMain = () => {
         <Link
           to="Vision"
           className={`menuButton ${
-            location.pathname === "/AboutusMain/Vision" ? "active" : ""
+            location.pathname === "/Aboutus/Vision" ? "active" : ""
           }`}
         >
           Vision
@@ -26,7 +26,7 @@ const AboutusMain = () => {
         <Link
           to="Mission"
           className={`menuButton ${
-            location.pathname === "/AboutusMain/Mission" ? "active" : ""
+            location.pathname === "/Aboutus/Mission" ? "active" : ""
           }`}
         >
           Mission

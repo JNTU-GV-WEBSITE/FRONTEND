@@ -10,7 +10,7 @@ const AdministrationMain = () => {
          <Link
           to="Chancellor"
           className={`menuButton ${
-            location.pathname === "/AdministrationMain/Chancellor" ? "active" : ""
+            location.pathname === "/Administration/Chancellor" ? "active" : ""
           }`}
         >
           Chancellor
@@ -18,7 +18,7 @@ const AdministrationMain = () => {
         <Link
           to="ViceChancellor"
           className={`menuButton ${
-            location.pathname === "/AdministrationMain/ViceChancellor" ? "active" : ""
+            location.pathname === "/Administration/ViceChancellor" ? "active" : ""
           }`}
         >
           Vice Chancellor
@@ -26,7 +26,7 @@ const AdministrationMain = () => {
         <Link
           to="Registrar"
           className={`menuButton ${
-            location.pathname === "/AdministrationMain/Registrar" ? "active" : ""
+            location.pathname === "/Administration/Registrar" ? "active" : ""
           }`}
         >
           Registrar
