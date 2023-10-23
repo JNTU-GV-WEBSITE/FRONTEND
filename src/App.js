@@ -52,27 +52,27 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} /> {/* Add this route */}
-       <Route path="/AboutusMain" element={<AboutusMain />}>
-        <Route path="AboutJNTUGV" element={<AboutJNTUGV />}/>
+       <Route path="/Aboutus" element={<AboutusMain />}>
+        <Route path="About-JNTUGV" element={<AboutJNTUGV />}/>
         <Route path="Vision" element={<Vision />}/>
         <Route path="Mission" element={<Mission />}/>
        </Route>
-        <Route path="/AcademicsMain" element={<AcademicsMain />}>
+        <Route path="/Academics" element={<AcademicsMain />}>
           <Route
-            path="ConstituentCollegesOP"
+            path="Constituent-Colleges"
             element={<ConstituentCollegesOP />}
           />
-          <Route path="ProgramsofferedOP" element={<AcademicsOP />} />
-          <Route path="AdmissionsOP" element={<AdmissionsOP />} />
-          <Route path="AffliatedCollegesOP" element={<AffliatedCollegesOP />} />
+          <Route path="Programs-Offered" element={<AcademicsOP />} />
+          <Route path="Admissions" element={<AdmissionsOP />} />
+          <Route path="Affliated-Colleges" element={<AffliatedCollegesOP />} />
         </Route>
-        <Route path="/AdministrationMain" element={<AdministrationMain />}>
+        <Route path="/Administration" element={<AdministrationMain />}>
         <Route path="Chancellor" element={<Chancellor />} />{" "}
         {/* Add this route */}
         <Route path="ViceChancellor" element={<ViceChancellor />} />
         <Route path="Registrar" element={<Registrar />} />
         </Route>
-        <Route path="/DirectoratesMain" element={<DirectoratesMain />}>
+        <Route path="/Directorates" element={<DirectoratesMain />}>
         <Route path="AcademicAudit" element={<AcademicAudit />} />{" "}
         {/* Add this route */}
         <Route path="AcademicPlanning" element={<AcademicPlanning />} />
@@ -98,7 +98,7 @@ function App() {
         />
         </Route>
         
-        <Route path="/ExaminationMain" element={<ExaminationMain />}>
+        <Route path="/Examination" element={<ExaminationMain />}>
           <Route path="EvaluationExam" element={<EvaluationExam />} />
           <Route path="Controller" element={<Controller />} />
           <Route path="ControllerSDC" element={<ControllerSDC />} />

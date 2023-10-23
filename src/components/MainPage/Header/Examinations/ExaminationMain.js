@@ -9,57 +9,57 @@ const ExaminationMain = () => {
     <div style={{display:"flex"}}>
       <div className="allLeftMenuAOP">
         <Link
-          to="/ExaminationMain/EvaluationExam"
+          to="/Examination/EvaluationExam"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/EvaluationExam" ? "active" : ""
+            location.pathname === "/Examination/EvaluationExam" ? "active" : ""
           }`}
         >
           Director Of Evaluation
         </Link>
         <Link
-          to="/ExaminationMain/Controller"
+          to="/Examination/Controller"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/Controller" ? "active" : ""
+            location.pathname === "/Examination/Controller" ? "active" : ""
           }`}
         >
           Controller Of Examinations
         </Link>
         <Link
-          to="/ExaminationMain/ControllerSDC"
+          to="/Examination/ControllerSDC"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/ControllerSDC" ? "active" : ""
+            location.pathname === "/Examination/ControllerSDC" ? "active" : ""
           }`}
         >
           Addt. Controller Of Examinations SDC
         </Link>
         <Link
-          to="/ExaminationMain/Controller1"
+          to="/Examination/Controller1"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/Controller1" ? "active" : ""
+            location.pathname === "/Examination/Controller1" ? "active" : ""
           }`}
         >
           Addt. Controller Of Examinations 1
         </Link>
         <Link
-          to="/ExaminationMain/Controller2"
+          to="/Examination/Controller2"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/Controller2" ? "active" : ""
+            location.pathname === "/Examination/Controller2" ? "active" : ""
           }`}
         >
           Addt. Controller Of Examinations 2
         </Link>
         <Link
-          to="/ExaminationMain/Controller3"
+          to="/Examination/Controller3"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/Controller3" ? "active" : ""
+            location.pathname === "/Examination/Controller3" ? "active" : ""
           }`}
         >
           Addt. Controller Of Examinations 3
         </Link>
         <Link
-          to="/ExaminationMain/ControllerPG"
+          to="/Examination/ControllerPG"
           className={`menubutton ${
-            location.pathname === "/ExaminationMain/ControllerPG" ? "active" : ""
+            location.pathname === "/Examination/ControllerPG" ? "active" : ""
           }`}
         >
           Addt. Controller Of Examinations PG
