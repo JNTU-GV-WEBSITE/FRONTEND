@@ -16,7 +16,7 @@ const ConstituentCollegesOP = () => {
             </a>
             <a
                className="clgnamediv"
-               href="https://jntugvcev.edu.in/"
+               href="https://jntugvk.vercel.app/"
                target="_blank"
                rel="noreferrer"
             >
