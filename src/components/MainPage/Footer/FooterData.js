@@ -43,7 +43,7 @@ export const Central_Facilites = [
   {
     title: "Anti Ragging Committee",
     link: "/",
-  }
+  },
 ];
 
 export const Online_Courses = [
@@ -62,9 +62,16 @@ export const Online_Courses = [
   },
 ];
 
-// export const Sports = [
-  
-// ];
+export const Consituent_Colleges = [
+  {
+    title: "JNTU-GV College of Engineering, Vizianagaram",
+    link: "https://jntugvcev.edu.in/",
+  },
+  {
+    title:"JNTU-GV Trible College of Engineering, Kurupam",
+    link:"https://jntugvk.vercel.app/"
+  }
+];
 
 export const University_Hostels = [
   {
