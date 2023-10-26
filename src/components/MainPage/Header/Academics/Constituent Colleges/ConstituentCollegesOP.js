@@ -20,7 +20,7 @@ const ConstituentCollegesOP = () => {
                target="_blank"
                rel="noreferrer"
             >
-              <div className="clgtextdivOP">JNTU-GV Trible College of Engineering, Kurupam</div>
+              <div className="clgtextdivOP">JNTU-GV Tribal College of Engineering, Kurupam</div>
             </a>
           </div>
       </div>
