@@ -5,7 +5,7 @@ import {
   Central_Facilites,
   Online_Courses,
   University_Hostels,
-  // Sports,
+  Consituent_Colleges,
   JntuGv_Units,
 } from "./FooterData.js";
 
@@ -68,24 +68,29 @@ function Footer() {
               </div>
             ))}
           </div>
-          {/* Sports */}
-          {/* <p className="subheadingFooter">Sports</p>
+        </div>
+
+        {/* Online_Courses */}
+        <div className="container3Footer">
+          {/* Consituent Colleges */}
+          <p className="subheadingFooter">Consituent Colleges</p>
           <hr className="subFooter" />
           <div>
-            {Sports.map((item, index) => (
+            {Consituent_Colleges.map((item, index) => (
               <div key={index}>
                 <p>
-                  <Link to={item.link} className="sublinksFooter">
+                  <Link
+                    to={item.link}
+                    className="sublinksFooter"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     {item.title}
                   </Link>
                 </p>
               </div>
             ))}
-          </div> */}
-        </div>
-
-        {/* Online_Courses */}
-        <div className="container3Footer">
+          </div>
           {/* University_Hostels */}
           <p className="subheadingFooter">University Hostels</p>
           <hr className="subFooter" />
