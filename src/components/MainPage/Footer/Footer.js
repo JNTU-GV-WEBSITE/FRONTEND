@@ -72,6 +72,25 @@ function Footer() {
 
         {/* Online_Courses */}
         <div className="container3Footer">
+          {/* Consituent Colleges */}
+          <p className="subheadingFooter">Consituent Colleges</p>
+          <hr className="subFooter" />
+          <div>
+            {Consituent_Colleges.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link
+                    to={item.link}
+                    className="sublinksFooter"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
           {/* University_Hostels */}
           <p className="subheadingFooter">University Hostels</p>
           <hr className="subFooter" />
@@ -80,20 +99,6 @@ function Footer() {
               <div key={index}>
                 <p>
                   <Link to={item.link} className="sublinksFooter">
-                    {item.title}
-                  </Link>
-                </p>
-              </div>
-            ))}
-          </div>
-          {/* Consituent Colleges */}
-          <p className="subheadingFooter">Consituent Colleges</p>
-          <hr className="subFooter" />
-          <div>
-            {Consituent_Colleges.map((item, index) => (
-              <div key={index}>
-                <p>
-                  <Link to={item.link} className="sublinksFooter" target="_blank" rel="noreferrer">
                     {item.title}
                   </Link>
                 </p>
