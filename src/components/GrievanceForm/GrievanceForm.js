@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import axios from 'axios';
 import "./Grievance.css";
-import { Button } from "react-bootstrap";
 
 const Grievance = () => {
 
@@ -15,7 +14,6 @@ const Grievance = () => {
     const [msg,setMsg]=useState("");
     const [date,setDate]=useState("");
     const [file,setFile]=useState("");
-    setFile(null)
     const sendmail= async ()=>{
         alert("Sending Mail...")
         const response = await axios.post(`http://117.221.101.104:8888/api/mailing/send_grievance`,{
@@ -88,10 +86,10 @@ const Grievance = () => {
                     <input type="date" class="form-control" id="floatingPassword" placeholder="Date of Incident" name="sdate" required value={date} onChange={(e)=> setDate(e.target.value)}/>
                     <label for="floatingPassword">Date of Incident <span className="required">*</span></label>
                 </div>
-                {/* <div class="mb-3">
+                <div class="mb-3">
                     <label for="floatingPassword" children className="form-label">Any Supporting Documents(Attachment)<span className="required">*</span></label>
-                    <input type="file" class="form-control" id="floatingPassword" placeholder="supporting_docs" name="sdoc" required/>
-                </div> */}
+                    <input type="file" class="form-control" id="floatingPassword" placeholder="supporting_docs" name="sdoc" required onChange={(e)=>setFile(e.target.files[0])}/>
+                </div>
                 <div class="form-floating m-5">
                     <button class="btn btn-success w-100" type="submit" onClick={sendmail}>Send Grievance</button>
                 </div>
