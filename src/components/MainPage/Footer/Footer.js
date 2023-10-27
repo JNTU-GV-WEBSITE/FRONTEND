@@ -109,7 +109,7 @@ function Footer() {
 
         <div className="container4Footer">
           {/* JNTU GV UNITS */}
-          <p className="subheadingFooter">Jntu-Gv Units</p>
+          <p className="subheadingFooter">JNTU-GV Units</p>
           <hr className="subFooter" />
           <div>
             {JntuGv_Units.map((item, index) => (
