@@ -16,8 +16,8 @@ const Grievance = () => {
     const [file,setFile]=useState("");
     const sendmail= async ()=>{
         alert("Sending Mail...")
-        const response = await axios.post(`http://117.221.101.104:8888/api/mailing/send_grievance`,{
-        rollno,email,name,phno,adhaarno,collegename,category,msg,file
+        const response = await axios.post(`http://117.221.101.104:8888/api/mailing/send-grievance`,{
+        rollno,email,name,phno,adhaarno,collegename,category,msg,date,file
         })
         if(response.data.success===true){
         alert("Grievance Mail Sent")
