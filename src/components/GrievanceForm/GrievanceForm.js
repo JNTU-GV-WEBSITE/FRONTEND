@@ -15,6 +15,7 @@ const Grievance = () => {
     const [msg,setMsg]=useState("");
     const [date,setDate]=useState("");
     const [file,setFile]=useState("");
+    setFile(null)
     const sendmail= async ()=>{
         alert("Sending Mail...")
         const response = await axios.post(`http://117.221.101.104:8888/api/mailing/send_grievance`,{
