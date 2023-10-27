@@ -69,7 +69,7 @@ export const Consituent_Colleges = [
   },
   {
     title:"JNTU-GV Tribal College of Engineering, Kurupam",
-    link:"https://jntugvk.vercel.app/"
+    link:"https://jntugvk.ucev.in/"
   }
 ];
 
