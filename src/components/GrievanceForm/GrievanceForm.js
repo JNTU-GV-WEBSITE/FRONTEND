@@ -1,5 +1,7 @@
 import React,{useState} from "react";
+import axios from 'axios';
 import "./Grievance.css";
+import { Button } from "react-bootstrap";
 
 const Grievance = () => {
 
@@ -11,12 +13,11 @@ const Grievance = () => {
     const [collegename,setCollegeName]=useState("");
     const [category,setCategory]=useState("");
     const [msg,setMsg]=useState("");
-    const [date,setDate]=useState(Date());
+    const [date,setDate]=useState("");
     const [file,setFile]=useState("");
     const sendmail= async ()=>{
         alert("Sending Mail...")
-
-        const response = await axios.post(`http://117.221.101.104:8888/api/mailing/sendmail`,{
+        const response = await axios.post(`http://117.221.101.104:8888/api/mailing/send_grievance`,{
         rollno,email,name,phno,adhaarno,collegename,category,msg,file
         })
         if(response.data.success===true){
@@ -39,7 +40,7 @@ const Grievance = () => {
                 <center><img src="./images/JNTUGV BAR.png" width="100%" height="100%"/></center>
             </div> */}
             <div>
-            <form class="grievance-form">
+            {/* <class="grievance-form"> */}
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="floatingInput" placeholder="Your Roll No Please..." name="sroll" required value={rollno} onChange={(e)=> setRollno(e.target.value)}/>
                     <label for="floatingInput">Student Roll Number <span className="required">*</span></label>
@@ -65,8 +66,8 @@ const Grievance = () => {
                     <label for="floatingPassword">Phone Number <span className="required">*</span></label>
                 </div>
                 <div class="form-floating mb-3">
-                    <select class="form-control form-select" id="floatingPassword" name="sissue" required value={category} onChange={(e)=> setCategory(e.target.value)}>
-                        <option>Choose</option>
+                    <input type="text" class="form-control form-select" id="floatingPassword" name="sissue" required value={category} onChange={(e)=> setCategory(e.target.value)}/>
+                        {/* <option>Choose</option>
                         <option>Academic Issues</option>
                         <option>Facility Issues</option>
                         <option>Administrative Concerns</option>
@@ -75,7 +76,7 @@ const Grievance = () => {
                         <option>Campus Community & Inclusion</option>
                         <option>Technology & IT Services</option>
                         <option>Miscellaneous</option>
-                    </select>
+                    </select> */}
                     <label for="floatingPassword">Category of Grievance <span className="required">*</span></label>
                 </div>
                 <div class="form-floating mb-3">
@@ -91,9 +92,9 @@ const Grievance = () => {
                     <input type="file" class="form-control" id="floatingPassword" placeholder="supporting_docs" name="sdoc" required/>
                 </div> */}
                 <div class="form-floating m-5">
-                    <input class="btn btn-success w-100" type="submit" onClick={sendmail}/>
+                    <button class="btn btn-success w-100" type="submit" onClick={sendmail}>Send Grievance</button>
                 </div>
-            </form>
+            {/* </form> */}
             </div>
         </div>
     )
