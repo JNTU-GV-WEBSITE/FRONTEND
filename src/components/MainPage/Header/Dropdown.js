@@ -29,10 +29,10 @@ const Dropdown = () => {
         <MenuIcon />
         MENU
       </div>
-      <div className={menuState ? "menu-on-options" : "menu-off-options"}>
+      <div className={menuState ? "menu-on-options" : "menu-off-options"} >
         <div class="dropdown">
           <div class="dropbtn" onClick={homeHandler}>
-            <div className="drop-icon">
+            <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
               <HomeIcon /> HOME
             </div>
           </div>
@@ -41,8 +41,8 @@ const Dropdown = () => {
           <div class="dropbtn">
             <ApartmentIcon /> ABOUT US
           </div>
-          <div class="dropdown-content">
-            <button>
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+            <button >
               {" "}
               <Link className="link-btn" to="/Aboutus/About-JNTUGV">
                 About JNTU-GV
@@ -66,7 +66,7 @@ const Dropdown = () => {
           <div class="dropbtn">
             <SchoolIcon /> ACADEMICS
           </div>
-          <div class="dropdown-content">
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
             <button>
               {" "}
               <Link className="link-btn" to="/Academics/Programs-Offered">
@@ -99,7 +99,7 @@ const Dropdown = () => {
           <div class="dropbtn">
             <GroupsIcon /> ADMINISTRATION
           </div>
-          <div class="dropdown-content">
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
             <button>
               {" "}
               <Link
@@ -137,7 +137,7 @@ const Dropdown = () => {
             <PersonIcon />
             DIRECTORATES
           </div>
-          <div class="dropdown-content">
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
             <button>
               {" "}
               <Link
@@ -260,7 +260,7 @@ const Dropdown = () => {
           <div class="dropbtn">
             <DescriptionIcon /> EXAMINATIONS
           </div>
-          <div class="dropdown-content">
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
             <button>
               {" "}
               <Link className="link-btn" to="/Examination/EvaluationExam">
@@ -368,7 +368,7 @@ const Dropdown = () => {
       </div> */}
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
-            <div className="drop-icon">
+            <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
               <DraftsIcon /> CONTACTUS
             </div>
           </div>
