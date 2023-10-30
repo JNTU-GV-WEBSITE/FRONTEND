@@ -52,25 +52,25 @@ const recruitment = [
   
   {
     hypertext:
-      "https://drive.google.com/file/d/1nmk0xRW9evV5vX2v648OSJrn2f8u9HS2/view?usp=sharing",
+      "https://drive.google.com/file/d/1dveZjbeuylKF4pEOXV8Y51-UbvJWM7Jg/view?usp=sharing",
     text: "Limited Recruitment notification for SC/ST Backlog Vacancies",
   },
   {
     hypertext:
-      "https://drive.google.com/file/d/1Ed-qR3kTTPhLMJkR08pFtiYWje9pbxN1/view?usp=sharing",
+      "https://drive.google.com/file/d/138rzIgNZu2TsU0oDevXpGkPlVBWvNc9w/view?usp=sharing",
     text: `Recruitment notification for Assistant Professors and Academic Non-Vacation Positions
     (BC Backlog and Regular Vacancies)`,
   },
   {
     hypertext:
-      "https://drive.google.com/file/d/1tJjBzNb8xWVmEQTIBGf4NnkcV_qh0asG/view?usp=sharing",
+      "https://drive.google.com/file/d/1OjiA4VNIjWeqMwAW_JnGo0bRaB6bGYai/view?usp=sharing",
     text: "JNTUGV-Detailed Notification No 3-Associate Professors",
   },
   {
     hypertext:
-      "https://drive.google.com/file/d/1gyJRUZEzR3IObdR22NpJHKO04yDKwVUZ/view?usp=sharing",
+      "https://drive.google.com/file/d/1A_SgNLmbtZhvfB8G9I-2VB3kN1wLOgFw/view?usp=sharing",
     text: "JNTUGV-Detailed Notification No 4-Professors",
-  },
+      },
 ]
 
 function Scrollbar() {
