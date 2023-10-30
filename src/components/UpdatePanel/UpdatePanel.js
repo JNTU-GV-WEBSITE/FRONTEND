@@ -6,7 +6,7 @@ function UpdatePanel() {
   const tenderList = [];
   const notificationList = [];
   const conferenceList = [];
-  // const recruitmentList = [];
+  const recruitmentList = [];
 
   const [displayData, setDisplayData] = useState(notificationList);
 
@@ -26,9 +26,9 @@ function UpdatePanel() {
     if (entry.type === "notifications") {
       notificationList.push(entry);
     }
-    // else if (entry.type === "recruitment") {
-    //   recruitmentList.push(entry);
-    // }
+    else if (entry.type === "recruitment") {
+      recruitmentList.push(entry);
+    }
     else if (entry.type === "tender") {
       tenderList.push(entry);
     } else if (entry.type === "conference") {
@@ -40,10 +40,10 @@ function UpdatePanel() {
     setDisplayData(notificationList);
     setActiveButton(button);
   };
-  // const handleRecruitment = (button) => {
-  //   setDisplayData(recruitmentList);
-  //   setActiveButton(button);
-  // };
+  const handleRecruitment = (button) => {
+    setDisplayData(recruitmentList);
+    setActiveButton(button);
+  };
   const handleTender = (button) => {
     setDisplayData(tenderList);
     setActiveButton(button);
@@ -68,7 +68,7 @@ function UpdatePanel() {
         >
           Notifications
         </button>
-        {/* <button
+        <button
           style={{
             ...buttonStyles,
             backgroundColor:
@@ -78,7 +78,7 @@ function UpdatePanel() {
           onClick={() => handleRecruitment("Recruitment")}
         >
           Recruitment 2023<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img>
-        </button> */}
+        </button>
         <button
           style={{
             ...buttonStyles,
