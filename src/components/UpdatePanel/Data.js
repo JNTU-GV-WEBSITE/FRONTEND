@@ -1186,6 +1186,40 @@ export const Data = [
   },
   {
     description: "Limited Recruitment notification for SC/ST Backlog Vacancies",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1nmk0xRW9evV5vX2v648OSJrn2f8u9HS2/view?usp=sharing",
+    date: "31",
+    month: "10",
+    year: "2023",
+  },
+  {
+    description: `Recruitment notification for Assistant Professors and Academic Non-Vacation Positions
+                  (BC Backlog and Regular Vacancies)`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1Ed-qR3kTTPhLMJkR08pFtiYWje9pbxN1/view?usp=sharing",
+    date: "31",
+    month: "10",
+    year: "2023",
+  },
+  {
+    description: "JNTUGV-Detailed Notification No 3-Associate Professors",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1tJjBzNb8xWVmEQTIBGf4NnkcV_qh0asG/view?usp=sharing",
+    date: "31",
+    month: "10",
+    year: "2023",
+  },
+  {
+    description: "JNTUGV-Detailed Notification No 4-Professors",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1gyJRUZEzR3IObdR22NpJHKO04yDKwVUZ/view?usp=sharing",
+    date: "31",
+    month: "10",
+    year: "2023",
+  },
+  
+  {
+    description: "Limited Recruitment notification for SC/ST Backlog Vacancies",
     type: "recruitment",
     link: "https://drive.google.com/file/d/1nmk0xRW9evV5vX2v648OSJrn2f8u9HS2/view?usp=sharing",
     date: "31",
