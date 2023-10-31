@@ -6,7 +6,7 @@ function UpdatePanel() {
   const tenderList = [];
   const notificationList = [];
   const conferenceList = [];
-  // const recruitmentList = [];
+  const recruitmentList = [];
 
   const [displayData, setDisplayData] = useState(notificationList);
 
@@ -19,17 +19,18 @@ function UpdatePanel() {
     margin: "5px",
     border: "none",
     cursor: "pointer",
-    borderRadius:"15px"
+    borderRadius: "15px",
   };
+
+  const currentDate = new Date();
+  const isCurrentMonth = currentDate.getMonth() === Data.month;
 
   Data.forEach((entry) => {
     if (entry.type === "notifications") {
       notificationList.push(entry);
-    }
-    // else if (entry.type === "recruitment") {
-    //   recruitmentList.push(entry);
-    // }
-    else if (entry.type === "tender") {
+    } else if (entry.type === "recruitment") {
+      recruitmentList.push(entry);
+    } else if (entry.type === "tender") {
       tenderList.push(entry);
     } else if (entry.type === "conference") {
       conferenceList.push(entry);
@@ -40,10 +41,10 @@ function UpdatePanel() {
     setDisplayData(notificationList);
     setActiveButton(button);
   };
-  // const handleRecruitment = (button) => {
-  //   setDisplayData(recruitmentList);
-  //   setActiveButton(button);
-  // };
+  const handleRecruitment = (button) => {
+    setDisplayData(recruitmentList);
+    setActiveButton(button);
+  };
   const handleTender = (button) => {
     setDisplayData(tenderList);
     setActiveButton(button);
@@ -64,11 +65,11 @@ function UpdatePanel() {
             color: activeButton === "Notifications" ? "white" : "black",
           }}
           onClick={() => handleNotification("Notifications")}
-          target = "_blank"
+          target="_blank"
         >
           Notifications
         </button>
-        {/* <button
+        <button
           style={{
             ...buttonStyles,
             backgroundColor:
@@ -77,8 +78,14 @@ function UpdatePanel() {
           }}
           onClick={() => handleRecruitment("Recruitment")}
         >
-          Recruitment 2023<img src="images/new.gif" alt="newimg" height="20vh" width="50vh"></img>
-        </button> */}
+          Recruitment 2023
+          <img
+            src="images/new.gif"
+            alt="newimg"
+            height="20vh"
+            width="50vh"
+          ></img>
+        </button>
         <button
           style={{
             ...buttonStyles,
@@ -103,7 +110,7 @@ function UpdatePanel() {
       </div>
       <div className="updatesContainer">
         {displayData.map((entry) => (
-          <a href={entry.link || "#"}  target="_blank" rel="noreferrer">
+          <a href={entry.link || "#"} target="_blank" rel="noreferrer">
             <div>
               <div className="updateBox">
                 <div className="dateTimeContainer">
@@ -114,6 +121,14 @@ function UpdatePanel() {
                   </div>
                 </div>
                 <div className="updateDescription">{entry.description}</div>
+                {isCurrentMonth && (
+                  <img
+                    src="images/new.gif"
+                    alt="newimg"
+                    height="20vh"
+                    width="50vh"
+                  />
+                )}
               </div>
               <div className="updateDivSeparator"></div>
             </div>
