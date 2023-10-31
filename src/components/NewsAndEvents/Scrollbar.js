@@ -64,12 +64,12 @@ const recruitment = [
   {
     hypertext:
       "https://drive.google.com/file/d/1BqL8z-1_G_bR-9qjz5SQrF3ItE-nnMdw/view?usp=sharing",
-    text: "JNTUGV-Detailed Notification No 3-Associate Professors",
+    text: "JNTUGV-Detailed Notification for Associate Professors",
   },
   {
     hypertext:
       "https://drive.google.com/file/d/1LkPzCEEBGsK6xVvva3uXtDGEv9hEmHu1/view?usp=sharing",
-    text: "JNTUGV-Detailed Notification No 4-Professors",
+    text: "JNTUGV-Detailed Notification for Professors",
       },
 ]
 
