@@ -1223,6 +1223,15 @@ export const Data = [
   },
 
   {
+    description: "JNTUGV recruitment for Professors",
+    type: "recruitment",
+    link: "https://drive.google.com/file/d/1Bo4KjM7KtJssLt6edX0rp_Jvpd1AvGYL/view?usp=sharing",
+    date: "30",
+    month: "Oct",
+    year: "2023",
+    isLink: true,
+  },
+  {
     description: "Limited Recruitment notification for SC/ST Backlog Vacancies",
     type: "recruitment",
     link: "https://drive.google.com/file/d/1vD1BH9VNxFZ3660Tq9TYUWAp8fHMhrXE/view?usp=sharing",
@@ -1254,15 +1263,6 @@ export const Data = [
     description: "JNTUGV-Detailed Notification for Professors",
     type: "recruitment",
     link: "https://drive.google.com/file/d/1LkPzCEEBGsK6xVvva3uXtDGEv9hEmHu1/view?usp=sharing",
-    date: "30",
-    month: "Oct",
-    year: "2023",
-    isLink: true,
-  },
-  {
-    description: "JNTUGV recruitment for Professors",
-    type: "recruitment",
-    link: "https://drive.google.com/file/d/1Bo4KjM7KtJssLt6edX0rp_Jvpd1AvGYL/view?usp=sharing",
     date: "30",
     month: "Oct",
     year: "2023",
