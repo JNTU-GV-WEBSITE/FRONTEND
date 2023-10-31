@@ -1223,7 +1223,7 @@ export const Data = [
   },
 
   {
-    description: "JNTUGV recruitment for Professors",
+    description: "Paper advertisement for the recruitment of Professors/Assosiate Professors/Assistant Professors",
     type: "recruitment",
     link: "https://drive.google.com/file/d/1Bo4KjM7KtJssLt6edX0rp_Jvpd1AvGYL/view?usp=sharing",
     date: "30",
