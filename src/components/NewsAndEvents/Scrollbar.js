@@ -52,23 +52,23 @@ const recruitment = [
   
   {
     hypertext:
-      "https://drive.google.com/file/d/1dveZjbeuylKF4pEOXV8Y51-UbvJWM7Jg/view?usp=sharing",
+      "https://drive.google.com/file/d/1vD1BH9VNxFZ3660Tq9TYUWAp8fHMhrXE/view?usp=sharing",
     text: "Limited Recruitment notification for SC/ST Backlog Vacancies",
   },
   {
     hypertext:
-      "https://drive.google.com/file/d/138rzIgNZu2TsU0oDevXpGkPlVBWvNc9w/view?usp=sharing",
+      "https://drive.google.com/file/d/1ZVrwi5iApIEZr5-2eg9MAeXgijEBWcKp/view?usp=sharing",
     text: `Recruitment notification for Assistant Professors and Academic Non-Vacation Positions
     (BC Backlog and Regular Vacancies)`,
   },
   {
     hypertext:
-      "https://drive.google.com/file/d/1OjiA4VNIjWeqMwAW_JnGo0bRaB6bGYai/view?usp=sharing",
+      "https://drive.google.com/file/d/1BqL8z-1_G_bR-9qjz5SQrF3ItE-nnMdw/view?usp=sharing",
     text: "JNTUGV-Detailed Notification No 3-Associate Professors",
   },
   {
     hypertext:
-      "https://drive.google.com/file/d/1A_SgNLmbtZhvfB8G9I-2VB3kN1wLOgFw/view?usp=sharing",
+      "https://drive.google.com/file/d/1LkPzCEEBGsK6xVvva3uXtDGEv9hEmHu1/view?usp=sharing",
     text: "JNTUGV-Detailed Notification No 4-Professors",
       },
 ]
