@@ -7,7 +7,15 @@ import {
   University_Hostels,
   Consituent_Colleges,
   JntuGv_Units,
+  Grievance,
 } from "./FooterData.js";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 function Footer() {
   return (
@@ -28,6 +36,19 @@ function Footer() {
           <hr className="subFooter" />
           <div>
             {Administration_Wing.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link to={item.link} className="sublinksFooter">
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="subheadingFooter">Grievances</p>
+          <hr className="subFooter" />
+          <div>
+            {Grievance.map((item, index) => (
               <div key={index}>
                 <p>
                   <Link to={item.link} className="sublinksFooter">
@@ -126,6 +147,19 @@ function Footer() {
               </div>
             ))}
           </div>
+          {/* <p className="subheadingFooter">Grievances</p>
+          <hr className="subFooter" />
+          <div>
+            {Grievance.map((item, index) => (
+              <div key={index}>
+                <p>
+                  <Link to={itedce  `m.link} className="sublinksFooter">
+                    {item.title}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div> */}
         </div>
       </div>
       <hr className="footerHr" />
@@ -138,9 +172,54 @@ function Footer() {
           Pradesh, INDIA.
         </p>
         <br></br>
-
-        {/* Copyright  */}
       </div>
+      <div className="BelowBar">
+          <div className="BelowBar-links">
+            <a
+              href="https://www.facebook.com/JNTUGurajada"
+              className="Below-Social-links"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jntugurajada/"
+              className="Below-Social-links"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              href="https://twitter.com/JNTU_Gurajada"
+              className="Below-Social-links"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://www.instagram.com/jntu_gurajada/"
+              className="Below-Social-links"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.youtube.com/@JNTUGV"
+              className="Below-Social-links"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaYoutube />
+            </a>
+          </div>
+        </div>
+
+      {/* Copyright  */}
       <div className="mobilefooter">
         <p>© Copyright 2023 JNTU-GV Vizianagaram. All Rights Reserved.</p>
       </div>

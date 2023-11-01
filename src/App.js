@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Homepage from "./Homepage";
-import BelowBar from "./components/BelowBar/BelowBar";
+// import BelowBar from "./components/BelowBar/BelowBar";
 import Header from "./components/MainPage/Header/Header";
 
 import AboutJNTUGV from "./components/MainPage/Header/Aboutus/AboutJNTUGV/AboutJNTUGV";
@@ -46,7 +46,7 @@ import Grievance from "./components/GrievanceForm/GrievanceForm";
 function App() {
   return (
     <div>
-      <BelowBar />
+      {/* <BelowBar /> */}
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -103,7 +103,7 @@ function App() {
           <Route path="ExamResults" element={<ExamResults />} />
         </Route>
         <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/GrievanceForm" element={<Grievance />} />
+        <Route path="/grievance-form" element={<Grievance />} />
       </Routes>
     </div>
   );
