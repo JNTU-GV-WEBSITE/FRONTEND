@@ -1221,9 +1221,18 @@ export const Data = [
     type: "notifications",
     isLink: true,
   },
-
   {
-    description: "Paper advertisement for the recruitment of Professors/Assosiate Professors/Assistant Professors",
+    description: "Apply for recuitment",
+    type: "recruitment",
+    link: "https://recruitments.universities.ap.gov.in/Masters/Home.aspx",
+    date: "30",
+    month: "Oct",
+    year: "2023",
+    isLink: true,
+  },
+  {
+    description:
+      "Paper advertisement for the recruitment of Professors/Assosiate Professors/Assistant Professors",
     type: "recruitment",
     link: "https://drive.google.com/file/d/1Bo4KjM7KtJssLt6edX0rp_Jvpd1AvGYL/view?usp=sharing",
     date: "30",
