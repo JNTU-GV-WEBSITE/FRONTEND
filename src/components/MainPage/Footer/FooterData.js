@@ -15,10 +15,7 @@ export const Administration_Wing = [
     title: "Program Offered",
     link: "/AcademicsMain/ProgramsofferedOP",
   },
-  {
-    title: "Admissions",
-    link: "/AcademicsMain/AdmissionsOP",
-  },
+
   {
     title: "AffliatedColleges",
     link: "/AcademicsMain/AffliatedCollegesOP",
@@ -114,3 +111,14 @@ export const JntuGv_Units = [
     link: "/",
   },
 ];
+
+export const Grievance = [
+  {
+      title: "Student Grievance",
+      link:"/grievance-form"
+  },
+  {
+    title: "Recruitment Grievance",
+    link:"http://grievances.ucev.in/"
+},
+]
