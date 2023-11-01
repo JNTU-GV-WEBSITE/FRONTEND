@@ -1222,7 +1222,7 @@ export const Data = [
     isLink: true,
   },
   {
-    description: "Apply for recuitment",
+    description: "Apply for recuitment of Professors/Assosiate Professors/Assistant Professors",
     type: "recruitment",
     link: "https://recruitments.universities.ap.gov.in/Masters/Home.aspx",
     date: "30",
