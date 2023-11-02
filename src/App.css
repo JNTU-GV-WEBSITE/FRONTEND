@@ -1,19 +1,4 @@
-::-webkit-scrollbar pseudo selector * {
-  margin: 0;
-  padding: 0;
-  user-select: none;
-
-}
-
-::-webkit-scrollbar {
-  width: 0;
-  margin: 0;
-  padding: 0;
-}
-
-::-webkit-scrollbar-thumb {
-  background: transparent;
-}
+/*  */
 
 .App {
   text-align: center;
@@ -22,6 +7,45 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+html {
+  background: linear-gradient(left, #99a, #eee, #99a);
+}
+
+.page {
+  margin: 0 auto 0 -40px;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.scroll {
+  height: 300px;
+  width: 40px;
+  overflow-y: scroll;
+  display: inline-block;
+
+  .inner {
+    height: 300%;
+    width: 100%;
+    content: ".";
+  }
+  &--sublime::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &--sublime::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: linear-gradient(left, #212121, #323232);
+    box-shadow: 0 0 1px 1px #111;
+  }
+  &--sublime::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #4a4a4a, #404040);
+    box-shadow: inset 0 0 1px 1px #191919;
+  }
+  &--sublime::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(left, #555555, #4e4e4e);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
