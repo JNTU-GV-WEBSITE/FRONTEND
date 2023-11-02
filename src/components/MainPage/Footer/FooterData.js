@@ -119,6 +119,6 @@ export const Grievance = [
   },
   {
     title: "Recruitment Grievance",
-    link:"http://grievances.ucev.in/"
+    link:"mailto:recruitmentgrievances@jntugv.edu.in"
 },
 ]
