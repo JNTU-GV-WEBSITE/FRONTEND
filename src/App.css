@@ -1,19 +1,4 @@
-::-webkit-scrollbar pseudo selector * {
-  margin: 0;
-  padding: 0;
-  user-select: none;
-
-}
-
-::-webkit-scrollbar {
-  width: 0;
-  margin: 0;
-  padding: 0;
-}
-
-::-webkit-scrollbar-thumb {
-  background: transparent;
-}
+/*  */
 
 .App {
   text-align: center;

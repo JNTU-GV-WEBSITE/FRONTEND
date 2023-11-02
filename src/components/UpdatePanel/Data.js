@@ -1222,6 +1222,15 @@ export const Data = [
     isLink: true,
   },
   {
+    description: "Click here to send a mail to Recruitment Grievances ",
+    type: "recruitment",
+    link: "mailto:recruitmentgrievances@jntugv.edu.in",
+    date: "30",
+    month: "Oct",
+    year: "2023",
+    isLink: true,
+  },
+  {
     description: "Apply for recuitment of Professors/Assosiate Professors/Assistant Professors",
     type: "recruitment",
     link: "https://recruitments.universities.ap.gov.in/Masters/Home.aspx",

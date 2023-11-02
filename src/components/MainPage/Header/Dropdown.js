@@ -37,7 +37,7 @@ const Dropdown = () => {
             </div>
           </div>
         </div>
-        <div class="dropdown">
+        <div class="dropdown" >
           <div class="dropbtn">
             <ApartmentIcon /> ABOUT US
           </div>
@@ -63,7 +63,7 @@ const Dropdown = () => {
           </div>
         </div>
         <div class="dropdown">
-          <div class="dropbtn">
+          <div class="dropbtn" >
             <SchoolIcon /> ACADEMICS
           </div>
           <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
