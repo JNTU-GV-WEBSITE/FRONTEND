@@ -27,7 +27,7 @@ import AcademicsOP from "./components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from "./components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP";
 import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/AdmissionsOP";
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
-import ContactUs from "./components/MainPage/Header/ContactUs";
+import ContactUs from "./components/MainPage/Header/Contact-Us/ContactUs";
 import AboutusMain from "./components/MainPage/Header/Aboutus/AboutusMain";
 import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
 import AdministrationMain from "./components/MainPage/Header/Administration/AdministrationMain";
@@ -42,6 +42,11 @@ import Controller3 from "./components/MainPage/Header/Examinations/Controller3";
 import ControllerPG from "./components/MainPage/Header/Examinations/ControllerPG";
 import ExamResults from "./components/MainPage/Header/Examinations/ExamResults";
 import Grievance from "./components/GrievanceForm/GrievanceForm";
+import Results from "./components/MainPage/Results/Results-main";
+import R13 from "./components/MainPage/Results/r13";
+import R20 from "./components/MainPage/Results/r20";
+import R16 from "./components/MainPage/Results/r16";
+import R19 from "./components/MainPage/Results/r19";
 
 function App() {
   return (
@@ -55,14 +60,14 @@ function App() {
           <Route path="Vision" element={<Vision />} />
           <Route path="Mission" element={<Mission />} />
         </Route>
-        <Route path="/Academics" element={<AcademicsMain />}>
+        <Route path="/academics" element={<AcademicsMain />}>
           <Route
-            path="Constituent-Colleges"
+            path="constituent-colleges"
             element={<ConstituentCollegesOP />}
           />
-          <Route path="Programs-Offered" element={<AcademicsOP />} />
-          <Route path="Admissions" element={<AdmissionsOP />} />
-          <Route path="Affliated-Colleges" element={<AffliatedCollegesOP />} />
+          <Route path="programs-offered" element={<AcademicsOP />} />
+          <Route path="admissions" element={<AdmissionsOP />} />
+          <Route path="affliated-colleges" element={<AffliatedCollegesOP />} />
         </Route>
         <Route path="/Administration" element={<AdministrationMain />}>
           <Route path="Chancellor" element={<Chancellor />} />{" "}
@@ -92,17 +97,23 @@ function App() {
             element={<SportsAdministration />}
           />
         </Route>
-        <Route path="/Examination" element={<ExaminationMain />}>
-          <Route path="EvaluationExam" element={<EvaluationExam />} />
-          <Route path="Controller" element={<Controller />} />
-          <Route path="ControllerSDC" element={<ControllerSDC />} />
-          <Route path="Controller1" element={<Controller1 />} />
-          <Route path="Controller2" element={<Controller2 />} />
-          <Route path="Controller3" element={<Controller3 />} />
-          <Route path="ControllerPG" element={<ControllerPG />} />
-          <Route path="ExamResults" element={<ExamResults />} />
+        <Route path="/examination" element={<ExaminationMain />}>
+          <Route path="director-evaluation" element={<EvaluationExam />} />
+          <Route path="controller" element={<Controller />} />
+          <Route path="controller-sdc" element={<ControllerSDC />} />
+          <Route path="controller1" element={<Controller1 />} />
+          <Route path="controller2" element={<Controller2 />} />
+          <Route path="controller3" element={<Controller3 />} />
+          <Route path="controller-pg" element={<ControllerPG />} />
+          <Route path="examresults" element={<ExamResults />} />
         </Route>
-        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/results" element={<Results />}>
+          <Route path="r13" element={<R13 />} />
+          <Route path="r16" element={<R16 />} />
+          <Route path="r19" element={<R19 />} />
+          <Route path="r20" element={<R20 />} />
+        </Route>
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/grievance-form" element={<Grievance />} />
       </Routes>
     </div>

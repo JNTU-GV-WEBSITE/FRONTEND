@@ -8,33 +8,33 @@ const AcademicsMain = () => {
     <div className="Academicmain-Main">
       <div className="allLeftMenuAOP">
         <Link
-          to="/Academics/Programs-Offered"
+          to="programs-offered"
           className={`menubutton ${
-            location.pathname === "/Academics/Programs-Offered" ? "active" : ""
+            location.pathname === "/academics/programs-offered" ? "active" : ""
           }`}
         >
           Programs Offered
         </Link>
         <Link
-          to="/Academics/Admissions"
+          to="admissions"
           className={`menubutton ${
-            location.pathname === "/Academics/Admissions" ? "active" : ""
+            location.pathname === "/academics/admissions" ? "active" : ""
           }`}
         >
           Admissions
         </Link>
         <Link
-          to="/Academics/Constituent-Colleges"
+          to="constituent-colleges"
           className={`menubutton ${
-            location.pathname === "/Academics/Constituent-Colleges" ? "active" : ""
+            location.pathname === "/academics/constituent-colleges" ? "active" : ""
           }`}
         >
           Constituent Colleges
         </Link>
         <Link
-          to="/Academics/Affliated-Colleges"
+          to="affliated-colleges"
           className={`menubutton ${
-            location.pathname === "/Academics/Affliated-Colleges" ? "active" : ""
+            location.pathname === "/academics/affliated-colleges" ? "active" : ""
           }`}
         >
           Affiliated Colleges
