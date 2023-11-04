@@ -10,7 +10,7 @@ import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
-import { PiExamFill } from "react-icons/pi";
+// import { PiExamFill } from "react-icons/pi";
 
 const Dropdown = () => {
   const navigate = useNavigate();
@@ -331,11 +331,10 @@ const Dropdown = () => {
             </button>
           </div>
         </div>
-
+{/* 
         <div class="dropdown">
           <div class="dropbtn">
             <div className="drop-icon">
-              {/* <GridViewRoundedIcon /> */}
               <PiExamFill className="result-icon" />
               RESULTS
             </div>
@@ -366,7 +365,7 @@ const Dropdown = () => {
               </Link>
             </button>
           </div>
-        </div>
+        </div> */}
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>

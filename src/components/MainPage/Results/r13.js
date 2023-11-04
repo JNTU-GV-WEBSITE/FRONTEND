@@ -48,7 +48,9 @@ const R13 = () => {
           <TableHead>
             <TableRow>
               <TableCell colSpan={2} align="center">
-                B.Tech R-13 3-2 Results
+                <h4>
+                  <b>B.Tech R-13 3-2 Results </b>
+                </h4>
               </TableCell>
             </TableRow>
             <TableRow>
