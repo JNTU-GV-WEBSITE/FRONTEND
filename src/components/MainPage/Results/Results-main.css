@@ -44,7 +44,14 @@
     display: block;
     font-weight: bold;
   }
-
+.table-header{
+  font-weight: 600;
+  font-size: large;
+  /* font-style: ; */
+  text-decoration: solid;
+  /* background-color: #000000;  */
+  /* color: rgb(255, 255, 255); */
+}
   
   /* .ABOUTmainContainer {
       width: 100%;
