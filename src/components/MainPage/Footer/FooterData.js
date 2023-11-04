@@ -1,24 +1,24 @@
 export const Administration_Wing = [
   {
     title: "Chancellor",
-    link: "/AdministrationMain/Chancellor",
+    link: "/Administration/Chancellor",
   },
   {
     title: "Vice Chancellor",
-    link: "/AdministrationMain/ViceChancellor",
+    link: "/Administration/ViceChancellor",
   },
   {
     title: "Registrar",
-    link: "/AdministrationMain/Registrar",
+    link: "/Administration/Registrar",
   },
   {
     title: "Program Offered",
-    link: "/AcademicsMain/ProgramsofferedOP",
+    link: "/academics/programs-offered",
   },
 
   {
     title: "AffliatedColleges",
-    link: "/AcademicsMain/AffliatedCollegesOP",
+    link: "/academics/affliated-colleges",
   },
 ];
 
@@ -66,7 +66,7 @@ export const Consituent_Colleges = [
   },
   {
     title:"JNTU-GV Tribal College of Engineering, Kurupam",
-    link:"https://jntugvk.ucev.in/"
+    link:"http://jntugvk.ucev.in/"
   }
 ];
 

@@ -45,11 +45,21 @@ const arr = [
     hypertext:
       "https://drive.google.com/file/d/1VSTiSf7kSLO0bszctgAEmxKHN_znYMfS/view?usp=share_link",
     text: "MCA -III Sem R&S Notification , Dec 2023",
-  }
+  },
 ];
 
 const recruitment = [
-  
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1SXtfk8ZVcFUZr9wHGHquhwNBiHtuBsZg/view?usp=sharing",
+    text: "RRM Notification for AY 2019-20 & Ealier Batches",
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1MkePk2qr6fExE33Wp1L8SwMH5q9NtEaq/view?usp=sharing",
+    text: "RRM-Application Format",
+  },
+
   {
     hypertext:
       "https://drive.google.com/file/d/1vD1BH9VNxFZ3660Tq9TYUWAp8fHMhrXE/view?usp=sharing",
@@ -70,8 +80,8 @@ const recruitment = [
     hypertext:
       "https://drive.google.com/file/d/1LkPzCEEBGsK6xVvva3uXtDGEv9hEmHu1/view?usp=sharing",
     text: "JNTUGV-Detailed Notification for Professors",
-      },
-]
+  },
+];
 
 function Scrollbar() {
   const el = useRef();
@@ -101,7 +111,7 @@ function Scrollbar() {
         </h1>
       </center>
       <div className="m1" ref={el}>
-      {recruitment.map((item, i) => (
+        {recruitment.map((item, i) => (
           <div>
             <a href={item.hypertext}>
               <div>
@@ -127,7 +137,6 @@ function Scrollbar() {
             </a>
           </div>
         ))}
-       
       </div>
       <button className="scroll-button">Show All...</button>
     </div>

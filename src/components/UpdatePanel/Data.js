@@ -1,5 +1,23 @@
 export const Data = [
   {
+    description: "RRM Notification for AY 2019-20 & Ealier Batches",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1SXtfk8ZVcFUZr9wHGHquhwNBiHtuBsZg/view?usp=sharing",
+    date: "04",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },
+  {
+    description: "RRM-Application Format",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1MkePk2qr6fExE33Wp1L8SwMH5q9NtEaq/view?usp=sharing",
+    date: "04",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },
+  {
     description: "Limited Recruitment notification for SC/ST Backlog Vacancies",
     type: "notifications",
     link: "https://drive.google.com/file/d/1vD1BH9VNxFZ3660Tq9TYUWAp8fHMhrXE/view?usp=sharing",
@@ -1222,7 +1240,8 @@ export const Data = [
     isLink: true,
   },
   {
-    description: "Click here to send a mail to Recruitment Grievances ",
+    description:
+      "For any grivenaces mail to recruitmentgrievances@jntugv.edu.in",
     type: "recruitment",
     link: "mailto:recruitmentgrievances@jntugv.edu.in",
     date: "30",
@@ -1231,7 +1250,8 @@ export const Data = [
     isLink: true,
   },
   {
-    description: "Apply for recuitment of Professors/Assosiate Professors/Assistant Professors",
+    description:
+      "Apply for recuitment of Professors/Assosiate Professors/Assistant Professors",
     type: "recruitment",
     link: "https://recruitments.universities.ap.gov.in/Masters/Home.aspx",
     date: "30",

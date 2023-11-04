@@ -10,6 +10,7 @@ import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
+import { PiExamFill } from "react-icons/pi";
 
 const Dropdown = () => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const Dropdown = () => {
   };
 
   const contactHandler = () => {
-    navigate("/ContactUs");
+    navigate("/contact-us");
   };
   return (
     <nav className="topnav">
@@ -29,7 +30,7 @@ const Dropdown = () => {
         <MenuIcon />
         MENU
       </div>
-      <div className={menuState ? "menu-on-options" : "menu-off-options"} >
+      <div className={menuState ? "menu-on-options" : "menu-off-options"}>
         <div class="dropdown">
           <div class="dropbtn" onClick={homeHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
@@ -37,12 +38,15 @@ const Dropdown = () => {
             </div>
           </div>
         </div>
-        <div class="dropdown" >
+        <div class="dropdown">
           <div class="dropbtn">
             <ApartmentIcon /> ABOUT US
           </div>
-          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
-            <button >
+          <div
+            class="dropdown-content"
+            onClick={() => setMenuState(!menuState)}
+          >
+            <button>
               {" "}
               <Link className="link-btn" to="/Aboutus/About-JNTUGV">
                 About JNTU-GV
@@ -63,32 +67,35 @@ const Dropdown = () => {
           </div>
         </div>
         <div class="dropdown">
-          <div class="dropbtn" >
+          <div class="dropbtn">
             <SchoolIcon /> ACADEMICS
           </div>
-          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+          <div
+            class="dropdown-content"
+            onClick={() => setMenuState(!menuState)}
+          >
             <button>
               {" "}
-              <Link className="link-btn" to="/Academics/Programs-Offered">
+              <Link className="link-btn" to="/academics/programs-offered">
                 Programs offered
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Academics/Admissions">
+              <Link className="link-btn" to="/academics/admissions">
                 {" "}
                 Admissions
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Academics/Constituent-Colleges">
+              <Link className="link-btn" to="/academics/constituent-colleges">
                 Constituent Colleges
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Academics/Affliated-Colleges">
+              <Link className="link-btn" to="/academics/affliated-colleges">
                 {" "}
                 Affiliated Colleges
               </Link>
@@ -99,7 +106,10 @@ const Dropdown = () => {
           <div class="dropbtn">
             <GroupsIcon /> ADMINISTRATION
           </div>
-          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+          <div
+            class="dropdown-content"
+            onClick={() => setMenuState(!menuState)}
+          >
             <button>
               {" "}
               <Link
@@ -137,7 +147,10 @@ const Dropdown = () => {
             <PersonIcon />
             DIRECTORATES
           </div>
-          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+          <div
+            class="dropdown-content"
+            onClick={() => setMenuState(!menuState)}
+          >
             <button>
               {" "}
               <Link
@@ -260,46 +273,49 @@ const Dropdown = () => {
           <div class="dropbtn">
             <DescriptionIcon /> EXAMINATIONS
           </div>
-          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+          <div
+            class="dropdown-content"
+            onClick={() => setMenuState(!menuState)}
+          >
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/EvaluationExam">
+              <Link className="link-btn" to="/examination/director-evaluation">
                 Director of Evaluation
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/Controller">
+              <Link className="link-btn" to="/examination/controller">
                 Controller of Examinations
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/ControllerSDC">
+              <Link className="link-btn" to="/examination/controller-sdc">
                 Additional Controller of Examinations-SDC
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/Controller1">
+              <Link className="link-btn" to="/examination/controller1">
                 Additional Controller of Examinations-1
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/Controller2">
+              <Link className="link-btn" to="/examination/controller2">
                 Additional Controller of Examinations-2
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/Controller3">
+              <Link className="link-btn" to="/examination/controller3">
                 Additional Controller of Examinations-3
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Examination/ControllerPG">
+              <Link className="link-btn" to="/examination/controller-pg">
                 Additional Controller of Examinations-PG
               </Link>
             </button>
@@ -315,57 +331,42 @@ const Dropdown = () => {
             </button>
           </div>
         </div>
-        {/* 
-      <div class="dropdown">
-        <div class="dropbtn">
-          <GridViewRoundedIcon />
-          JNTUGV UNITS
+
+        <div class="dropdown">
+          <div class="dropbtn">
+            <div className="drop-icon">
+              {/* <GridViewRoundedIcon /> */}
+              <PiExamFill className="result-icon" />
+              RESULTS
+            </div>
+          </div>
+          <div class="dropdown-content">
+            <button>
+              {" "}
+              <Link className="link-btn" to="/results/r13">
+                R13
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/results/r16">
+                R16{" "}
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/results/r19">
+                R19{" "}
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/results/r20">
+                R20{" "}
+              </Link>
+            </button>
+          </div>
         </div>
-        <div class="dropdown-content">
-          <button>
-            {" "}
-            <Link className="link-btn" to="/JntuGvUnits/DMC" target="blank">
-              DMC
-            </Link>
-          </button>
-          <button>
-            {" "}
-            <Link
-              className="link-btn"
-              to="/JntuGvUnits/IQACUnits"
-              target="blank"
-            >
-              IQAC{" "}
-            </Link>
-          </button>
-          <button>
-            {" "}
-            <Link className="link-btn" to="/JntuGvUnits/Sports" target="blank">
-              Sports{" "}
-            </Link>
-          </button>
-          <button>
-            {" "}
-            <Link
-              className="link-btn"
-              to="/JntuGvUnits/LibraryUnit"
-              target="blank"
-            >
-              Library{" "}
-            </Link>
-          </button>
-          <button>
-            {" "}
-            <Link
-              className="link-btn"
-              to="/JntuGvUnits/IncubationCenter"
-              target="blank"
-            >
-              Incubation Center{" "}
-            </Link>
-          </button>
-        </div>
-      </div> */}
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
