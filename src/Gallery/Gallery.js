@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import './Gallery.css';
+import gal1 from '../assets/Gallery/gal1.jpeg';
+import gal2 from '../assets/Gallery/gal2.jpeg';
+import gal3 from '../assets/Gallery/gal3.jpeg';
+import gal4 from '../assets/Gallery/gal4.jpeg';
+import gal5 from '../assets/Gallery/gal5.jpeg';
+import gal6 from '../assets/Gallery/gal6.jpeg';
+import gal7 from '../assets/Gallery/gal7.jpeg';
+
 
 function Gallery() {
-  const images = [
-    'https://th.bing.com/th/id/OIP.D659kgsegljpSGhlpaqeyQHaEc?w=249&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    'https://th.bing.com/th/id/OIP.Qxt8gDv3DZVGWQ8RykSt2AHaCk?w=335&h=121&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    'https://assets.thehansindia.com/h-upload/2020/08/02/988062-jntu-vizianagaram.jpg',
-    'https://th.bing.com/th/id/OIP._KgEoeUCp0qBL0-lpgNXmQHaHi?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    'https://th.bing.com/th/id/OIP.yXsJm3CukglGEU3QW_GcjwHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    'https://th.bing.com/th/id/OIP.RicDyStGse3SuGblE_C-AwHaFj?w=253&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-  ];
+  const images = [gal1, gal2, gal3, gal4, gal5, gal6, gal7];
 
   const totalWidth = images.length * 300; // 300px is the width of each image
 
@@ -32,15 +33,19 @@ function Gallery() {
       <div className="image-gallery">
         <div className="image-scroll" style={{ width: totalWidth }}>
           {duplicatedImages.map((image, index) => (
-        <img key={index} src={image} alt={`${index}`} onClick={() => handleImageClick({ image, name: `${index}` })} />
-      ))}
-
+            <img
+              key={index}
+              src={image}
+              alt={`${index}`}
+              onClick={() => handleImageClick({ image, name: `${index}` })}
+            />
+          ))}
         </div>
       </div>
       {selectedImage && (
         <div className="enlarged-image">
           <img src={selectedImage.image} alt={selectedImage.name} />
-          <p>{selectedImage.name}</p>
+          {/* Remove the paragraph displaying the selectedImage name */}
           <button onClick={handleClose}>Back</button>
         </div>
       )}
