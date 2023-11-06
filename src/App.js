@@ -27,6 +27,7 @@ import AcademicsOP from "./components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from "./components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP";
 import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/AdmissionsOP";
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
+import Boschairman from "./components/MainPage/Header/Academics/Bos-chairman/Boschairman";
 import ContactUs from "./components/MainPage/Header/Contact-Us/ContactUs";
 import AboutusMain from "./components/MainPage/Header/Aboutus/AboutusMain";
 import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
@@ -68,6 +69,7 @@ function App() {
           <Route path="programs-offered" element={<AcademicsOP />} />
           <Route path="admissions" element={<AdmissionsOP />} />
           <Route path="affliated-colleges" element={<AffliatedCollegesOP />} />
+          <Route path="Bos-chairman" element={<Boschairman />} />
         </Route>
         <Route path="/administration" element={<AdministrationMain />}>
           <Route path="chancellor" element={<Chancellor />} />{" "}
