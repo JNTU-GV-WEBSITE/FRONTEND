@@ -1,5 +1,7 @@
 import React from "react";
 import "../../Administration/AdminandDirectorates.css"; // Import your CSS file here
+import gsa from "../../../../../assets/AdminDirectoratesImages/gsa.jpg";
+
 
 function SportsAdministration() {
   return (
@@ -14,7 +16,7 @@ function SportsAdministration() {
           <center>
             <div className="ADimg">
               <img
-                src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/registrar.jpg"
+                src={gsa}
                 alt="Profile"
               />
             </div>

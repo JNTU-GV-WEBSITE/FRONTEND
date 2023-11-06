@@ -1,5 +1,8 @@
 import React from "react";
 import "../../Administration/AdminandDirectorates.css"; // Import your CSS file here
+import daa from "../../../../../assets/AdminDirectoratesImages/daa.jpeg";
+
+
 function AlumniRelations() {
   return (
     <div className="mainContainer">
@@ -13,7 +16,7 @@ function AlumniRelations() {
           <div className="ADimg">
             <center>
               <img
-                src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/daa.jpeg"
+                src={daa}
                 alt="Profile"
               />
             </center>

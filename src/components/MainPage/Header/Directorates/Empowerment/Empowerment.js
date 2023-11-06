@@ -1,5 +1,8 @@
 import React from "react";
 import "../../Administration/AdminandDirectorates.css"; // Import your CSS file here
+import doe from "../../../../../assets/AdminDirectoratesImages/doe.png";
+
+
 function Empowerment() {
   return (
     <div className="mainContainer">
@@ -13,7 +16,7 @@ function Empowerment() {
           <center>
             <div className="ADimg">
               <img
-                src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/director-of-evaluation.png"
+                src={doe}
                 alt="Profile"
               />
             </div>
