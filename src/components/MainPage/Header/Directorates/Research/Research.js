@@ -1,5 +1,7 @@
 import React from "react";
 import "../../Administration/AdminandDirectorates.css"; // Import your CSS file here
+import da from "../../../../../assets/AdminDirectoratesImages/da.jpg";
+
 function Research() {
   return (
     <div className="mainContainer">
@@ -13,7 +15,7 @@ function Research() {
           <div className="ADimg">
             <center>
               <img
-                src="https://jntugv.edu.in/images/9266a0f9fc226ffbf57a3beb4c6b6388/profilephotos/da.jpg"
+                src={da}
                 alt="Profile"
               />
             </center>
