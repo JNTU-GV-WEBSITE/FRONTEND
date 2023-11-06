@@ -42,25 +42,22 @@ const Dropdown = () => {
           <div class="dropbtn">
             <ApartmentIcon /> ABOUT US
           </div>
-          <div
-            class="dropdown-content"
-            onClick={() => setMenuState(!menuState)}
-          >
-            <button>
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+            <button >
               {" "}
-              <Link className="link-btn" to="/Aboutus/About-JNTUGV">
+              <Link className="link-btn" to="/about-us/about-jntugv">
                 About JNTU-GV
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Aboutus/Vision">
+              <Link className="link-btn" to="/about-us/vision">
                 Vision
               </Link>
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Aboutus/Mission">
+              <Link className="link-btn" to="/about-us/mission">
                 Mission
               </Link>
             </button>
@@ -106,15 +103,12 @@ const Dropdown = () => {
           <div class="dropbtn">
             <GroupsIcon /> ADMINISTRATION
           </div>
-          <div
-            class="dropdown-content"
-            onClick={() => setMenuState(!menuState)}
-          >
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
             <button>
               {" "}
               <Link
                 className="link-btn"
-                to="/Administration/Chancellor"
+                to="/administration/chancellor"
                 target="_self"
               >
                 Chancellor
@@ -124,7 +118,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Administration/ViceChancellor"
+                to="/administration/vice-chancellor"
                 target="_self"
               >
                 Vice Chancellor
@@ -134,7 +128,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Administration/Registrar"
+                to="/administration/registrar"
                 target="_self"
               >
                 Registrar
@@ -147,15 +141,12 @@ const Dropdown = () => {
             <PersonIcon />
             DIRECTORATES
           </div>
-          <div
-            class="dropdown-content"
-            onClick={() => setMenuState(!menuState)}
-          >
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
             <button>
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/AcademicAudit"
+                to="/directorates/academic-audit"
                 target="_self"
               >
                 Academic Audit
@@ -165,7 +156,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/AcademicPlanning"
+                to="/directorates/academic-planning"
                 target="_self"
               >
                 Academic Planning
@@ -175,7 +166,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/Admissions"
+                to="/directorates/admissions"
                 target="_self"
               >
                 Admissions
@@ -185,7 +176,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/AlumniRelations"
+                to="/directorates/alumni-relations"
                 target="_self"
               >
                 Alumni Relations
@@ -195,7 +186,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/Empowerment"
+                to="/directorates/empowerment"
                 target="_self"
               >
                 Empowerment of Women & Grievances
@@ -205,7 +196,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/Evaluation"
+                to="/directorates/evaluation"
                 target="_self"
               >
                 Evaluation
@@ -215,7 +206,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/FacultyDevelopmentCell"
+                to="/directorates/faculty-development-cell"
                 target="_self"
               >
                 Faculty Development Cell
@@ -225,7 +216,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/ForeignUniversityRelations"
+                to="/directorates/foreign-university-relations"
                 target="_self"
               >
                 Foreign University Relations
@@ -233,7 +224,7 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/Directorates/IQAC" target="_self">
+              <Link className="link-btn" to="/directorates/iqac" target="_self">
                 IQAC
               </Link>
             </button>
@@ -241,7 +232,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/Placements"
+                to="/directorates/placements"
                 target="_self"
               >
                 IIIT & Placements
@@ -251,7 +242,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/Research"
+                to="/directorates/research"
                 target="_self"
               >
                 Research & Development
@@ -261,7 +252,7 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/Directorates/SportsAdministration"
+                to="/directorates/sports-administration"
                 target="_self"
               >
                 University Games & Sports Administration

@@ -7,97 +7,97 @@ const DirectoratesMain = () => {
     <div className="AD-Main">
       <div className="ADallLeftMenu">
       <Link
-          to="AcademicAudit"
+          to="academic-audit"
           className={`menuButton ${
-            location.pathname === "/Directorates/AcademicAudit" ? "active" : ""
+            location.pathname === "/directorates/academic-audit" ? "active" : ""
           }`}
         >
           Director of Academic Audit
         </Link>
         <Link
-          to="AcademicPlanning"
+          to="academic-planning"
           className={`menuButton ${
-            location.pathname === "/Directorates/AcademicPlanning" ? "active" : ""
+            location.pathname === "/directorates/academic-planning" ? "active" : ""
           }`}
         >
           Director of Academic Planning
         </Link>
         <Link
-          to="Admissions"
+          to="admissions"
           className={`menuButton ${
-            location.pathname === "/Directorates/Admissions" ? "active" : ""
+            location.pathname === "/directorates/admissions" ? "active" : ""
           }`}
         >
           Director of Admissions
         </Link>
         <Link
-          to="AlumniRelations"
+          to="alumni-relations"
           className={`menuButton ${
-            location.pathname === "/Directorates/AlumniRelations" ? "active" : ""
+            location.pathname === "/directorates/alumni-relations" ? "active" : ""
           }`}
         >
           Director of Alumni Relations
         </Link>
         <Link
-          to="Empowerment"
+          to="empowerment"
           className={`menuButton ${
-            location.pathname === "/Directorates/Empowerment" ? "active" : ""
+            location.pathname === "/directorates/empowerment" ? "active" : ""
           }`}
         >
           Empowerment of Women & Grievances
         </Link>
         <Link
-          to="Evaluation"
+          to="evaluation"
           className={`menuButton ${
-            location.pathname === "/Directorates/Evaluation" ? "active" : ""
+            location.pathname === "/directorates/evaluation" ? "active" : ""
           }`}
         >
           Evaluation
         </Link>
         <Link
-          to="FacultyDevelopmentCell"
+          to="faculty-development-cell"
           className={`menuButton ${
-            location.pathname === "/Directorates/FacultyDevelopmentCell" ? "active" : ""
+            location.pathname === "/directorates/faculty-development-cell" ? "active" : ""
           }`}
         >
           Faculty Development Cell
         </Link>
         <Link
-          to="ForeignUniversityRelations"
+          to="foreign-university-relations"
           className={`menuButton ${
-            location.pathname === "/Directorates/ForeignUniversityRelations" ? "active" : ""
+            location.pathname === "/directorates/foreign-university-relations" ? "active" : ""
           }`}
         >
           Foreign University Relations
         </Link>
         <Link
-          to="IQAC"
+          to="iqac"
           className={`menuButton ${
-            location.pathname === "/Directorates/IQAC" ? "active" : ""
+            location.pathname === "/directorates/iqac" ? "active" : ""
           }`}
         >
           Director of IQAC
         </Link>
         <Link
-          to="Placements"
+          to="placements"
           className={`menuButton ${
-            location.pathname === "/Directorates/Placements" ? "active" : ""
+            location.pathname === "/directorates/placements" ? "active" : ""
           }`}
         >
           Director of IIIT & Placements
         </Link>
         <Link
-          to="Research"
+          to="research"
           className={`menuButton ${
-            location.pathname === "/Directorates/Research" ? "active" : ""
+            location.pathname === "/directorates/research" ? "active" : ""
           }`}
         >
           Director of Research & Development
         </Link>
         <Link
-          to="SportsAdministration"
+          to="sports-administration"
           className={`menuButton ${
-            location.pathname === "/Directorates/SportsAdministration" ? "active" : ""
+            location.pathname === "/directorates/sports-administration" ? "active" : ""
           }`}
         >
           Director of University Games & Sports Administration

@@ -55,10 +55,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/Aboutus" element={<AboutusMain />}>
-          <Route path="About-JNTUGV" element={<AboutJNTUGV />} />
-          <Route path="Vision" element={<Vision />} />
-          <Route path="Mission" element={<Mission />} />
+        <Route path="/about-us" element={<AboutusMain />}>
+          <Route path="about-jntugv" element={<AboutJNTUGV />} />
+          <Route path="vision" element={<Vision />} />
+          <Route path="mission" element={<Mission />} />
         </Route>
         <Route path="/academics" element={<AcademicsMain />}>
           <Route
@@ -69,31 +69,31 @@ function App() {
           <Route path="admissions" element={<AdmissionsOP />} />
           <Route path="affliated-colleges" element={<AffliatedCollegesOP />} />
         </Route>
-        <Route path="/Administration" element={<AdministrationMain />}>
-          <Route path="Chancellor" element={<Chancellor />} />{" "}
-          <Route path="ViceChancellor" element={<ViceChancellor />} />
-          <Route path="Registrar" element={<Registrar />} />
+        <Route path="/administration" element={<AdministrationMain />}>
+          <Route path="chancellor" element={<Chancellor />} />{" "}
+          <Route path="vice-chancellor" element={<ViceChancellor />} />
+          <Route path="registrar" element={<Registrar />} />
         </Route>
-        <Route path="/Directorates" element={<DirectoratesMain />}>
-          <Route path="AcademicAudit" element={<AcademicAudit />} />{" "}
-          <Route path="AcademicPlanning" element={<AcademicPlanning />} />
-          <Route path="Admissions" element={<Admissions />} />
-          <Route path="AlumniRelations" element={<AlumniRelations />} />{" "}
-          <Route path="Empowerment" element={<Empowerment />} />
-          <Route path="Evaluation" element={<Evaluation />} />
+        <Route path="/directorates" element={<DirectoratesMain />}>
+          <Route path="academic-audit" element={<AcademicAudit />} />{" "}
+          <Route path="academic-planning" element={<AcademicPlanning />} />
+          <Route path="admissions" element={<Admissions />} />
+          <Route path="alumni-relations" element={<AlumniRelations />} />{" "}
+          <Route path="empowerment" element={<Empowerment />} />
+          <Route path="evaluation" element={<Evaluation />} />
           <Route
-            path="FacultyDevelopmentCell"
+            path="faculty-development-cell"
             element={<FacultyDevelopmentCell />}
           />
           <Route
-            path="ForeignUniversityRelations"
+            path="foreign-university-relations"
             element={<ForeignUniversityRelations />}
           />
-          <Route path="IQAC" element={<IQAC />} />
-          <Route path="Placements" element={<Placements />} />
-          <Route path="Research" element={<Research />} />
+          <Route path="iqac" element={<IQAC />} />
+          <Route path="placements" element={<Placements />} />
+          <Route path="research" element={<Research />} />
           <Route
-            path="SportsAdministration"
+            path="sports-administration"
             element={<SportsAdministration />}
           />
         </Route>

@@ -8,25 +8,25 @@ const AdministrationMain = () => {
       <div className="ADallLeftMenu">
          {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
          <Link
-          to="Chancellor"
+          to="chancellor"
           className={`menuButton ${
-            location.pathname === "/Administration/Chancellor" ? "active" : ""
+            location.pathname === "/administration/chancellor" ? "active" : ""
           }`}
         >
           Chancellor
         </Link>
         <Link
-          to="ViceChancellor"
+          to="vice-chancellor"
           className={`menuButton ${
-            location.pathname === "/Administration/ViceChancellor" ? "active" : ""
+            location.pathname === "/administration/vice-chancellor" ? "active" : ""
           }`}
         >
           Vice Chancellor
         </Link>
         <Link
-          to="Registrar"
+          to="registrar"
           className={`menuButton ${
-            location.pathname === "/Administration/Registrar" ? "active" : ""
+            location.pathname === "/administration/registrar" ? "active" : ""
           }`}
         >
           Registrar
