@@ -1,5 +1,14 @@
 export const Data = [
   {
+    description: "Circular (For New NSS Units)",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1YAP2ckGybUcgf7Q_h4Mpr84Mx-silUwV/view?usp=sharing",
+    date: "06",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },
+  {
     description: "RRM Notification for AY 2019-20 & Ealier Batches",
     type: "notifications",
     link: "https://drive.google.com/file/d/1SXtfk8ZVcFUZr9wHGHquhwNBiHtuBsZg/view?usp=sharing",
