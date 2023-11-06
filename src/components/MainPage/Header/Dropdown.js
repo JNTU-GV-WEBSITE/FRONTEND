@@ -97,6 +97,13 @@ const Dropdown = () => {
                 Affiliated Colleges
               </Link>
             </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/bos-chairman">
+                {" "}
+                BOS Chairman
+              </Link>
+            </button>
           </div>
         </div>
         <div class="dropdown">
