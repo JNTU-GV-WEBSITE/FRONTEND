@@ -44,7 +44,7 @@ const DirectoratesMain = () => {
             location.pathname === "/directorates/empowerment" ? "active" : ""
           }`}
         >
-          Empowerment of Women & Grievances
+          Director of Empowerment of Women & Grievances
         </Link>
         <Link
           to="evaluation"
@@ -52,7 +52,7 @@ const DirectoratesMain = () => {
             location.pathname === "/directorates/evaluation" ? "active" : ""
           }`}
         >
-          Evaluation
+          Director of Evaluation
         </Link>
         <Link
           to="faculty-development-cell"
@@ -60,7 +60,7 @@ const DirectoratesMain = () => {
             location.pathname === "/directorates/faculty-development-cell" ? "active" : ""
           }`}
         >
-          Faculty Development Cell
+          Director of Faculty Development Cell
         </Link>
         <Link
           to="foreign-university-relations"
@@ -68,7 +68,7 @@ const DirectoratesMain = () => {
             location.pathname === "/directorates/foreign-university-relations" ? "active" : ""
           }`}
         >
-          Foreign University Relations
+          Director of Foreign University Relations
         </Link>
         <Link
           to="iqac"
