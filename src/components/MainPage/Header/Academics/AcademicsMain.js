@@ -40,9 +40,9 @@ const AcademicsMain = () => {
           Affiliated Colleges
         </Link>
         <Link
-          to="Bos-chairman"
+          to="bos-chairman"
           className={`menubutton ${
-            location.pathname === "/academics/Bos-chairman" ? "active" : ""
+            location.pathname === "/academics/bos-chairman" ? "active" : ""
           }`}
         >
           BOS Chairman

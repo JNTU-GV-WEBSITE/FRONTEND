@@ -99,7 +99,7 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
-              <Link className="link-btn" to="/academics/Bos-chairman">
+              <Link className="link-btn" to="/academics/bos-chairman">
                 {" "}
                 BOS Chairman
               </Link>
