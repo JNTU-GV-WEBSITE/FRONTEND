@@ -6,6 +6,7 @@ import IndependenceDay1 from "../../assets/ImageGalleryPictures/IndependenceDay1
 import IndependenceDay2 from "../../assets/ImageGalleryPictures/IndependenceDay2.JPG";
 import IndependenceDay3 from "../../assets/ImageGalleryPictures/independenceDay3.JPG";
 import Expo from "../../assets/ImageGalleryPictures/Expo.JPG";
+import imagegallery from "../../assets/ImageGalleryPictures/imageGallery6.jpg";
 import "./ImageGallery.css";
 
 function ImageGallery() {
@@ -54,6 +55,15 @@ function ImageGallery() {
           </Carousel.Item>
           <Carousel.Item>
             <img className="image" src={Expo} alt="Second slide" />
+            <Carousel.Caption>
+              <div className="carouselText">
+                {/* <h4>Image</h4>
+                <p>Image Description</p> */}
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="image" src={imagegallery} alt="Second slide" />
             <Carousel.Caption>
               <div className="carouselText">
                 {/* <h4>Image</h4>
