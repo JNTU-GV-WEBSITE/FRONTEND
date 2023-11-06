@@ -367,7 +367,7 @@ const Dropdown = () => {
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
-              <DraftsIcon /> CONTACTUS
+              <DraftsIcon /> CONTACT US
             </div>
           </div>
         </div>
