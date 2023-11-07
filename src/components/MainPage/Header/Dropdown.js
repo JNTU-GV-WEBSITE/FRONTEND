@@ -141,6 +141,16 @@ const Dropdown = () => {
                 Registrar
               </Link>
             </button>
+            <button>
+              {" "}
+              <Link
+                className="link-btn"
+                to="/administration/chairpersons"
+                target="_self"
+              >
+                Chairpersons
+              </Link>
+            </button>
           </div>
         </div>
         <div class="dropdown">
