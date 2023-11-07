@@ -48,7 +48,12 @@ const arr = [
   },
 ];
 
-const recruitment = [
+const newNotification = [
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1esNxbq-QNf_DouXxG9wz0pGV6RZsBMCq/view?usp=sharing",
+    text: "DR&D-Circular-Research Methodology",
+  },
   {
     hypertext:
       "https://drive.google.com/file/d/1YAP2ckGybUcgf7Q_h4Mpr84Mx-silUwV/view?usp=sharing",
@@ -68,12 +73,12 @@ const recruitment = [
   {
     hypertext:
       "https://drive.google.com/file/d/1vD1BH9VNxFZ3660Tq9TYUWAp8fHMhrXE/view?usp=sharing",
-    text: "Limited Recruitment notification for SC/ST Backlog Vacancies",
+    text: "Limited newNotification notification for SC/ST Backlog Vacancies",
   },
   {
     hypertext:
       "https://drive.google.com/file/d/1ZVrwi5iApIEZr5-2eg9MAeXgijEBWcKp/view?usp=sharing",
-    text: `Recruitment notification for Assistant Professors and Academic Non-Vacation Positions
+    text: `newNotification notification for Assistant Professors and Academic Non-Vacation Positions
     (BC Backlog and Regular Vacancies)`,
   },
   {
@@ -116,9 +121,9 @@ function Scrollbar() {
         </h1>
       </center>
       <div className="m1" ref={el}>
-        {recruitment.map((item, i) => (
+        {newNotification.map((item, i) => (
           <div>
-            <a href={item.hypertext}>
+            <a href={item.hypertext} target="_blank" rel="noreferrer">
               <div>
                 {item.text}
                 <img
