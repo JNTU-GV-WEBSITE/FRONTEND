@@ -47,6 +47,7 @@ import R13 from "./components/MainPage/Results/r13";
 import R20 from "./components/MainPage/Results/r20";
 import R16 from "./components/MainPage/Results/r16";
 import R19 from "./components/MainPage/Results/r19";
+import Chairpersons from "./components/MainPage/Header/Administration/Chairpersons/Chairpersons";
 
 function App() {
   return (
@@ -73,6 +74,8 @@ function App() {
           <Route path="chancellor" element={<Chancellor />} />{" "}
           <Route path="vice-chancellor" element={<ViceChancellor />} />
           <Route path="registrar" element={<Registrar />} />
+          <Route path="chairpersons" element={<Chairpersons />} />
+
         </Route>
         <Route path="/directorates" element={<DirectoratesMain />}>
           <Route path="academic-audit" element={<AcademicAudit />} />{" "}
