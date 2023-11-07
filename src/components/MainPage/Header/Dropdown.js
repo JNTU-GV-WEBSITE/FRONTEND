@@ -143,13 +143,13 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
-              <Link
+              {/* <Link
                 className="link-btn"
                 to="/administration/chairpersons"
                 target="_self"
               >
                 Chairpersons
-              </Link>
+              </Link> */}
             </button>
           </div>
         </div>
