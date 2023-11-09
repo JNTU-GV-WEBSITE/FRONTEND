@@ -20,7 +20,7 @@ export const pgRows = [
     id: 2,
     branch: "CSE and IT",
     specialization: ["1. Software Engineering", " 2.Computer Engineering "],
-    name: "Dr.D. Rajya Lakshmi , Prof in CSE & Director of Evaluation",
+    name: "Dr.D.Rajya Lakshmi , Prof in CSE & Director of Evaluation",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const pgRows = [
       "3. Neural networks ",
       "4. Computer networks and information security",
     ],
-    name: "Dr.D. Rajeswara Rao, Prof in CSE & Director Academic Audit",
+    name: "Dr.D.Rajeswara Rao, Prof in CSE & Director Academic Audit",
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ export const pgRows = [
       "9. Power Electronics & Drives",
       "10. Power System Engineering",
     ],
-    name: "Dr. K. Sri Kumar, Prof in EEE & Principal, CEV",
+    name: "Dr.K.Sri Kumar, Prof in EEE & Principal, CEV",
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ export const pgRows = [
       "10. VLSI & Embedded Systems ",
       "11. Electronics & Telecommunication Engineering ",
     ],
-    name: "Dr. K.Babulu, Prof in ECE & Director of Research and Development & Admissions",
+    name: "Dr.K.Babulu, Prof in ECE & Director of Research and Development & Admissions",
   },
 
   {
@@ -96,7 +96,7 @@ export const pgRows = [
       "9. Machine Designing ",
       "10. Advanced Pattern Maker(CAD&CAM) ",
     ],
-    name: "Dr. Swami Naidu.G., Prof in Metallurgical Engineering",
+    name: "Dr.Swami Naidu.G., Prof in Metallurgical Engineering",
   },
   {
     id: 8,
