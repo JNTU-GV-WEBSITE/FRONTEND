@@ -231,16 +231,6 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
-              <Link
-                className="link-btn"
-                to="/directorates/foreign-university-relations"
-                target="_self"
-              >
-                Foreign University Relations
-              </Link>
-            </button>
-            <button>
-              {" "}
               <Link className="link-btn" to="/directorates/iqac" target="_self">
                 IQAC
               </Link>

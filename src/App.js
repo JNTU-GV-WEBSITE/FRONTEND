@@ -17,7 +17,6 @@ import AlumniRelations from "./components/MainPage/Header/Directorates/AlumniRel
 import Empowerment from "./components/MainPage/Header/Directorates/Empowerment/Empowerment";
 import Evaluation from "./components/MainPage/Header/Directorates/Evaluation/Evaluation";
 import FacultyDevelopmentCell from "./components/MainPage/Header/Directorates/FacultyDevelopmentCell/FacultyDevelopmentCell";
-import ForeignUniversityRelations from "./components/MainPage/Header/Directorates/ForeignUniversityRelations/ForeignUniversityRelations";
 import IQAC from "./components/MainPage/Header/Directorates/IQAC/IQAC";
 import Placements from "./components/MainPage/Header/Directorates/Placements/Placements";
 import Research from "./components/MainPage/Header/Directorates/Research/Research";
@@ -89,10 +88,6 @@ function App() {
           <Route
             path="faculty-development-cell"
             element={<FacultyDevelopmentCell />}
-          />
-          <Route
-            path="foreign-university-relations"
-            element={<ForeignUniversityRelations />}
           />
           <Route path="iqac" element={<IQAC />} />
           <Route path="placements" element={<Placements />} />
