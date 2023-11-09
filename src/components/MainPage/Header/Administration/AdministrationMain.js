@@ -31,14 +31,14 @@ const AdministrationMain = () => {
         >
           Registrar
         </Link>
-        <Link
+        {/* <Link
           to="chairpersons"
           className={`menuButton ${
             location.pathname === "/administration/chairpersons" ? "active" : ""
           }`}
         >
           Chairpersons
-        </Link>
+        </Link> */}
       </div>
       <Outlet />
     </div>

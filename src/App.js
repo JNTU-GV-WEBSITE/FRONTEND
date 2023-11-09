@@ -17,7 +17,6 @@ import AlumniRelations from "./components/MainPage/Header/Directorates/AlumniRel
 import Empowerment from "./components/MainPage/Header/Directorates/Empowerment/Empowerment";
 import Evaluation from "./components/MainPage/Header/Directorates/Evaluation/Evaluation";
 import FacultyDevelopmentCell from "./components/MainPage/Header/Directorates/FacultyDevelopmentCell/FacultyDevelopmentCell";
-import ForeignUniversityRelations from "./components/MainPage/Header/Directorates/ForeignUniversityRelations/ForeignUniversityRelations";
 import IQAC from "./components/MainPage/Header/Directorates/IQAC/IQAC";
 import Placements from "./components/MainPage/Header/Directorates/Placements/Placements";
 import Research from "./components/MainPage/Header/Directorates/Research/Research";
@@ -27,6 +26,7 @@ import AcademicsOP from "./components/MainPage/Header/Academics/Programs Offered
 import ConstituentCollegesOP from "./components/MainPage/Header/Academics/Constituent Colleges/ConstituentCollegesOP";
 import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/AdmissionsOP";
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
+import Boschairman from "./components/MainPage/Header/Academics/Bos-chairman/Boschairman";
 import ContactUs from "./components/MainPage/Header/Contact-Us/ContactUs";
 import AboutusMain from "./components/MainPage/Header/Aboutus/AboutusMain";
 import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
@@ -69,6 +69,7 @@ function App() {
           <Route path="programs-offered" element={<AcademicsOP />} />
           <Route path="admissions" element={<AdmissionsOP />} />
           <Route path="affliated-colleges" element={<AffliatedCollegesOP />} />
+          <Route path="bos-chairman" element={<Boschairman />} />
         </Route>
         <Route path="/administration" element={<AdministrationMain />}>
           <Route path="chancellor" element={<Chancellor />} />{" "}
@@ -87,10 +88,6 @@ function App() {
           <Route
             path="faculty-development-cell"
             element={<FacultyDevelopmentCell />}
-          />
-          <Route
-            path="foreign-university-relations"
-            element={<ForeignUniversityRelations />}
           />
           <Route path="iqac" element={<IQAC />} />
           <Route path="placements" element={<Placements />} />

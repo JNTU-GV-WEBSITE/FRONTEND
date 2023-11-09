@@ -6,7 +6,7 @@ const DirectoratesMain = () => {
   return (
     <div className="AD-Main">
       <div className="ADallLeftMenu">
-      <Link
+        <Link
           to="academic-audit"
           className={`menuButton ${
             location.pathname === "/directorates/academic-audit" ? "active" : ""
@@ -17,7 +17,9 @@ const DirectoratesMain = () => {
         <Link
           to="academic-planning"
           className={`menuButton ${
-            location.pathname === "/directorates/academic-planning" ? "active" : ""
+            location.pathname === "/directorates/academic-planning"
+              ? "active"
+              : ""
           }`}
         >
           Director of Academic Planning
@@ -33,7 +35,9 @@ const DirectoratesMain = () => {
         <Link
           to="alumni-relations"
           className={`menuButton ${
-            location.pathname === "/directorates/alumni-relations" ? "active" : ""
+            location.pathname === "/directorates/alumni-relations"
+              ? "active"
+              : ""
           }`}
         >
           Director of Alumni Relations
@@ -57,18 +61,12 @@ const DirectoratesMain = () => {
         <Link
           to="faculty-development-cell"
           className={`menuButton ${
-            location.pathname === "/directorates/faculty-development-cell" ? "active" : ""
+            location.pathname === "/directorates/faculty-development-cell"
+              ? "active"
+              : ""
           }`}
         >
           Director of Faculty Development Cell
-        </Link>
-        <Link
-          to="foreign-university-relations"
-          className={`menuButton ${
-            location.pathname === "/directorates/foreign-university-relations" ? "active" : ""
-          }`}
-        >
-          Director of Foreign University Relations
         </Link>
         <Link
           to="iqac"
@@ -97,11 +95,13 @@ const DirectoratesMain = () => {
         <Link
           to="sports-administration"
           className={`menuButton ${
-            location.pathname === "/directorates/sports-administration" ? "active" : ""
+            location.pathname === "/directorates/sports-administration"
+              ? "active"
+              : ""
           }`}
         >
           Director of University Games & Sports Administration
-        </Link> 
+        </Link>
       </div>
       <Outlet />
     </div>

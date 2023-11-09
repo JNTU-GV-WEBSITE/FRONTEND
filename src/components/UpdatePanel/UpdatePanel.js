@@ -123,7 +123,7 @@ function UpdatePanel() {
                 <div className="updateDescription">{entry.description}</div>
                 {isCurrentMonth && (
                   <img
-                    src="images/new.gif"
+                    src="images/new.gif"  
                     alt="newimg"
                     height="20vh"
                     width="50vh"

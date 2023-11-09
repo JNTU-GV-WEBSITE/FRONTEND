@@ -97,6 +97,13 @@ const Dropdown = () => {
                 Affiliated Colleges
               </Link>
             </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/bos-chairman">
+                {" "}
+                BOS Chairman
+              </Link>
+            </button>
           </div>
         </div>
         <div class="dropdown">
@@ -136,13 +143,13 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
-              <Link
+              {/* <Link
                 className="link-btn"
                 to="/administration/chairpersons"
                 target="_self"
               >
                 Chairpersons
-              </Link>
+              </Link> */}
             </button>
           </div>
         </div>
@@ -220,16 +227,6 @@ const Dropdown = () => {
                 target="_self"
               >
                 Faculty Development Cell
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link
-                className="link-btn"
-                to="/directorates/foreign-university-relations"
-                target="_self"
-              >
-                Foreign University Relations
               </Link>
             </button>
             <button>
@@ -370,7 +367,7 @@ const Dropdown = () => {
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
-              <DraftsIcon /> CONTACTUS
+              <DraftsIcon /> CONTACT US
             </div>
           </div>
         </div>
