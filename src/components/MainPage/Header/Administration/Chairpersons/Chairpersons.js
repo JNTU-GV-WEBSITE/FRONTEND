@@ -68,8 +68,6 @@ export default function Chairpersons() {
           <ChairPersonTable columns={pgColumns} rows={pgRows} />
         </AccordionDetails>
       </Accordion>
-
-      {/* Other Accordions or content here */}
     </div>
   );
 }
