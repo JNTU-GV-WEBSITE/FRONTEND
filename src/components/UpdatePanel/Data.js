@@ -1,5 +1,13 @@
 export const Data = [
   {
+    description: "JNTUGV Inter Collegiate Tournaments Dates & Venues 2023-24",
+    type: "sports",
+    link: "https://drive.google.com/file/d/1XvQrUyp63GuYrSgFP_Bd4a7u28EEVAyl/view?usp=sharing",
+    date: "09",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },{
     description: "DR&D-Circular-Research Methodology",
     type: "notifications",
     link: "https://drive.google.com/file/d/1esNxbq-QNf_DouXxG9wz0pGV6RZsBMCq/view?usp=sharing",
