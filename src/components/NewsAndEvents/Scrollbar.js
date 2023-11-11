@@ -51,6 +51,11 @@ const arr = [
 const newNotification = [
   {
     hypertext:
+      "https://drive.google.com/file/d/1XvQrUyp63GuYrSgFP_Bd4a7u28EEVAyl/view?usp=sharing",
+    text: "JNTUGV Inter Collegiate Tournaments Dates & Venues 2023-24",
+  },
+  {
+    hypertext:
       "https://drive.google.com/file/d/1esNxbq-QNf_DouXxG9wz0pGV6RZsBMCq/view?usp=sharing",
     text: "DR&D-Circular-Research Methodology",
   },
