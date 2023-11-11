@@ -15,3 +15,108 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+/* ContactUs.css */
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.map-container {
+  flex: content; /* Takes up 50% of the screen width */
+  height: 80%; /* You can adjust the height as needed */
+  width: 80%;/* Add styles for the map container, e.g., background-color or border */
+  margin-top: 20px;
+  
+}
+
+.contact-details {
+  flex: 1; /* Takes up 50% of the screen width */
+  padding: 20px;
+ 
+}
+
+/* Styles for contact details elements */
+.contact-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.additional-contact-details {
+  margin-bottom: 20px;
+  flex-direction: row;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.member {
+  
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Add a border for better separation */
+}
+
+.member  {
+  margin-bottom: 10px;
+}
+
+.member p {
+  margin: 5px 0;
+}
+
+.additional-contact-details {
+  display: block;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.college-section,
+.additional-contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.member:hover {
+  transform: scale(1.05);
+}
+
+.member h3 {
+  margin-bottom: 10px;
+}
+
+.member p {
+  margin: 5px 0;
+}
