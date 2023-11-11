@@ -7,6 +7,8 @@ function UpdatePanel() {
   const notificationList = [];
   const conferenceList = [];
   const recruitmentList = [];
+  const sportsList = [];
+
 
   const [displayData, setDisplayData] = useState(notificationList);
 
@@ -34,6 +36,8 @@ function UpdatePanel() {
       tenderList.push(entry);
     } else if (entry.type === "conference") {
       conferenceList.push(entry);
+    } else if (entry.type === "sports"){
+      sportsList.push(entry);
     }
   });
 
@@ -51,6 +55,10 @@ function UpdatePanel() {
   };
   const handleConference = (button) => {
     setDisplayData(conferenceList);
+    setActiveButton(button);
+  };
+  const handleSports = (button) => {
+    setDisplayData(sportsList);
     setActiveButton(button);
   };
 
@@ -106,6 +114,16 @@ function UpdatePanel() {
           onClick={() => handleTender("Tenders")}
         >
           Tenders
+        </button>
+        <button
+          style={{
+            ...buttonStyles,
+            backgroundColor: activeButton === "Sports" ? "#690001" : "white",
+            color: activeButton === "Sports" ? "white" : "black",
+          }}
+          onClick={() => handleSports("Sports")}
+        >
+          Sports
         </button>
       </div>
       <div className="updatesContainer">
