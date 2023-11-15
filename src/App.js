@@ -48,6 +48,7 @@ import R20 from "./components/MainPage/Results/r20";
 import R16 from "./components/MainPage/Results/r16";
 import R19 from "./components/MainPage/Results/r19";
 import Chairpersons from "./components/MainPage/Header/Administration/Chairpersons/Chairpersons";
+import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
         </Route>
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/grievance-form" element={<Grievance />} />
+        <Route path="/news-and-events" element={<NewsAndEvents/>} />
       </Routes>
     </div>
   );
