@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-inline: 20px;
+  /* padding-inline: 20px; */
   padding-top: 20px;
   margin-left: 30px;
   /* margin-left: 10px; */
@@ -21,27 +21,24 @@
 .contact-page {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
   width: 100%;
-  height: 100vh;
 
 }
 
 .map-container {
-  flex: content; /* Takes up 50% of the screen width */
-  height: 80%; /* You can adjust the height as needed */
-  width: 80%;/* Add styles for the map container, e.g., background-color or border */
-  margin-top: 20px;
-  
+  flex: content; 
+  margin-left: 20px;
+  height: 40vh;
 }
 
 .contact-details {
-  flex: 1; /* Takes up 50% of the screen width */
-  padding: 16px;
+  /* flex: 1; Takes up 50% of the screen width */
+  /* margin: 16px; */
   display: flex;
   flex-direction: row;
+  padding-left: 10px;
  
 }
 
@@ -52,7 +49,6 @@
 
 .contact-details p {
   font-size: 16px;
-  
 }
 
 .additional-contact-details {
@@ -60,24 +56,24 @@
   flex-direction: row;
   grid-template-columns: repeat(3,1fr);
 }
-.member p {
-  margin: 10px 0;
-}
 
+.additional-details{
+  height: 20vh;
+}
 .additional-contact-details {
   display: block;
 }
 
-.fade-in {
+/* .fade-in {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
-}
+} */
 
-.visible {
+/* .visible {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 .college-section,
 .additional-contact-section {
@@ -93,14 +89,23 @@
 .member {
   border: 1px solid #ddd;
   cursor: pointer;
-  transition: transform 0.2s ease;
-
+  /* transition: transform 0.2s ease; */
+  height: 40vh;
+  padding: 20px;
 }
-
+/* 
 .member:hover {
   transform: scale(1.05);
-}
+} */
 
 .member h3 {
   margin-bottom: 12px;
+}
+
+.paper-details{
+  height: 20vh;
+  width: max-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
