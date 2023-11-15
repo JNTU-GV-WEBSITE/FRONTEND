@@ -1,7 +1,7 @@
 export const Data = [
   {
     description: `Up-Skilling Program In "IoT Technologies" In Collaboration With C-DAC and IEEE and CSC Academy /CSC e-Governance Services India Limited.
-    (check worshops tab for more details)`,
+    (check workshops tab for more details)`,
     type: "notifications",
     link: "https://drive.google.com/file/d/15GSrtZ6Sq8-mbAad6u0wlr6xu98PdILV/view?usp=sharing",
     date: "15",

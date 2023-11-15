@@ -7,7 +7,7 @@ function IQAC() {
   return (
     <div className="mainContainer">
       <div className="allRightContent">
-        <div className="allRightContentHeading">Director of IQAC</div>
+        <div className="allRightContentHeading">Director of Internal Quality Assurance Cell</div>
         <br></br>
         <div className="allRightContentProfile">
           {/* Profile information */}
@@ -24,7 +24,7 @@ function IQAC() {
           <div className="profileName">
             <h3 className="ADh3">Dr. K. Chandra Bhushana Rao</h3>
             <h3 className="ADh3">
-              Director of IQAC
+              Director of Internal Quality Assurance Cell
             </h3>
           </div>
           <div className="profileDesignation">

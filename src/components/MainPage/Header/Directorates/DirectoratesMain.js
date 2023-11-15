@@ -6,15 +6,7 @@ const DirectoratesMain = () => {
   return (
     <div className="AD-Main">
       <div className="ADallLeftMenu">
-        <Link
-          to="academic-audit"
-          className={`menuButton ${
-            location.pathname === "/directorates/academic-audit" ? "active" : ""
-          }`}
-        >
-          Director of Academic Audit
-        </Link>
-        <Link
+      <Link
           to="academic-planning"
           className={`menuButton ${
             location.pathname === "/directorates/academic-planning"
@@ -24,32 +16,18 @@ const DirectoratesMain = () => {
         >
           Director of Academic Planning
         </Link>
+
+
+
         <Link
-          to="admissions"
+          to="academic-audit"
           className={`menuButton ${
-            location.pathname === "/directorates/admissions" ? "active" : ""
+            location.pathname === "/directorates/academic-audit" ? "active" : ""
           }`}
         >
-          Director of Admissions
+          Director of Academic Audit
         </Link>
-        <Link
-          to="alumni-relations"
-          className={`menuButton ${
-            location.pathname === "/directorates/alumni-relations"
-              ? "active"
-              : ""
-          }`}
-        >
-          Director of Alumni Relations
-        </Link>
-        <Link
-          to="empowerment"
-          className={`menuButton ${
-            location.pathname === "/directorates/empowerment" ? "active" : ""
-          }`}
-        >
-          Director of Empowerment of Women & Grievances
-        </Link>
+
         <Link
           to="evaluation"
           className={`menuButton ${
@@ -58,6 +36,34 @@ const DirectoratesMain = () => {
         >
           Director of Evaluation
         </Link>
+
+        <Link
+          to="admissions"
+          className={`menuButton ${
+            location.pathname === "/directorates/admissions" ? "active" : ""
+          }`}
+        >
+          Director of Admissions
+        </Link>
+
+        <Link
+          to="placements"
+          className={`menuButton ${
+            location.pathname === "/directorates/placements" ? "active" : ""
+          }`}
+        >
+          Director of IIIT & Placements
+        </Link>
+
+        <Link
+          to="research"
+          className={`menuButton ${
+            location.pathname === "/directorates/research" ? "active" : ""
+          }`}
+        >
+          Director of Research & Development
+        </Link>
+
         <Link
           to="faculty-development-cell"
           className={`menuButton ${
@@ -68,30 +74,36 @@ const DirectoratesMain = () => {
         >
           Director of Faculty Development Cell
         </Link>
+
+        <Link
+          to="alumni-relations"
+          className={`menuButton ${
+            location.pathname === "/directorates/alumni-relations"
+              ? "active"
+              : ""
+          }`}
+        >
+          Director of Alumni Relations
+        </Link>
+
         <Link
           to="iqac"
           className={`menuButton ${
             location.pathname === "/directorates/iqac" ? "active" : ""
           }`}
         >
-          Director of IQAC
+          Director of Internal Quality Assurance Cell
         </Link>
+
         <Link
-          to="placements"
+          to="empowerment"
           className={`menuButton ${
-            location.pathname === "/directorates/placements" ? "active" : ""
+            location.pathname === "/directorates/empowerment" ? "active" : ""
           }`}
         >
-          Director of IIIT & Placements
+          Director of Empowerment of Women & Grievances
         </Link>
-        <Link
-          to="research"
-          className={`menuButton ${
-            location.pathname === "/directorates/research" ? "active" : ""
-          }`}
-        >
-          Director of Research & Development
-        </Link>
+        
         <Link
           to="sports-administration"
           className={`menuButton ${
