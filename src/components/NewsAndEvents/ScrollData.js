@@ -42,6 +42,11 @@ export const arr = [
   ];
   
  export const newNotification = [
+  {
+    hypertext:
+      "https://drive.google.com/file/d/15GSrtZ6Sq8-mbAad6u0wlr6xu98PdILV/view?usp=sharing",
+    text: "IoT Technologies for SC & ST Students",
+  },
     {
       hypertext:
         "https://drive.google.com/file/d/1XvQrUyp63GuYrSgFP_Bd4a7u28EEVAyl/view?usp=sharing",

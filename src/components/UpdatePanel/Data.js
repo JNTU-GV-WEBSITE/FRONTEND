@@ -1,4 +1,12 @@
-export const Data = [
+export const Data = [{
+  description: "IoT Technologies for SC & ST Students",
+  type: "notifications",
+  link: "https://drive.google.com/file/d/15GSrtZ6Sq8-mbAad6u0wlr6xu98PdILV/view?usp=sharing",
+  date: "15",
+  month: "Nov",
+  year: "2023",
+  isLink: true,
+},
   {
     description: "JNTUGV Inter Collegiate Tournaments Dates & Venues 2023-24",
     type: "sports",
