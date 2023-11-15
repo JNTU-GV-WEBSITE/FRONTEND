@@ -16,7 +16,7 @@ export const Data = [
     date: "09",
     month: "Nov",
     year: "2023",
-    isLink: true,
+    isLink: true ,
   },
   {
     description: "DR&D-Circular-Research Methodology",
