@@ -39,19 +39,20 @@
 
 .contact-details {
   flex: 1; /* Takes up 50% of the screen width */
-  padding: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
  
 }
 
 /* Styles for contact details elements */
 .contact-details h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .contact-details p {
   font-size: 16px;
-  margin-bottom: 10px;
+  
 }
 
 .additional-contact-details {
@@ -59,20 +60,8 @@
   flex-direction: row;
   grid-template-columns: repeat(3,1fr);
 }
-
-.member {
-  
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ddd; /* Add a border for better separation */
-}
-
-.member  {
-  margin-bottom: 10px;
-}
-
 .member p {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .additional-contact-details {
@@ -98,15 +87,14 @@
 .contact-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
 }
 
 .member {
-  flex: 1;
-  padding: 10px;
   border: 1px solid #ddd;
   cursor: pointer;
   transition: transform 0.2s ease;
+
 }
 
 .member:hover {
@@ -114,9 +102,5 @@
 }
 
 .member h3 {
-  margin-bottom: 10px;
-}
-
-.member p {
-  margin: 5px 0;
+  margin-bottom: 12px;
 }

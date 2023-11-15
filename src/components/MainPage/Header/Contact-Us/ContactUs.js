@@ -85,9 +85,12 @@ function ContactUs() {
     <div className="contact-page">
       {/* College Section */}
       <div className="contact-details">
+        <div className="member">
         <h2>College Details</h2>
         <p>
-          <strong>Location:</strong> JNTU-Gurajada College Engineering Vizianagaram, Nh 43, Dwarapudi (Post), Vizianagaram, Andhra Pradesh, Andhra Pradesh 535003 · ~4.8 km
+          <strong>Location:</strong> JNTU-Gurajada College Engineering Vizianagaram,<br />
+           Nh 43, Dwarapudi (Post), Vizianagaram, Andhra Pradesh,
+            Andhra Pradesh 535003 · ~4.8 km
         </p>
         <p>
           <strong>Contact Number:</strong> 089222 77388
@@ -98,6 +101,7 @@ function ContactUs() {
         <p>
           <a href='https://jntugv.edu.in/'>jntugv.edu.in</a>
        </p>
+       </div>
         <div className="map-container">
           <iframe
             title="JNTU Vizianagaram Campus Map"
@@ -120,7 +124,8 @@ function ContactUs() {
           <div className="member zoom-effect">
             <h3>Vice-chancellor Office</h3>
             <p>
-              <strong>Contact Number:</strong> +91 89222 22606
+              <strong>Contact Number: +91 89222 22606</strong> 
+              <strong>vc@jntugv.edu.in</strong>
             </p>
           </div>
 
@@ -128,7 +133,8 @@ function ContactUs() {
           <div className="member zoom-effect">
             <h3>Registrar Peshi </h3>
             <p>
-              <strong>Contact Number:</strong> +91 89222 94316
+              <strong>Contact Number: +91 89222 94316</strong> 
+              <strong>registrar@jntugv.edu.in</strong>
             </p>
           </div>
 
@@ -136,7 +142,8 @@ function ContactUs() {
           <div className="member zoom-effect">
             <h3>Controller of Examination Office JNTUGV</h3>
             <p>
-              <strong>Contact Number:</strong> +91 89222 94997
+              <strong>Contact Number: +91 89222 94997</strong> 
+              <strong>ce@jntugv.edu.in</strong>
             </p>
           </div>
         </div>

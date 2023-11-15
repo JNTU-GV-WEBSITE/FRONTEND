@@ -5,10 +5,9 @@ import { Data } from "./Data";
 function UpdatePanel() {
   const tenderList = [];
   const notificationList = [];
-  const conferenceList = [];
+  const workshopList = [];
   const recruitmentList = [];
   const sportsList = [];
-
 
   const [displayData, setDisplayData] = useState(notificationList);
 
@@ -34,9 +33,9 @@ function UpdatePanel() {
       recruitmentList.push(entry);
     } else if (entry.type === "tender") {
       tenderList.push(entry);
-    } else if (entry.type === "conference") {
-      conferenceList.push(entry);
-    } else if (entry.type === "sports"){
+    } else if (entry.type === "workshop") {
+      workshopList.push(entry);
+    } else if (entry.type === "sports") {
       sportsList.push(entry);
     }
   });
@@ -53,8 +52,8 @@ function UpdatePanel() {
     setDisplayData(tenderList);
     setActiveButton(button);
   };
-  const handleConference = (button) => {
-    setDisplayData(conferenceList);
+  const handleWorkshop = (button) => {
+    setDisplayData(workshopList);
     setActiveButton(button);
   };
   const handleSports = (button) => {
@@ -101,9 +100,15 @@ function UpdatePanel() {
               activeButton === "Conferences" ? "#690001" : "white",
             color: activeButton === "Conferences" ? "white" : "black",
           }}
-          onClick={() => handleConference("Conferences")}
+          onClick={() => handleWorkshop("Conferences")}
         >
-          Conferences
+          Workshops{" "}
+          <img
+            src="images/new.gif"
+            alt="newimg"
+            height="20vh"
+            width="50vh"
+          ></img>
         </button>
         <button
           style={{
@@ -138,10 +143,21 @@ function UpdatePanel() {
                     <div className="yearDiv">{entry.year}</div>
                   </div>
                 </div>
-                <div className="updateDescription">{entry.description}</div>
+                <div className="updateDescription">
+                  {entry.description}
+                  <div>
+                    <a
+                      href={entry.displaylink}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {entry.displaytext}
+                    </a>
+                  </div>
+                </div>
                 {isCurrentMonth && (
                   <img
-                    src="images/new.gif"  
+                    src="images/new.gif"
                     alt="newimg"
                     height="20vh"
                     width="50vh"
