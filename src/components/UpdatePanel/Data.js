@@ -1,12 +1,14 @@
-export const Data = [{
-  description: "IoT Technologies for SC & ST Students",
-  type: "notifications",
-  link: "https://drive.google.com/file/d/15GSrtZ6Sq8-mbAad6u0wlr6xu98PdILV/view?usp=sharing",
-  date: "15",
-  month: "Nov",
-  year: "2023",
-  isLink: true,
-},
+export const Data = [
+  {
+    description: `Up-Skilling Program In "IoT Technologies" In Collaboration With C-DAC and IEEE and CSC Academy /CSC e-Governance Services India Limited.
+    (check worshops tab for more details)`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/15GSrtZ6Sq8-mbAad6u0wlr6xu98PdILV/view?usp=sharing",
+    date: "15",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },
   {
     description: "JNTUGV Inter Collegiate Tournaments Dates & Venues 2023-24",
     type: "sports",
@@ -15,7 +17,8 @@ export const Data = [{
     month: "Nov",
     year: "2023",
     isLink: true,
-  },{
+  },
+  {
     description: "DR&D-Circular-Research Methodology",
     type: "notifications",
     link: "https://drive.google.com/file/d/1esNxbq-QNf_DouXxG9wz0pGV6RZsBMCq/view?usp=sharing",
@@ -1337,6 +1340,18 @@ export const Data = [{
     link: "https://drive.google.com/file/d/1LkPzCEEBGsK6xVvva3uXtDGEv9hEmHu1/view?usp=sharing",
     date: "30",
     month: "Oct",
+    year: "2023",
+    isLink: true,
+  },
+  {
+    description: `Up-Skilling Program In "IoT Technologies" In Collaboration With C-DAC and IEEE and CSC Academy /CSC e-Governance Services India Limited.
+    `,
+    type: "workshop",
+    link: "https://drive.google.com/file/d/1KXJ8G2g81tzpjaz5zbFeHOgiqfr852TI/view?usp=sharing",
+    displaylink: "https://forms.gle/NPCFqy46tyQKoktP6",
+    displaytext: "Click here to register",
+    date: "15",
+    month: "Nov",
     year: "2023",
     isLink: true,
   },
