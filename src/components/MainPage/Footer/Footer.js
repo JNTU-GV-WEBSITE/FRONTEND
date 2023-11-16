@@ -32,7 +32,7 @@ function Footer() {
       <div className="subcontainer2Footer">
         {/* Administration_Wing */}
         <div className="container1Footer">
-          <p className="subheadingFooter">Administation Wing</p>
+          <p className="subheadingFooter">Administration Wing</p>
           <hr className="subFooter" />
           <div>
             {Administration_Wing.map((item, index) => (
