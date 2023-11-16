@@ -10,7 +10,7 @@ function ContactUs() {
       <div className="contact-details">
         <Paper elevation={4} className="member">
           <Typography variant="h6">
-            <strong>Location:</strong> JNTU-Gurajada College Engineering
+            <strong>Location:</strong> JNTU-Gurajada College of Engineering
             Vizianagaram,
             <br />
             Nh 43, Dwarapudi (Post), Vizianagaram, Andhra Pradesh, Andhra
@@ -41,7 +41,7 @@ function ContactUs() {
           {/* Member 1 */}
           <Paper elevation={4} className="paper-details">
             <Typography variant="h6">
-              <strong>Vice-chancellor Office</strong>{" "}
+              <strong>Vice Chancellor Peshi</strong>{" "}
             </Typography>
             <Typography variant="p">
               Contact Number: +91 89222 22606{" "}
@@ -55,13 +55,14 @@ function ContactUs() {
               <strong>Registrar Peshi</strong>{" "}
             </Typography>
             <Typography variant="p">Contact Number: +91 89222 94316</Typography>
-            <Typography variant="p">Email: registrar@jntugv.edu.in</Typography>
+            <Typography variant="p">Email: registrarpeshi@jntugv.edu.in</Typography>
+            <Typography variant="p">Email: pa2registrarjntugv@gmail.com</Typography>
           </Paper>
 
           {/* Member 3 */}
           <Paper elevation={4} className="paper-details">
             <Typography variant="h6">
-              <strong>Controller of Examination Office JNTUGV</strong>{" "}
+              <strong>Controller of Examination Office</strong>{" "}
             </Typography>
             <Typography variant="p">Contact Number: +91 89222 94997</Typography>
             <Typography variant="p">Email: ce@jntugv.edu.in</Typography>
