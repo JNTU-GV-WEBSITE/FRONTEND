@@ -159,7 +159,7 @@ const Dropdown = () => {
             DIRECTORATES
           </div>
           <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
-          <button>
+            <button>
               {" "}
               <Link
                 className="link-btn"
@@ -169,7 +169,7 @@ const Dropdown = () => {
                 Academic Planning
               </Link>
             </button>
-            
+
             <button>
               {" "}
               <Link
@@ -180,7 +180,7 @@ const Dropdown = () => {
                 Academic Audit
               </Link>
             </button>
-            
+
             <button>
               {" "}
               <Link
@@ -224,7 +224,7 @@ const Dropdown = () => {
                 Research & Development
               </Link>
             </button>
-
+            {/* 
             <button>
               {" "}
               <Link
@@ -234,7 +234,7 @@ const Dropdown = () => {
               >
                 Faculty Development Cell
               </Link>
-            </button>
+            </button> */}
 
             <button>
               {" "}
@@ -249,11 +249,11 @@ const Dropdown = () => {
             <button>
               {" "}
               <Link className="link-btn" to="/directorates/iqac" target="_self">
-              Internal Quality Assurance Cell
+                Internal Quality Assurance Cell
               </Link>
             </button>
 
-            <button>
+            {/* <button>
               {" "}
               <Link
                 className="link-btn"
@@ -262,8 +262,7 @@ const Dropdown = () => {
               >
                 Empowerment of Women & Grievances
               </Link>
-            </button>       
-    
+            </button>    
             <button>
               {" "}
               <Link
@@ -273,7 +272,7 @@ const Dropdown = () => {
               >
                 University Games & Sports Administration
               </Link>
-            </button>
+            </button> */}
           </div>
         </div>
         <div class="dropdown">
@@ -338,7 +337,7 @@ const Dropdown = () => {
             </button>
           </div>
         </div>
-{/* 
+        {/* 
         <div class="dropdown">
           <div class="dropbtn">
             <div className="drop-icon">
