@@ -64,7 +64,7 @@ const DirectoratesMain = () => {
           Director of Research & Development
         </Link>
 
-        <Link
+        {/* <Link
           to="faculty-development-cell"
           className={`menuButton ${
             location.pathname === "/directorates/faculty-development-cell"
@@ -73,7 +73,7 @@ const DirectoratesMain = () => {
           }`}
         >
           Director of Faculty Development Cell
-        </Link>
+        </Link> */}
 
         <Link
           to="alumni-relations"
@@ -95,16 +95,16 @@ const DirectoratesMain = () => {
           Director of Internal Quality Assurance Cell
         </Link>
 
-        <Link
+        {/* <Link
           to="empowerment"
           className={`menuButton ${
             location.pathname === "/directorates/empowerment" ? "active" : ""
           }`}
         >
           Director of Empowerment of Women & Grievances
-        </Link>
+        </Link> */}
         
-        <Link
+        {/* <Link
           to="sports-administration"
           className={`menuButton ${
             location.pathname === "/directorates/sports-administration"
@@ -113,7 +113,7 @@ const DirectoratesMain = () => {
           }`}
         >
           Director of University Games & Sports Administration
-        </Link>
+        </Link> */}
       </div>
       <Outlet />
     </div>
