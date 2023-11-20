@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import './Gallery.css';
-import gal1 from '../assets/Gallery/gal1.jpeg';
+// import gal1 from '../assets/Gallery/gal1.jpeg';
 import gal2 from '../assets/Gallery/gal2.jpeg';
-import gal3 from '../assets/Gallery/gal3.jpeg';
+// import gal3 from '../assets/Gallery/gal3.jpeg';
 import gal4 from '../assets/Gallery/gal4.jpeg';
 import gal5 from '../assets/Gallery/gal5.jpeg';
 import gal6 from '../assets/Gallery/gal6.jpeg';
 import gal7 from '../assets/Gallery/gal7.jpeg';
+import gal8 from '../assets/Gallery/gal8.jpg';
+import gal9 from '../assets/Gallery/gal9.jpg';
 
 
 function Gallery() {
-  const images = [gal1, gal2, gal3, gal4, gal5, gal6, gal7];
+  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9];
 
   const totalWidth = images.length * 300; // 300px is the width of each image
 
