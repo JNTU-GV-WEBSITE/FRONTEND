@@ -44,6 +44,16 @@ export const arr = [
 export const newNotification = [
   {
     hypertext:
+      "https://drive.google.com/file/d/10-uVSgm0HRa8xxPliD4FM7FdelctQQuE/view?usp=sharing",
+    text: `Yoga (M & W) Team Selection Trails`,
+    },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1c5cvQ1T45hcmFNE7lntQ5DFZPt8bpdRY/view?usp=sharing",
+    text: `III B.Tech ISem RegularSupply R20, R19, R16 Notification`,
+  },
+  {
+    hypertext:
       "https://drive.google.com/file/d/15GSrtZ6Sq8-mbAad6u0wlr6xu98PdILV/view?usp=sharing",
     text: `Up-Skilling Program In "IoT Technologies" In Collaboration With C-DAC and IEEE and CSC Academy /CSC e-Governance Services India Limited.
     (check workshops tab for more details)`,
