@@ -1,5 +1,23 @@
 export const Data = [
   {
+    description: `Yoga (M & W) Team Selection Trails`,
+    type: "sports",
+    link: "https://drive.google.com/file/d/10-uVSgm0HRa8xxPliD4FM7FdelctQQuE/view?usp=sharing",
+    date: "22",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },
+  {
+    description: `III B.Tech ISem RegularSupply R20, R19, R16 Notification`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1c5cvQ1T45hcmFNE7lntQ5DFZPt8bpdRY/view?usp=sharing",
+    date: "21",
+    month: "Nov",
+    year: "2023",
+    isLink: true,
+  },
+  {
     description: `Up-Skilling Program In "IoT Technologies" In Collaboration With C-DAC and IEEE and CSC Academy /CSC e-Governance Services India Limited.
     (check workshops tab for more details)`,
     type: "notifications",
