@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./UpdatePanel.css";
 import { useState } from "react";
 import { Data } from "./Data";
@@ -13,7 +12,7 @@ function UpdatePanel() {
 
   const [activeButton, setActiveButton] = useState("Notifications");
 
-  const [events, setEvents] = useState([]);
+  // const [events, setEvents] = useState([]);
 
   const buttonStyles = {
     backgroundColor: "white",
@@ -28,24 +27,24 @@ function UpdatePanel() {
   const currentDate = new Date();
   const isCurrentMonth = currentDate.getMonth() === Data.month;
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "http://api.jntugv.edu.in/api/updates/getevents"
-        );
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await response.json();
-        setEvents(data); // Update state with the fetched data
-      } catch (error) {
-        console.error("Error:", error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await fetch(
+  //         "http://api.jntugv.edu.in/api/updates/getevents"
+  //       );
+  //       if (!response.ok) {
+  //         throw new Error("Network response was not ok");
+  //       }
+  //       const data = await response.json();
+  //       setEvents(data); // Update state with the fetched data
+  //     } catch (error) {
+  //       console.error("Error:", error);
+  //     }
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
   Data.forEach((entry) => {
     if (entry.type === "notifications") {
