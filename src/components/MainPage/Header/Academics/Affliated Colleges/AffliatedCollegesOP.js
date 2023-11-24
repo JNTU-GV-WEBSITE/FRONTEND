@@ -12,13 +12,14 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import { rowsEngg, rowsMba } from "./AffiliatedCollegesData";
 import { rowsPharmacy } from "./AffiliatedCollegesData";
+import { Link } from "react-router-dom";
 
 const AffliatedCollegesOP = () => {
   return (
     <div className="AffiliatedColleges">
       <div className="AffiliatedColleges-title">Affiliated Colleges</div>
       <div className="table-container">
-        <Accordion elevation={10} className="accordion-affiliated">
+        <Accordion elevation={20} className="accordion-affiliated">
           <AccordionSummary
             expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
@@ -52,7 +53,11 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeCode}</TableCell>
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
-                      <TableCell align="center">{row.wURL}</TableCell>
+                      <TableCell align="center">
+                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                          {row.wURL}
+                        </Link>
+                      </TableCell>
                       <TableCell align="center">{row.Type}</TableCell>
                     </TableRow>
                   ))}
@@ -62,7 +67,7 @@ const AffliatedCollegesOP = () => {
           </AccordionDetails>
         </Accordion>
 
-        <Accordion elevation={10} className="accordion-affiliated">
+        <Accordion elevation={20} className="accordion-affiliated">
           <AccordionSummary
             expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
@@ -96,7 +101,11 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeCode}</TableCell>
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
-                      <TableCell align="center">{row.wURL}</TableCell>{" "}
+                      <TableCell align="center">
+                        <Link to={row.wURL} target="_blank">
+                          {row.wURL}
+                        </Link>
+                      </TableCell>
                       <TableCell align="center">{row.Type}</TableCell>
                     </TableRow>
                   ))}
@@ -106,7 +115,7 @@ const AffliatedCollegesOP = () => {
           </AccordionDetails>
         </Accordion>
 
-        <Accordion elevation={10} className="accordion-affiliated">
+        <Accordion elevation={20} className="accordion-affiliated">
           <AccordionSummary
             expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
@@ -140,7 +149,11 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeCode}</TableCell>
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
-                      <TableCell align="center">{row.wURL}</TableCell>
+                      <TableCell align="center">
+                        <Link to={row.wURL} target="_blank">
+                          {row.wURL}
+                        </Link>
+                      </TableCell>
                       <TableCell align="center">{row.Type}</TableCell>
                     </TableRow>
                   ))}
