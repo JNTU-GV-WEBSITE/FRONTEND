@@ -112,3 +112,11 @@
     font-size: 15px;
     color: rgb(20, 6, 63);
   }
+
+  
+@media screen and (max-width: 600px) {
+  .ABOUT-Main {
+    display: flex;
+    flex-direction: column;
+  }
+}

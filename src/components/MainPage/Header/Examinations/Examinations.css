@@ -1,4 +1,4 @@
-.mainContainer {
+/* .mainContainer {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -6,8 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
+} */
 
 .allLeftMenu {
   list-style-type: none;
@@ -52,18 +51,17 @@
 
 .ADh4 {
   margin: 0;
- font-size: 15px;
+  font-size: 15px;
   margin-top: 5px;
 }
-
 
 .ADp {
   font-size: 17px;
 }
 
-.ADsub{
+.ADsub {
   text-decoration: underline;
-  color: rgb(14, 14, 174); 
+  color: rgb(14, 14, 174);
   font-size: 17px;
   font-weight: bold;
 }
@@ -71,7 +69,6 @@
 .ADhr {
   border: 1px solid #ccc;
   margin: 10px 0;
-  
 }
 
 /* Button structure */
@@ -105,4 +102,11 @@
 /* Selected state */
 .allLeftMenu .menuButton.active {
   background-color: #690001;
+}
+
+@media screen and (max-width: 600px) {
+  .exam-main {
+    display: flex;
+    flex-direction: column;
+  }
 }

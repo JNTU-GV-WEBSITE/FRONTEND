@@ -1,133 +1,170 @@
-import './AffiliatedCollegesOP.css';
-import * as React from 'react';
-import Paper from '@mui/material/Paper';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TablePagination from '@mui/material/TablePagination';
-import TableRow from '@mui/material/TableRow';
-import { rows } from './AffiliatedCollegesData';
-import { columns } from './AffiliatedCollegesData';
-import { tableCellClasses } from '@mui/material/TableCell';
-import { styled } from '@mui/material/styles';
-import TextField from "@mui/material/TextField";
+import "./AffiliatedCollegesOP.css";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import Table from "@mui/material/Table";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import { rowsEngg, rowsMba } from "./AffiliatedCollegesData";
+import { rowsPharmacy } from "./AffiliatedCollegesData";
+import { Link } from "react-router-dom";
 
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
-    [`&.${tableCellClasses.head}`]: {
-      backgroundColor: theme.palette.common.black,
-      color: theme.palette.common.white,
-    },
-    [`&.${tableCellClasses.body}`]: {
-      fontSize: 14,
-    },
-  }));
-  const StyledTableRow = styled(TableRow)(({ theme }) => ({
-    '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.action.hover,
-    },
-    '&:last-child td, &:last-child th': {
-      border: 0,
-    },
-  }));
-  
-const AffliatedCollegesOP = () =>{
-    const [page, setPage] = React.useState(0);
-    const [rowsPerPage, setRowsPerPage] = React.useState(10);
-    const [filteredRows, setFilteredRows] = React.useState(rows); 
-  
-    const inputHandler = (e) => {
-      const searchText = e.target.value.toLowerCase();
-  
-      const filtered = rows.filter((row) =>
-      columns.some((column) => {
-        const value = row[column.id].toString().toLowerCase();
-        return value.includes(searchText);
-      })
-    );
-      setFilteredRows(filtered);
-      setPage(0); 
-    };
-  
-    const handleChangePage = (event, newPage) => {
-      setPage(newPage);
-    };
-  
-    const handleChangeRowsPerPage = (event) => {
-      setRowsPerPage(+event.target.value);
-      setPage(0);
-    };
-    return(
-        <div className="AffiliatedColleges">
-        <div style={{display:'flex',flexDirection:'row'}}></div>
+const AffliatedCollegesOP = () => {
+  return (
+    <div className="AffiliatedColleges">
       <div className="AffiliatedColleges-title">Affiliated Colleges</div>
-      <div className='table-container'>
-        <div className="AffiliatedColleges-search">
-          <TextField
-            id="outlined-basic"
-            onChange={inputHandler}
-            variant="outlined"
-            fullWidth
-            label="Search"
-          />
-        </div>
-        <Paper sx={{ width: '100%', overflow: 'hidden' }}>
-          <TableContainer sx={{ maxHeight: 440 }}>
-            <Table stickyHeader aria-label="sticky table">
-              <TableHead>
-                <TableRow>
-                  {columns.map((column) => (
-                    <StyledTableCell
-                      key={column.id}
-                      align={column.align}
-                      style={{ minWidth: column.minWidth }}
+      <div className="table-container">
+        <Accordion elevation={20} className="accordion-affiliated">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+            aria-controls="panel1bh-content"
+            id="panel1bh-header"
+            sx={{ background: "#303030", color: "white" }}
+          >
+            <Typography sx={{ width: "33%", flexShrink: 0 }}>
+              Engineering Colleges
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <TableContainer>
+              <Table>
+                <TableHead sx={{ background: "#A9A9A9" }}>
+                  <TableRow>
+                    <TableCell>S.No</TableCell>
+                    <TableCell align="right">College Code</TableCell>
+                    <TableCell align="center">College Name</TableCell>
+                    <TableCell align="center">District</TableCell>
+                    <TableCell align="center">Website URL</TableCell>
+                    <TableCell align="center">Affiliation Type</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {rowsEngg.map((row) => (
+                    <TableRow
+                      key={row.name}
+                      sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
-                      {column.label}
-                    </StyledTableCell>
+                      <TableCell align="right">{row.SNo}</TableCell>
+                      <TableCell align="center">{row.CollegeCode}</TableCell>
+                      <TableCell align="center">{row.CollegeName}</TableCell>
+                      <TableCell align="center">{row.District}</TableCell>
+                      <TableCell align="center">
+                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                          {row.wURL}
+                        </Link>
+                      </TableCell>
+                      <TableCell align="center">{row.Type}</TableCell>
+                    </TableRow>
                   ))}
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {filteredRows 
-                  .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                  .map((row) => {
-                    return (
-                      <StyledTableRow
-                        hover
-                        role="checkbox"
-                        tabIndex={-1}
-                        key={row.code}
-                      >
-                        {columns.map((column) => {
-                          const value = row[column.id];
-                          return (
-                            <TableCell key={column.id} align={column.align}>
-                              {column.format && typeof value === 'number'
-                                ? column.format(value)
-                                : value}
-                            </TableCell>
-                          );
-                        })}
-                      </StyledTableRow>
-                    );
-                  })}
-              </TableBody>
-            </Table>
-          </TableContainer>
-          <TablePagination
-            rowsPerPageOptions={[10, 25, filteredRows.length]} 
-            component="div"
-            count={filteredRows.length} 
-            rowsPerPage={rowsPerPage}
-            page={page}
-            onPageChange={handleChangePage}
-            onRowsPerPageChange={handleChangeRowsPerPage}
-          />
-        </Paper>
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion elevation={20} className="accordion-affiliated">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+            aria-controls="panel1bh-content"
+            id="panel1bh-header"
+            sx={{ background: "#303030", color: "white" }}
+          >
+            <Typography sx={{ width: "33%", flexShrink: 0 }}>
+              Pharmacy Colleges
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <TableContainer>
+              <Table>
+                <TableHead sx={{ background: "#A9A9A9" }}>
+                  <TableRow>
+                    <TableCell>S.No</TableCell>
+                    <TableCell align="right">College Code</TableCell>
+                    <TableCell align="center">College Name</TableCell>
+                    <TableCell align="center">District</TableCell>
+                    <TableCell align="center">Website URL</TableCell>
+                    <TableCell align="center">Affiliation Type</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {rowsPharmacy.map((row) => (
+                    <TableRow
+                      key={row.name}
+                      sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+                    >
+                      <TableCell align="right">{row.SNo}</TableCell>
+                      <TableCell align="center">{row.CollegeCode}</TableCell>
+                      <TableCell align="center">{row.CollegeName}</TableCell>
+                      <TableCell align="center">{row.District}</TableCell>
+                      <TableCell align="center">
+                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                          {row.wURL}
+                        </Link>
+                      </TableCell>
+                      <TableCell align="center">{row.Type}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion elevation={20} className="accordion-affiliated">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+            aria-controls="panel1bh-content"
+            id="panel1bh-header"
+            sx={{ background: "#303030", color: "white" }}
+          >
+            <Typography sx={{ width: "33%", flexShrink: 0 }}>
+              Management Colleges
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <TableContainer>
+              <Table>
+                <TableHead sx={{ background: "#A9A9A9" }}>
+                  <TableRow>
+                    <TableCell>S.No</TableCell>
+                    <TableCell align="right">College Code</TableCell>
+                    <TableCell align="center">College Name</TableCell>
+                    <TableCell align="center">District</TableCell>
+                    <TableCell align="center">Website URL</TableCell>
+                    <TableCell align="center">Affiliation Type</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {rowsMba.map((row) => (
+                    <TableRow
+                      key={row.name}
+                      sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+                    >
+                      <TableCell align="right">{row.SNo}</TableCell>
+                      <TableCell align="center">{row.CollegeCode}</TableCell>
+                      <TableCell align="center">{row.CollegeName}</TableCell>
+                      <TableCell align="center">{row.District}</TableCell>
+                      <TableCell align="center">
+                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                          {row.wURL}
+                        </Link>
+                      </TableCell>
+                      <TableCell align="center">{row.Type}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </AccordionDetails>
+        </Accordion>
       </div>
     </div>
-    )
-}
+  );
+};
 
 export default AffliatedCollegesOP;
