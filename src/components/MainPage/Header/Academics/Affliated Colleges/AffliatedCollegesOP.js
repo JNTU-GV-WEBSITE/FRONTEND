@@ -20,9 +20,10 @@ const AffliatedCollegesOP = () => {
       <div className="table-container">
         <Accordion elevation={10} className="accordion-affiliated">
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
+            sx={{ background: "#303030", color: "white" }}
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
               Engineering Colleges
@@ -31,14 +32,14 @@ const AffliatedCollegesOP = () => {
           <AccordionDetails>
             <TableContainer>
               <Table>
-                <TableHead>
+                <TableHead sx={{ background: "#A9A9A9" }}>
                   <TableRow>
                     <TableCell>S.No</TableCell>
                     <TableCell align="right">College Code</TableCell>
-                    <TableCell align="right">College Name</TableCell>
-                    <TableCell align="right">District</TableCell>
-                    <TableCell align="right">Website URL</TableCell>
-                    <TableCell align="right">Affiliation Type</TableCell>
+                    <TableCell align="center">College Name</TableCell>
+                    <TableCell align="center">District</TableCell>
+                    <TableCell align="center">Website URL</TableCell>
+                    <TableCell align="center">Affiliation Type</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -48,11 +49,11 @@ const AffliatedCollegesOP = () => {
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
                       <TableCell align="right">{row.SNo}</TableCell>
-                      <TableCell align="right">{row.CollegeCode}</TableCell>
-                      <TableCell align="right">{row.CollegeName}</TableCell>
-                      <TableCell align="right">{row.District}</TableCell>
-                      <TableCell align="right">{row.wURL}</TableCell>
-                      <TableCell align="right">{row.Type}</TableCell>
+                      <TableCell align="center">{row.CollegeCode}</TableCell>
+                      <TableCell align="center">{row.CollegeName}</TableCell>
+                      <TableCell align="center">{row.District}</TableCell>
+                      <TableCell align="center">{row.wURL}</TableCell>
+                      <TableCell align="center">{row.Type}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>
@@ -63,9 +64,10 @@ const AffliatedCollegesOP = () => {
 
         <Accordion elevation={10} className="accordion-affiliated">
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
+            sx={{ background: "#303030", color: "white" }}
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
               Pharmacy Colleges
@@ -74,14 +76,14 @@ const AffliatedCollegesOP = () => {
           <AccordionDetails>
             <TableContainer>
               <Table>
-                <TableHead>
+                <TableHead sx={{ background: "#A9A9A9" }}>
                   <TableRow>
                     <TableCell>S.No</TableCell>
                     <TableCell align="right">College Code</TableCell>
-                    <TableCell align="right">College Name</TableCell>
-                    <TableCell align="right">District</TableCell>
-                    <TableCell align="right">Website URL</TableCell>
-                    <TableCell align="right">Affiliation Type</TableCell>
+                    <TableCell align="center">College Name</TableCell>
+                    <TableCell align="center">District</TableCell>
+                    <TableCell align="center">Website URL</TableCell>
+                    <TableCell align="center">Affiliation Type</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -91,11 +93,11 @@ const AffliatedCollegesOP = () => {
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
                       <TableCell align="right">{row.SNo}</TableCell>
-                      <TableCell align="right">{row.CollegeCode}</TableCell>
-                      <TableCell align="right">{row.CollegeName}</TableCell>
-                      <TableCell align="right">{row.District}</TableCell>
-                      <TableCell align="right">{row.wURL}</TableCell>{" "}
-                      <TableCell align="right">{row.Type}</TableCell>
+                      <TableCell align="center">{row.CollegeCode}</TableCell>
+                      <TableCell align="center">{row.CollegeName}</TableCell>
+                      <TableCell align="center">{row.District}</TableCell>
+                      <TableCell align="center">{row.wURL}</TableCell>{" "}
+                      <TableCell align="center">{row.Type}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>
@@ -106,9 +108,10 @@ const AffliatedCollegesOP = () => {
 
         <Accordion elevation={10} className="accordion-affiliated">
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
+            sx={{ background: "#303030", color: "white" }}
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
               Management Colleges
@@ -117,14 +120,14 @@ const AffliatedCollegesOP = () => {
           <AccordionDetails>
             <TableContainer>
               <Table>
-                <TableHead>
+                <TableHead sx={{ background: "#A9A9A9" }}>
                   <TableRow>
                     <TableCell>S.No</TableCell>
                     <TableCell align="right">College Code</TableCell>
-                    <TableCell align="right">College Name</TableCell>
-                    <TableCell align="right">District</TableCell>
-                    <TableCell align="right">Website URL</TableCell>
-                    <TableCell align="right">Affiliation Type</TableCell>
+                    <TableCell align="center">College Name</TableCell>
+                    <TableCell align="center">District</TableCell>
+                    <TableCell align="center">Website URL</TableCell>
+                    <TableCell align="center">Affiliation Type</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -134,11 +137,11 @@ const AffliatedCollegesOP = () => {
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
                       <TableCell align="right">{row.SNo}</TableCell>
-                      <TableCell align="right">{row.CollegeCode}</TableCell>
-                      <TableCell align="right">{row.CollegeName}</TableCell>
-                      <TableCell align="right">{row.District}</TableCell>
-                      <TableCell align="right">{row.wURL}</TableCell>
-                      <TableCell align="right">{row.Type}</TableCell>
+                      <TableCell align="center">{row.CollegeCode}</TableCell>
+                      <TableCell align="center">{row.CollegeName}</TableCell>
+                      <TableCell align="center">{row.District}</TableCell>
+                      <TableCell align="center">{row.wURL}</TableCell>
+                      <TableCell align="center">{row.Type}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>

@@ -140,15 +140,7 @@ export const rowsEngg = [
     wURL: "http://www.sgec.edu.in/",
     Type: "Temporary",
   },
-  {
-    SNo: 17,
-    CollegeCode: "3J",
-    CollegeName:
-      "Raghu Institute of Technology, Dakammari, Bheemunipatnam Mandal, Visakhapatnam District",
-    District: "VSP",
-    "College Type": "Engineering",
-    wURL: "https://www.raghuinstech.com/",
-  },
+
   {
     SNo: 18,
     CollegeCode: "34",
