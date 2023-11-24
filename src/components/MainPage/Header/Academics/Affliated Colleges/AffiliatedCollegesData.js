@@ -132,14 +132,6 @@ export const rowsEngg = [
     Type: "Permanent",
   },
   {
-    SNo: 15,
-    CollegeCode: "6D",
-    CollegeName: "Sanketika Inst of Tech & Management,Visakhapatnam",
-    District: "VSP",
-    "College Type": "Engineering",
-    wURL: "",
-  },
-  {
     SNo: 16,
     CollegeCode: "6F",
     CollegeName: "Sai Ganapathi Engineering College, Anandapuram",
