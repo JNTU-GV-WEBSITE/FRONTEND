@@ -102,7 +102,7 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
                       <TableCell align="center">
-                        <Link to={row.wURL} target="_blank">
+                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
                           {row.wURL}
                         </Link>
                       </TableCell>
@@ -150,7 +150,7 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
                       <TableCell align="center">
-                        <Link to={row.wURL} target="_blank">
+                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
                           {row.wURL}
                         </Link>
                       </TableCell>
