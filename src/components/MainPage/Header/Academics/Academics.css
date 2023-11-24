@@ -1,21 +1,19 @@
-.Academicmain-Main{
+.Academicmain-Main {
   display: flex;
 }
 
-.allLeftMenuAOP{
+.allLeftMenuAOP {
   margin-top: 10px;
   margin-right: 60px;
 }
 
-
 .allLeftMenuAOP .menubutton {
-  
   display: flex;
   flex-direction: column;
   background-color: grey;
   color: white;
   text-decoration: none;
-  width: 300px; 
+  width: 300px;
   height: 60px; /* Set a fixed height for your buttons */
   display: flex;
   justify-content: center;
@@ -36,4 +34,9 @@
 }
 
 
-
+@media screen and (max-width: 600px) {
+  .Academicmain-Main {
+    display: flex;
+    flex-direction: column;
+  }
+}

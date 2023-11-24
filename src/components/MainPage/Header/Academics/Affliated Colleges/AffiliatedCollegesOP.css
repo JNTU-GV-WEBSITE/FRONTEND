@@ -1,12 +1,17 @@
 .AffiliatedColleges {
     height: 90vh;
-    width: 60vw;
+    width: 80vw;
     padding-top: 10px;
 }
 
 .table-container {
-    max-width: 100%;
-    padding: 0rem;
+    /* max-width: 100%; */
+    /* padding: 0rem; */
+
+}
+
+.accordion-affiliated{
+    margin-top: 20px;
 }
 
 .AffiliatedColleges-title {

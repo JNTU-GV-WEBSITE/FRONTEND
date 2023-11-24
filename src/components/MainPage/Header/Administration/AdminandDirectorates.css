@@ -1,20 +1,12 @@
-/* .mainContainer {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-} */
 
-.AD-Main{
+
+.AD-Main {
   display: flex;
   padding-left: 40px;
   padding-top: 10px;
 }
 
-.ADallLeftMenu{
+.ADallLeftMenu {
   margin-top: 10px;
   margin-right: 60px;
 }
@@ -30,7 +22,6 @@
   color: white; /* Change the active link color as desired */
 }
 
-
 .allRightContentHeading {
   font-size: 24px;
   font-weight: bold;
@@ -38,11 +29,9 @@
   color: #2e0669;
 }
 
-
-
-.ADimg img{
-  width: 350px; 
-  height: 350px; 
+.ADimg img {
+  width: 350px;
+  height: 350px;
 }
 
 .ADh3 {
@@ -55,18 +44,17 @@
 
 .ADh4 {
   margin: 0;
- font-size: 20px;
+  font-size: 20px;
   margin-top: 5px;
 }
-
 
 .ADp {
   font-size: 17px;
 }
 
-.ADsub{
+.ADsub {
   text-decoration: underline;
-  color: #2e0669; 
+  color: #2e0669;
   font-size: 17px;
   font-weight: bold;
 }
@@ -74,7 +62,6 @@
 .ADhr {
   border: 1px solid #ccc;
   margin: 10px 0;
-  
 }
 
 /* Button structure */
@@ -105,16 +92,22 @@
   background-color: #2e0669;
 }
 
-
-
 /* Selected state */
 .ADallLeftMenu .menuButton.active {
   background-color: #2e0669;
- 
 }
 
-.a{
+.a {
   font-weight: bold;
   font-size: 15px;
   color: rgb(20, 6, 63);
+}
+
+@media screen and (max-width: 600px) {
+  .AD-Main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
 }
