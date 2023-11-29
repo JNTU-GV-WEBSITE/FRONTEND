@@ -163,22 +163,35 @@ const Dropdown = () => {
               {" "}
               <Link
                 className="link-btn"
-                to="/directorates/academic-audit"
-                target="_self"
-              >
-                Academic Audit
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link
-                className="link-btn"
                 to="/directorates/academic-planning"
                 target="_self"
               >
                 Academic Planning
               </Link>
             </button>
+
+            <button>
+              {" "}
+              <Link
+                className="link-btn"
+                to="/directorates/academic-audit"
+                target="_self"
+              >
+                Academic Audit
+              </Link>
+            </button>
+
+            <button>
+              {" "}
+              <Link
+                className="link-btn"
+                to="/directorates/evaluation"
+                target="_self"
+              >
+                Evaluation
+              </Link>
+            </button>
+
             <button>
               {" "}
               <Link
@@ -189,6 +202,40 @@ const Dropdown = () => {
                 Admissions
               </Link>
             </button>
+
+            <button>
+              {" "}
+              <Link
+                className="link-btn"
+                to="/directorates/placements"
+                target="_self"
+              >
+                IIIT & Placements
+              </Link>
+            </button>
+
+            <button>
+              {" "}
+              <Link
+                className="link-btn"
+                to="/directorates/research"
+                target="_self"
+              >
+                Research & Development
+              </Link>
+            </button>
+            {/* 
+            <button>
+              {" "}
+              <Link
+                className="link-btn"
+                to="/directorates/faculty-development-cell"
+                target="_self"
+              >
+                Faculty Development Cell
+              </Link>
+            </button> */}
+
             <button>
               {" "}
               <Link
@@ -201,6 +248,13 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
+              <Link className="link-btn" to="/directorates/iqac" target="_self">
+                Internal Quality Assurance Cell
+              </Link>
+            </button>
+
+            {/* <button>
+              {" "}
               <Link
                 className="link-btn"
                 to="/directorates/empowerment"
@@ -208,53 +262,7 @@ const Dropdown = () => {
               >
                 Empowerment of Women & Grievances
               </Link>
-            </button>
-            <button>
-              {" "}
-              <Link
-                className="link-btn"
-                to="/directorates/evaluation"
-                target="_self"
-              >
-                Evaluation
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link
-                className="link-btn"
-                to="/directorates/faculty-development-cell"
-                target="_self"
-              >
-                Faculty Development Cell
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link className="link-btn" to="/directorates/iqac" target="_self">
-                IQAC
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link
-                className="link-btn"
-                to="/directorates/placements"
-                target="_self"
-              >
-                IIIT & Placements
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link
-                className="link-btn"
-                to="/directorates/research"
-                target="_self"
-              >
-                Research & Development
-              </Link>
-            </button>
+            </button>    
             <button>
               {" "}
               <Link
@@ -264,7 +272,7 @@ const Dropdown = () => {
               >
                 University Games & Sports Administration
               </Link>
-            </button>
+            </button> */}
           </div>
         </div>
         <div class="dropdown">
@@ -329,7 +337,7 @@ const Dropdown = () => {
             </button>
           </div>
         </div>
-{/* 
+        {/* 
         <div class="dropdown">
           <div class="dropbtn">
             <div className="drop-icon">

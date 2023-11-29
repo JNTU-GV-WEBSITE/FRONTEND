@@ -1,15 +1,15 @@
 export const Administration_Wing = [
   {
     title: "Chancellor",
-    link: "/Administration/Chancellor",
+    link: "/administration/chancellor",
   },
   {
     title: "Vice Chancellor",
-    link: "/Administration/ViceChancellor",
+    link: "/administration/vice-chancellor",
   },
   {
     title: "Registrar",
-    link: "/Administration/Registrar",
+    link: "/administration/registrar",
   },
   {
     title: "Program Offered",
@@ -17,7 +17,7 @@ export const Administration_Wing = [
   },
 
   {
-    title: "AffliatedColleges",
+    title: "Affliated Colleges",
     link: "/academics/affliated-colleges",
   },
 ];

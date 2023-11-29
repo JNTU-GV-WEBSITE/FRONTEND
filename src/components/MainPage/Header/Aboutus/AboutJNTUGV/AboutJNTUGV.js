@@ -1,22 +1,19 @@
 import React from "react";
-import "../Aboutus.css"; 
-
-
+import "../Aboutus.css";
+import Typography from "@mui/material/Typography";
 
 function AboutJNTUGV() {
-  
   return (
     <div className="ABOUTmainContainer">
-      
       <div className="allRightContent">
         <div className="allRightContentHeading">About JNTUGV</div>
-        
+
         <div className="allRightContentProfile">
           {/* Profile information */}
           <center></center>
           <hr />
           {/* Profile description */}
-          <p>
+          <Typography>
             JNTU College of Engineering, Vizianagaram was established in the
             year 2007 as a constituent College of JNTU Hyderabad.JNTU Hyderabad
             was trifurcated into three Universities by the Andhra Pradesh Act
@@ -25,18 +22,17 @@ function AboutJNTUGV() {
             of 2021, JNTU Kakinada is bifurcated and Jawaharlal Nehru
             Technological University Gurajada, Vizianagaram come into existence
             as a separate University vide G.O.Ms.No.3, dated: 12-01-2022.
-            <p>
+            <Typography>
               The university is spread across six districts i.e
               Vizianagaram,Visakhapatnam, Srikakulam, Parvathipuram Manyam,
               Alluri Sitharama Raju and Anakapalli. There are 2 constituent
               colleges and 37 affiliated colleges under its jurisdiction and
               catering education in different Engineering, Pharmacy and
               Management departments.
-            </p>
-          </p>
+            </Typography>
+          </Typography>
         </div>
       </div>
-      
     </div>
   );
 }
