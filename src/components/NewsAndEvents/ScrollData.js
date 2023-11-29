@@ -44,9 +44,33 @@ export const arr = [
 export const newNotification = [
   {
     hypertext:
+      "https://drive.google.com/file/d/1vDeOmbk83fv-6jHVOrkn3tXL4a6FN5Zt/view?usp=sharing",
+    text: `Volley Ball (Women) Team Selected Players List`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1X8FfvLe3QNG9VRrTAgElp3kZZ5aZoxX8/view?usp=sharing",
+    text: `Weightlifting (Men & Women) Team Selected Players List`,
+  },
+
+
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1WP--NiUYNNfPR1nJrqGR5bOEQsP84s7b/view?usp=sharing",
+    text: `Academic Calendar for I Year Pharma D for the Academic Year 2023-24`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/19Zkp0k64ouvlYw2awLs7IY408OqsZcbA/view?usp=sharing",
+    text: `Academic Calendar for I Year B Pharmacy for the Academic Year 2023-24 `,
+  },
+
+
+  {
+    hypertext:
       "https://drive.google.com/file/d/10-uVSgm0HRa8xxPliD4FM7FdelctQQuE/view?usp=sharing",
     text: `Yoga (M & W) Team Selection Trails`,
-    },
+  },
   {
     hypertext:
       "https://drive.google.com/file/d/1c5cvQ1T45hcmFNE7lntQ5DFZPt8bpdRY/view?usp=sharing",
