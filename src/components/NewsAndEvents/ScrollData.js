@@ -1,73 +1,6 @@
 export const arr = [
   {
     hypertext:
-      "https://drive.google.com/file/d/18rWsMfC8RGnEugCcDhP3h5wnpj4sxS4o/view?usp=share_link",
-    text: "IV B.Tech - I Sem Reg & Supple Exams Notification-December-2023",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1dqy_rgi86_u9CMydWSrV50LO65Ddy4Xz/view?usp=share_link",
-    text: "IV B.Pharmacy - I Sem Reg & Supple Exams Notification-December-2023",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1kEWYzYKvIU7mupDJ37AJARETVZ1aD3vN/view?usp=share_link",
-    text: "List of Examiners for Spot Valuation of MBA- IV Semester Regular & Supply-July-2023",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1KTU0LGyTzSQN6SwKRTiUoCC8HYkxP56H/view?usp=share_link",
-    text: "Academic Calander for III Pharm D Academic Year 2023-24",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1C98jPJyDk3AY9ZgcZ0l2YCfmxzBIq9y5/view?usp=share_link",
-    text: "Academic Calander for II Pharm D Academic Year 2023-24",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1kEWYzYKvIU7mupDJ37AJARETVZ1aD3vN/view?usp=share_link",
-    text: "MBA -III Sem Reg & Supply Exams Notification,Dec 2023",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1yp_Kqj8nPwu2hdmUg38SQ-BWkqWwf1u3/view?usp=share_link",
-    text: "MTECH -III Sem Reg & Supply Exams Notification,Dec 2023",
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1VSTiSf7kSLO0bszctgAEmxKHN_znYMfS/view?usp=share_link",
-    text: "MCA -III Sem R&S Notification , Dec 2023",
-  },
-];
-
-export const newNotification = [
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1vDeOmbk83fv-6jHVOrkn3tXL4a6FN5Zt/view?usp=sharing",
-    text: `Volley Ball (Women) Team Selected Players List`,
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1X8FfvLe3QNG9VRrTAgElp3kZZ5aZoxX8/view?usp=sharing",
-    text: `Weightlifting (Men & Women) Team Selected Players List`,
-  },
-
-
-  {
-    hypertext:
-      "https://drive.google.com/file/d/1WP--NiUYNNfPR1nJrqGR5bOEQsP84s7b/view?usp=sharing",
-    text: `Academic Calendar for I Year Pharma D for the Academic Year 2023-24`,
-  },
-  {
-    hypertext:
-      "https://drive.google.com/file/d/19Zkp0k64ouvlYw2awLs7IY408OqsZcbA/view?usp=sharing",
-    text: `Academic Calendar for I Year B Pharmacy for the Academic Year 2023-24 `,
-  },
-
-
-  {
-    hypertext:
       "https://drive.google.com/file/d/10-uVSgm0HRa8xxPliD4FM7FdelctQQuE/view?usp=sharing",
     text: `Yoga (M & W) Team Selection Trails`,
   },
@@ -129,4 +62,72 @@ export const newNotification = [
       "https://drive.google.com/file/d/1LkPzCEEBGsK6xVvva3uXtDGEv9hEmHu1/view?usp=sharing",
     text: "JNTUGV-Detailed Notification for Professors",
   },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/18rWsMfC8RGnEugCcDhP3h5wnpj4sxS4o/view?usp=share_link",
+    text: "IV B.Tech - I Sem Reg & Supple Exams Notification-December-2023",
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1dqy_rgi86_u9CMydWSrV50LO65Ddy4Xz/view?usp=share_link",
+    text: "IV B.Pharmacy - I Sem Reg & Supple Exams Notification-December-2023",
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1kEWYzYKvIU7mupDJ37AJARETVZ1aD3vN/view?usp=share_link",
+    text: "List of Examiners for Spot Valuation of MBA- IV Semester Regular & Supply-July-2023",
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1KTU0LGyTzSQN6SwKRTiUoCC8HYkxP56H/view?usp=share_link",
+    text: "Academic Calander for III Pharm D Academic Year 2023-24",
+  }
+];
+
+export const newNotification = [
+  {
+    hypertext:
+      "https://drive.google.com/file/d/11xMjbXC8QFDedoJ8cKLP6YS2fh0P323I/view?usp=sharing",
+    text: `IV B.Tech I Semester Jumbling centers `,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1vIXgi5138lBTyPm1rIR-kX36Tbll8u9x/view?usp=sharing",
+    text: `IV-I B.Tech R16 Supple-Time Table-Dec-2023 `,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1QWnLi30dkTFsGk2xRtm5Un_G1Fy7wI-d/view?usp=sharing",
+    text: `IV-I B.Tech R19 Supple-Time Table-Dec-2023 `,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/19fQCUNwdVYZ96kRgH7q12H3uz2nNoZXz/view?usp=sharing",
+    text: `Revised IV-I B.Tech R20 Regular-Time Table-Dec-2023`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1vDeOmbk83fv-6jHVOrkn3tXL4a6FN5Zt/view?usp=sharing",
+    text: `Volley Ball (Women) Team Selected Players List`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1X8FfvLe3QNG9VRrTAgElp3kZZ5aZoxX8/view?usp=sharing",
+    text: `Weightlifting (Men & Women) Team Selected Players List`,
+  },
+
+
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1WP--NiUYNNfPR1nJrqGR5bOEQsP84s7b/view?usp=sharing",
+    text: `Academic Calendar for I Year Pharma D for the Academic Year 2023-24`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/19Zkp0k64ouvlYw2awLs7IY408OqsZcbA/view?usp=sharing",
+    text: `Academic Calendar for I Year B Pharmacy for the Academic Year 2023-24 `,
+  },
+
+
+
 ];
