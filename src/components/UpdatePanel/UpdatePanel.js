@@ -2,7 +2,7 @@ import "./UpdatePanel.css";
 import { useState } from "react";
 import { Data } from "./Data";
 function UpdatePanel() {
-  const tenderList = [];
+  const examinationList = [];
   const notificationList = [];
   const workshopList = [];
   const recruitmentList = [];
@@ -51,8 +51,8 @@ function UpdatePanel() {
       notificationList.push(entry);
     } else if (entry.type === "recruitment") {
       recruitmentList.push(entry);
-    } else if (entry.type === "tender") {
-      tenderList.push(entry);
+    } else if (entry.type === "examination") {
+      examinationList.push(entry);
     } else if (entry.type === "workshop") {
       workshopList.push(entry);
     } else if (entry.type === "sports") {
@@ -68,8 +68,8 @@ function UpdatePanel() {
     setDisplayData(recruitmentList);
     setActiveButton(button);
   };
-  const handleTender = (button) => {
-    setDisplayData(tenderList);
+  const handleexamination = (button) => {
+    setDisplayData(examinationList);
     setActiveButton(button);
   };
   const handleWorkshop = (button) => {
@@ -123,6 +123,17 @@ function UpdatePanel() {
           onClick={() => handleWorkshop("Conferences")}
         >
           Workshops{" "}
+
+        </button>
+        <button
+          style={{
+            ...buttonStyles,
+            backgroundColor: activeButton === "Examinations" ? "#690001" : "white",
+            color: activeButton === "Examinations" ? "white" : "black",
+          }}
+          onClick={() => handleexamination("Examinations")}
+        > 
+          Exams
           <img
             src="images/new.gif"
             alt="newimg"
@@ -130,16 +141,7 @@ function UpdatePanel() {
             width="50vh"
           ></img>
         </button>
-        <button
-          style={{
-            ...buttonStyles,
-            backgroundColor: activeButton === "Tenders" ? "#690001" : "white",
-            color: activeButton === "Tenders" ? "white" : "black",
-          }}
-          onClick={() => handleTender("Tenders")}
-        >
-          Tenders
-        </button>
+
         <button
           style={{
             ...buttonStyles,
