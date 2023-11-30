@@ -35,7 +35,7 @@ function Controller() {
           <p>Sri R Gurunadha, an esteemed Associate Professor in the Department of Electronics & Communication Engineering (ECE) at JNTU-GV, CEV, Vizianagaram, is a distinguished academic and researcher with a rich background in engineering and technology. With his extensive experience and contributions to the field, he has become a pivotal figure in shaping the future of electronics and communication engineering education and research.</p>
           <h6>Educational Background:</h6> <p>
             •	Bachelor of Engineering (B.E) in Electronics & Communication Engineering, Andhra University College of Engineering (AUCE), Visakhapatnam (1998- 2003)<br></br>
-            •	Master of Technology (M.Tech) in Instrumentation and Control Systems, JNTU Hyderabad (2003 - 2005)
+            •	Master of Technology (M.Tech) in Instrumentation and Control Systems, JNTU Kakinada (2003 - 2005)
           </p>
           <h6>Professional Journey:</h6><p>
             •	Office In-Charge of Examinations, JNTUK, UCEV, Vizianagaram (2009-2013)<br></br>
