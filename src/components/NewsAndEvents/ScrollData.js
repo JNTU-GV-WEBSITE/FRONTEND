@@ -87,6 +87,10 @@ export const arr = [
 export const newNotification = [
   {
     hypertext:
+      "https://drive.google.com/file/d/19nwWCmz3G2yvGXKB5klf7ZmVcAr_iN_o/view?usp=sharing",
+    text: `Circular -Holiday-Cyclone Michuang- 5-12-2023 `,
+  }, {
+    hypertext:
       "https://drive.google.com/file/d/11xMjbXC8QFDedoJ8cKLP6YS2fh0P323I/view?usp=sharing",
     text: `IV B.Tech I Semester Jumbling centers `,
   },
