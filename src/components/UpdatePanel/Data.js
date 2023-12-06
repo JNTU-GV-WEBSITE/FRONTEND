@@ -1,5 +1,13 @@
 export const Data = [
-
+  {
+    description: "JNTUGV-DAA-UGC 2(f), 12(B) and Autonomous Status-Change of Affiliation from JNTUK, Kakinada to JNTUGV, Vizianagaram",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1MoCjsG1Fb_bLTgt-tZxuEzFDOMRHm0gQ/view?usp=sharing",
+    date: "06",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
   {
     description: "Circular -Holiday-Cyclone Michuang- 5-12-2023",
     type: "notifications",
