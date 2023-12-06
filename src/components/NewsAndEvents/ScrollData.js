@@ -84,59 +84,70 @@ export const arr = [
   }
 ];
 
-export const newNotification = [{
-  hypertext:
-    "#",
-  text: `It is to inform to all affiliated colleges Principals 06-12-2023 all external examinations are postponed due to cyclone.Exam date will be intimated later
+export const newNotification = [
+
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1MoCjsG1Fb_bLTgt-tZxuEzFDOMRHm0gQ/view?usp=sharing",
+    text: `JNTUGV-DAA-UGC 2(f), 12(B) and Autonomous Status-Change of Affiliation from JNTUK, Kakinada to JNTUGV, Vizianagaram `,
+  },
+  {
+
+
+    hypertext:
+      "#",
+    text: `It is to inform to all affiliated colleges Principals 06-12-2023 all external examinations are postponed due to cyclone.Exam date will be intimated later
   Regards
   Director of Evaluation`,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/19nwWCmz3G2yvGXKB5klf7ZmVcAr_iN_o/view?usp=sharing",
-  text: `Circular -Holiday-Cyclone Michuang- 5-12-2023 `,
-}, {
-  hypertext:
-    "https://drive.google.com/file/d/11xMjbXC8QFDedoJ8cKLP6YS2fh0P323I/view?usp=sharing",
-  text: `IV B.Tech I Semester Jumbling centers `,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/1vIXgi5138lBTyPm1rIR-kX36Tbll8u9x/view?usp=sharing",
-  text: `IV-I B.Tech R16 Supple-Time Table-Dec-2023 `,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/1QWnLi30dkTFsGk2xRtm5Un_G1Fy7wI-d/view?usp=sharing",
-  text: `IV-I B.Tech R19 Supple-Time Table-Dec-2023 `,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/19fQCUNwdVYZ96kRgH7q12H3uz2nNoZXz/view?usp=sharing",
-  text: `Revised IV-I B.Tech R20 Regular-Time Table-Dec-2023`,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/1vDeOmbk83fv-6jHVOrkn3tXL4a6FN5Zt/view?usp=sharing",
-  text: `Volley Ball (Women) Team Selected Players List`,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/1X8FfvLe3QNG9VRrTAgElp3kZZ5aZoxX8/view?usp=sharing",
-  text: `Weightlifting (Men & Women) Team Selected Players List`,
-},
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/19nwWCmz3G2yvGXKB5klf7ZmVcAr_iN_o/view?usp=sharing",
+    text: `Circular -Holiday-Cyclone Michuang- 5-12-2023 `,
+  },
+
+  {
+    hypertext:
+      "https://drive.google.com/file/d/11xMjbXC8QFDedoJ8cKLP6YS2fh0P323I/view?usp=sharing",
+    text: `IV B.Tech I Semester Jumbling centers `,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1vIXgi5138lBTyPm1rIR-kX36Tbll8u9x/view?usp=sharing",
+    text: `IV-I B.Tech R16 Supple-Time Table-Dec-2023 `,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1QWnLi30dkTFsGk2xRtm5Un_G1Fy7wI-d/view?usp=sharing",
+    text: `IV-I B.Tech R19 Supple-Time Table-Dec-2023 `,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/19fQCUNwdVYZ96kRgH7q12H3uz2nNoZXz/view?usp=sharing",
+    text: `Revised IV-I B.Tech R20 Regular-Time Table-Dec-2023`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1vDeOmbk83fv-6jHVOrkn3tXL4a6FN5Zt/view?usp=sharing",
+    text: `Volley Ball (Women) Team Selected Players List`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1X8FfvLe3QNG9VRrTAgElp3kZZ5aZoxX8/view?usp=sharing",
+    text: `Weightlifting (Men & Women) Team Selected Players List`,
+  },
 
 
-{
-  hypertext:
-    "https://drive.google.com/file/d/1WP--NiUYNNfPR1nJrqGR5bOEQsP84s7b/view?usp=sharing",
-  text: `Academic Calendar for I Year Pharma D for the Academic Year 2023-24`,
-},
-{
-  hypertext:
-    "https://drive.google.com/file/d/19Zkp0k64ouvlYw2awLs7IY408OqsZcbA/view?usp=sharing",
-  text: `Academic Calendar for I Year B Pharmacy for the Academic Year 2023-24 `,
-},
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1WP--NiUYNNfPR1nJrqGR5bOEQsP84s7b/view?usp=sharing",
+    text: `Academic Calendar for I Year Pharma D for the Academic Year 2023-24`,
+  },
+  {
+    hypertext:
+      "https://drive.google.com/file/d/19Zkp0k64ouvlYw2awLs7IY408OqsZcbA/view?usp=sharing",
+    text: `Academic Calendar for I Year B Pharmacy for the Academic Year 2023-24 `,
+  },
 
 
 
