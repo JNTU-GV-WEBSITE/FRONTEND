@@ -87,7 +87,7 @@ export const arr = [
 export const newNotification = [{
   hypertext:
     "#",
-  text: `It is to inform to all affiliated colleges Principals today all external exams postponed due to cyclone.Exam date will be intimated later
+  text: `It is to inform to all affiliated colleges Principals 06-12-2023 all external examinations are postponed due to cyclone.Exam date will be intimated later
   Regards
   Director of Evaluation`,
 },
