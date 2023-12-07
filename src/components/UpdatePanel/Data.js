@@ -1,8 +1,84 @@
 export const Data = [
   {
+    description: `A 5-Day International Short Term Training Program(STTP) on "Cyber Security: Browser Security`,
+    type: "workshop",
+    // link: "https://drive.google.com/file/d/1KXJ8G2g81tzpjaz5zbFeHOgiqfr852TI/view?usp=sharing",
+    displaylink: "https://forms.gle/W3PwBzhPJvqB7QiS7",
+    displaytext: "Click here to register",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+ {
+    description: `JNTUGV-DAA- "Certificate Verification " - Admissions- for UG (B.Tech Courses) for the Academic Year 2023-2024`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1t5qIU8dMnK1XMoZrYBG6X1Y6WLmDj05d/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: "JNTUGV_3-1-R20 Supple TIME TABLE December 2023",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/16EPIsRX3jeRbI2e-MZMaV9O6pG_-aOF9/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: "JNTUGV_3-1-R19 Supple TIME TABLE December 2023",
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1Tp8iVEUmHyTjRvKleICh8M9TBC5Yjnox/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+  {
+    description: "JNTUGV_3-1-R16-Supple- TIME TABLE December 2023",
+    type: "notifications" ,
+    link: "https://drive.google.com/file/d/1_B3cciESIHVULCYeKBNz-NqxKBsPIQrO/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: "JNTUGV_3-1-R20 Supple TIME TABLE December 2023",
+    type: "examination",
+    link: "https://drive.google.com/file/d/16EPIsRX3jeRbI2e-MZMaV9O6pG_-aOF9/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: "JNTUGV_3-1-R19 Supple TIME TABLE December 2023",
+    type: "examination",
+    link: "https://drive.google.com/file/d/1Tp8iVEUmHyTjRvKleICh8M9TBC5Yjnox/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+  {
+    description: "JNTUGV_3-1-R16-Supple- TIME TABLE December 2023",
+    type: "examination" ,
+    link: "https://drive.google.com/file/d/1_B3cciESIHVULCYeKBNz-NqxKBsPIQrO/view?usp=sharing",
+    date: "07",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+
+
+
+
+
+
+  {
     description: "JNTUGV-DAA-UGC 2(f), 12(B) and Autonomous Status-Change of Affiliation from JNTUK, Kakinada to JNTUGV, Vizianagaram",
     type: "notifications",
-    link: "https://drive.google.com/file/d/1MoCjsG1Fb_bLTgt-tZxuEzFDOMRHm0gQ/view?usp=sharing",
+    link: "https://drive.gooexaminationle.com/file/d/1MoCjsG1Fb_bLTgt-tZxuEzFDOMRHm0gQ/view?usp=sharing",
     date: "06",
     month: "Dec",
     year: "2023",

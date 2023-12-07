@@ -59,7 +59,7 @@ export const Online_Courses = [
   },
 ];
 
-export const Consituent_Colleges = [
+export const Constituent_Colleges = [
   {
     title: "JNTU-GV College of Engineering, Vizianagaram",
     link: "https://jntugvcev.edu.in/",

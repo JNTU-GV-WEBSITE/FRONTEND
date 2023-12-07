@@ -5,7 +5,7 @@ import {
   Central_Facilites,
   Online_Courses,
   University_Hostels,
-  Consituent_Colleges,
+  Constituent_Colleges,
   JntuGv_Units,
   Grievance,
 } from "./FooterData.js";
@@ -94,10 +94,10 @@ function Footer() {
         {/* Online_Courses */}
         <div className="container3Footer">
           {/* Consituent Colleges */}
-          <p className="subheadingFooter">Consituent Colleges</p>
+          <p className="subheadingFooter">Constituent Colleges</p>
           <hr className="subFooter" />
           <div>
-            {Consituent_Colleges.map((item, index) => (
+            {Constituent_Colleges.map((item, index) => (
               <div key={index}>
                 <p>
                   <Link
