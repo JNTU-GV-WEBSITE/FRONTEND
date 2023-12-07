@@ -9,10 +9,11 @@ import gal6 from '../assets/Gallery/gal6.jpeg';
 import gal7 from '../assets/Gallery/gal7.jpeg';
 import gal8 from '../assets/Gallery/gal8.jpg';
 import gal9 from '../assets/Gallery/gal9.jpg';
+import gal10 from '../assets/Gallery/gal10.jpg';
 
 
 function Gallery() {
-  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9];
+  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9,gal10];
 
   const totalWidth = images.length * 300; // 300px is the width of each image
 
