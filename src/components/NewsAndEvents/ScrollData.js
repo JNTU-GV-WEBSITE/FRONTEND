@@ -43,6 +43,11 @@ export const arr = [
 export const newNotification = [
   {
     hypertext:
+      "https://drive.google.com/file/d/1rWztYnZOlyvx60MRbZKAVXtm-RnLseiC/view?usp=sharing",
+    text: `VIKSIT BHARAT @2047`,
+  },
+  {
+    hypertext:
       "https://forms.gle/W3PwBzhPJvqB7QiS7",
     text: `A 5-Day International Short Term Training Program(STTP) on "Cyber Security: Browser Security`,
   }, {
