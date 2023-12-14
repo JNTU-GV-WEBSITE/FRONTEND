@@ -40,7 +40,17 @@ export const arr = [
 
 ];
 
-export const newNotification = [
+export const newNotification = [{
+  hypertext:
+    "https://drive.google.com/file/d/1tAzKvlxWNmHMvkynN44Jyck-btPAzRSa/view?usp=sharing",
+  text: `Application-form-for-Pre-Ph.D-Examination`,
+}, {
+  hypertext:
+    "https://drive.google.com/file/d/1cJrdKJ7GP0HumNrP7M1Iq2YFVRXWu4S5/view?usp=sharing",
+  text: `Pre-Ph.D. Examination-2023-Notification`,
+},
+
+
   {
     hypertext:
       "https://drive.google.com/file/d/1rWztYnZOlyvx60MRbZKAVXtm-RnLseiC/view?usp=sharing",
@@ -49,22 +59,22 @@ export const newNotification = [
   {
     hypertext:
       "https://forms.gle/W3PwBzhPJvqB7QiS7",
-    text: `A 5-Day International Short Term Training Program(STTP) on "Cyber Security: Browser Security`,
+    text: `A 5 - Day International Short Term Training Program(STTP) on "Cyber Security: Browser Security`,
   }, {
-    hypertext:
-      "https://drive.google.com/file/d/1t5qIU8dMnK1XMoZrYBG6X1Y6WLmDj05d/view?usp=sharing",
+  hypertext:
+  "https://drive.google.com/file/d/1t5qIU8dMnK1XMoZrYBG6X1Y6WLmDj05d/view?usp=sharing",
     text: `JNTUGV-DAA- "Certificate Verification " - Admissions- for UG (B.Tech Courses) for the Academic Year 2023-2024`,
   }, {
-    hypertext:
-      "https://drive.google.com/file/d/16EPIsRX3jeRbI2e-MZMaV9O6pG_-aOF9/view?usp=sharing",
+  hypertext:
+  "https://drive.google.com/file/d/16EPIsRX3jeRbI2e-MZMaV9O6pG_-aOF9/view?usp=sharing",
     text: `JNTUGV_3-1-R20 Supple TIME TABLE December 2023`,
   }, {
-    hypertext:
-      "https://drive.google.com/file/d/1Tp8iVEUmHyTjRvKleICh8M9TBC5Yjnox/view?usp=sharing",
+  hypertext:
+  "https://drive.google.com/file/d/1Tp8iVEUmHyTjRvKleICh8M9TBC5Yjnox/view?usp=sharing",
     text: `JNTUGV_3-1-R19 Supple TIME TABLE December 2023`,
   }, {
-    hypertext:
-      "https://drive.google.com/file/d/1_B3cciESIHVULCYeKBNz-NqxKBsPIQrO/view?usp=sharing",
+  hypertext:
+  "https://drive.google.com/file/d/1_B3cciESIHVULCYeKBNz-NqxKBsPIQrO/view?usp=sharing",
     text: `JNTUGV_3-1-R16-Supple- TIME TABLE December 2023`,
   },
 
