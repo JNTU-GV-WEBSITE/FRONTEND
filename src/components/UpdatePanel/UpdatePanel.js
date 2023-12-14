@@ -1,6 +1,7 @@
 import "./UpdatePanel.css";
 import { useState } from "react";
 import { Data } from "./Data";
+import { Button } from "@mui/material";
 function UpdatePanel() {
   const examinationList = [];
   const notificationList = [];
@@ -132,7 +133,7 @@ function UpdatePanel() {
             color: activeButton === "Examinations" ? "white" : "black",
           }}
           onClick={() => handleexamination("Examinations")}
-        > 
+        >
           Exams
           <img
             src="images/new.gif"
@@ -167,14 +168,16 @@ function UpdatePanel() {
                 </div>
                 <div className="updateDescription">
                   {entry.description}
-                  <div>
-                    <a
-                      href={entry.displaylink}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {entry.displaytext}
-                    </a>
+                  <div >
+                    <Button>
+                      <a
+                        href={entry.displaylink}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{textDecoration:"none"}}
+                      >
+                        {entry.displaytext}
+                      </a></Button>
                   </div>
                 </div>
                 {isCurrentMonth && (
