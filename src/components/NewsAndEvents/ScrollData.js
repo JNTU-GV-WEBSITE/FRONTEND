@@ -44,7 +44,7 @@ export const newNotification = [
   {
     hypertext:
       "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
-    text: `I B. Tech I Sem Reg and Supp Notification`,
+    text: `I B. Tech I Semester Regular and Supplementary Notification`,
   },{
     hypertext:
       "https://drive.google.com/file/d/19XoZcL50EhcyfsF-XW0zLGmTT-B9okty/view?usp=sharing",
