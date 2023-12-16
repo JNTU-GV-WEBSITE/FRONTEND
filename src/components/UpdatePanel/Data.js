@@ -26,7 +26,7 @@ export const Data = [
   },
 
   {
-    description: `I B. Tech I Sem Reg and Supp Notification`,
+    description: `I B. Tech I Semester Regular and Supplementary Notification`,
     type: "examination",
     link: "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
     date: "15",
