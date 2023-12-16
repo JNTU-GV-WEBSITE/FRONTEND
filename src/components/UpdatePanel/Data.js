@@ -1,4 +1,59 @@
 export const Data = [
+  {
+    description: `I B. Tech I Sem Reg and Supp Notification`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
+    date: "15",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: `Revaluation of I B. Tech I Semester Supplementary Examinations July -2023 `,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/19XoZcL50EhcyfsF-XW0zLGmTT-B9okty/view?usp=sharing",
+    date: "15",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: `Application form for Revaluation`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1ORgylAzE_1NJ9lkjOGlhEDghv2vSP6yu/view?usp=sharing",
+    date: "15",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+
+  {
+    description: `I B. Tech I Sem Reg and Supp Notification`,
+    type: "examination",
+    link: "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
+    date: "15",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: `Revaluation of I B. Tech I Semester Supplementary Examinations July -2023 `,
+    type: "examination",
+    link: "https://drive.google.com/file/d/19XoZcL50EhcyfsF-XW0zLGmTT-B9okty/view?usp=sharing",
+    date: "15",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },{
+    description: `Application form for Revaluation`,
+    type: "examination",
+    link: "https://drive.google.com/file/d/1ORgylAzE_1NJ9lkjOGlhEDghv2vSP6yu/view?usp=sharing",
+    date: "15",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+
+
+
+
 
   {
     description: `Application-form-for-Pre-Ph.D-Examination`,

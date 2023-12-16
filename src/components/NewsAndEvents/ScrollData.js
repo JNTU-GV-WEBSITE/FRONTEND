@@ -40,14 +40,32 @@ export const arr = [
 
 ];
 
-export const newNotification = [{
+export const newNotification = [
+  {
+    hypertext:
+      "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
+    text: `I B. Tech I Sem Reg and Supp Notification`,
+  },{
+    hypertext:
+      "https://drive.google.com/file/d/19XoZcL50EhcyfsF-XW0zLGmTT-B9okty/view?usp=sharing",
+    text: `Revaluation of I B. Tech I Semester Supplementary Examinations July -2023 `,
+  },{
+    hypertext:
+      "https://drive.google.com/file/d/1ORgylAzE_1NJ9lkjOGlhEDghv2vSP6yu/view?usp=sharing",
+    text: `Application form for Revaluation`,
+  },
+  
+  
+  
+  
+  {
   hypertext:
     "https://drive.google.com/file/d/1tAzKvlxWNmHMvkynN44Jyck-btPAzRSa/view?usp=sharing",
-  text: `Application-form-for-Pre-Ph.D-Examination`,
+  text: `Application form for Pre Ph.D Examination`,
 }, {
   hypertext:
     "https://drive.google.com/file/d/1cJrdKJ7GP0HumNrP7M1Iq2YFVRXWu4S5/view?usp=sharing",
-  text: `Pre-Ph.D. Examination-2023-Notification`,
+  text: `Pre Ph.D. Examination 2023 Notification`,
 },
 
 
