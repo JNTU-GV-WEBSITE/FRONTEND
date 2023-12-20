@@ -32,14 +32,14 @@ export const newNotification = [
   hypertext:
   "https://drive.google.com/file/d/1IU67Uo-41BT6sXZx4iAwL_Ex5bQwEQ3s/view?usp=drivesdk",
     text: `Revised Academic calanders for B. Tech III year II Semester AY 2023-24`,
-  }
+  },
 
 
 {
   hypertext:
   "https://drive.google.com/file/d/11OXj7YlOOWJC61BwbhOVX2YkvqY4L_5v/view?usp=drivesdk",
     text: `Revised Academic calanders for B. Pharmacy III year II Semester AY 2023-24`,
-  }
+  },
 
 
 
