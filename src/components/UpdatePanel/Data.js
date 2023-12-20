@@ -1,4 +1,35 @@
 export const Data = [
+
+ {
+    description: `Revised Academic calanders for  B. Pharmacy III year II Semester AY 2023-24`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1IU67Uo-41BT6sXZx4iAwL_Ex5bQwEQ3s/view?usp=drivesdk",
+    date: "20",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  }, {
+    description: `Revised Academic calanders for B. Tech III year II Semester AY 2023-24`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/11OXj7YlOOWJC61BwbhOVX2YkvqY4L_5v/view?usp=drivesdk",
+    date: "20",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     description: `I B. Tech I Semester Regular and Supplementary Notification`,
     type: "notifications",
