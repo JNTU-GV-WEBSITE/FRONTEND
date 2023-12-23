@@ -63,11 +63,20 @@
   align-items: center;
   z-index: 999;
   cursor: default;
+  color: white; /* Ensure text color is white for visibility */
 }
 
 .enlarged-image img {
   max-width: 80%;
   max-height: 80%;
+}
+
+.enlarged-image p {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: medium;
+  margin-bottom: 20px; /* Add some space below the paragraph */
 }
 
 .enlarged-image button {
