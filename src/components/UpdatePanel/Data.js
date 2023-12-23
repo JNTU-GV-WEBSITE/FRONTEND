@@ -1,5 +1,16 @@
 export const Data = [
 
+
+  {
+    description: `DAA/JNTU-GV-Request to clear outstanding dues of a Affiliation/University common Serives Fee up to Academic Year 2022-2023 to the University`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1V_bfflY-KLQc8gfh5TFuhmwLw5_5HnsM/view?usp=sharing",
+    date: "23",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
+
  {
     description: `Revised Academic calanders for  B. Pharmacy III year II Semester AY 2023-24`,
     type: "notifications",
