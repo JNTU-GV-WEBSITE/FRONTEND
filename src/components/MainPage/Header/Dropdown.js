@@ -65,49 +65,6 @@ const Dropdown = () => {
         </div>
         <div class="dropdown">
           <div class="dropbtn">
-            <SchoolIcon /> ACADEMICS
-          </div>
-          <div
-            class="dropdown-content"
-            onClick={() => setMenuState(!menuState)}
-          >
-            <button>
-              {" "}
-              <Link className="link-btn" to="/academics/programs-offered">
-                Programs offered
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link className="link-btn" to="/academics/admissions">
-                {" "}
-                Admissions
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link className="link-btn" to="/academics/constituent-colleges">
-                Constituent Colleges
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link className="link-btn" to="/academics/affliated-colleges">
-                {" "}
-                Affiliated Colleges
-              </Link>
-            </button>
-            <button>
-              {" "}
-              <Link className="link-btn" to="/academics/bos-chairman">
-                {" "}
-                BOS Chairman
-              </Link>
-            </button>
-          </div>
-        </div>
-        <div class="dropdown">
-          <div class="dropbtn">
             <GroupsIcon /> ADMINISTRATION
           </div>
           <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
@@ -153,6 +110,50 @@ const Dropdown = () => {
             </button>
           </div>
         </div>
+        <div class="dropdown">
+          <div class="dropbtn">
+            <SchoolIcon /> ACADEMICS
+          </div>
+          <div
+            class="dropdown-content"
+            onClick={() => setMenuState(!menuState)}
+          >
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/programs-offered">
+                Programs offered
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/admissions">
+                {" "}
+                Admissions
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/constituent-colleges">
+                Constituent Colleges
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/affliated-colleges">
+                {" "}
+                Affiliated Colleges
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/bos-chairman">
+                {" "}
+                BOS Chairman
+              </Link>
+            </button>
+          </div>
+        </div>
+
         <div class="dropdown">
           <div class="dropbtn">
             <PersonIcon />

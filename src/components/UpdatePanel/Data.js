@@ -1,5 +1,12 @@
-export const Data = [
-
+export const Data = [  {
+    description: `DAA/JNTU-GV-Request to clear outstanding dues of a Affiliation/University common Serives Fee up to Academic Year 2022-2023 to the University`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1V_bfflY-KLQc8gfh5TFuhmwLw5_5HnsM/view?usp=sharing",
+    date: "23",
+    month: "Dec",
+    year: "2023",
+    isLink: true,
+  },
  {
     description: `Revised Academic calanders for  B. Pharmacy III year II Semester AY 2023-24`,
     type: "notifications",
@@ -17,20 +24,7 @@ export const Data = [
     year: "2023",
     isLink: true,
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-  {
+{
     description: `I B. Tech I Semester Regular and Supplementary Notification`,
     type: "notifications",
     link: "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
@@ -55,7 +49,6 @@ export const Data = [
     year: "2023",
     isLink: true,
   },
-
   {
     description: `I B. Tech I Semester Regular and Supplementary Notification`,
     type: "examination",
@@ -81,11 +74,6 @@ export const Data = [
     year: "2023",
     isLink: true,
   },
-
-
-
-
-
   {
     description: `Application-form-for-Pre-Ph.D-Examination`,
     type: "notifications",
@@ -185,13 +173,7 @@ export const Data = [
     year: "2023",
     isLink: true,
   },
-
-
-
-
-
-
-  {
+{
     description: "JNTUGV-DAA-UGC 2(f), 12(B) and Autonomous Status-Change of Affiliation from JNTUK, Kakinada to JNTUGV, Vizianagaram",
     type: "notifications",
     link: "https://drive.gooexaminationle.com/file/d/1MoCjsG1Fb_bLTgt-tZxuEzFDOMRHm0gQ/view?usp=sharing",
