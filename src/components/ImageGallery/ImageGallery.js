@@ -1,76 +1,41 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./ImageGallery.css";
 import TeachersDay from "../../assets/ImageGalleryPictures/TeachersDay.jpg";
 import IndependenceDay1 from "../../assets/ImageGalleryPictures/IndependenceDay1.JPG";
 import IndependenceDay2 from "../../assets/ImageGalleryPictures/IndependenceDay2.JPG";
 import IndependenceDay3 from "../../assets/ImageGalleryPictures/independenceDay3.JPG";
 import Expo from "../../assets/ImageGalleryPictures/Expo.JPG";
 import imagegallery from "../../assets/ImageGalleryPictures/imageGallery6.jpg";
-import "./ImageGallery.css";
+import image6 from "../../assets/ImageGalleryPictures/Image6.jpg";
+import image7 from "../../assets/ImageGalleryPictures/Image7.jpg"
+
+const images = [
+  TeachersDay,
+  image6,
+  image7,
+  IndependenceDay1,
+  IndependenceDay2,
+  IndependenceDay3,
+  Expo,
+  imagegallery,
+];
 
 function ImageGallery() {
   return (
     <div className="mianDivIG">
       <div className="mainImageGallery">
         <Carousel fade>
-          <Carousel.Item>
-            <img className="image" src={TeachersDay} alt="First slide" />
-            <Carousel.Caption>
-              <div className="carouselText">
-                {/* <h4>Image</h4>
-                <p>Image Description</p> */}
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img className="image" src={IndependenceDay1} alt="Second slide" />
-            <Carousel.Caption>
-              <div className="carouselText">
-                {/* <h4>Image</h4>
-                <p>Image Description</p> */}
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img className="image" src={IndependenceDay2} alt="Second slide" />
-            <Carousel.Caption>
-              <div className="carouselText">
-                {/* <h4>Image</h4>
-                <p>Image Description</p> */}
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img className="image" src={IndependenceDay3} alt="Second slide" />
-            <Carousel.Caption>
-              <div className="carouselText">
-                {/* <h4>Image</h4>
-                <p>Image Description</p> */}
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="image" src={Expo} alt="Second slide" />
-            <Carousel.Caption>
-              <div className="carouselText">
-                {/* <h4>Image</h4>
-                <p>Image Description</p> */}
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="image" src={imagegallery} alt="Second slide" />
-            <Carousel.Caption>
-              <div className="carouselText">
-                {/* <h4>Image</h4>
-                <p>Image Description</p> */}
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
+          {images.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="image" src={image} alt={`Slide ${index + 1}`} />
+              <Carousel.Caption>
+                <div className="carouselText">
+                </div>
+              </Carousel.Caption>
+            </Carousel.Item>
+          ))}
         </Carousel>
       </div>
     </div>
