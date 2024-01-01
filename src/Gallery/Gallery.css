@@ -24,7 +24,7 @@
 .image-scroll {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll 70s linear infinite; /* Adjust the duration based on your preference */
+  animation: scroll 300s linear infinite; /* Adjust the duration based on your preference */
 }
 
 .image-scroll img {
