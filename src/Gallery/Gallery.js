@@ -44,7 +44,7 @@ function Gallery() {
 
       {/* Hyperlink at the bottom right corner */}
       <a
-        href="/complete-gallery" // Replace with your desired link
+        href="/gallery" // Replace with your desired link
         rel="noopener noreferrer"
         style={{
           color: '#ffffff', // White text color
