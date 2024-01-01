@@ -8,12 +8,10 @@ import IndependenceDay2 from "../../assets/ImageGalleryPictures/IndependenceDay2
 import IndependenceDay3 from "../../assets/ImageGalleryPictures/independenceDay3.JPG";
 import Expo from "../../assets/ImageGalleryPictures/Expo.JPG";
 import imagegallery from "../../assets/ImageGalleryPictures/imageGallery6.jpg";
-import image6 from "../../assets/ImageGalleryPictures/Image6.jpg";
 import image7 from "../../assets/ImageGalleryPictures/Image7.jpg"
 
 const images = [
   TeachersDay,
-  image6,
   image7,
   IndependenceDay1,
   IndependenceDay2,

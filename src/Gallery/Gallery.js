@@ -14,9 +14,11 @@ import gal11 from '../assets/Gallery/gal11.jpg';
 import gal12 from '../assets/Gallery/gal12.jpg';
 import gal13 from '../assets/Gallery/gal13.jpg';
 import gal14 from '../assets/Gallery/gal14.jpg';
+import gal15 from '../assets/Gallery/gal15.jpg';
+
 
 function Gallery() {
-  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9,gal10,gal11,gal12,gal13,gal14];
+  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9,gal10,gal11,gal12,gal13,gal14,gal15];
 
   const totalWidth = images.length * 300; // 300px is the width of each image
 
@@ -51,7 +53,6 @@ function Gallery() {
       {selectedImage && (
         <div className="enlarged-image">
           <img src={selectedImage.image} alt={selectedImage.name} />
-          {/* Remove the paragraph displaying the selectedImage name */}
           <button onClick={handleClose}>Back</button>
         </div>
       )}
