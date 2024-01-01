@@ -3,9 +3,13 @@ import './Gallery.css';
 import { CG } from './CG'; // Import the array of image objects from CG.js
 
 function Gallery() {
-  const recentImages = CG.slice(-10); // Get the last 10 images from CG.js
+  const recentImages = CG.slice(-15); // Get the last 10 images from CG.js
 
   const [selectedImage, setSelectedImage] = useState(null);
+
+
+  const duplicatedImages = [...recentImages, ...recentImages, ...recentImages, ...recentImages];
+
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -20,11 +24,11 @@ function Gallery() {
       <h1 className="gallery-heading">GALLERY</h1>
       <div className="image-gallery">
         <div className="image-scroll">
-          {recentImages.map((image, index) => (
+          {duplicatedImages.map((image, index) => (
             <img
               key={index}
               src={image.image}
-              alt={`Image ${index}`}
+              alt={`JNTUGV ${image.description}`}
               onClick={() => handleImageClick(image)}
             />
           ))}
@@ -33,7 +37,7 @@ function Gallery() {
 
       {selectedImage && (
         <div className="enlarged-image">
-          <img src={selectedImage.image} alt={`Enlarged Image`} />
+          <img src={selectedImage.image} alt={`JNTUGV`} />
           <button onClick={handleClose}>Back</button>
         </div>
       )}
