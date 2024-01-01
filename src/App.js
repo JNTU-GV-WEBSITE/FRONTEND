@@ -118,7 +118,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/grievance-form" element={<Grievance />} />
         <Route path="/news-and-events" element={<NewsAndEvents/>} />
-        <Route path="/complete-gallery" element={<CompleteGallery />} />
+        <Route path="/gallery" element={<CompleteGallery />} />
 
       </Routes>
     </div>
