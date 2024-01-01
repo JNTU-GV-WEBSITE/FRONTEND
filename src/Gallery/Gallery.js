@@ -15,10 +15,13 @@ import gal12 from '../assets/Gallery/gal12.jpg';
 import gal13 from '../assets/Gallery/gal13.jpg';
 import gal14 from '../assets/Gallery/gal14.jpg';
 import gal15 from '../assets/Gallery/gal15.jpg';
+import gal16 from '../assets/Gallery/gal16.jpg';
+import gal17 from '../assets/Gallery/gal17.jpg';
+
 
 
 function Gallery() {
-  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9,gal10,gal11,gal12,gal13,gal14,gal15];
+  const images = [ gal2,  gal4, gal5, gal6, gal7,gal8,gal9,gal10,gal11,gal12,gal13,gal14,gal15,gal16,gal17];
 
   const totalWidth = images.length * 300; // 300px is the width of each image
 
