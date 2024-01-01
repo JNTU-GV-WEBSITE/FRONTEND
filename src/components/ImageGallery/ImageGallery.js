@@ -8,9 +8,12 @@ import IndependenceDay2 from "../../assets/ImageGalleryPictures/IndependenceDay2
 import IndependenceDay3 from "../../assets/ImageGalleryPictures/independenceDay3.JPG";
 import Expo from "../../assets/ImageGalleryPictures/Expo.JPG";
 import imagegallery from "../../assets/ImageGalleryPictures/imageGallery6.jpg";
-import image7 from "../../assets/ImageGalleryPictures/Image7.jpg"
+import image7 from "../../assets/ImageGalleryPictures/Image7.jpg";
+import image1 from "../../assets/ImageGalleryPictures/image1.jpg"
+
 
 const images = [
+  image1,
   TeachersDay,
   image7,
   IndependenceDay1,
