@@ -50,6 +50,8 @@ import R19 from "./components/MainPage/Results/r19";
 import Chairpersons from "./components/MainPage/Header/Administration/Chairpersons/Chairpersons";
 import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
 import CompleteGallery from "./Gallery/CompleteGallery";
+import Syllabus from "./components/MainPage/Header/Academics/Syllabus/Syllabus";
+
 
 function App() {
   return (
@@ -72,6 +74,7 @@ function App() {
           <Route path="admissions" element={<AdmissionsOP />} />
           <Route path="affliated-colleges" element={<AffliatedCollegesOP />} />
           <Route path="bos-chairman" element={<Boschairman />} />
+          <Route path="academic-syllabus" element={<Syllabus />} />
         </Route>
         <Route path="/administration" element={<AdministrationMain />}>
           <Route path="chancellor" element={<Chancellor />} />{" "}
