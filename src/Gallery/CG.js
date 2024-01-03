@@ -27,6 +27,8 @@ import gal28 from '../assets/Gallery/gal28.jpg';
 import gal29 from '../assets/Gallery/gal29.jpg';
 import gal30 from '../assets/Gallery/gal30.jpg';
 import gal31 from '../assets/Gallery/gal31.jpg';
+import gal32 from '../assets/Gallery/gal32.jpg';
+
 
 
 
@@ -47,6 +49,10 @@ export const CG = [
   },
   {
     image: gal31,
+    description: 'Prof.Dr.K.Venkatasubbaiah Garu',
+  },
+  {
+    image: gal32,
     description: 'Prof.Dr.K.Venkatasubbaiah Garu',
   },
   {
