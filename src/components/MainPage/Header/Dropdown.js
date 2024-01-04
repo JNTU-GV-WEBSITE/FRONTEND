@@ -154,6 +154,13 @@ const Dropdown = () => {
             </button>
             <button>
               {" "}
+              <Link className="link-btn" to="/academics/calender">
+                {" "}
+                Academic Calender
+              </Link>
+            </button>
+            <button>
+              {" "}
               <Link className="link-btn" to="/academics/academic-syllabus">
                 {" "}
                 Academic Syllabus
