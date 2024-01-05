@@ -21,7 +21,7 @@ function Controller() {
 
             </div>
             <div className="profileName">
-              <h3>Sri R Gurunadha</h3>
+              <h3>Dr. R. Gurunadha</h3>
             </div>
             <div className="profileDesignation">
               <h4 className="regularStyleH4">Controller of Examinations</h4><br></br>
@@ -32,7 +32,7 @@ function Controller() {
           {/* Profile description */}
           <p>Email: ce@jntugv.edu.in</p>
           <hr />
-          <p>Sri R Gurunadha, an esteemed Associate Professor in the Department of Electronics & Communication Engineering (ECE) at JNTU-GV, CEV, Vizianagaram, is a distinguished academic and researcher with a rich background in engineering and technology. With his extensive experience and contributions to the field, he has become a pivotal figure in shaping the future of electronics and communication engineering education and research.</p>
+          <p>Dr. R. Gurunadha, an esteemed Associate Professor in the Department of Electronics & Communication Engineering (ECE) at JNTU-GV, CEV, Vizianagaram, is a distinguished academic and researcher with a rich background in engineering and technology. With his extensive experience and contributions to the field, he has become a pivotal figure in shaping the future of electronics and communication engineering education and research.</p>
           <h6>Educational Background:</h6> <p>
             •	Bachelor of Engineering (B.E) in Electronics & Communication Engineering, Andhra University College of Engineering (AUCE), Visakhapatnam (1998- 2003)<br></br>
             •	Master of Technology (M.Tech) in Instrumentation and Control Systems, JNTU Kakinada (2003 - 2005)
@@ -45,7 +45,7 @@ function Controller() {
             •	In-Charge Head of the Department of ECE, JNTUK, UCEV, Vizianagaram (2010-2013)
           </p>
           <h6>Research and Publications:</h6><p>
-            Sri R Gurunadha has made significant contributions to the field of electronics and communication engineering through his extensive research and publications. His work primarily focuses on fault modeling in analog circuits, low-power digital circuit design, and advancements in quantum dot cellular automata. He has authored and co-authored numerous papers in various international journals and conferences
+          Dr. R. Gurunadha has made significant contributions to the field of electronics and communication engineering through his extensive research and publications. His work primarily focuses on fault modeling in analog circuits, low-power digital circuit design, and advancements in quantum dot cellular automata. He has authored and co-authored numerous papers in various international journals and conferences
           </p>
         </div>
       </div>
