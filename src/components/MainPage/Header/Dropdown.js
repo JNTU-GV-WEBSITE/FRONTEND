@@ -131,6 +131,7 @@ const Dropdown = () => {
                 Admissions
               </Link>
             </button>
+
             <button>
               {" "}
               <Link className="link-btn" to="/academics/constituent-colleges">
@@ -149,6 +150,20 @@ const Dropdown = () => {
               <Link className="link-btn" to="/academics/bos-chairman">
                 {" "}
                 BOS Chairman
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/calender">
+                {" "}
+                Academic Calender
+              </Link>
+            </button>
+            <button>
+              {" "}
+              <Link className="link-btn" to="/academics/academic-syllabus">
+                {" "}
+                Academic Syllabus
               </Link>
             </button>
           </div>

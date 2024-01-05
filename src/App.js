@@ -27,6 +27,8 @@ import ConstituentCollegesOP from "./components/MainPage/Header/Academics/Consti
 import AdmissionsOP from "./components/MainPage/Header/Academics/Admissions/AdmissionsOP";
 import AffliatedCollegesOP from "./components/MainPage/Header/Academics/Affliated Colleges/AffliatedCollegesOP";
 import Boschairman from "./components/MainPage/Header/Academics/Bos-chairman/Boschairman";
+
+import Calender from "./components/MainPage/Header/Academics/Calender/Calender";
 import ContactUs from "./components/MainPage/Header/Contact-Us/ContactUs";
 import AboutusMain from "./components/MainPage/Header/Aboutus/AboutusMain";
 import AcademicsMain from "./components/MainPage/Header/Academics/AcademicsMain";
@@ -50,6 +52,8 @@ import R19 from "./components/MainPage/Results/r19";
 import Chairpersons from "./components/MainPage/Header/Administration/Chairpersons/Chairpersons";
 import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
 import CompleteGallery from "./Gallery/CompleteGallery";
+import Syllabus from "./components/MainPage/Header/Academics/Syllabus/Syllabus";
+
 
 function App() {
   return (
@@ -72,6 +76,9 @@ function App() {
           <Route path="admissions" element={<AdmissionsOP />} />
           <Route path="affliated-colleges" element={<AffliatedCollegesOP />} />
           <Route path="bos-chairman" element={<Boschairman />} />
+
+          <Route path="calender" element={<Calender />} />
+          <Route path="academic-syllabus" element={<Syllabus />} />
         </Route>
         <Route path="/administration" element={<AdministrationMain />}>
           <Route path="chancellor" element={<Chancellor />} />{" "}

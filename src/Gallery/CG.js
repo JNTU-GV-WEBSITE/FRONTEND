@@ -28,7 +28,10 @@ import gal29 from '../assets/Gallery/gal29.jpg';
 import gal30 from '../assets/Gallery/gal30.jpg';
 import gal31 from '../assets/Gallery/gal31.jpg';
 import gal32 from '../assets/Gallery/gal32.jpg';
+
 import gal33 from '../assets/Gallery/gal33.jpg';
+import gal34 from '../assets/Gallery/gal34.jpg';
+
 
 
 
@@ -51,6 +54,10 @@ export const CG = [
   },
   {
     image: gal31,
+    description: 'Prof.Dr.K.Venkatasubbaiah Garu',
+  },
+  {
+    image: gal32,
     description: 'Prof.Dr.K.Venkatasubbaiah Garu',
   },
   {
@@ -149,8 +156,8 @@ export const CG = [
     image: gal26,
     description: 'Celebrating release of New Year Calenders at JNTUGV',
   }, {
-    image: gal32,
-    description: `తేదీ. 03-12-2024 
+    image: gal33,
+    description: `తేదీ. 03-12-2024 :
       విజయనగరం.
       JNTU GV లో లెర్నింగ్ ఇంప్రూవ్మెంట్ ప్రోగ్రాం సర్టిఫికెట్లు అందజేత
       
@@ -159,7 +166,7 @@ export const CG = [
        ప్రభుత్వం ఏర్పాటు చేసిన బి సి డి ఇ లో భాగంగా యూనివర్సిటీ ప్రోత్సాహంతో ఈ లెర్నింగ్ ఇంప్రూవ్మెంట్ ప్రోగ్రాంలను నిర్వహిస్తున్నారు. దీనిలో భాగంగా కళాశాల విద్యార్థులు జిల్లా పరిధిలో గల వివిధ ప్రభుత్వ పాఠశాలలకు వెళ్లి అక్కడ  అవగాహన కార్యక్రమాలు నిర్వహించి పాఠశాల విద్యార్థులకు సాంకేతికత మరియు పర్సనాలిటీ డెవలప్మెంట్ వంటి అనేక వాటిపై అవగాహన కల్పిస్తున్నారు. ఈ ట్రైనింగ్ కార్యక్రమంనకు వెళ్లిన విద్యార్థులకు ధృపత్రాలను అందచేసారు`,
   },
   {
-    image: gal33,
+    image: gal34,
     description: 'Distributing Certificates to the Students at JNTUGV',
   },
 ];
