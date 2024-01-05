@@ -47,14 +47,14 @@ const AcademicsMain = () => {
         >
           BOS Chairman
         </Link>
-        <Link
+        {/* <Link
           to="calender"
           className={`menubutton ${
             location.pathname === "/academics/calender" ? "active" : ""
           }`}
         >
         Academic Calender
-        </Link>
+        </Link> */}
         <Link
           to="academic-syllabus"
           className={`menubutton ${
