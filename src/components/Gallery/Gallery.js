@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
-import './Gallery.css';
-import { CG } from './CG'; // Import the array of image objects from CG.js
+import React, { useState } from "react";
+import "./Gallery.css";
+import { CG } from "./CG"; // Import the array of image objects from CG.js
 
 function Gallery() {
   const recentImages = CG.slice(-15); // Get the last 10 images from CG.js
 
   const [selectedImage, setSelectedImage] = useState(null);
 
-
-  const duplicatedImages = [...recentImages, ...recentImages, ...recentImages, ...recentImages];
-
+  const duplicatedImages = [
+    ...recentImages,
+    ...recentImages,
+    ...recentImages,
+    ...recentImages,
+  ];
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -47,7 +50,7 @@ function Gallery() {
         href="/gallery" // Replace with your desired link
         rel="noopener noreferrer"
         style={{
-          color: '#ffffff', // White text color
+          color: "#ffffff", // White text color
         }}
       >
         Show All
