@@ -50,7 +50,7 @@ const AcademicsMain = () => {
         <Link
           to="calender"
           className={`menubutton ${
-            location.pathname === "/academics/Calender" ? "active" : ""
+            location.pathname === "/academics/calender" ? "active" : ""
           }`}
         >
         Academic Calender
