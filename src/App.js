@@ -51,14 +51,18 @@ import R16 from "./components/MainPage/Results/r16";
 import R19 from "./components/MainPage/Results/r19";
 import Chairpersons from "./components/MainPage/Header/Administration/Chairpersons/Chairpersons";
 import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
-import CompleteGallery from "./Gallery/CompleteGallery";
+import CompleteGallery from "./components/Gallery/CompleteGallery";
 import Syllabus from "./components/MainPage/Header/Academics/Syllabus/Syllabus";
 
 
+
+
 function App() {
+
+
+  
   return (
     <div>
-      {/* <BelowBar /> */}
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
