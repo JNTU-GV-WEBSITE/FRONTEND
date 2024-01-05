@@ -1,19 +1,43 @@
 import "./UpdatePanel.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Data } from "./Data";
 import { Button } from "@mui/material";
+import axios from "axios";
+
 function UpdatePanel() {
   const examinationList = [];
   const notificationList = [];
   const workshopList = [];
   const recruitmentList = [];
+  const tendersList = [];
   const sportsList = [];
+  
+  const examinationApiList = [];
+  const notificationApiList = [];
+  const workshopApiList = [];
+  const recruitmentApiList = [];
+  const sportsApiList = [];
+  const tendersApiList = [];
 
   const [displayData, setDisplayData] = useState(notificationList);
 
+  const [apiData, setApiData] = useState(notificationApiList);
+
   const [activeButton, setActiveButton] = useState("Notifications");
 
-  // const [events, setEvents] = useState([]);
+  const [data, setData] = useState([]);
+
+  const fetchData = async () => {
+    try {
+      const response = await axios.get(
+        "http://api.jntugv.edu.in/api/updates/allnotifications"
+      );
+      const result = await response.data;
+      setData(result);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
 
   const buttonStyles = {
     backgroundColor: "white",
@@ -25,28 +49,23 @@ function UpdatePanel() {
     borderRadius: "15px",
   };
 
-  const currentDate = new Date();
-  const isCurrentMonth = currentDate.getMonth() === Data.month;
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch(
-  //         "http://api.jntugv.edu.in/api/updates/getevents"
-  //       );
-  //       if (!response.ok) {
-  //         throw new Error("Network response was not ok");
-  //       }
-  //       const data = await response.json();
-  //       setEvents(data); // Update state with the fetched data
-  //     } catch (error) {
-  //       console.error("Error:", error);
-  //     }
-  //   };
-
-  //   fetchData();
-  // }, []);
-
+  data.forEach((entry) => {
+    if (entry.update_type === "notification") {
+      notificationApiList.push(entry);
+      console.log(notificationApiList);
+    } else if (entry.update_type === "recruitment") {
+      recruitmentApiList.push(entry);
+    } else if (entry.update_type === "examination") {
+      examinationApiList.push(entry);
+    } else if (entry.update_type === "workshop") {
+      workshopApiList.push(entry);
+    } else if (entry.update_type === "sports") {
+      sportsApiList.push(entry);
+    } else if (entry.update_type === "tender") {
+      tendersApiList.push(entry);
+    }
+  });
+ 
   Data.forEach((entry) => {
     if (entry.type === "notifications") {
       notificationList.push(entry);
@@ -62,25 +81,42 @@ function UpdatePanel() {
   });
 
   const handleNotification = (button) => {
+    setApiData(notificationApiList);
     setDisplayData(notificationList);
     setActiveButton(button);
   };
   const handleRecruitment = (button) => {
+    setApiData(recruitmentApiList);
     setDisplayData(recruitmentList);
     setActiveButton(button);
   };
   const handleexamination = (button) => {
+    setApiData(examinationApiList);
     setDisplayData(examinationList);
     setActiveButton(button);
   };
   const handleWorkshop = (button) => {
+    setApiData(workshopApiList);
     setDisplayData(workshopList);
     setActiveButton(button);
   };
   const handleSports = (button) => {
+    setApiData(sportsApiList);
     setDisplayData(sportsList);
     setActiveButton(button);
   };
+
+  const handleTenders = (button) => {
+    setApiData(tendersApiList);
+    setDisplayData(tendersList);
+    setActiveButton(button);
+  };
+
+  useEffect(() => {
+    fetchData();
+
+    // handleNotification("Notifications");
+  }, []);
 
   return (
     <div className="updateComponent">
@@ -106,13 +142,7 @@ function UpdatePanel() {
           }}
           onClick={() => handleRecruitment("Recruitment")}
         >
-          Recruitment 2023
-          <img
-            src="images/new.gif"
-            alt="newimg"
-            height="20vh"
-            width="50vh"
-          ></img>
+          Recruitment
         </button>
         <button
           style={{
@@ -124,23 +154,17 @@ function UpdatePanel() {
           onClick={() => handleWorkshop("Conferences")}
         >
           Workshops{" "}
-
         </button>
         <button
           style={{
             ...buttonStyles,
-            backgroundColor: activeButton === "Examinations" ? "#690001" : "white",
+            backgroundColor:
+              activeButton === "Examinations" ? "#690001" : "white",
             color: activeButton === "Examinations" ? "white" : "black",
           }}
           onClick={() => handleexamination("Examinations")}
         >
           Exams
-          <img
-            src="images/new.gif"
-            alt="newimg"
-            height="20vh"
-            width="50vh"
-          ></img>
         </button>
 
         <button
@@ -153,41 +177,79 @@ function UpdatePanel() {
         >
           Sports
         </button>
+        <button
+          style={{
+            ...buttonStyles,
+            backgroundColor: activeButton === "Tenders" ? "#690001" : "white",
+            color: activeButton === "Tenders" ? "white" : "black",
+          }}
+          onClick={() => handleTenders("Tenders")}
+        >
+          Tenders
+        </button>
       </div>
+
       <div className="updatesContainer">
-        {displayData.map((entry) => (
-          <a href={entry.link || "#"} target="_blank" rel="noreferrer">
+        {apiData.map((entry) => (
+          <a href={entry.file_link || "#"} target="_blank" rel="noreferrer">
             <div>
               <div className="updateBox">
                 <div className="dateTimeContainer">
-                  <div className="dateDiv">{entry.date}</div>
+                  <div className="dateDiv">{entry.day}</div>
                   <div className="monYear">
                     <div className="monthDiv">{entry.month}</div>
                     <div className="yearDiv">{entry.year}</div>
                   </div>
                 </div>
                 <div className="updateDescription">
-                  {entry.description}
-                  <div >
+                  {entry.title}
+                  <div>
                     <Button>
                       <a
-                        href={entry.displaylink}
+                        href={entry.external_link}
                         target="_blank"
                         rel="noreferrer"
-                        style={{textDecoration:"none"}}
+                        style={{ textDecoration: "none" }}
                       >
-                        {entry.displaytext}
-                      </a></Button>
+                        {entry.external_text}
+                      </a>
+                    </Button>
                   </div>
                 </div>
-                {isCurrentMonth && (
-                  <img
-                    src="images/new.gif"
-                    alt="newimg"
-                    height="20vh"
-                    width="50vh"
-                  />
-                )}
+              </div>
+              <div className="updateDivSeparator"></div>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div className="updatesContainer">
+        {displayData.map((entry) => (
+          <a href={entry.file_link || "#"} target="_blank" rel="noreferrer">
+            <div>
+              <div className="updateBox">
+                <div className="dateTimeContainer">
+                  <div className="dateDiv">{entry.day}</div>
+                  <div className="monYear">
+                    <div className="monthDiv">{entry.month}</div>
+                    <div className="yearDiv">{entry.year}</div>
+                  </div>
+                </div>
+                <div className="updateDescription">
+                  {entry.title}
+                  <div>
+                    <Button>
+                      <a
+                        href={entry.external_link}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        {entry.external_text}
+                      </a>
+                    </Button>
+                  </div>
+                </div>
               </div>
               <div className="updateDivSeparator"></div>
             </div>
