@@ -1,33 +1,37 @@
-import gal2 from '../assets/Gallery/gal2.jpeg';
-import gal4 from '../assets/Gallery/gal4.jpeg';
-import gal5 from '../assets/Gallery/gal5.jpeg';
-import gal6 from '../assets/Gallery/gal6.jpeg';
-import gal7 from '../assets/Gallery/gal7.jpeg';
-import gal8 from '../assets/Gallery/gal8.jpg';
-import gal9 from '../assets/Gallery/gal9.jpg';
-import gal10 from '../assets/Gallery/gal10.jpg';
-import gal11 from '../assets/Gallery/gal11.jpeg';
-import gal12 from '../assets/Gallery/gal12.jpeg';
-import gal13 from '../assets/Gallery/gal13.png';
+import gal2 from '../../assets/Gallery/gal2.jpeg';
+import gal4 from '../../assets/Gallery/gal4.jpeg';
+import gal5 from '../../assets/Gallery/gal5.jpeg';
+import gal6 from '../../assets/Gallery/gal6.jpeg';
+import gal7 from '../../assets/Gallery/gal7.jpeg';
+import gal8 from '../../assets/Gallery/gal8.jpg';
+import gal9 from '../../assets/Gallery/gal9.jpg';
+import gal10 from '../../assets/Gallery/gal10.jpg';
+import gal11 from '../../assets/Gallery/gal11.jpeg';
+import gal12 from '../../assets/Gallery/gal12.jpeg';
+import gal13 from '../../assets/Gallery/gal13.png';
 // import gal13 from '../assets/Gallery/gal13.png';
-import gal15 from '../assets/Gallery/gal15.png';
-import gal16 from '../assets/Gallery/gal16.png';
-import gal17 from '../assets/Gallery/gal17.png';
-import gal18 from '../assets/Gallery/gal18.png';
-import gal19 from '../assets/Gallery/gal19.png';
-import gal20 from '../assets/Gallery/gal20.jpg';
-import gal21 from '../assets/Gallery/gal21.jpg';
-import gal22 from '../assets/Gallery/gal22.jpg';
-import gal23 from '../assets/Gallery/gal23.jpg';
-import gal24 from '../assets/Gallery/gal24.jpg';
-import gal25 from '../assets/Gallery/gal25.jpg';
-import gal26 from '../assets/Gallery/gal26.jpg';
+import gal15 from '../../assets/Gallery/gal15.png';
+import gal16 from '../../assets/Gallery/gal16.png';
+import gal17 from '../../assets/Gallery/gal17.png';
+import gal18 from '../../assets/Gallery/gal18.png';
+import gal19 from '../../assets/Gallery/gal19.png';
+import gal20 from '../../assets/Gallery/gal20.jpg';
+import gal21 from '../../assets/Gallery/gal21.jpg';
+import gal22 from '../../assets/Gallery/gal22.jpg';
+import gal23 from '../../assets/Gallery/gal23.jpg';
+import gal24 from '../../assets/Gallery/gal24.jpg';
+import gal25 from '../../assets/Gallery/gal25.jpg';
+import gal26 from '../../assets/Gallery/gal26.jpg';
 // import gal27 from '../assets/Gallery/gal27.jpg';
-import gal28 from '../assets/Gallery/gal28.jpg';
-import gal29 from '../assets/Gallery/gal29.jpg';
-import gal30 from '../assets/Gallery/gal30.jpg';
-import gal31 from '../assets/Gallery/gal31.jpg';
-import gal32 from '../assets/Gallery/gal32.jpg';
+import gal28 from '../../assets/Gallery/gal28.jpg';
+import gal29 from '../../assets/Gallery/gal29.jpg';
+import gal30 from '../../assets/Gallery/gal30.jpg';
+import gal31 from '../../assets/Gallery/gal31.jpg';
+import gal32 from '../../assets/Gallery/gal32.jpg';
+import gal33 from '../../assets/Gallery/gal33.jpg';
+import gal34 from '../../assets/Gallery/gal34.jpg';
+
+
 
 
 
@@ -150,6 +154,18 @@ export const CG = [
   {
     image: gal26,
     description: 'Celebrating release of New Year Calenders at JNTUGV',
+  }, {
+    image: gal33,
+    description: `తేదీ. 03-12-2024 :
+      విజయనగరం.
+      JNTU GV లో లెర్నింగ్ ఇంప్రూవ్మెంట్ ప్రోగ్రాం సర్టిఫికెట్లు అందజేత
+      
+      స్థానిక జవహర్ లాల్ నెహ్రూ సాంకేతిక
+      విశ్వవిద్యాలయం గురజాడ విజయనగరం నందు  ఈరోజు జరిగిన కార్యక్రమంలో గౌరవనీయులు జెఎన్టియు జీవి వైస్-చాన్సులర్ ప్రొఫెసర్ K. వెంకటసుబ్బయ్య గారు, జెఎన్టియు జీవి రిజిస్ట్రార్ ప్రొఫెసర్ G. జయ సుమ గారు మరియు యూనివర్సిటీ BCDE (Board of community development through education) కోఆర్డినేటర్ Dr. G.J. నాగరాజు గారు learning improvement program లో పాల్గొన్న JNTU GV కళాశాల కు చెందిన 43 మంది విద్యార్థులకు సర్టిఫికెట్లు అందజేశారు.
+       ప్రభుత్వం ఏర్పాటు చేసిన బి సి డి ఇ లో భాగంగా యూనివర్సిటీ ప్రోత్సాహంతో ఈ లెర్నింగ్ ఇంప్రూవ్మెంట్ ప్రోగ్రాంలను నిర్వహిస్తున్నారు. దీనిలో భాగంగా కళాశాల విద్యార్థులు జిల్లా పరిధిలో గల వివిధ ప్రభుత్వ పాఠశాలలకు వెళ్లి అక్కడ  అవగాహన కార్యక్రమాలు నిర్వహించి పాఠశాల విద్యార్థులకు సాంకేతికత మరియు పర్సనాలిటీ డెవలప్మెంట్ వంటి అనేక వాటిపై అవగాహన కల్పిస్తున్నారు. ఈ ట్రైనింగ్ కార్యక్రమంనకు వెళ్లిన విద్యార్థులకు ధృపత్రాలను అందచేసారు`,
   },
-
+  {
+    image: gal34,
+    description: 'Distributing Certificates to the Students at JNTUGV',
+  },
 ];

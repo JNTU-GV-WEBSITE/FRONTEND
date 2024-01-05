@@ -152,13 +152,13 @@ const Dropdown = () => {
                 BOS Chairman
               </Link>
             </button>
-            <button>
+            {/* <button>
               {" "}
               <Link className="link-btn" to="/academics/calender">
                 {" "}
                 Academic Calender
               </Link>
-            </button>
+            </button> */}
             <button>
               {" "}
               <Link className="link-btn" to="/academics/academic-syllabus">
