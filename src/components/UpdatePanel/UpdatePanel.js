@@ -20,9 +20,9 @@ function UpdatePanel() {
     color: "black",
     padding: "10px",
     margin: "5px",
-    border: "none",
     cursor: "pointer",
-    borderRadius: "15px",
+    border: "1px solid #370A68",
+    borderRadius: "7px",
   };
 
   const currentDate = new Date();
@@ -83,116 +83,108 @@ function UpdatePanel() {
   };
 
   return (
-    <div className="updateComponent">
-      <div className="updateButtons">
-        <button
-          style={{
-            ...buttonStyles,
-            backgroundColor:
-              activeButton === "Notifications" ? "#690001" : "white",
-            color: activeButton === "Notifications" ? "white" : "black",
-          }}
-          onClick={() => handleNotification("Notifications")}
-          target="_blank"
-        >
-          Notifications
-        </button>
-        <button
-          style={{
-            ...buttonStyles,
-            backgroundColor:
-              activeButton === "Recruitment" ? "#690001" : "white",
-            color: activeButton === "Recruitment" ? "white" : "black",
-          }}
-          onClick={() => handleRecruitment("Recruitment")}
-        >
-          Recruitment 2023
-          <img
-            src="images/new.gif"
-            alt="newimg"
-            height="20vh"
-            width="50vh"
-          ></img>
-        </button>
-        <button
-          style={{
-            ...buttonStyles,
-            backgroundColor:
-              activeButton === "Conferences" ? "#690001" : "white",
-            color: activeButton === "Conferences" ? "white" : "black",
-          }}
-          onClick={() => handleWorkshop("Conferences")}
-        >
-          Workshops{" "}
+    <div>
+      <h1 className="notifications-title">Notifications</h1>
+      <div className="updateComponent">
+        <div className="updateButtons">
+          <button
+            style={{
+              ...buttonStyles,
+              backgroundColor:
+                activeButton === "Notifications" ? "#370a68" : "white",
+              color: activeButton === "Notifications" ? "white" : "black",
+            }}
+            onClick={() => handleNotification("Notifications")}
+            target="_blank"
+          >
+            Notifications
+          </button>
+          <button
+            style={{
+              ...buttonStyles,
+              backgroundColor:
+                activeButton === "Recruitment" ? "#370a68" : "white",
+              color: activeButton === "Recruitment" ? "white" : "black",
+            }}
+            onClick={() => handleRecruitment("Recruitment")}
+          >
+            Recruitment 2023
+          </button>
+          <button
+            style={{
+              ...buttonStyles,
+              backgroundColor:
+                activeButton === "Conferences" ? "#370a68" : "white",
+              color: activeButton === "Conferences" ? "white" : "black",
+            }}
+            onClick={() => handleWorkshop("Conferences")}
+          >
+            Workshops{" "}
+          </button>
+          <button
+            style={{
+              ...buttonStyles,
+              backgroundColor:
+                activeButton === "Examinations" ? "#370a68" : "white",
+              color: activeButton === "Examinations" ? "white" : "black",
+            }}
+            onClick={() => handleexamination("Examinations")}
+          >
+            Exams
+          </button>
 
-        </button>
-        <button
-          style={{
-            ...buttonStyles,
-            backgroundColor: activeButton === "Examinations" ? "#690001" : "white",
-            color: activeButton === "Examinations" ? "white" : "black",
-          }}
-          onClick={() => handleexamination("Examinations")}
-        >
-          Exams
-          <img
-            src="images/new.gif"
-            alt="newimg"
-            height="20vh"
-            width="50vh"
-          ></img>
-        </button>
-
-        <button
-          style={{
-            ...buttonStyles,
-            backgroundColor: activeButton === "Sports" ? "#690001" : "white",
-            color: activeButton === "Sports" ? "white" : "black",
-          }}
-          onClick={() => handleSports("Sports")}
-        >
-          Sports
-        </button>
-      </div>
-      <div className="updatesContainer">
-        {displayData.map((entry) => (
-          <a href={entry.link || "#"} target="_blank" rel="noreferrer">
-            <div>
-              <div className="updateBox">
-                <div className="dateTimeContainer">
-                  <div className="dateDiv">{entry.date}</div>
-                  <div className="monYear">
-                    <div className="monthDiv">{entry.month}</div>
-                    <div className="yearDiv">{entry.year}</div>
+          <button
+            style={{
+              ...buttonStyles,
+              backgroundColor: activeButton === "Sports" ? "#370a68" : "white",
+              color: activeButton === "Sports" ? "white" : "black",
+            }}
+            onClick={() => handleSports("Sports")}
+          >
+            Sports
+          </button>
+        </div>
+        <div className="updatesContainer">
+          {displayData.map((entry) => (
+            <a href={entry.link || "#"} target="_blank" rel="noreferrer">
+              <div>
+                <div className="updateBox">
+                  <div className="dateTimeContainer">
+                    <div className="dateDiv">{entry.date}</div>
+                    <div className="monYear">
+                      <div className="monthDiv">{entry.month}</div>
+                      <div className="yearDiv">{entry.year}</div>
+                    </div>
                   </div>
-                </div>
-                <div className="updateDescription">
-                  {entry.description}
-                  <div >
-                    <Button>
-                      <a
-                        href={entry.displaylink}
-                        target="_blank"
-                        rel="noreferrer"
-                        style={{textDecoration:"none"}}
-                      >
-                        {entry.displaytext}
-                      </a></Button>
+                  <div className="updateDescription">
+                    {entry.description}
+                    <div>
+                      <Button>
+                        <a
+                          href={entry.displaylink}
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ textDecoration: "none" }}
+                        >
+                          {entry.displaytext}
+                        </a>
+                      </Button>
+                    </div>
                   </div>
+                  {isCurrentMonth && (
+                    <img
+                      src="images/new.gif"
+                      alt="newimg"
+                      height="20vh"
+                      width="50vh"
+                    />
+                  )}
                 </div>
-                {isCurrentMonth && (
-                  <img
-                    src="images/new.gif"
-                    alt="newimg"
-                    height="20vh"
-                    width="50vh"
-                  />
-                )}
+                <div className="updateDivSeparator"></div>
               </div>
-              <div className="updateDivSeparator"></div>
-            </div>
-          </a>
-        ))}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );

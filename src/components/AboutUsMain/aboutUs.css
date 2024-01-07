@@ -1,0 +1,53 @@
+.aboutUs {
+  height: 530px;
+  /* background-color: aquamarine; */
+  background-color: #370b69;
+  background-image: url(../../assets/aboutUs-bg.svg),
+    linear-gradient(transparent, transparent 380px, rgb(255, 255, 255) 380px);
+  /* background-size: cover;  */
+  /* background-size: auto 380px; */
+  /* background-repeat: no-repeat; */
+}
+
+.aboutUs-card {
+  width: 370px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.aboutUs-container {
+  padding-top: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutUs-image {
+  width: 170px;
+  height: 170px;
+  margin-left: 98px;
+  margin-right: 98px;
+  border-radius: 86px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.aboutUs-name {
+  color: var(--531679, #531679);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.aboutUs-designation {
+  color: #626262;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
