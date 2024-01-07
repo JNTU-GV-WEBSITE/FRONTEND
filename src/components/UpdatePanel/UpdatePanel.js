@@ -1,7 +1,9 @@
 import "./UpdatePanel.css";
+import newGif from "../../assets/new.gif";
 import { useState } from "react";
 import { Data } from "./Data";
 import { Button } from "@mui/material";
+
 function UpdatePanel() {
   const examinationList = [];
   const notificationList = [];
@@ -26,8 +28,16 @@ function UpdatePanel() {
   };
 
   const currentDate = new Date();
-  const isCurrentMonth = currentDate.getMonth() === Data.month;
+  // const isCurrentMonth = currentDate.getMonth() === Data.month;
 
+  const daysAgo = (notificationDate) => {
+    const notificationDateTime = new Date(notificationDate);
+    const timeDifference =
+      currentDate.getTime() - notificationDateTime.getTime();
+    const daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
+    console.log("Days ago:", daysDifference);
+    return daysDifference;
+  };
   // useEffect(() => {
   //   const fetchData = async () => {
   //     try {
@@ -158,27 +168,35 @@ function UpdatePanel() {
                   </div>
                   <div className="updateDescription">
                     {entry.description}
+                    {daysAgo(`${entry.month} ${entry.date}, ${entry.year}`) <=
+                      5 && (
+                      <img
+                        src={newGif}
+                        alt="newimg"
+                        height="20vh"
+                        width="50vh"
+                      />
+                    )}
+
                     <div>
-                      <Button>
-                        <a
-                          href={entry.displaylink}
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{ textDecoration: "none" }}
-                        >
-                          {entry.displaytext}
-                        </a>
-                      </Button>
+                      {/* condition for button*/}
+                      {entry.displaytext && (
+                        <Button variant="text">
+                          <a
+                            href={entry.displaylink}
+                            target="_blank"
+                            rel="noreferrer"
+                            style={{
+                              textDecoration: "none",
+                              color: "rgb(55, 10, 104)",
+                            }}
+                          >
+                            {entry.displaytext}
+                          </a>
+                        </Button>
+                      )}
                     </div>
                   </div>
-                  {isCurrentMonth && (
-                    <img
-                      src="images/new.gif"
-                      alt="newimg"
-                      height="20vh"
-                      width="50vh"
-                    />
-                  )}
                 </div>
                 <div className="updateDivSeparator"></div>
               </div>
