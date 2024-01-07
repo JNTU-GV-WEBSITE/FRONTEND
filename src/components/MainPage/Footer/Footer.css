@@ -1,9 +1,11 @@
 .mainFooter {
   display: flex;
   flex-direction: column;
-  background-color: #690001;
+  background-image: url(../../../assets/footer.svg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
   color: aliceblue;
-  width: 100%;
 }
 
 .container1Footer {

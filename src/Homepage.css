@@ -1,10 +1,6 @@
-.newsNUpdates{
-    display: inline-flex;
-}
 
- .update-panel{
-    width: 50vw;
-} 
+
+
 @media (max-width: 767px)  {
 
     .newsNUpdates{

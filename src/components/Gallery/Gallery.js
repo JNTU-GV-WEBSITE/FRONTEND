@@ -24,7 +24,7 @@ function Gallery() {
 
   return (
     <div className="gallery-container">
-      <h1 className="gallery-heading">GALLERY</h1>
+      <h1 className="gallery-heading">Gallery</h1>
       <div className="image-gallery">
         <div className="image-scroll">
           {duplicatedImages.map((image, index) => (
