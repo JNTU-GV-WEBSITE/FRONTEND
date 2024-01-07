@@ -2,7 +2,6 @@ import React from "react";
 import "./aboutUs.css";
 import Card from "@mui/material/Card";
 import { styled } from "@mui/system";
-import Typography from "@mui/material/Typography";
 
 import chancellor from "../../assets/AdminDirectoratesImages/chancellor.jpeg";
 import vc from "../../assets/AdminDirectoratesImages/vc.png";
@@ -25,38 +24,23 @@ const AboutUs = () => {
       <div className="aboutUs-container">
         <StyledCard>
           <img src={chancellor} alt="chancellor" className="aboutUs-image" />
-          <Typography className="aboutUs-name">
-            Shri Justice(Retd.) S.Abdul Nazeer
-          </Typography>
-          <Typography className="aboutUs-designation">
-            Governor of Andhra Pradesh
-          </Typography>
-          <Typography className="aboutUs-designation">
-            Hon’ble Chancellor
-          </Typography>
+          <p className="aboutUs-name">Shri Justice(Retd.) S.Abdul Nazeer</p>
+          <p className="aboutUs-designation">Governor of Andhra Pradesh</p>
+          <p className="aboutUs-designation">Hon’ble Chancellor</p>
         </StyledCard>
 
         <StyledCard>
           <img src={vc} alt="chancellor" className="aboutUs-image" />
-          <Typography className="aboutUs-name">
-            Shri Justice(Retd.) S.Abdul Nazeer
-          </Typography>
-          <Typography className="aboutUs-designation">
-            Hon’ble Vice Chancellor
-          </Typography>
+          <p className="aboutUs-name">Prof. Dr. K. Venkatasubbaiah</p>
+          <p className="aboutUs-designation">Hon’ble Vice Chancellor</p>
         </StyledCard>
 
         <StyledCard>
           <img src={registrar} alt="chancellor" className="aboutUs-image" />
-          <div>
-            <Typography className="aboutUs-name">
-              Shri Justice(Retd.) S.Abdul Nazeer
-            </Typography>
-            <Typography className="aboutUs-designation">
-              M.Tech (CS&T), Ph.D(CSE)
-            </Typography>
-            <Typography className="aboutUs-designation">Registrar </Typography>
-          </div>
+
+          <p className="aboutUs-name">Prof. Dr. G. Jaya Suma</p>
+          <p className="aboutUs-designation">M.Tech (CS&T), Ph.D(CSE)</p>
+          <p className="aboutUs-designation">Registrar </p>
         </StyledCard>
       </div>
     </div>
