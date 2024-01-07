@@ -80,7 +80,7 @@ button {
 }
 
 .dropbtn:hover .dropdown-content {
-  background-color: #690001;
+  background-color: #55B2E7;
 }
 
 .dropdown-content button {
@@ -89,7 +89,7 @@ button {
 }
 
 .dropdown-content:hover button:hover {
-  background-color: #690001;
+  background-color: #55B2E7;
   color: rgb(255, 255, 255);
 }
 
