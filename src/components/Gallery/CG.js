@@ -30,6 +30,9 @@ import gal31 from '../../assets/Gallery/gal31.jpg';
 import gal32 from '../../assets/Gallery/gal32.jpg';
 import gal33 from '../../assets/Gallery/gal33.jpg';
 import gal34 from '../../assets/Gallery/gal34.jpg';
+import gal35 from '../../assets/Gallery/gal35.jpg';
+import gal36 from '../../assets/Gallery/gal36.jpg';
+import gal37 from '../../assets/Gallery/gal37.jpg';
 
 
 
@@ -167,5 +170,15 @@ export const CG = [
   {
     image: gal34,
     description: 'Distributing Certificates to the Students at JNTUGV',
+  },
+  {
+    image: gal35,
+    description: 'Team JNTU-GV in Inter University Cricket tournament ',
+  }, {
+    image: gal36,
+    description: 'Team JNTU-GV in Inter University Cricket tournament ',
+  }, {
+    image: gal37,
+    description: 'Team JNTU-GV in Inter University Cricket tournament ',
   },
 ];
