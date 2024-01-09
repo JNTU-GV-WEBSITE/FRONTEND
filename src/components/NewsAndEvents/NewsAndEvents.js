@@ -1,45 +1,34 @@
-import React from 'react'
-import { arr } from "./ScrollData.js";
-import { newNotification } from "./ScrollData.js";
 import "./NewsandEvent.css";
+import { CG } from "../Gallery/CG.js";
 
 const NewsAndEvents = () => {
+  const recentImages = CG.slice(-6); // Get the last 10 images from CG.js
+
   return (
-    <div className="D1">
-      <h1 className="H1">
-        NEWS AND EVENTS{" "}
-      </h1>
-
-    <div className="M1" >
-      {newNotification.map((item, i) => (
-        <div>
-          <a href={item.hypertext} target="_blank" rel="noreferrer">
-            <div>
-              {item.text}
-              <img
-                src="images/new.gif"
-                alt="newimg"
-                height="20vh"
-                width="50vh"
-              ></img>
-              <hr />
+    <div className="news-and-events">
+      <h1> Latest News and Events</h1>
+      <div className="news-and-events-display">
+        {recentImages.map((image, index) => (
+          <div className="news-and-events-container">
+            <img
+              key={index}
+              src={image.image}
+              alt={`JNTUGV ${image.description}`}
+              height="200px"
+              width="300px"
+            />
+            <div className="desc-cont">
+              <div className="desc-container">{image.description}</div>
+              <div className="date-box">
+                <h4>Jun</h4>
+                <h5>20</h5>
+              </div>
             </div>
-          </a>
-        </div>
-      ))}
-      {arr.map((item, i) => (
-        <div>
-          <a href={item.hypertext}>
-            <div>
-              {item.text}
-              <hr />
-            </div>
-          </a>
-        </div>
-      ))}
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default NewsAndEvents
+export default NewsAndEvents;

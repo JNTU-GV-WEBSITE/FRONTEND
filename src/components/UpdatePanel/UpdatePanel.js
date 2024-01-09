@@ -35,7 +35,6 @@ function UpdatePanel() {
     const timeDifference =
       currentDate.getTime() - notificationDateTime.getTime();
     const daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
-    console.log("Days ago:", daysDifference);
     return daysDifference;
   };
   // useEffect(() => {

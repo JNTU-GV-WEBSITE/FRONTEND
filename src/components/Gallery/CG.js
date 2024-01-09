@@ -106,10 +106,6 @@ export const CG = [
     image: gal13,
     description: 'National Library Week 2023 on the occasion of Nehru Jayanti at JNTU-Gurajada Vizianagaram College. Under the theme - Theres More to the Story, we honor Nehrus legacy and his belief in educations transformative power, especially through libraries.',
   },
-  // {
-  //   image: gal13,
-  //   description: 'National Library Week 2023 on the occasion of Nehru Jayanti at JNTU-Gurajada Vizianagaram College. Under the theme - Theres More to the Story, we honor Nehrus legacy and his belief in educations transformative power, especially through libraries.',
-  // },
   {
     image: gal15,
     description: 'Time to share exciting moment of JNTUGV.... Honorable VC Sir, Respected Registrar Madam and Respective Sports Authorities are Encouraging our Athletes who are Selected for Boxing which is going to held in Chandigarh',

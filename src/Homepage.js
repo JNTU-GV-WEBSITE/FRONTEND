@@ -8,6 +8,7 @@ import UpdatePanel from "./components/UpdatePanel/UpdatePanel";
 import Footer from "./components/MainPage/Footer/Footer";
 import "./Homepage.css";
 import AboutUs from "./components/AboutUsMain/aboutUs";
+import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
 function Homepage() {
   return (
     <div>
@@ -15,7 +16,7 @@ function Homepage() {
       <AboutUs />
       {/* <Scrollbar className="update-panel"/> */}
       <UpdatePanel className="update-panel" />
-
+      <NewsAndEvents />
       <Gallery />
       <br />
       <Footer />

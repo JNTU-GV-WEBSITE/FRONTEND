@@ -1,42 +1,87 @@
-.D1 {
-    margin: 1% 0 0 0;
-    width: 100%;
-    max-height: 100vh;
-  }
-  
-  .H1 {
-    color: #690001;
-    padding-left: 1%;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
-    font-size: 30px;
-  }
-  
-  .M1 a {
-    text-decoration: none;
-    color: #2e0669;
-  }
-  
-  .M1 a:hover {
-    text-decoration: underline;
-  }
-  
-  
-  .M1 {
-    position: relative;
-    width: 100%;
-    height: 50%;margin-left: 1%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  
- 
-  
-  @media (max-width: 900px) {
-    .D1 {
-      /* max-width: fit-content; */
-      align-items: center;
-      width: 100%;
-    }
-  
-  }
-  
+.news-and-events {
+  height: 800px;
+  background: #e4def1;
+}
+
+.news-and-events h1 {
+  color: #340468;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  padding-top: 95px;
+  padding-left: 135px;
+}
+
+.news-and-events-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: space-between;
+  padding: 0 135px; /* Adjust padding as needed */
+}
+
+.news-and-events-container {
+  height: 200px;
+  width: 300px;
+}
+
+.news-and-events-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.desc-cont {
+  display: flex;
+  width: auto;
+}
+
+.date-box h4 {
+  color: #626262;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* padding-left: 15px; */
+}
+
+.date-box h5 {
+  color: #626262;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* padding-left: 15px; */
+}
+
+.desc-container {
+  background-image: url("data:image/svg+xml,%3Csvg width='277' height='62' viewBox='0 0 277 62' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 61V0.5H275.5L244 61H0.5Z' stroke='%23B1A3A3'/%3E%3C/svg%3E%0A"); /* Set your desired background color */
+  background-size: cover; /* or 'contain' depending on your preference */
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 260px;
+  display: flex;
+  position: relative;
+  overflow: hidden; /* Adjust the padding as needed */
+  z-index: 2;
+}
+
+.date-box {
+  width: 30px;
+  height: 60px;
+  position: relative;
+  z-index: 0;
+  padding-left: 10px;
+}
+
+/* Add additional styling for .box if needed */
+.box {
+  height: 60px;
+  width: 260px;
+  border: 1px solid black;
+  position: relative;
+  margin-left: 300px;
+}
