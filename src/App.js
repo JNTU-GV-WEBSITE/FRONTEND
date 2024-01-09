@@ -53,6 +53,18 @@ import Chairpersons from "./components/MainPage/Header/Administration/Chairperso
 import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
 import CompleteGallery from "./components/Gallery/CompleteGallery";
 import Syllabus from "./components/MainPage/Header/Academics/Syllabus/Syllabus";
+import InfrastructureMain from "./components/MainPage/Header/Infrastructure/InfrastructureMain";
+import Library from "./components/MainPage/Header/Infrastructure/Library/Library";
+import Hostels from "./components/MainPage/Header/Infrastructure/Hostels/Hostels";
+import SportsandFitness from "./components/MainPage/Header/Infrastructure/SportsandFitness/SportsandFitness";
+import Dispensary from "./components/MainPage/Header/Infrastructure/Dispensary/Dispensary";
+import Banks from "./components/MainPage/Header/Infrastructure/Banks/Banks";
+import EngineeringCell from "./components/MainPage/Header/Infrastructure/EngineeringCell/EngineeringCell";
+import Canteen from "./components/MainPage/Header/Infrastructure/Canteen/Canteen";
+import StaffQuarters from "./components/MainPage/Header/Infrastructure/StaffQuarters/StaffQuarters";
+import GuestHouse from "./components/MainPage/Header/Infrastructure/GuestHouse/GuestHouse";
+import MusicClub from "./components/MainPage/Header/Infrastructure/MusicClub/MusicClub";
+import Studentactivityclub from "./components/MainPage/Header/Infrastructure/Studentactivityclub/Studentactivityclub";
 
 
 function App() {
@@ -126,6 +138,20 @@ function App() {
         <Route path="/grievance-form" element={<Grievance />} />
         <Route path="/news-and-events" element={<NewsAndEvents/>} />
         <Route path="/gallery" element={<CompleteGallery />} />
+
+        <Route path="/infrastructure" element={<InfrastructureMain />}>
+          <Route path="about-library" element={<Library />} />
+          <Route path="about-hostels" element={<Hostels />} />
+          <Route path="about-sports-and-fitness" element={<SportsandFitness />} />
+          <Route path="about-dispensary" element={<Dispensary />} />
+          <Route path="about-banks" element={<Banks />} />
+          <Route path="about-engineering-cell" element={<EngineeringCell />} />
+          <Route path="about-canteen" element={<Canteen />} />
+          <Route path="about-staff-quarters" element={<StaffQuarters />} />
+          <Route path="about-guest-house" element={<GuestHouse />} />
+          <Route path="about-music-club" element={<MusicClub />} />
+          <Route path="about-student-activity-club" element={<Studentactivityclub />} />
+        </Route>
 
       </Routes>
     </div>
