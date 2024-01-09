@@ -11,11 +11,14 @@ import imagegallery from "../../assets/ImageGalleryPictures/imageGallery6.jpg";
 import image7 from "../../assets/ImageGalleryPictures/Image7.jpg";
 import image1 from "../../assets/ImageGalleryPictures/image1.jpg"
 import gal27 from "../../assets/ImageGalleryPictures/gal27.jpeg"
+import image8 from "../../assets/ImageGalleryPictures/image8.jpg";
+
 
 
 
 const images = [
   gal27,
+  image8,
   image1,
   TeachersDay,
   image7,
