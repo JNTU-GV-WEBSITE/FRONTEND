@@ -31,6 +31,7 @@ const images = [
 
 function ImageGallery() {
   return (
+    
     <div className="mianDivIG">
       <div className="mainImageGallery">
         <Carousel fade>
