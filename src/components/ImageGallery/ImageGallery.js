@@ -14,7 +14,7 @@ import gal27 from "../../assets/ImageGalleryPictures/gal27.jpeg"
 import image8 from "../../assets/ImageGalleryPictures/image8.jpg";
 
 
-
+ 
 
 const images = [
   gal27,
