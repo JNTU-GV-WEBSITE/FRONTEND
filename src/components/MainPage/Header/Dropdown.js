@@ -9,6 +9,9 @@ import DraftsIcon from "@mui/icons-material/Drafts";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
+import { RiBankFill } from "react-icons/ri";
+
+
 import { useState } from "react";
 // import { PiExamFill } from "react-icons/pi";
 
@@ -388,6 +391,81 @@ const Dropdown = () => {
             </button>
           </div>
         </div> */}
+
+        <div class="dropdown">
+          <div class="dropbtn">
+          <RiBankFill /> INFRASTRUCTURE
+          </div>
+          <div class="dropdown-content" onClick={() => setMenuState(!menuState)}>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-library">
+                Library
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-hostels">
+                Hostels
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-sports-and-fitness">
+                Sports & Fitness
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-dispensary">
+                Dispensary
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-banks">
+                Bank
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-engineering-cell">
+                Engineering Cell
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-canteen">
+                Canteen 
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-staff-quarters">
+                Staff Quarters 
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-guest-house">
+                Guest House 
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-music-club">
+                Music Club 
+              </Link>
+            </button>
+            <button >
+              {" "}
+              <Link className="link-btn" to="/infrastructure/about-student-activity-club">
+                Student Activity Club 
+              </Link>
+            </button>
+          </div>
+        </div>
+
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>

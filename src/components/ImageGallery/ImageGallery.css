@@ -9,6 +9,9 @@
 .mianDivIG {
   margin-left: 10%;
   margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .carouselText {
   background-color: #690001;
