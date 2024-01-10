@@ -62,8 +62,10 @@
   background-size: cover; /* or 'contain' depending on your preference */
   background-repeat: no-repeat;
   height: 60px;
-  width: 260px;
+  width: 270px;
   display: flex;
+  padding-left: 10px;
+  padding-top: 5px;
   position: relative;
   overflow: hidden; /* Adjust the padding as needed */
   z-index: 2;
@@ -74,7 +76,6 @@
   height: 60px;
   position: relative;
   z-index: 0;
-  padding-left: 10px;
 }
 
 /* Add additional styling for .box if needed */
