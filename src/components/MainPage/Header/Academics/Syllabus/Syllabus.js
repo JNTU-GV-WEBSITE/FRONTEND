@@ -85,7 +85,7 @@ const Syllabus = () => {
         <div className="syllabus">
             <div className="syllabus-title">Academic Syllabus</div>
 
-            {availableYears.length > 1 && (
+            {availableYears.length >= 1 && (
                 <Tabs
                     value={selectedTab}
                     onChange={handleChangeTab}
