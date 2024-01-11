@@ -16,8 +16,6 @@ import banner from "../../assets/ImageGalleryPictures/banner.png";
 
 
 
- 
-
 const images = [
   banner,
   gal27,
