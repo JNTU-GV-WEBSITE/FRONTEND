@@ -1,17 +1,11 @@
-/* .mainContainer {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-} */
+
+
 
 .allLeftMenu {
   list-style-type: none;
   padding: 0;
   margin-right: 20px;
+  margin-left: 30px;
 }
 
 .allLeftMenu a {
@@ -102,6 +96,12 @@
 /* Selected state */
 .allLeftMenu .menuButton.active {
   background-color: #690001;
+}
+
+.exam-main {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 600px) {

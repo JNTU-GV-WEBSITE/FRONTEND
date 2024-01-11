@@ -2,8 +2,11 @@
   height: 530px;
   /* background-color: aquamarine; */
   background-color: #370b69;
-  background-image: url(../../assets/aboutUs-bg.svg),
-    linear-gradient(transparent, transparent 380px, rgb(255, 255, 255) 380px);
+  background-image: linear-gradient(
+    transparent,
+    transparent 380px,
+    rgb(255, 255, 255) 380px
+  );
   /* background-size: cover;  */
   /* background-size: auto 380px; */
   /* background-repeat: no-repeat; */
@@ -36,7 +39,7 @@
 
 .aboutUs-name {
   color: var(--531679, #531679);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -45,7 +48,7 @@
 
 .aboutUs-designation {
   color: #626262;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;

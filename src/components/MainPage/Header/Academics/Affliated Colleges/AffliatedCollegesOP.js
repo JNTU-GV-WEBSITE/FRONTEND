@@ -17,14 +17,14 @@ import { Link } from "react-router-dom";
 const AffliatedCollegesOP = () => {
   return (
     <div className="AffiliatedColleges">
-      <div className="AffiliatedColleges-title">Affiliated Colleges</div>
+      {/* <div className="AffiliatedColleges-title">Affiliated Colleges</div> */}
       <div className="table-container">
         <Accordion elevation={20} className="accordion-affiliated">
           <AccordionSummary
             expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
-            sx={{ background: "#303030", color: "white" }}
+            sx={{ background: "#370A68", color: "white" }}
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
               Engineering Colleges
@@ -33,7 +33,7 @@ const AffliatedCollegesOP = () => {
           <AccordionDetails>
             <TableContainer>
               <Table>
-                <TableHead sx={{ background: "#A9A9A9" }}>
+                <TableHead sx={{ background: "#3F6DD13D" }}>
                   <TableRow>
                     <TableCell>S.No</TableCell>
                     <TableCell align="right">College Code</TableCell>
@@ -54,7 +54,11 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
                       <TableCell align="center">
-                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                        <Link
+                          to={row.wURL}
+                          target="_blank"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
                           {row.wURL}
                         </Link>
                       </TableCell>
@@ -72,7 +76,7 @@ const AffliatedCollegesOP = () => {
             expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
-            sx={{ background: "#303030", color: "white" }}
+            sx={{ background: "#370A68", color: "white" }}
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
               Pharmacy Colleges
@@ -81,7 +85,7 @@ const AffliatedCollegesOP = () => {
           <AccordionDetails>
             <TableContainer>
               <Table>
-                <TableHead sx={{ background: "#A9A9A9" }}>
+                <TableHead sx={{ background: "#3F6DD13D" }}>
                   <TableRow>
                     <TableCell>S.No</TableCell>
                     <TableCell align="right">College Code</TableCell>
@@ -102,7 +106,11 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
                       <TableCell align="center">
-                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                        <Link
+                          to={row.wURL}
+                          target="_blank"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
                           {row.wURL}
                         </Link>
                       </TableCell>
@@ -120,7 +128,7 @@ const AffliatedCollegesOP = () => {
             expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
-            sx={{ background: "#303030", color: "white" }}
+            sx={{ background: "#370A68", color: "white" }}
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
               Management Colleges
@@ -129,7 +137,7 @@ const AffliatedCollegesOP = () => {
           <AccordionDetails>
             <TableContainer>
               <Table>
-                <TableHead sx={{ background: "#A9A9A9" }}>
+                <TableHead sx={{ background: "#3F6DD13D" }}>
                   <TableRow>
                     <TableCell>S.No</TableCell>
                     <TableCell align="right">College Code</TableCell>
@@ -150,7 +158,11 @@ const AffliatedCollegesOP = () => {
                       <TableCell align="center">{row.CollegeName}</TableCell>
                       <TableCell align="center">{row.District}</TableCell>
                       <TableCell align="center">
-                        <Link to={row.wURL} target="_blank" style={{textDecoration:"none" , color:"black"}}>
+                        <Link
+                          to={row.wURL}
+                          target="_blank"
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
                           {row.wURL}
                         </Link>
                       </TableCell>

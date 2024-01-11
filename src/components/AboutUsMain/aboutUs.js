@@ -13,7 +13,7 @@ const AboutUs = () => {
     flexDirection: "column",
     borderRadius: "15px",
     background: "linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%)",
-    boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.15)",
+    boxShadow: "0px 0px 100px 0px rgba(0, 0, 0, 0.15)",
     width: "370px",
     height: "350px",
     flexShrink: " 0",

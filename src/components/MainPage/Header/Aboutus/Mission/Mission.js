@@ -8,10 +8,8 @@ function Mission() {
       <div className="allRightContent">
         <div className="allRightContentHeading">Mission</div>
 
-        <div className="allRightContentProfile">
+        <div className="allRight-ContentProfile">
           {/* Profile information */}
-          <center></center>
-          <hr />
           {/* Profile description */}
           <p className="a"></p>
           <Typography variant="p">

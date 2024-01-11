@@ -1,11 +1,11 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
-import "../Administration/AdminandDirectorates.css";
+import "./DirectoratesMain.css";
 const DirectoratesMain = () => {
   const location = useLocation();
 
   return (
-    <div className="AD-Main">
-      <div className="ADallLeftMenu">
+    <div className="AD-Main-DM">
+      <div className="ADall-LeftMenu">
       <Link
           to="academic-planning"
           className={`menuButton ${

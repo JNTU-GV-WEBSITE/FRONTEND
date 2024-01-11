@@ -1,4 +1,14 @@
-export const Data = [  {
+export const Data = [
+  {
+    description: `Invitation for the inaugural function of University Formation Day Celebrations on 12th January 2024`,
+    type: "notifications",
+    link: "https://drive.google.com/file/d/1oPfsHV3Tqjce_mQ0rvtd6o5o2seQbAA9/view?usp=sharing",
+    date: "11",
+    month: "Jan",
+    year: "2024",
+    isLink: true,
+  },
+  {
     description: `DAA/JNTU-GV-Request to clear outstanding dues of a Affiliation/University common Serives Fee up to Academic Year 2022-2023 to the University`,
     type: "notifications",
     link: "https://drive.google.com/file/d/1V_bfflY-KLQc8gfh5TFuhmwLw5_5HnsM/view?usp=sharing",
@@ -7,7 +17,8 @@ export const Data = [  {
     year: "2023",
     isLink: true,
   },
- {
+
+  {
     description: `Revised Academic calanders for  B. Pharmacy III year II Semester AY 2023-24`,
     type: "notifications",
     link: "https://drive.google.com/file/d/1IU67Uo-41BT6sXZx4iAwL_Ex5bQwEQ3s/view?usp=drivesdk",
@@ -24,7 +35,7 @@ export const Data = [  {
     year: "2023",
     isLink: true,
   },
-{
+  {
     description: `I B. Tech I Semester Regular and Supplementary Notification`,
     type: "notifications",
     link: "https://drive.google.com/file/d/1klTCR02ufDCCQ3xMRTrEDz5Qik7qWcdP/view?usp=sharing",
@@ -32,7 +43,7 @@ export const Data = [  {
     month: "Dec",
     year: "2023",
     isLink: true,
-  },{
+  }, {
     description: `Revaluation of I B. Tech I Semester Supplementary Examinations July -2023 `,
     type: "notifications",
     link: "https://drive.google.com/file/d/19XoZcL50EhcyfsF-XW0zLGmTT-B9okty/view?usp=sharing",
@@ -40,7 +51,7 @@ export const Data = [  {
     month: "Dec",
     year: "2023",
     isLink: true,
-  },{
+  }, {
     description: `Application form for Revaluation`,
     type: "notifications",
     link: "https://drive.google.com/file/d/1ORgylAzE_1NJ9lkjOGlhEDghv2vSP6yu/view?usp=sharing",
@@ -57,7 +68,7 @@ export const Data = [  {
     month: "Dec",
     year: "2023",
     isLink: true,
-  },{
+  }, {
     description: `Revaluation of I B. Tech I Semester Supplementary Examinations July -2023 `,
     type: "examination",
     link: "https://drive.google.com/file/d/19XoZcL50EhcyfsF-XW0zLGmTT-B9okty/view?usp=sharing",
@@ -65,7 +76,7 @@ export const Data = [  {
     month: "Dec",
     year: "2023",
     isLink: true,
-  },{
+  }, {
     description: `Application form for Revaluation`,
     type: "examination",
     link: "https://drive.google.com/file/d/1ORgylAzE_1NJ9lkjOGlhEDghv2vSP6yu/view?usp=sharing",
@@ -173,7 +184,7 @@ export const Data = [  {
     year: "2023",
     isLink: true,
   },
-{
+  {
     description: "JNTUGV-DAA-UGC 2(f), 12(B) and Autonomous Status-Change of Affiliation from JNTUK, Kakinada to JNTUGV, Vizianagaram",
     type: "notifications",
     link: "https://drive.gooexaminationle.com/file/d/1MoCjsG1Fb_bLTgt-tZxuEzFDOMRHm0gQ/view?usp=sharing",

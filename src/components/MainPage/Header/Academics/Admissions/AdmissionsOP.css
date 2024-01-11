@@ -1,20 +1,20 @@
 .allRightContentHolderHeading {
-  color: #690001;
+  color: #370A68;
   font-weight: 600;
   font-size: 26px;
   width: 400px;
   margin-top: 10px;
 
 }
-.allRightContentHolderContent h4 {
-  text-decoration: underline;
+.allRightContentHolderContent h6 {
+  /* text-decoration: underline; */
   font-style: italic;
   font-weight: 600;
-  color: #2e0669;
+  /* color: #2e0669; */
 }
 .allRightContentHolderContent p {
   font-size: 16px;
-  letter-spacing: 0.3px;
+  /* letter-spacing: 0.3px; */
   line-height: 30px;
   text-align: justify;
 }
@@ -23,7 +23,7 @@
 @media (max-width: 767px) {
   .actualContainer {
     flex-direction: column;
-    margin-left: 4px;
+    /* margin-left: 4px; */
   }
 
   .allRightContentHolder {
@@ -37,5 +37,14 @@
   .allRightContentHolderContent p {
     font-size: 14px;
     line-height: 24px;
+  }
+  .allRightContentHolderHeading {
+    color: #690001;
+    font-weight: 600;
+    font-size: 26px;
+    width: 400px;
+    margin-top: 10px;
+
+  
   }
 }

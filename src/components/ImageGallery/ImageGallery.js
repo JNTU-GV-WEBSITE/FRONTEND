@@ -12,11 +12,12 @@ import image7 from "../../assets/ImageGalleryPictures/Image7.jpg";
 import image1 from "../../assets/ImageGalleryPictures/image1.jpg"
 import gal27 from "../../assets/ImageGalleryPictures/gal27.jpeg"
 import image8 from "../../assets/ImageGalleryPictures/image8.jpg";
+import banner from "../../assets/ImageGalleryPictures/banner.png";
 
 
- 
 
 const images = [
+  banner,
   gal27,
   image8,
   image1,
@@ -31,12 +32,13 @@ const images = [
 
 function ImageGallery() {
   return (
+    
     <div className="mianDivIG">
       <div className="mainImageGallery">
-        <Carousel fade>
+        <Carousel fade style={{width:"60vw"}}>
           {images.map((image, index) => (
             <Carousel.Item key={index}>
-              <img className="image" src={image} alt={`Slide ${index + 1}`} />
+              <img className="ig-image" src={image} alt={`Slide ${index + 1}`}/>
               <Carousel.Caption>
                 <div className="carouselText">
                 </div>

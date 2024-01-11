@@ -65,6 +65,7 @@ import StaffQuarters from "./components/MainPage/Header/Infrastructure/StaffQuar
 import GuestHouse from "./components/MainPage/Header/Infrastructure/GuestHouse/GuestHouse";
 import MusicClub from "./components/MainPage/Header/Infrastructure/MusicClub/MusicClub";
 import Studentactivityclub from "./components/MainPage/Header/Infrastructure/Studentactivityclub/Studentactivityclub";
+import Footer from "./components/MainPage/Footer/Footer";
 
 
 function App() {
@@ -154,6 +155,7 @@ function App() {
         </Route>
 
       </Routes>
+      <Footer />
     </div>
   );
 }
