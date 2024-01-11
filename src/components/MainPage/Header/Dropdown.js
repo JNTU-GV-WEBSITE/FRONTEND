@@ -9,7 +9,7 @@ import DraftsIcon from "@mui/icons-material/Drafts";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
-import { RiBankFill } from "react-icons/ri";
+// import { RiBankFill } from "react-icons/ri";
 
 
 import { useState } from "react";
@@ -392,7 +392,7 @@ const Dropdown = () => {
           </div>
         </div> */}
 
-        <div class="dropdown">
+        {/* <div class="dropdown">
           <div class="dropbtn">
           <RiBankFill /> INFRASTRUCTURE
           </div>
@@ -464,7 +464,7 @@ const Dropdown = () => {
               </Link>
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
