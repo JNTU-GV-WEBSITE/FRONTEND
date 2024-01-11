@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Gallery.css";
 import { CG } from "./CG"; // Import the array of image objects from CG.js
+import { Link } from "react-router-dom";
 
 function Gallery() {
   const recentImages = CG.slice(-15); // Get the last 10 images from CG.js
@@ -24,7 +25,7 @@ function Gallery() {
 
   return (
     <div className="gallery-container">
-      <h1 className="gallery-heading">GALLERY</h1>
+      <h1 className="gallery-heading">Gallery</h1>
       <div className="image-gallery">
         <div className="image-scroll">
           {duplicatedImages.map((image, index) => (
@@ -46,15 +47,15 @@ function Gallery() {
       )}
 
       {/* Hyperlink at the bottom right corner */}
-      <a
-        href="/gallery" // Replace with your desired link
+      <Link
+        to="/gallery" // Replace with your desired link
         rel="noopener noreferrer"
         style={{
           color: "#ffffff", // White text color
         }}
       >
         Show All
-      </a>
+      </Link>
     </div>
   );
 }

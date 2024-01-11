@@ -8,11 +8,7 @@ function AboutJNTUGV() {
       <div className="allRightContent">
         <div className="allRightContentHeading">About JNTUGV</div>
 
-        <div className="allRightContentProfile">
-          {/* Profile information */}
-          <center></center>
-          <hr />
-          {/* Profile description */}
+        <div className="allRight-ContentProfile">
           <Typography>
             JNTU College of Engineering, Vizianagaram was established in the
             year 2007 as a constituent College of JNTU Hyderabad.JNTU Hyderabad

@@ -1,6 +1,6 @@
 /* Dropdown.css */
 .topnav {
-  background-color: #690001;
+  background-image: linear-gradient(to right, #370A68 , #55B2E7);
   text-align: center;
   font-size: 20px;
   height: 50px;
@@ -11,7 +11,7 @@
 
 button {
   border-style: none;
-  background-color: #690001;
+  /* background-color: #690001; */
 }
 
 .topnav a {
@@ -30,7 +30,7 @@ button {
 }
 
 .active {
-  background-color: #690001;
+  /* background-color: #690001; */
   color: white;
 }
 
@@ -39,7 +39,7 @@ button {
 }
 
 .dropbtn {
-  background-color: #690001;
+  /* background-color: #690001; */
   color: white;
   padding: 10px;
   font-size: 16px;
@@ -55,7 +55,7 @@ button {
 .dropdown {
   position: relative;
   display: inline-block;
-  background-color: #2e0669;
+  /* background-color: #2e0669; */
 }
 
 .dropdown-content {
@@ -80,7 +80,7 @@ button {
 }
 
 .dropbtn:hover .dropdown-content {
-  background-color: #690001;
+  background-color: #55B2E7;
 }
 
 .dropdown-content button {
@@ -89,7 +89,7 @@ button {
 }
 
 .dropdown-content:hover button:hover {
-  background-color: #690001;
+  background-color: #55B2E7;
   color: rgb(255, 255, 255);
 }
 

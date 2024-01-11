@@ -1,11 +1,12 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import "./Aboutus.css"; 
+
 const AboutusMain = () => {
   const location = useLocation();
 
   return (
-    <div className="ABOUT-Main">
-      <div className="ABOUTallLeftMenu">
+    <div className="ABOUT-Main-VM">
+      <div className="ABOUT-allLeftMenu">
          {/* Navigation links for Chancellor, Vice Chancellor, and Registrar */}
          <Link
           to="about-jntugv"
@@ -32,6 +33,7 @@ const AboutusMain = () => {
           Mission
         </Link>
       </div>
+      <br></br>
       <Outlet />
     </div>
   );
