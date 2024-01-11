@@ -19,10 +19,10 @@ const NewsAndEvents = () => {
             />
             <div className="desc-cont">
               <div className="desc-container">{image.description}</div>
-              <div className="date-box">
+              {/* <div className="date-box">
                 <h4>Jun</h4>
                 <h5>20</h5>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
