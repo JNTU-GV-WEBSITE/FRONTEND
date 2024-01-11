@@ -5,7 +5,7 @@ import Gallery from "./components/Gallery/Gallery";
 // import Map from "./components/MainPage/Map/Map";
 // import Scrollbar from "./components/NewsAndEvents/Scrollbar";
 import UpdatePanel from "./components/UpdatePanel/UpdatePanel";
-import Footer from "./components/MainPage/Footer/Footer";
+// import Footer from "./components/MainPage/Footer/Footer";
 import "./Homepage.css";
 import AboutUs from "./components/AboutUsMain/aboutUs";
 import NewsAndEvents from "./components/NewsAndEvents/NewsAndEvents";
