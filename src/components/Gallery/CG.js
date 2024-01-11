@@ -181,4 +181,5 @@ export const CG = [
     image: gal37,
     description: 'Team JNTU-GV in Inter University Cricket tournament ',
   },
+
 ];
