@@ -33,6 +33,7 @@ import gal34 from '../../assets/Gallery/gal34.jpg';
 import gal35 from '../../assets/Gallery/gal35.jpg';
 import gal36 from '../../assets/Gallery/gal36.jpg';
 import gal37 from '../../assets/Gallery/gal37.jpg';
+import gal38 from '../../assets/Gallery/INVITATION.png';
 
 
 
@@ -180,5 +181,9 @@ export const CG = [
   }, {
     image: gal37,
     description: 'Team JNTU-GV in Inter University Cricket tournament ',
+  },
+  {
+    image: gal38,
+    description: 'Invitation for the inaugural function of University Formation Day Celebrations on 12th January 2024',
   },
 ];
