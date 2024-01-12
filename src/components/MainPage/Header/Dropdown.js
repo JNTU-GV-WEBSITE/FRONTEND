@@ -10,6 +10,8 @@ import ApartmentIcon from "@mui/icons-material/Apartment";
 import DescriptionIcon from "@mui/icons-material/Description";
 import MenuIcon from "@mui/icons-material/Menu";
 // import { RiBankFill } from "react-icons/ri";
+import { MdOutlineComputer } from "react-icons/md";
+
 
 
 import { useState } from "react";
@@ -27,6 +29,10 @@ const Dropdown = () => {
   const contactHandler = () => {
     navigate("/contact-us");
   };
+
+  const digitalHandler = () => {
+    window.open("http://digitalhub.jntugv.edu.in:8000", "_blank");
+  }
   return (
     <nav className="topnav">
       <div className="menu-icon" onClick={() => setMenuState(!menuState)}>
@@ -466,6 +472,13 @@ const Dropdown = () => {
           </div>
         </div> */}
 
+        <div class="dropdown">
+          <div className="dropbtn" onClick={digitalHandler}>
+            <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
+              <MdOutlineComputer className="digitali-icon" /> DIGITAL HUB
+            </div>
+          </div>
+        </div>
         <div class="dropdown">
           <div className="dropbtn" onClick={contactHandler}>
             <div className="drop-icon" onClick={() => setMenuState(!menuState)}>
