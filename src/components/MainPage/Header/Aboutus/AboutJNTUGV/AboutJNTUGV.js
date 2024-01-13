@@ -7,7 +7,6 @@ function AboutJNTUGV() {
     <div className="ABOUTmainContainer">
       <div className="allRightContent">
         <div className="allRightContentHeading">About JNTUGV</div>
-
         <div className="allRight-ContentProfile">
           <Typography>
             JNTU College of Engineering, Vizianagaram was established in the
@@ -18,14 +17,13 @@ function AboutJNTUGV() {
             of 2021, JNTU Kakinada is bifurcated and Jawaharlal Nehru
             Technological University Gurajada, Vizianagaram come into existence
             as a separate University vide G.O.Ms.No.3, dated: 12-01-2022.
-            <Typography>
-              The university is spread across six districts i.e
-              Vizianagaram,Visakhapatnam, Srikakulam, Parvathipuram Manyam,
-              Alluri Sitharama Raju and Anakapalli. There are 2 constituent
-              colleges and 37 affiliated colleges under its jurisdiction and
-              catering education in different Engineering, Pharmacy and
-              Management departments.
-            </Typography>
+          </Typography>
+          <Typography>
+            The university is spread across six districts i.e
+            Vizianagaram,Visakhapatnam, Srikakulam, Parvathipuram Manyam, Alluri
+            Sitharama Raju and Anakapalli. There are 2 constituent colleges and
+            37 affiliated colleges under its jurisdiction and catering education
+            in different Engineering, Pharmacy and Management departments.
           </Typography>
         </div>
       </div>
