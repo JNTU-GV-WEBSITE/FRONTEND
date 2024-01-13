@@ -12,12 +12,19 @@ const AboutUs = () => {
     display: "flex",
     flexDirection: "column",
     borderRadius: "15px",
-    background: "linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%)",
     boxShadow: "0px 0px 100px 0px rgba(0, 0, 0, 0.15)",
+    background: "linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%)",
     width: "370px",
     height: "350px",
     flexShrink: " 0",
     alignItems: "center",
+
+    "@media (max-width: 600px)": {
+      width: "300px",
+      height: "220px",
+      background:
+        "linear-gradient(180deg, rgba(255, 255, 255, 0), #fff 0%, #fff 100%)",
+    },
   });
   return (
     <div className="aboutUs">

@@ -29,6 +29,9 @@
   .allRightContentHolder {
     width: 95%;
   }
+  .allRightContentHolderContent{
+    padding:0 5px 0 0;
+  }
 
   .allRightContentHolderContent h3 {
     font-size: 18px;
@@ -39,10 +42,9 @@
     line-height: 24px;
   }
   .allRightContentHolderHeading {
-    color: #690001;
     font-weight: 600;
     font-size: 26px;
-    width: 400px;
+    width: auto;
     margin-top: 10px;
 
   

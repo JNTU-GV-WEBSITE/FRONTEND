@@ -50,4 +50,16 @@
     flex-direction: column;
     margin-left: 10px;
   }
+
+  .allLeftMenuAOP .menubutton {
+    width: fit-content;
+    height: auto;
+    padding: 5px;
+  }
+
+  .allLeftMenuAOP{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }

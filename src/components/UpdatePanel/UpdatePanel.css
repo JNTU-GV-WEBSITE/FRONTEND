@@ -108,12 +108,28 @@
 
 @media (max-width: 767px) {
   .updateButtons {
+    width: auto;
+    /* height: fit-content; */
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+    border-radius: 7px;
+    justify-content: center;
+    overflow: scroll;
   }
 
   .updateComponent {
-    width: 100%;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 30px;
+    margin: 0.5rem 0.5rem 0.5rem 1px;
   }
+
+  .updatesContainer{
+    width: 100vw;
+  }
+
 }

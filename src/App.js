@@ -66,6 +66,7 @@ import GuestHouse from "./components/MainPage/Header/Infrastructure/GuestHouse/G
 import MusicClub from "./components/MainPage/Header/Infrastructure/MusicClub/MusicClub";
 import Studentactivityclub from "./components/MainPage/Header/Infrastructure/Studentactivityclub/Studentactivityclub";
 import Footer from "./components/MainPage/Footer/Footer";
+import Dropdown from "./components/MainPage/Header/Dropdown";
 
 
 function App() {
@@ -73,6 +74,7 @@ function App() {
     <div>
       {/* <BelowBar /> */}
       <Header />
+      <Dropdown />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about-us" element={<AboutusMain />}>

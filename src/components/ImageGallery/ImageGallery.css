@@ -4,9 +4,10 @@
 }
 .mainImageGallery {
   background-color: transparent;
+  width: 60vw;
 }
 
-.mianDivIG {
+.mainDivIG {
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
@@ -21,9 +22,21 @@
   margin-right: auto;
 }
 
-@media (max-width: 767px) {
-
-  .image{
+@media (max-width: 600px) {
+  .image {
     height: 200px;
+  }
+
+  .mainDivIG {
+    margin: 0;
+  }
+
+  .ig-image {
+    height: 200px;
+    width: 100%;
+  }
+
+  .mainImageGallery{
+    width: 100vw;
   }
 }

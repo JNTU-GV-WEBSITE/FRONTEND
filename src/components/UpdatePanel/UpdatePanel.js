@@ -154,52 +154,55 @@ function UpdatePanel() {
           </button>
         </div>
         <div className="updatesContainer">
-          {displayData.map((entry) => (
-            <a href={entry.link || "#"} target="_blank" rel="noreferrer">
-              <div>
-                <div className="updateBox">
-                  <div className="dateTimeContainer">
-                    <div className="dateDiv">{entry.date}</div>
-                    <div className="monYear">
-                      <div className="monthDiv">{entry.month}</div>
-                      <div className="yearDiv">{entry.year}</div>
-                    </div>
-                  </div>
-                  <div className="updateDescription">
-                    {entry.description}
-                    {daysAgo(`${entry.month} ${entry.date}, ${entry.year}`) <=
-                      5 && (
-                      <img
-                        src={newGif}
-                        alt="newimg"
-                        height="20vh"
-                        width="50vh"
-                      />
-                    )}
-
-                    <div>
-                      {/* condition for button*/}
-                      {entry.displaytext && (
-                        <Button variant="text">
-                          <a
-                            href={entry.displaylink}
-                            target="_blank"
-                            rel="noreferrer"
-                            style={{
-                              textDecoration: "none",
-                              color: "rgb(55, 10, 104)",
-                            }}
-                          >
-                            {entry.displaytext}
-                          </a>
-                        </Button>
-                      )}
-                    </div>
+          {displayData.map((entry,index) => (
+            <div key={index}>
+              <div className="updateBox">
+                <div className="dateTimeContainer">
+                  <div className="dateDiv">{entry.date}</div>
+                  <div className="monYear">
+                    <div className="monthDiv">{entry.month}</div>
+                    <div className="yearDiv">{entry.year}</div>
                   </div>
                 </div>
-                <div className="updateDivSeparator"></div>
+                <div className="updateDescription">
+                  <a
+                    href={entry.link || "#"}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      color: "rgb(55, 10, 104)",
+                    }}
+                  >
+                    {entry.description}
+                  </a>
+                  {daysAgo(`${entry.month} ${entry.date}, ${entry.year}`) <=
+                    5 && (
+                    <img src={newGif} alt="newimg" height="20vh" width="50vh" />
+                  )}
+
+                  <div>
+                    {/* condition for button*/}
+                    {entry.displaytext && (
+                      <Button variant="text">
+                        <a
+                          href={entry.displaylink}
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{
+                            textDecoration: "none",
+                            color: "rgb(55, 10, 104)",
+                          }}
+                        >
+                          {entry.displaytext}
+                        </a>
+                      </Button>
+                    )}
+                  </div>
+                </div>
               </div>
-            </a>
+              <div className="updateDivSeparator"></div>
+            </div>
           ))}
         </div>
       </div>
