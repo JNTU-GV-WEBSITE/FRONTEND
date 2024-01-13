@@ -9,12 +9,10 @@ import IndependenceDay3 from "../../assets/ImageGalleryPictures/independenceDay3
 import Expo from "../../assets/ImageGalleryPictures/Expo.JPG";
 import imagegallery from "../../assets/ImageGalleryPictures/imageGallery6.jpg";
 import image7 from "../../assets/ImageGalleryPictures/Image7.jpg";
-import image1 from "../../assets/ImageGalleryPictures/image1.jpg"
-import gal27 from "../../assets/ImageGalleryPictures/gal27.jpeg"
+import image1 from "../../assets/ImageGalleryPictures/image1.jpg";
+import gal27 from "../../assets/ImageGalleryPictures/gal27.jpeg";
 import image8 from "../../assets/ImageGalleryPictures/image8.jpg";
 import banner from "../../assets/ImageGalleryPictures/banner.png";
-
-
 
 const images = [
   banner,
@@ -32,16 +30,18 @@ const images = [
 
 function ImageGallery() {
   return (
-    
-    <div className="mianDivIG">
+    <div className="mainDivIG">
       <div className="mainImageGallery">
-        <Carousel fade style={{width:"60vw"}}>
+        <Carousel fade> 
           {images.map((image, index) => (
             <Carousel.Item key={index}>
-              <img className="ig-image" src={image} alt={`Slide ${index + 1}`}/>
+              <img
+                className="ig-image"
+                src={image}
+                alt={`Slide ${index + 1}`}
+              />
               <Carousel.Caption>
-                <div className="carouselText">
-                </div>
+                <div className="carouselText"></div>
               </Carousel.Caption>
             </Carousel.Item>
           ))}

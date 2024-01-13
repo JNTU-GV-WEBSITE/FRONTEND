@@ -1,5 +1,5 @@
 .news-and-events {
-  height: 800px;
+  /* height: auto; */
   background: #e4def1;
 }
 
@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   gap: 120px;
   justify-content: space-between;
-  padding: 0 135px; /* Adjust padding as needed */
+  padding: 0 135px 100px 135px; /* Adjust padding as needed */
 }
 
 .news-and-events-container {
@@ -85,4 +85,16 @@
   border: 1px solid black;
   position: relative;
   margin-left: 300px;
+}
+
+@media (max-width: 900px) {
+  .news-and-events h1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .news-and-events-display {
+    padding: 0 50px 100px 50px; /* Adjust padding as needed */
+  }
 }

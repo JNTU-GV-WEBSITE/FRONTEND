@@ -9,9 +9,8 @@ const NewsAndEvents = () => {
       <h1> Latest News and Events</h1>
       <div className="news-and-events-display">
         {recentImages.map((image, index) => (
-          <div className="news-and-events-container">
+          <div key={index} className="news-and-events-container">
             <img
-              key={index}
               src={image.image}
               alt={`JNTUGV ${image.description}`}
               height="200px"
