@@ -33,6 +33,15 @@ import gal34 from "../../assets/Gallery/gal34.jpg";
 import gal35 from "../../assets/Gallery/gal35.jpg";
 import gal36 from "../../assets/Gallery/gal36.jpg";
 import gal37 from "../../assets/Gallery/gal37.jpg";
+import gal38 from "../../assets/Gallery/gal38.jpg";
+import gal39 from "../../assets/Gallery/gal39.jpg";
+import gal40 from "../../assets/Gallery/gal40.jpg";
+import gal41 from "../../assets/Gallery/gal41.jpg";
+import gal42 from "../../assets/Gallery/gal42.jpg";
+import gal43 from "../../assets/Gallery/gal43.jpg";
+import gal44 from "../../assets/Gallery/gal44.jpg";
+import gal45 from "../../assets/Gallery/gal45.jpg";
+
 
 export const CG = [
   {
@@ -186,6 +195,31 @@ export const CG = [
   {
     image: gal37,
     description: "Team JNTU-GV in Inter University Cricket tournament ",
+  },
+  {
+    image: gal38,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
+  },{
+    image: gal39,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
+  },{
+    image: gal40,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
+  },{
+    image: gal41,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
+  },{
+    image: gal42,
+    description: "Professor Chandramohan from the Central University of Tamil Nadu being honored as the chief guest and receiving felicitations ",
+  },{
+    image: gal43,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
+  },{
+    image: gal44,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
+  },{
+    image: gal45,
+    description: "Hon'ble Education Minister Botsa Satyanarayana inaugurates transformative facilities, paving the way for a brighter future at our university ",
   },
 
 ];
